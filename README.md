@@ -5,7 +5,6 @@
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://BIRSBiointegration.github.io/whitePaper/)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf)
 [![GitHub Actions Status](https://github.com/BIRSBiointegration/whitePaper/workflows/Manubot/badge.svg)](https://github.com/BIRSBiointegration/whitePaper/actions)
-[![Travis Build Status](https://travis-ci.com/BIRSBiointegration/whitePaper.svg?branch=master)](https://travis-ci.com/BIRSBiointegration/whitePaper)
 <!-- usage note: delete CI badges above for services not used by your manuscript -->
 
 ## Manuscript description
