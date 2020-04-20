@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/5aa9afd7a680dc7898b137ac704f400a01a757c7/" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/e86dd4cf23f25736113447107361f126c589ece3/" />
 
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/5aa9afd7a680dc7898b137ac704f400a01a757c7/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/e86dd4cf23f25736113447107361f126c589ece3/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/5aa9afd7a680dc7898b137ac704f400a01a757c7/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/e86dd4cf23f25736113447107361f126c589ece3/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,9 +103,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://BIRSBiointegration.github.io/whitePaper/v/5aa9afd7a680dc7898b137ac704f400a01a757c7/))
+([permalink](https://BIRSBiointegration.github.io/whitePaper/v/e86dd4cf23f25736113447107361f126c589ece3/))
 was automatically generated
-from [BIRSBiointegration/whitePaper@5aa9afd](https://github.com/BIRSBiointegration/whitePaper/tree/5aa9afd7a680dc7898b137ac704f400a01a757c7)
+from [BIRSBiointegration/whitePaper@e86dd4c](https://github.com/BIRSBiointegration/whitePaper/tree/e86dd4cf23f25736113447107361f126c589ece3)
 on April 20, 2020.
 </em></small>
 
