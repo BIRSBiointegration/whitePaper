@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/e86dd4cf23f25736113447107361f126c589ece3/" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/9b9e0126d92d4f173aa9a99c7ad252242898a1d7/" />
 
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/e86dd4cf23f25736113447107361f126c589ece3/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/9b9e0126d92d4f173aa9a99c7ad252242898a1d7/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/e86dd4cf23f25736113447107361f126c589ece3/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/9b9e0126d92d4f173aa9a99c7ad252242898a1d7/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,9 +103,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://BIRSBiointegration.github.io/whitePaper/v/e86dd4cf23f25736113447107361f126c589ece3/))
+([permalink](https://BIRSBiointegration.github.io/whitePaper/v/9b9e0126d92d4f173aa9a99c7ad252242898a1d7/))
 was automatically generated
-from [BIRSBiointegration/whitePaper@e86dd4c](https://github.com/BIRSBiointegration/whitePaper/tree/e86dd4cf23f25736113447107361f126c589ece3)
+from [BIRSBiointegration/whitePaper@9b9e012](https://github.com/BIRSBiointegration/whitePaper/tree/9b9e0126d92d4f173aa9a99c7ad252242898a1d7)
 on April 20, 2020.
 </em></small>
 
@@ -139,6 +139,88 @@ on April 20, 2020.
 ## Abstract {.page_break_before}
 
 
+
+
+## Introduction to single cell and imaging multi-omics
+
+
+## Current multi-omic technologies
+
+
+## Challenges for interpretation
+
+Need for technology-specific questions and analysis methods vs one size fits all data blender
+
+
+## Case studies
+
+
+### scNMT-seq as a case-study for epigenetic regulation
+
+#### Overview and biological question
+
+#### Computational challenges
+
+* Identification of multi-omics signatures that characterise lineage, stage or both.
+* Handling missing values
+* Do epigenetic changes in some genomic contexts affect cell fate decision more than others? If so, how?
+
+#### Methods for stats/maths analyses and results summary
+
+
+### scRNA-seq + FISH as a case study for spatial transcriptomics
+
+#### Overview and biological question
+
+#### Computational challenges
+
+* Can scRNA-seq data be overlaid onto seqFISH for resolution enhancement
+* What is the minimal number of genes needed for data integration?
+* Are there signatures of cellular co-localization or spatial coordinates in the non-spatial scRNA-seq data?
+
+#### Methods for stats/maths analyses and results summary
+
+
+### Spatial proteomics and cross-study analysis
+
+#### Overview and biological question
+
+#### Computational challenges
+
+* Integrating partially-overlapping proteomic data collected on different patients with similar phenotypes
+* Integration of spatial x-y coordinate co-location and co-expression
+* Integration with other 'omics datasets (e.g., scRNA-seq) to support the results of these proteomic analyses
+* Can we predict the spatial expression patterns of proteins measured on mass-tag but not measured in the MIBI-TOF data?
+* What additional information can we learn about the different macrophage and immune populations in breast cancer by conducting integrated analyses of these datasets?
+
+#### Methods for stats/maths analyses and results summary
+
+
+## Overview of common analytical methods spanning technologies / case studies
+
+* matrix factorization
+* neural network / autoencoders
+
+
+## Data structures and software packages to enable analyses
+
+* Bioc/multiAssayExperiment for single cell
+* new classes for proteomics
+* PyTorch
+
+
+## Techniques and challenges for benchmarking methods
+
+* realistic simulation studies
+* cross-study validation
+* benchmark datasets
+
+
+## Discussion
+
+### Emerging analytical methods and technologies
+
+### Community needs for data structures, analysis methods, etc 
 
 
 ## References {.page_break_before}

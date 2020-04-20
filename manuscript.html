@@ -51,9 +51,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/e86dd4cf23f25736113447107361f126c589ece3/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/e86dd4cf23f25736113447107361f126c589ece3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/e86dd4cf23f25736113447107361f126c589ece3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/9b9e0126d92d4f173aa9a99c7ad252242898a1d7/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/9b9e0126d92d4f173aa9a99c7ad252242898a1d7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/9b9e0126d92d4f173aa9a99c7ad252242898a1d7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,9 +67,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/e86dd4cf23f25736113447107361f126c589ece3/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/9b9e0126d92d4f173aa9a99c7ad252242898a1d7/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/e86dd4cf23f25736113447107361f126c589ece3">BIRSBiointegration/whitePaper@e86dd4c</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/9b9e0126d92d4f173aa9a99c7ad252242898a1d7">BIRSBiointegration/whitePaper@9b9e012</a>
 on April 20, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -95,6 +95,60 @@ Department of Something, University of Whatever; Department of Whatever, Univers
 </small></p></li>
 </ul>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
+<h2 id="introduction-to-single-cell-and-imaging-multi-omics">Introduction to single cell and imaging multi-omics</h2>
+<h2 id="current-multi-omic-technologies">Current multi-omic technologies</h2>
+<h2 id="challenges-for-interpretation">Challenges for interpretation</h2>
+<p>Need for technology-specific questions and analysis methods vs one size fits all data blender</p>
+<h2 id="case-studies">Case studies</h2>
+<h3 id="scnmt-seq-as-a-case-study-for-epigenetic-regulation">scNMT-seq as a case-study for epigenetic regulation</h3>
+<h4 id="overview-and-biological-question">Overview and biological question</h4>
+<h4 id="computational-challenges">Computational challenges</h4>
+<ul>
+<li>Identification of multi-omics signatures that characterise lineage, stage or both.</li>
+<li>Handling missing values</li>
+<li>Do epigenetic changes in some genomic contexts affect cell fate decision more than others? If so, how?</li>
+</ul>
+<h4 id="methods-for-statsmaths-analyses-and-results-summary">Methods for stats/maths analyses and results summary</h4>
+<h3 id="scrna-seq-fish-as-a-case-study-for-spatial-transcriptomics">scRNA-seq + FISH as a case study for spatial transcriptomics</h3>
+<h4 id="overview-and-biological-question-1">Overview and biological question</h4>
+<h4 id="computational-challenges-1">Computational challenges</h4>
+<ul>
+<li>Can scRNA-seq data be overlaid onto seqFISH for resolution enhancement</li>
+<li>What is the minimal number of genes needed for data integration?</li>
+<li>Are there signatures of cellular co-localization or spatial coordinates in the non-spatial scRNA-seq data?</li>
+</ul>
+<h4 id="methods-for-statsmaths-analyses-and-results-summary-1">Methods for stats/maths analyses and results summary</h4>
+<h3 id="spatial-proteomics-and-cross-study-analysis">Spatial proteomics and cross-study analysis</h3>
+<h4 id="overview-and-biological-question-2">Overview and biological question</h4>
+<h4 id="computational-challenges-2">Computational challenges</h4>
+<ul>
+<li>Integrating partially-overlapping proteomic data collected on different patients with similar phenotypes</li>
+<li>Integration of spatial x-y coordinate co-location and co-expression</li>
+<li>Integration with other ’omics datasets (e.g., scRNA-seq) to support the results of these proteomic analyses</li>
+<li>Can we predict the spatial expression patterns of proteins measured on mass-tag but not measured in the MIBI-TOF data?</li>
+<li>What additional information can we learn about the different macrophage and immune populations in breast cancer by conducting integrated analyses of these datasets?</li>
+</ul>
+<h4 id="methods-for-statsmaths-analyses-and-results-summary-2">Methods for stats/maths analyses and results summary</h4>
+<h2 id="overview-of-common-analytical-methods-spanning-technologies-case-studies">Overview of common analytical methods spanning technologies / case studies</h2>
+<ul>
+<li>matrix factorization</li>
+<li>neural network / autoencoders</li>
+</ul>
+<h2 id="data-structures-and-software-packages-to-enable-analyses">Data structures and software packages to enable analyses</h2>
+<ul>
+<li>Bioc/multiAssayExperiment for single cell</li>
+<li>new classes for proteomics</li>
+<li>PyTorch</li>
+</ul>
+<h2 id="techniques-and-challenges-for-benchmarking-methods">Techniques and challenges for benchmarking methods</h2>
+<ul>
+<li>realistic simulation studies</li>
+<li>cross-study validation</li>
+<li>benchmark datasets</li>
+</ul>
+<h2 id="discussion">Discussion</h2>
+<h3 id="emerging-analytical-methods-and-technologies">Emerging analytical methods and technologies</h3>
+<h3 id="community-needs-for-data-structures-analysis-methods-etc">Community needs for data structures, analysis methods, etc</h3>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" role="doc-bibliography">
