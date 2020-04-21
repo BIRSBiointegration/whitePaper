@@ -1,21 +1,21 @@
 ---
-title: "Manuscript Title"
+title: "Mathematical Frameworks for Integrative Analysis of Multi-omics Biological Data"
 keywords:
   - markdown
   - publishing
   - manubot
 lang: en-US
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    email: john.doe@something.com
+  - github: mixOmicsTeam
+    name: Kim-Anh Lê Cao 
+    initials: KA
+    orcid: 0000-0003-3923-1116
+    twitter: mixOmicsTeam
+    email: kimanh.lecao@unimelb.edu.au
     affiliations:
-      - Department of Something, University of Whatever
+      - Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Australia
     funders:
-      - Grant XXXXXXXX
+      - Grant National Health and Medical Research Council  Career Development fellowship (GNT1159458).
   - github: janeroe
     name: Jane Roe
     initials: JR
