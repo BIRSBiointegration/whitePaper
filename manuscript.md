@@ -1,89 +1,11 @@
 ---
 author-meta:
-- John Doe
+- "Kim-Anh L\xEA Cao"
 - Jane Roe
 bibliography:
 - content/manual-references.json
 date-meta: '2020-04-21'
-header-includes: '<!--
-
-  Manubot generated metadata rendered from header-includes-template.html.
-
-  Suggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html
-
-  -->
-
-  <meta name="dc.format" content="text/html" />
-
-  <meta name="dc.title" content="Manuscript Title" />
-
-  <meta name="citation_title" content="Manuscript Title" />
-
-  <meta property="og:title" content="Manuscript Title" />
-
-  <meta property="twitter:title" content="Manuscript Title" />
-
-  <meta name="dc.date" content="2020-04-21" />
-
-  <meta name="citation_publication_date" content="2020-04-21" />
-
-  <meta name="dc.language" content="en-US" />
-
-  <meta name="citation_language" content="en-US" />
-
-  <meta name="dc.relation.ispartof" content="Manubot" />
-
-  <meta name="dc.publisher" content="Manubot" />
-
-  <meta name="citation_journal_title" content="Manubot" />
-
-  <meta name="citation_technical_report_institution" content="Manubot" />
-
-  <meta name="citation_author" content="John Doe" />
-
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-
-  <meta name="twitter:creator" content="@johndoe" />
-
-  <meta name="citation_author" content="Jane Roe" />
-
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
-
-  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-
-  <link rel="canonical" href="https://BIRSBiointegration.github.io/whitePaper/" />
-
-  <meta property="og:url" content="https://BIRSBiointegration.github.io/whitePaper/" />
-
-  <meta property="twitter:url" content="https://BIRSBiointegration.github.io/whitePaper/" />
-
-  <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
-
-  <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-
-  <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/bb56acab434989876ab46a6a955e464819de4c32/" />
-
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/bb56acab434989876ab46a6a955e464819de4c32/" />
-
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/bb56acab434989876ab46a6a955e464819de4c32/manuscript.pdf" />
-
-  <meta property="og:type" content="article" />
-
-  <meta property="twitter:card" content="summary_large_image" />
-
-  <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
-
-  <link rel="mask-icon" href="https://manubot.org/safari-pinned-tab.svg" color="#ad1457" />
-
-  <meta name="theme-color" content="#ad1457" />
-
-  <!-- end Manubot generated metadata -->'
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Mathematical Frameworks for Integrative Analysis of Multi-omics Biological Data\" />\n<meta name=\"citation_title\" content=\"Mathematical Frameworks for Integrative Analysis of Multi-omics Biological Data\" />\n<meta property=\"og:title\" content=\"Mathematical Frameworks for Integrative Analysis of Multi-omics Biological Data\" />\n<meta property=\"twitter:title\" content=\"Mathematical Frameworks for Integrative Analysis of Multi-omics Biological Data\" />\n<meta name=\"dc.date\" content=\"2020-04-21\" />\n<meta name=\"citation_publication_date\" content=\"2020-04-21\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Kim-Anh L\xEA Cao\" />\n<meta name=\"citation_author_institution\" content=\"Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3923-1116\" />\n<meta name=\"twitter:creator\" content=\"@mixOmicsTeam\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<link rel=\"canonical\" href=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"og:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"twitter:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://BIRSBiointegration.github.io/whitePaper/v/50c61baa67a04457607ac6b7cafa518171e29fa9/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/50c61baa67a04457607ac6b7cafa518171e29fa9/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/50c61baa67a04457607ac6b7cafa518171e29fa9/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - markdown
 - publishing
@@ -93,7 +15,7 @@ manubot-clear-requests-cache: false
 manubot-output-bibliography: output/references.json
 manubot-output-citekeys: output/citations.tsv
 manubot-requests-cache-path: ci/cache/requests-cache
-title: Manuscript Title
+title: Mathematical Frameworks for Integrative Analysis of Multi-omics Biological Data
 ...
 
 
@@ -103,9 +25,9 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://BIRSBiointegration.github.io/whitePaper/v/bb56acab434989876ab46a6a955e464819de4c32/))
+([permalink](https://BIRSBiointegration.github.io/whitePaper/v/50c61baa67a04457607ac6b7cafa518171e29fa9/))
 was automatically generated
-from [BIRSBiointegration/whitePaper@bb56aca](https://github.com/BIRSBiointegration/whitePaper/tree/bb56acab434989876ab46a6a955e464819de4c32)
+from [BIRSBiointegration/whitePaper@50c61ba](https://github.com/BIRSBiointegration/whitePaper/tree/50c61baa67a04457607ac6b7cafa518171e29fa9)
 on April 21, 2020.
 </em></small>
 
@@ -113,16 +35,16 @@ on April 21, 2020.
 
 
 
-+ **John Doe**<br>
++ **Kim-Anh Lê Cao**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    [0000-0003-3923-1116](https://orcid.org/0000-0003-3923-1116)
     · ![GitHub icon](images/github.svg){.inline_icon}
-    [johndoe](https://github.com/johndoe)
+    [mixOmicsTeam](https://github.com/mixOmicsTeam)
     · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [johndoe](https://twitter.com/johndoe)<br>
+    [mixOmicsTeam](https://twitter.com/mixOmicsTeam)<br>
   <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
+     Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Australia
+     · Funded by Grant National Health and Medical Research Council  Career Development fellowship (GNT1159458).
   </small>
 
 + **Jane Roe**<br>
