@@ -4,7 +4,7 @@ author-meta:
 - Jane Roe
 bibliography:
 - content/manual-references.json
-date-meta: '2020-04-20'
+date-meta: '2020-04-21'
 header-includes: '<!--
 
   Manubot generated metadata rendered from header-includes-template.html.
@@ -23,9 +23,9 @@ header-includes: '<!--
 
   <meta property="twitter:title" content="Manuscript Title" />
 
-  <meta name="dc.date" content="2020-04-20" />
+  <meta name="dc.date" content="2020-04-21" />
 
-  <meta name="citation_publication_date" content="2020-04-20" />
+  <meta name="citation_publication_date" content="2020-04-21" />
 
   <meta name="dc.language" content="en-US" />
 
@@ -67,11 +67,11 @@ header-includes: '<!--
 
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
 
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/9b9e0126d92d4f173aa9a99c7ad252242898a1d7/" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/bb56acab434989876ab46a6a955e464819de4c32/" />
 
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/9b9e0126d92d4f173aa9a99c7ad252242898a1d7/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/bb56acab434989876ab46a6a955e464819de4c32/" />
 
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/9b9e0126d92d4f173aa9a99c7ad252242898a1d7/manuscript.pdf" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/bb56acab434989876ab46a6a955e464819de4c32/manuscript.pdf" />
 
   <meta property="og:type" content="article" />
 
@@ -103,10 +103,10 @@ title: Manuscript Title
 
 <small><em>
 This manuscript
-([permalink](https://BIRSBiointegration.github.io/whitePaper/v/9b9e0126d92d4f173aa9a99c7ad252242898a1d7/))
+([permalink](https://BIRSBiointegration.github.io/whitePaper/v/bb56acab434989876ab46a6a955e464819de4c32/))
 was automatically generated
-from [BIRSBiointegration/whitePaper@9b9e012](https://github.com/BIRSBiointegration/whitePaper/tree/9b9e0126d92d4f173aa9a99c7ad252242898a1d7)
-on April 20, 2020.
+from [BIRSBiointegration/whitePaper@bb56aca](https://github.com/BIRSBiointegration/whitePaper/tree/bb56acab434989876ab46a6a955e464819de4c32)
+on April 21, 2020.
 </em></small>
 
 ## Authors
@@ -142,6 +142,8 @@ on April 20, 2020.
 
 
 ## Introduction to single cell and imaging multi-omics
+
+Testing github pages.
 
 
 ## Current multi-omic technologies
