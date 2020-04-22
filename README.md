@@ -14,7 +14,13 @@ However, currently biological insight is hindered by the inherent complexity of 
 By gathering mathematical, statistical and computational experts in the field of genomic data integration, pioneer solutions for data integration problems will be discussed during this workshop.
 This white paper describes cutting-edge mathematical, statistical and computational methods to extract reliable information from big biological data.
 
-## 
+## How to contribute to the writing of this paper (the easy way)
+
+- On GitHub, go to the [Content folder](https://github.com/BIRSBiointegration/whitePaper/tree/master/content) and make changes to a specific section by editing the document online directly. You will need to write in Rmd format, examples will be given in the document
+- Briefly document change if needed and pull your request at the bottom of the document as a new branch 
+- Expect some lag before the document is updated.
+- Done!
+
 
 ## Manubot
 
