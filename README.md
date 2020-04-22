@@ -1,22 +1,20 @@
-# Automated scholarly manuscripts on GitHub
+# Open and automated manuscript using Manubot
 
-<!-- usage note: edit the H1 title above to personalize the manuscript -->
-
+Click on the following badges to access the mauscript:
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://BIRSBiointegration.github.io/whitePaper/)
 [![PDF Manuscript](https://img.shields.io/badge/manuscript-PDF-blue.svg)](https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf)
 [![GitHub Actions Status](https://github.com/BIRSBiointegration/whitePaper/workflows/Manubot/badge.svg)](https://github.com/BIRSBiointegration/whitePaper/actions)
 <!-- usage note: delete CI badges above for services not used by your manuscript -->
 
 ## White Paper for the Mathematical Frameworks for Integrative Analysis of Emerging Biological Data Types Workshop
-
-<!-- usage note: edit this section. -->
-
 Accurate mathematical models of biological cells during health and disease are essential in understanding biology, advancing precision medicine and treating disease.
 Emerging technologies, such as RNA and DNA sequencing give clinical and basic research laboratories great power to quantify tens of thousands of biological molecules and generate highly detailed biological maps at different molecular, spatial and temporal resolutions.
 Integrating these diverse data may provide a comprehensive multi-layer view of a biological system that cannot be obtained by considering each dataset individually.
 However, currently biological insight is hindered by the inherent complexity of the data and paucity of methods to integrate these data.
-By gathering mathematical, statistical and computational experts in the field of genomic data integration, pioneer solutions for data integration problems will be discussed.
-This white paper describes cutting edge mathematical, statistical and computational methods to extract reliable information from big biological data.
+By gathering mathematical, statistical and computational experts in the field of genomic data integration, pioneer solutions for data integration problems will be discussed during this workshop.
+This white paper describes cutting-edge mathematical, statistical and computational methods to extract reliable information from big biological data.
+
+## 
 
 ## Manubot
 
