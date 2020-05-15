@@ -5,8 +5,9 @@
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Kim-Anh Lê Cao" />
+  <meta name="author" content="Aedin C Culhane" />
   <meta name="author" content="Jane Roe" />
-  <meta name="dcterms.date" content="2020-04-22" />
+  <meta name="dcterms.date" content="2020-05-15" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Mathematical Frameworks for Integrative Analysis of Multi-omics Biological Data</title>
   <style>
@@ -29,8 +30,8 @@
   <meta name="citation_title" content="Mathematical Frameworks for Integrative Analysis of Multi-omics Biological Data" />
   <meta property="og:title" content="Mathematical Frameworks for Integrative Analysis of Multi-omics Biological Data" />
   <meta property="twitter:title" content="Mathematical Frameworks for Integrative Analysis of Multi-omics Biological Data" />
-  <meta name="dc.date" content="2020-04-22" />
-  <meta name="citation_publication_date" content="2020-04-22" />
+  <meta name="dc.date" content="2020-05-15" />
+  <meta name="citation_publication_date" content="2020-05-15" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -41,19 +42,25 @@
   <meta name="citation_author_institution" content="Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Australia" />
   <meta name="citation_author_orcid" content="0000-0003-3923-1116" />
   <meta name="twitter:creator" content="@mixOmicsTeam" />
+  <meta name="citation_author" content="Aedin C Culhane" />
+  <meta name="citation_author_institution" content="Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA" />
+  <meta name="citation_author_institution" content="Biostatsitics, Harvard TH Chan School of Public Health, Boston, MA, USA" />
+  <meta name="citation_author_orcid" content="0000-0002-1395-9734" />
+  <meta name="twitter:creator" content="@AedinCulhane" />
   <meta name="citation_author" content="Jane Roe" />
   <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
   <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="twitter:creator" content="@XXX" />
   <link rel="canonical" href="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta property="og:url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta property="twitter:url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/7c1097b38ec41880d5dc0f9dcfe0d043c766bbb1/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/7c1097b38ec41880d5dc0f9dcfe0d043c766bbb1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/7c1097b38ec41880d5dc0f9dcfe0d043c766bbb1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/3b46a95b78c1a26b1a8cc5423ad5d96d984a73b8/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/3b46a95b78c1a26b1a8cc5423ad5d96d984a73b8/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/3b46a95b78c1a26b1a8cc5423ad5d96d984a73b8/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -67,10 +74,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/7c1097b38ec41880d5dc0f9dcfe0d043c766bbb1/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/3b46a95b78c1a26b1a8cc5423ad5d96d984a73b8/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/7c1097b38ec41880d5dc0f9dcfe0d043c766bbb1">BIRSBiointegration/whitePaper@7c1097b</a>
-on April 22, 2020.
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/3b46a95b78c1a26b1a8cc5423ad5d96d984a73b8">BIRSBiointegration/whitePaper@3b46a95</a>
+on May 15, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -83,15 +90,29 @@ on April 22, 2020.
 <a href="https://twitter.com/mixOmicsTeam">mixOmicsTeam</a><br>
 <small>
 Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Australia
-· Funded by Grant National Health and Medical Research Council Career Development fellowship (GNT1159458).
+· Funded by Grant National Health and Medical Research Council Career Development fellowship (GNT1159458)
+</small></p></li>
+<li><p><strong>Aedin C Culhane</strong><br>
+<img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" />
+<a href="https://orcid.org/0000-0002-1395-9734">0000-0002-1395-9734</a>
+· <img src="images/github.svg" class="inline_icon" alt="GitHub icon" />
+<a href="https://github.com/aedin">aedin</a>
+· <img src="images/twitter.svg" class="inline_icon" alt="Twitter icon" />
+<a href="https://twitter.com/AedinCulhane">AedinCulhane</a><br>
+<small>
+Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA; Biostatsitics, Harvard TH Chan School of Public Health, Boston, MA, USA
+· Funded by Chan Zuckerberg Initative, NIH, DoD (need to get grant IDs)
 </small></p></li>
 <li><p><strong>Jane Roe</strong><br>
 <img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" />
 <a href="https://orcid.org/XXXX-XXXX-XXXX-XXXX">XXXX-XXXX-XXXX-XXXX</a>
 · <img src="images/github.svg" class="inline_icon" alt="GitHub icon" />
-<a href="https://github.com/janeroe">janeroe</a><br>
+<a href="https://github.com/janeroe%20(PLEASE%20COPY/PASTE%20DO%20NOT%20EDIT%20THIS%20ONE)">janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)</a>
+· <img src="images/twitter.svg" class="inline_icon" alt="Twitter icon" />
+<a href="https://twitter.com/XXX">XXX</a><br>
 <small>
 Department of Something, University of Whatever; Department of Whatever, University of Something
+· Funded by XX
 </small></p></li>
 </ul>
 <h2 class="page_break_before" id="abstract">Abstract</h2>
