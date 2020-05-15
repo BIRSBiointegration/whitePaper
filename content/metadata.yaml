@@ -15,12 +15,26 @@ authors:
     affiliations:
       - Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Australia
     funders:
-      - Grant National Health and Medical Research Council  Career Development fellowship (GNT1159458).
-  - github: janeroe
+      - Grant National Health and Medical Research Council  Career Development fellowship (GNT1159458)
+  - github: aedin
+    name: Aedin C Culhane
+    initials: ACC
+    orcid: 0000-0002-1395-9734
+    twitter: AedinCulhane
+    email: aedin@ds.dfci.harvard.edu
+    affiliations:
+      - Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA
+      - Biostatsitics, Harvard TH Chan School of Public Health, Boston, MA, USA
+    funders:
+      - Chan Zuckerberg Initative, NIH, DoD (need to get grant IDs)
+  - github: janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)
     name: Jane Roe
     initials: JR
     orcid: XXXX-XXXX-XXXX-XXXX
+    twitter:  XXX
     email: jane.roe@whatever.edu
     affiliations:
       - Department of Something, University of Whatever
       - Department of Whatever, University of Something
+    funders:
+       - XX
