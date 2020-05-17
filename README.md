@@ -1,4 +1,4 @@
-# Open and automated manuscript using Manubot
+# White Paper for the Mathematical Frameworks for Integrative Analysis of Emerging Biological Data Types Workshop
 
 Click on the following badges to access the mauscript:
 [![HTML Manuscript](https://img.shields.io/badge/manuscript-HTML-blue.svg)](https://BIRSBiointegration.github.io/whitePaper/)
@@ -6,7 +6,8 @@ Click on the following badges to access the mauscript:
 [![GitHub Actions Status](https://github.com/BIRSBiointegration/whitePaper/workflows/Manubot/badge.svg)](https://github.com/BIRSBiointegration/whitePaper/actions)
 <!-- usage note: delete CI badges above for services not used by your manuscript -->
 
-## White Paper for the Mathematical Frameworks for Integrative Analysis of Emerging Biological Data Types Workshop
+## About this Manuscript
+
 Accurate mathematical models of biological cells during health and disease are essential in understanding biology, advancing precision medicine and treating disease.
 Emerging technologies, such as RNA and DNA sequencing give clinical and basic research laboratories great power to quantify tens of thousands of biological molecules and generate highly detailed biological maps at different molecular, spatial and temporal resolutions.
 Integrating these diverse data may provide a comprehensive multi-layer view of a biological system that cannot be obtained by considering each dataset individually.
