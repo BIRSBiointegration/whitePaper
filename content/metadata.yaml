@@ -27,6 +27,22 @@ authors:
       - Biostatsitics, Harvard TH Chan School of Public Health, Boston, MA, USA
     funders:
       - Chan Zuckerberg Initative, NIH, DoD (need to get grant IDs)
+  - github: ejfertig
+    name: Elana Fertig
+    initials: EJF
+    orcid: 0000-0003-3204-342X
+    twitter:  FertigLab
+    email: ejfertig@jhmi.edu
+    affiliations:
+      - Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA
+      - Department of Biomedical Engineering, Johns Hopkins University School of Medicine, Baltimore, MD, USA
+      - Department of Applied Mathematics and Statistics, Johns Hopkins University Whiting School of Engineering, Baltimore, MD, USA
+    funders:
+       - National Institute of Health, National Cancer Institute
+       - National Institute of Health, National Institute of Dental and Craniofacial Research
+       - Lustgarten Foundation
+       - Emerson Foundation
+       - Allegheny Health Network
   - github: janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)
     name: Jane Roe
     initials: JR
