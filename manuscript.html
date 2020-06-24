@@ -65,9 +65,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/f9acb260522d80c981c837548fa7a5e1b1796a19/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/f9acb260522d80c981c837548fa7a5e1b1796a19/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/f9acb260522d80c981c837548fa7a5e1b1796a19/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/1bd1ef569b9af34bcb9693ce801d63ccb3f9d708/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/1bd1ef569b9af34bcb9693ce801d63ccb3f9d708/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/1bd1ef569b9af34bcb9693ce801d63ccb3f9d708/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -81,9 +81,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/f9acb260522d80c981c837548fa7a5e1b1796a19/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/1bd1ef569b9af34bcb9693ce801d63ccb3f9d708/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/f9acb260522d80c981c837548fa7a5e1b1796a19">BIRSBiointegration/whitePaper@f9acb26</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/1bd1ef569b9af34bcb9693ce801d63ccb3f9d708">BIRSBiointegration/whitePaper@1bd1ef5</a>
 on June 24, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -388,6 +388,26 @@ single cell and bulk)</li>
         margin-top: 30px;
         padding-bottom: 5px;
         border-bottom: solid 1px #bdbdbd;
+    }
+
+    /* heading font sizes */
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3{
+        font-size: 1.35em;
+    }
+    h4 {
+        font-size: 1.25em;
+    }
+    h5 {
+        font-size: 1.15em;
+    }
+    h6 {
+        font-size: 1em;
     }
 
     /* -------------------------------------------------- */
@@ -821,22 +841,6 @@ single cell and bulk)</li>
         h5,
         h6 {
             margin: 15px 0;
-        }
-
-        /* heading 1 */
-        h1 {
-            font-size: 1.75em;
-        }
-
-        /* heading 2 */
-        h2 {
-            font-size: 1.25em;
-            margin-top: 0;
-        }
-
-        /* heading 3 */
-        h3 {
-            font-size: 1.10em;
         }
 
         /* figures and tables */
@@ -1492,10 +1496,39 @@ single cell and bulk)</li>
     /* hypothesis (annotations) plugin */
     /* -------------------------------------------------- */
 
+    /* hypothesis activation button */
+    #hypothesis_button {
+        box-sizing: border-box;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 60px;
+        height: 60px;
+        background: #ffffff;
+        border-radius: 0;
+        border-left: solid 1px #bdbdbd;
+        border-bottom: solid 1px #bdbdbd;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+        z-index: 2;
+    }
+
+    /* hypothesis button svg */
+    #hypothesis_button > svg {
+        position: relative;
+        top: -4px;
+    }
+
+    /* hypothesis annotation count */
+    #hypothesis_count {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 5px;
+    }
+
     /* side panel */
     .annotator-frame {
         width: 280px !important;
-        z-index: 0 !important;
     }
 
     /* match highlight color to rest of theme */
@@ -1513,8 +1546,12 @@ single cell and bulk)</li>
         background: #f5f5f5 !important;
     }
 
-    /* always hide toolbar and tooltip on print */
+    /* always hide button, toolbar, and tooltip on print */
     @media only print {
+        #hypothesis_button {
+            display: none;
+        }
+
         .annotator-frame {
             display: none !important;
         }
@@ -3181,14 +3218,13 @@ single cell and bulk)</li>
             // create toc button
             const button = document.createElement('button');
             button.id = 'toc_button';
-            button.innerHTML = document.querySelector(
-                '.icon_th_list'
-            ).innerHTML;
+            button.innerHTML = document.querySelector('.icon_th_list').innerHTML;
+            button.title = 'Table of Contents';
             button.classList.add('icon_button');
 
             // create header text
             const text = document.createElement('h3');
-            text.innerHTML = 'Table of Contents';
+            text.innerHTML = 'View Table of Contents';
 
             // create container for toc list
             const list = document.createElement('div');
@@ -4099,9 +4135,19 @@ single cell and bulk)</li>
 
     // https://www.mathjax.org/
 </script>
-<!-- annotations plugin configuration -->
+<!-- annotations plugin -->
 
 <script>
+    // /////////////////////////
+    // DESCRIPTION
+    // /////////////////////////
+
+    // This third-party plugin 'Hypothesis' allows public annotation of the
+    // manuscript.
+
+    // https://web.hypothes.is/
+
+    // plugin configuration
     window.hypothesisConfig = function() {
         return {
             branding: {
@@ -4114,20 +4160,85 @@ single cell and bulk)</li>
             }
         };
     };
+
+    // hypothesis client script
+    const embed = 'https://hypothes.is/embed.js';
+    // hypothesis annotation count query url
+    const query = 'https://api.hypothes.is/api/search?limit=0&url='
+
+    
+    // start script
+    function start() {
+        const button = makeButton();
+        document.body.insertBefore(button, document.body.firstChild);
+        insertCount(button);
+    }
+
+    // make button
+    function makeButton() {
+        // create button
+        const button = document.createElement('button');
+        button.id = 'hypothesis_button';
+        button.innerHTML = document.querySelector('.icon_hypothesis').innerHTML;
+        button.title = 'Hypothesis annotations';
+        button.classList.add('icon_button');
+
+        function onClick(event) {
+            onButtonClick(event, button);
+        }
+
+        // attach click listeners
+        button.addEventListener('click', onClick);
+
+        return button;
+    }
+
+    // insert annotations count
+    async function insertCount(button) {
+        // get annotation count from Hypothesis based on url
+        let count = '-';
+        try {
+            const canonical = document.querySelector('link[rel="canonical"]');
+            const location = window.location;
+            const url = encodeURIComponent((canonical || location).href);
+            const response = await fetch(query + url);
+            const json = await response.json();
+            count = json.total || '-';
+        } catch(error) {
+            console.log(error);
+        }
+        
+        // put count into button
+        const counter = document.createElement('span');
+        counter.id = 'hypothesis_count';
+        counter.innerHTML = count;
+        button.title = 'View ' + count + ' Hypothesis annotations';
+        button.append(counter);
+    }
+
+    // when button is clicked
+    function onButtonClick(event, button) {
+        const script = document.createElement('script');
+        script.src = embed;
+        document.body.append(script);
+        button.remove();
+    }
+
+    window.addEventListener('load', start);
 </script>
 
-<!-- annotations plugin -->
+<!-- hypothesis icon -->
 
-<script src='https://hypothes.is/embed.js'>
-    // /////////////////////////
-    // DESCRIPTION
-    // /////////////////////////
-
-    // This third-party plugin 'Hypothesis' allows public annotation of the
-    // manuscript.
-
-    // https://web.hypothes.is/
-</script>
+<template class="icon_hypothesis">
+    <!-- modified from: https://simpleicons.org/icons/hypothesis.svg / https://git.io/Jf1VB -->
+    <svg width="16" height="16" viewBox="0 0 24 24" tabindex="-1">
+        <path
+            fill="currentColor"
+            d="M3.43 0C2.5 0 1.72 .768 1.72 1.72V18.86C1.72 19.8 2.5 20.57 3.43 20.57H9.38L12 24L14.62 20.57H20.57C21.5 20.57 22.29 19.8 22.29 18.86V1.72C22.29 .77 21.5 0 20.57 0H3.43M5.14 3.43H7.72V9.43S8.58 7.72 10.28 7.72C12 7.72 13.74 8.57 13.74 11.24V17.14H11.16V12C11.16 10.61 10.28 10.07 9.43 10.29C8.57 10.5 7.72 11.41 7.72 13.29V17.14H5.14V3.43M18 13.72C18.95 13.72 19.72 14.5 19.72 15.42A1.71 1.71 0 0 1 18 17.13A1.71 1.71 0 0 1 16.29 15.42C16.29 14.5 17.05 13.71 18 13.71Z"
+            tabindex="-1"
+        ></path>
+    </svg>
+</template>
 <!-- analytics plugin -->
 
 <!-- copy and paste code from Google Analytics or similar service here -->
