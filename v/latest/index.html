@@ -8,7 +8,7 @@
   <meta name="author" content="Aedin C Culhane" />
   <meta name="author" content="Elana Fertig" />
   <meta name="author" content="Jane Roe" />
-  <meta name="dcterms.date" content="2020-06-23" />
+  <meta name="dcterms.date" content="2020-06-24" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Mathematical Frameworks for Integrative Analysis of Multi-omics Biological Data</title>
   <style>
@@ -31,8 +31,8 @@
   <meta name="citation_title" content="Mathematical Frameworks for Integrative Analysis of Multi-omics Biological Data" />
   <meta property="og:title" content="Mathematical Frameworks for Integrative Analysis of Multi-omics Biological Data" />
   <meta property="twitter:title" content="Mathematical Frameworks for Integrative Analysis of Multi-omics Biological Data" />
-  <meta name="dc.date" content="2020-06-23" />
-  <meta name="citation_publication_date" content="2020-06-23" />
+  <meta name="dc.date" content="2020-06-24" />
+  <meta name="citation_publication_date" content="2020-06-24" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -65,9 +65,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/ba5433da3f8dd65c08e36749df3ab4ea413164df/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/ba5433da3f8dd65c08e36749df3ab4ea413164df/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/ba5433da3f8dd65c08e36749df3ab4ea413164df/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/9f2df11367eefadaeb558503ea1e93385919ed93/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/9f2df11367eefadaeb558503ea1e93385919ed93/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/9f2df11367eefadaeb558503ea1e93385919ed93/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -81,10 +81,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/ba5433da3f8dd65c08e36749df3ab4ea413164df/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/9f2df11367eefadaeb558503ea1e93385919ed93/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/ba5433da3f8dd65c08e36749df3ab4ea413164df">BIRSBiointegration/whitePaper@ba5433d</a>
-on June 23, 2020.
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/9f2df11367eefadaeb558503ea1e93385919ed93">BIRSBiointegration/whitePaper@9f2df11</a>
+on June 24, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -173,25 +173,31 @@ Department of Something, University of Whatever; Department of Whatever, Univers
 <li>matrix factorization</li>
 <li>neural network / autoencoders</li>
 </ul>
-<h2 id="data-structures-and-software-packages-to-enable-analyses">Data structures and software packages to enable analyses</h2>
-<p>Basic objectives:</p>
+<h2 id="software-strategies-to-enable-analyses-of-multimodal-single-cell-experiments">Software strategies to enable analyses of multimodal single cell experiments</h2>
+<h3 id="key-questions">Key questions</h3>
 <ul>
-<li>Support development of efficient data containers/data services, balancing abstraction
-with concrete responsiveness to new biotechnologies</li>
-<li>Support software developers in achievement of scalability in their tools</li>
-<li>Support end-users in adoption and successful use</li>
+<li>How should multimodal single cell data be managed for interactive and batch analyses?</li>
+<li>What methods will help software developers create scalable solutions for multimodal single cell analysis?</li>
+<li>How can we ensure that visualization methods that are central to multimodal single cell analysis
+are usable by researchers with visual impairments?</li>
 </ul>
-<h3 id="a-software-ecosystem-for-multimodal-single-cell-genomics">A software ecosystem for multimodal single cell genomics</h3>
+<h3 id="data-management-strategies">Data management strategies</h3>
 <ul>
-<li>Defining the ecosystem; scope and principles of evolution</li>
-<li>Current content targets
+<li>Abstract data type: “multiassay experiment”. This reflects the idea that each mode will
+be characterized by a different collection of features on possibly non-overlapping collections
+of samples. The metadata on features should be clearly and conventionally defined. For example,
+genes and transcripts are enumerated using Ensembl catalog identifiers; regions of accessibility
+are defined using genomic coordinates in a clearly specified reference build. Metadata on
+samples must include all relevant information on experimental conditions such as treatment,
+protocol, and date of technical processing.</li>
+<li>Serializations and data access methods for
 <ul>
 <li>spatial transcriptomics</li>
 <li>scNMT-seq …</li>
 </ul></li>
-<li>Governance concepts</li>
 </ul>
-<h3 id="containers-for-developers-and-users">Containers for developers and users</h3>
+<h3 id="scalability-strategies">Scalability strategies</h3>
+<h3 id="reducing-barriers-to-interpretable-visualizations">Reducing barriers to interpretable visualizations</h3>
 <h3 id="details-of-working-components">Details of working components</h3>
 <table>
 <colgroup>
