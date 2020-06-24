@@ -65,9 +65,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/8759038334138a34b77a651ca052d1d9ff0fd534/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/8759038334138a34b77a651ca052d1d9ff0fd534/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/8759038334138a34b77a651ca052d1d9ff0fd534/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/f9acb260522d80c981c837548fa7a5e1b1796a19/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/f9acb260522d80c981c837548fa7a5e1b1796a19/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/f9acb260522d80c981c837548fa7a5e1b1796a19/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -81,9 +81,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/8759038334138a34b77a651ca052d1d9ff0fd534/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/f9acb260522d80c981c837548fa7a5e1b1796a19/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/8759038334138a34b77a651ca052d1d9ff0fd534">BIRSBiointegration/whitePaper@8759038</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/f9acb260522d80c981c837548fa7a5e1b1796a19">BIRSBiointegration/whitePaper@f9acb26</a>
 on June 24, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -243,30 +243,30 @@ protocol, and date of technical processing.</li>
 </tbody>
 </table>
 <h2 id="techniques-and-challenges-for-benchmarking-methods">Techniques and challenges for benchmarking methods</h2>
+<p>Outline:</p>
 <ul>
-<li>realistic simulation studies</li>
-<li>cross-validation, issues in matching dimensions of latent space across folds</li>
-<li>cross-study validation</li>
-<li>benchmark datasets</li>
-</ul>
-<p>Relevant citations to include as literature review on benchmarking
-multi-modal methods:</p>
+<li>We must first define what we are benchmarking
 <ul>
-<li>Fertig 2012
-<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3460736/" class="uri">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3460736/</a></li>
-<li>Haibe-Kains 2012
-<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3283537/" class="uri">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3283537/</a></li>
-<li>Meng 2019
-<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6692785/" class="uri">https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6692785/</a></li>
-<li>Pratapa 2020
-<a href="https://www.ncbi.nlm.nih.gov/pubmed/31907445" class="uri">https://www.ncbi.nlm.nih.gov/pubmed/31907445</a></li>
-</ul>
-<p>Other links:</p>
+<li>recovery of cell types / clusters</li>
+<li>discovery of relationships between data modalities, e.g. gene
+regulatory relationships observed between chromatin
+accessibility and gene expression</li>
+<li>…</li>
+</ul></li>
+<li>Strategies for benchmarking
 <ul>
-<li>Levi Waldron’s benchmarking repo
-<a href="https://github.com/waldronlab/awesome-bioinformatics-benchmarks" class="uri">https://github.com/waldronlab/awesome-bioinformatics-benchmarks</a></li>
-<li>Mike’s reviews / evaluation section of <code>awesome-multi-omics</code>
-<a href="https://github.com/mikelove/awesome-multi-omics#multi-omics-reviews--evaluations" class="uri">https://github.com/mikelove/awesome-multi-omics#multi-omics-reviews--evaluations</a></li>
+<li>simulation (and we can discuss the difficulties with simulating
+covariance structure across features and data modalities)</li>
+<li>benchmarking datasets</li>
+<li>cross-validation within study (and we can discuss issues in
+matching dimensions of latent space across folds). For this Mike
+has a lot of literature in Google Doc to include on papers that
+have performed either permutation or cross-validation to assess
+model performance.</li>
+<li>cross-study validation (are relationships discovered in one
+dataset present in other datasets, potentially looking across
+single cell and bulk)</li>
+</ul></li>
 </ul>
 <h2 id="discussion">Discussion</h2>
 <h3 id="emerging-analytical-methods-and-technologies">Emerging analytical methods and technologies</h3>

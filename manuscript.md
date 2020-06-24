@@ -7,7 +7,7 @@ author-meta:
 bibliography:
 - content/manual-references.json
 date-meta: '2020-06-24'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Mathematical Frameworks for Integrative Analysis of Multi-omics Biological Data\" />\n<meta name=\"citation_title\" content=\"Mathematical Frameworks for Integrative Analysis of Multi-omics Biological Data\" />\n<meta property=\"og:title\" content=\"Mathematical Frameworks for Integrative Analysis of Multi-omics Biological Data\" />\n<meta property=\"twitter:title\" content=\"Mathematical Frameworks for Integrative Analysis of Multi-omics Biological Data\" />\n<meta name=\"dc.date\" content=\"2020-06-24\" />\n<meta name=\"citation_publication_date\" content=\"2020-06-24\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Kim-Anh L\xEA Cao\" />\n<meta name=\"citation_author_institution\" content=\"Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3923-1116\" />\n<meta name=\"twitter:creator\" content=\"@mixOmicsTeam\" />\n<meta name=\"citation_author\" content=\"Aedin C Culhane\" />\n<meta name=\"citation_author_institution\" content=\"Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA\" />\n<meta name=\"citation_author_institution\" content=\"Biostatsitics, Harvard TH Chan School of Public Health, Boston, MA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1395-9734\" />\n<meta name=\"twitter:creator\" content=\"@AedinCulhane\" />\n<meta name=\"citation_author\" content=\"Elana Fertig\" />\n<meta name=\"citation_author_institution\" content=\"Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biomedical Engineering, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Applied Mathematics and Statistics, Johns Hopkins University Whiting School of Engineering, Baltimore, MD, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3204-342X\" />\n<meta name=\"twitter:creator\" content=\"@FertigLab\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@XXX\" />\n<link rel=\"canonical\" href=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"og:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"twitter:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://BIRSBiointegration.github.io/whitePaper/v/8759038334138a34b77a651ca052d1d9ff0fd534/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/8759038334138a34b77a651ca052d1d9ff0fd534/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/8759038334138a34b77a651ca052d1d9ff0fd534/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Mathematical Frameworks for Integrative Analysis of Multi-omics Biological Data\" />\n<meta name=\"citation_title\" content=\"Mathematical Frameworks for Integrative Analysis of Multi-omics Biological Data\" />\n<meta property=\"og:title\" content=\"Mathematical Frameworks for Integrative Analysis of Multi-omics Biological Data\" />\n<meta property=\"twitter:title\" content=\"Mathematical Frameworks for Integrative Analysis of Multi-omics Biological Data\" />\n<meta name=\"dc.date\" content=\"2020-06-24\" />\n<meta name=\"citation_publication_date\" content=\"2020-06-24\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Kim-Anh L\xEA Cao\" />\n<meta name=\"citation_author_institution\" content=\"Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3923-1116\" />\n<meta name=\"twitter:creator\" content=\"@mixOmicsTeam\" />\n<meta name=\"citation_author\" content=\"Aedin C Culhane\" />\n<meta name=\"citation_author_institution\" content=\"Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA\" />\n<meta name=\"citation_author_institution\" content=\"Biostatsitics, Harvard TH Chan School of Public Health, Boston, MA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1395-9734\" />\n<meta name=\"twitter:creator\" content=\"@AedinCulhane\" />\n<meta name=\"citation_author\" content=\"Elana Fertig\" />\n<meta name=\"citation_author_institution\" content=\"Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biomedical Engineering, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Applied Mathematics and Statistics, Johns Hopkins University Whiting School of Engineering, Baltimore, MD, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3204-342X\" />\n<meta name=\"twitter:creator\" content=\"@FertigLab\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@XXX\" />\n<link rel=\"canonical\" href=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"og:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"twitter:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://BIRSBiointegration.github.io/whitePaper/v/f9acb260522d80c981c837548fa7a5e1b1796a19/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/f9acb260522d80c981c837548fa7a5e1b1796a19/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/f9acb260522d80c981c837548fa7a5e1b1796a19/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - markdown
 - publishing
@@ -27,9 +27,9 @@ title: Mathematical Frameworks for Integrative Analysis of Multi-omics Biologica
 
 <small><em>
 This manuscript
-([permalink](https://BIRSBiointegration.github.io/whitePaper/v/8759038334138a34b77a651ca052d1d9ff0fd534/))
+([permalink](https://BIRSBiointegration.github.io/whitePaper/v/f9acb260522d80c981c837548fa7a5e1b1796a19/))
 was automatically generated
-from [BIRSBiointegration/whitePaper@8759038](https://github.com/BIRSBiointegration/whitePaper/tree/8759038334138a34b77a651ca052d1d9ff0fd534)
+from [BIRSBiointegration/whitePaper@f9acb26](https://github.com/BIRSBiointegration/whitePaper/tree/f9acb260522d80c981c837548fa7a5e1b1796a19)
 on June 24, 2020.
 </em></small>
 
@@ -198,29 +198,27 @@ protocol, and date of technical processing.
 
 ## Techniques and challenges for benchmarking methods
 
-* realistic simulation studies
-* cross-validation, issues in matching dimensions of latent space across folds
-* cross-study validation
-* benchmark datasets
+Outline:
 
-Relevant citations to include as literature review on benchmarking
-multi-modal methods:
+* We must first define what we are benchmarking
+    - recovery of cell types / clusters
+	- discovery of relationships between data modalities, e.g. gene
+      regulatory relationships observed between chromatin
+      accessibility and gene expression
+	- ...
+* Strategies for benchmarking
+    - simulation (and we can discuss the difficulties with simulating
+      covariance structure across features and data modalities)
+	- benchmarking datasets
+    - cross-validation within study (and we can discuss issues in
+      matching dimensions of latent space across folds). For this Mike
+      has a lot of literature in Google Doc to include on papers that
+      have performed either permutation or cross-validation to assess
+      model performance.
+    - cross-study validation (are relationships discovered in one
+      dataset present in other datasets, potentially looking across
+      single cell and bulk)
 
-* Fertig 2012 
-  <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3460736/>
-* Haibe-Kains 2012 
-  <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3283537/>
-* Meng 2019
-  <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6692785/>
-* Pratapa 2020
-  <https://www.ncbi.nlm.nih.gov/pubmed/31907445>
-
-Other links:
-
-* Levi Waldron's benchmarking repo
-  <https://github.com/waldronlab/awesome-bioinformatics-benchmarks>
-* Mike's reviews / evaluation section of `awesome-multi-omics`
-  <https://github.com/mikelove/awesome-multi-omics#multi-omics-reviews--evaluations>
 
 
 ## Discussion
