@@ -1,4 +1,4 @@
-aedin
+Aedin
 AedinCulhane
 Anh
 ATACseq
@@ -23,7 +23,9 @@ Kimmel
 Lê
 Lustgarten
 mixOmicsTeam
+Righelli
 RNAseq
+SpatialExperiment
 summarizedExperiment
 tradeoffs
 UMAP
