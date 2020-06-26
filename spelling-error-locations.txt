@@ -1,0 +1,5 @@
+content/20.interp-challenges.md:17:HCA
+content/20.interp-challenges.md:17:KEGG
+content/20.interp-challenges.md:22:UMAP
+content/20.interp-challenges.md:26:discretization
+content/20.interp-challenges.md:30:tradeoffs
