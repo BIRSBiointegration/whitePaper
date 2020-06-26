@@ -3,3 +3,9 @@ content/20.interp-challenges.md:17:KEGG
 content/20.interp-challenges.md:22:UMAP
 content/20.interp-challenges.md:26:discretization
 content/20.interp-challenges.md:30:tradeoffs
+content/50.software.md:29:eQTLs
+content/50.software.md:29:RNAseq
+content/50.software.md:34:summarizedExperiment
+content/50.software.md:35:ATACseq
+content/50.software.md:35:RNAseq
+content/50.software.md:39:BioC

@@ -1,6 +1,8 @@
 aedin
 AedinCulhane
 Anh
+ATACseq
+BioC
 Biostatsitics
 Cao
 Craniofacial
@@ -8,6 +10,7 @@ Culhane
 discretization
 ejfertig
 Elana
+eQTLs
 Farber
 Fertig
 FertigLab
@@ -20,6 +23,8 @@ Kimmel
 Lê
 Lustgarten
 mixOmicsTeam
+RNAseq
+summarizedExperiment
 tradeoffs
 UMAP
 XXXX
