@@ -45,7 +45,7 @@ SpaCell
 SpatialAnalysis
 SpatialExperiment
 SpatialLIBD
-Spectrometry
+spectrometry
 summarizedExperiment
 tradeoffs
 Transciptomics
