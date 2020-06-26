@@ -12,11 +12,14 @@ content/50.software.md:39:BioC
 content/50.software.md:59:SpatialExperiment
 content/50.software.md:59:SpatialExperiment
 content/50.software.md:59:SpatialExperiment
+content/50.software.md:59:SpatialExperiment
+content/50.software.md:63:SpatialAnalysis
 content/50.software.md:63:SpatialAnalysis
 content/50.software.md:63:SpatialAnalysis
 content/50.software.md:63:SpatialExperiment
 content/50.software.md:64:cytomap
-content/50.software.md:64:CytoMap
+content/50.software.md:64:cytomap
+content/50.software.md:64:CytoMAP
 content/50.software.md:64:CytoMAP
 content/50.software.md:64:Matlab
 content/50.software.md:64:Myeloid
