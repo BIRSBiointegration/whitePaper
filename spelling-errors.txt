@@ -34,12 +34,13 @@ Lustgarten
 Matlab
 mixOmicsTeam
 Myeloid
-projectR
+ProjectR
 Proteome
 quant
 Righelli
 RNAseq
 Scanpy
+scCoGAPS
 SingleCellMultiModal
 SpaCell
 SpatialAnalysis
