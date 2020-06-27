@@ -1,4 +1,4 @@
-Aedin
+aedin
 AedinCulhane
 Anh
 ATACseq
@@ -46,7 +46,7 @@ SpaCell
 SpatialAnalysis
 SpatialExperiment
 SpatialLIBD
-spectrometry
+Spectrometry
 summarizedExperiment
 tradeoffs
 Transciptomics
