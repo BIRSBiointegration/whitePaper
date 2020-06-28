@@ -1,4 +1,4 @@
-aedin
+Aedin
 AedinCulhane
 Anh
 ATACseq
@@ -17,15 +17,14 @@ Dynverse
 ejfertig
 Elana
 eQTLs
-ExperimentHub
 Farber
 Fertig
 FertigLab
 GNT
 HCA
 histoCAT
-hubmap
 Initative
+inot
 janeroe
 KEGG
 Kimmel
@@ -35,8 +34,6 @@ Matlab
 mixOmicsTeam
 Myeloid
 ProjectR
-Proteome
-quant
 Righelli
 RNAseq
 Scanpy
@@ -46,10 +43,9 @@ SpaCell
 SpatialAnalysis
 SpatialExperiment
 SpatialLIBD
-Spectrometry
+spectrometry
 summarizedExperiment
 tradeoffs
-Transciptomics
 Transcriptome
 UMAP
 XXXX
