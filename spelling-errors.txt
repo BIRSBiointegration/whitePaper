@@ -1,4 +1,4 @@
-aedin
+Aedin
 AedinCulhane
 Anh
 ARI
@@ -35,7 +35,7 @@ Matlab
 mixOmicsTeam
 MOFA
 Myeloid
-projectR
+ProjectR
 Righelli
 RNAseq
 Scanpy
