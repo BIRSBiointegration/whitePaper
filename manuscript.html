@@ -65,9 +65,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/f1953a1d20cf33039bd2230d9cbe181d7615aa01/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/f1953a1d20cf33039bd2230d9cbe181d7615aa01/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/f1953a1d20cf33039bd2230d9cbe181d7615aa01/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/d16f4cf4c8d0282f689f888ee22160294229736f/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/d16f4cf4c8d0282f689f888ee22160294229736f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/d16f4cf4c8d0282f689f888ee22160294229736f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -81,9 +81,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/f1953a1d20cf33039bd2230d9cbe181d7615aa01/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/d16f4cf4c8d0282f689f888ee22160294229736f/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/f1953a1d20cf33039bd2230d9cbe181d7615aa01">BIRSBiointegration/whitePaper@f1953a1</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/d16f4cf4c8d0282f689f888ee22160294229736f">BIRSBiointegration/whitePaper@d16f4cf</a>
 on June 30, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -237,6 +237,20 @@ A data container for a multi assay analysis must hold</li>
 </ul>
 <h3 id="scalability-strategies">Scalability strategies</h3>
 <h3 id="reducing-barriers-to-interpretable-visualizations">Reducing barriers to interpretable visualizations</h3>
+<p>Color is a powerful data visualization tool that helps representing the different dimensions of our increasingly complex and rich scientific data.
+Color vision deficiencies affect a substantial portion of the population.
+Therefore,  it is desirable to aim towards presenting scientific information in a manner that is as accessible as possible for all readers. 
+Color vision deficiency leads to difficulties in perceiving patterns (the basis for the Ishihara’s color vision tests) in multi-colored figures.
+In rare cases, the perceived patterns; e.g. in heatmaps and reduced dimension plots, can differ between individuals with normal and color deficient vision.</p>
+<p>One strategy to address these issues is to include colorblind friendly visualizations <span class="citation" data-cites="11uDSb0Nf">[<a href="#ref-11uDSb0Nf" role="doc-biblioref">1</a>]</span> as a default setting in our visualizations.
+Several colorblind-friendly palettes exist (e.g., see R packages <a href="https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html">viridis</a> and <a href="https://github.com/dtm2451/dittoSeq">dittoSeq</a>) and can be integrated into data presentation as the default option.
+Even with these palettes in place, it is desirable to limit the number (about 8-10 at a maximum) of colors in visualizations.
+To reduce the dependence on colors, one solution would be to include additional visual cues to differentiate regions (hatched areas) or cells (point shapes).
+Overall, a broader discussion regarding the accessibility of our figures that is not just limited to color vision deficiencies would be greatly beneficial towards improving data accessibility.
+Perhaps one tool to address broader accessibility could be the inclusion an “accessibility caption” accompanying figures which “guide” the reader’s perception of the images.</p>
+<p><a href="https://www.nature.com/articles/nmeth0810-573">Reference 1: Color Coding</a></p>
+<p><a href="https://www.nature.com/articles/nmeth.1618">Reference 2: Points of View: Color Blindness</a></p>
+<p><a href="https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html">Viridis Color Palettes</a></p>
 <p><a href="https://www.vwvj.be/sites/default/files/zien/zien_-_uit_voorbije_vorming/kleurzinonderzoekextratips.pdf">An overview of the issues with impaired color perception</a></p>
 <p><a href="https://accessibility.18f.gov/tools/">US Government tools for accessibility</a></p>
 <h3 id="details-of-working-components-trimmed">Details of working components – trimmed</h3>
@@ -458,8 +472,13 @@ single cell and bulk.</p></li>
 </table>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
-<div id="refs" role="doc-bibliography">
-
+<div id="refs" class="references hanging-indent" role="doc-bibliography">
+<div id="ref-11uDSb0Nf">
+<p>1. <strong>Points of view: Color blindness</strong> <br />
+Bang Wong<br />
+<em>Nature Methods</em> (2011-06-01) <a href="https://www.nature.com/articles/nmeth.1618">https://www.nature.com/articles/nmeth.1618</a> <br />
+DOI: <a href="https://doi.org/10.1038/nmeth.1618">10.1038/nmeth.1618</a></p>
+</div>
 </div>
 <!-- default theme -->
 
