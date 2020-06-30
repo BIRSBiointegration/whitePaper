@@ -57,3 +57,5 @@ content/50.software.md:86:inot
 content/50.software.md:86:Righelli
 content/50.software.md:86:SingleCellMultiModal
 content/50.software.md:88:Righelli
+content/60.benchmarking.md:6:ARI
+content/60.benchmarking.md:23:MOFA

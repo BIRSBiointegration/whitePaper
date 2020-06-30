@@ -1,6 +1,7 @@
 Aedin
 AedinCulhane
 Anh
+ARI
 ATACseq
 BioC
 Biostatsitics
@@ -32,6 +33,7 @@ Lê
 Lustgarten
 Matlab
 mixOmicsTeam
+MOFA
 Myeloid
 ProjectR
 Righelli
