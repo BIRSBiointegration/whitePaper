@@ -38,7 +38,7 @@ Matlab
 mixOmicsTeam
 MOFA
 Myeloid
-ProjectR
+projectR
 Righelli
 RNAseq
 Scanpy
@@ -53,7 +53,7 @@ summarizedExperiment
 tradeoffs
 Transcriptome
 UMAP
-Viridis
+viridis
 wrt
 XXXX
 Zuckerberg
