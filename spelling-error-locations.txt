@@ -1,8 +1,8 @@
-content/20.interp-challenges.md:17:HCA
-content/20.interp-challenges.md:17:KEGG
-content/20.interp-challenges.md:22:UMAP
-content/20.interp-challenges.md:26:discretization
-content/20.interp-challenges.md:30:tradeoffs
+content/45.interp-challenges.md:14:HCA
+content/45.interp-challenges.md:14:KEGG
+content/45.interp-challenges.md:19:UMAP
+content/45.interp-challenges.md:23:discretization
+content/45.interp-challenges.md:25:tradeoffs
 content/50.software.md:29:eQTLs
 content/50.software.md:29:RNAseq
 content/50.software.md:34:summarizedExperiment
