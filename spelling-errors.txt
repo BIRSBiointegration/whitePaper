@@ -1,4 +1,4 @@
-aedin
+Aedin
 AedinCulhane
 Anh
 ARI
@@ -38,7 +38,7 @@ Matlab
 mixOmicsTeam
 MOFA
 Myeloid
-projectR
+ProjectR
 Righelli
 RNAseq
 Scanpy
@@ -53,7 +53,7 @@ summarizedExperiment
 tradeoffs
 Transcriptome
 UMAP
-viridis
+Viridis
 wrt
 XXXX
 Zuckerberg

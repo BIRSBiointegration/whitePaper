@@ -3,10 +3,10 @@ content/45.interp-challenges.md:14:KEGG
 content/45.interp-challenges.md:19:UMAP
 content/45.interp-challenges.md:23:discretization
 content/45.interp-challenges.md:25:tradeoffs
-content/60.benchmarking.md:7:ARI
-content/60.benchmarking.md:36:wrt
-content/60.benchmarking.md:57:MOFA
-content/60.benchmarking.md:59:MOFA
+content/50.benchmarking.md:7:ARI
+content/50.benchmarking.md:36:wrt
+content/50.benchmarking.md:57:MOFA
+content/50.benchmarking.md:59:MOFA
 content/60.software.md:29:eQTLs
 content/60.software.md:29:RNAseq
 content/60.software.md:34:summarizedExperiment
