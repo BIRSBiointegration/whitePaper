@@ -65,9 +65,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/3fadca0e40331ec35e001f364697c7a024030250/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/3fadca0e40331ec35e001f364697c7a024030250/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/3fadca0e40331ec35e001f364697c7a024030250/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/3024335eaa82aed3fb5acfe868150f4418e61168/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/3024335eaa82aed3fb5acfe868150f4418e61168/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/3024335eaa82aed3fb5acfe868150f4418e61168/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -81,9 +81,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/3fadca0e40331ec35e001f364697c7a024030250/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/3024335eaa82aed3fb5acfe868150f4418e61168/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/3fadca0e40331ec35e001f364697c7a024030250">BIRSBiointegration/whitePaper@3fadca0</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/3024335eaa82aed3fb5acfe868150f4418e61168">BIRSBiointegration/whitePaper@3024335</a>
 on June 30, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -372,10 +372,22 @@ level.</li>
 </ul>
 <h3 id="strategies-for-benchmarking">Strategies for benchmarking</h3>
 <ul>
-<li><p>Simulation is useful for having known truth, but it is difficult to
+<li>Simulation is useful for having known truth, but it is difficult to
 simulate realistic covariance structure across features and across
-data modalities.</p></li>
-<li><p>Benchmarking datasets (add examples from Google Doc)</p></li>
+data modalities.</li>
+<li>Benchmarking datasets (add examples from Google Doc). Benchmark datasets for single cell studies have largely centered around measuring sequencing depth and diversity of cell types derived from a single assay of interest (e.g. scRNAseq). A benchmark dataset serves a few purposes:
+1) provides ground truth for the intended effect of exposure in a proposed study design.
+2) provides validation for a data integration task for which a new computational method may be proposed.
+3) Both of the above</li>
+</ul>
+<p>For multi-modal assays, while the intended effects can vary based on the leading biological questions, one may abstract out common data integration tasks such as co-embedding, mapping or correlation, and inferring causal relationships. We distinguish data integration from further downstream analyses that may occur on integrated samples such as differential analysis of both assays wrt to a certain exposure.</p>
+<pre><code>    Both the intended effects and data integration task rely on study design that takes into account 
+    1) biological and technical variability via replicates, block design, and randomization
+    2) power analysis for the intended effect or data integration task
+    3) Dependencies between modalities, for e.g. gene expression depending on gene regulatory element activity, requires that experiment design must        also account for spatial and temporal elements in sampling for a given observation. 
+
+    As such, no universal benchmark data scheme may suit every combination of modality, and benchmark datasets may be established for commonly used         combinations of modalities or technologies, towards specific data integration tasks. </code></pre>
+<ul>
 <li><p>Cross-validation within study can be performed. For example the
 following cross-validation analysis of the scNMT-seq dataset was
 performed using MOFA+</p>
