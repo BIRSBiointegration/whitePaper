@@ -86,3 +86,12 @@ SingleCellMultiModal
 SpatialAnalysis
 LDL
 Pharmacodynamic
+BioC
+histoCAT
+cytomapper
+dittoseq
+methylation
+spacell
+scProteomics
+scNMTQ
+scProt
