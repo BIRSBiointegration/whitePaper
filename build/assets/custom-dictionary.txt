@@ -49,3 +49,9 @@ scNMT
 phenotypes
 multiassay
 scalability
+biomarker
+loadings
+multigroup
+multiview
+multiblock
+multidoomain
