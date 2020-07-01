@@ -1,5 +1,5 @@
 Abadi
-aedin
+Aedin
 AedinCulhane
 Amrit
 Anh
@@ -51,7 +51,7 @@ Myeloid
 Normalisation
 Pratheepan
 pre
-projectR
+ProjectR
 Righelli
 RNAseq
 Scanpy
