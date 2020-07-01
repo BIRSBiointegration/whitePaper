@@ -65,9 +65,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/df37a7fa49244603fe2a28f4a57218dc4098f11a/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/df37a7fa49244603fe2a28f4a57218dc4098f11a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/df37a7fa49244603fe2a28f4a57218dc4098f11a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/ad82d238e1b01bc94b6e32223815794d0a631f59/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/ad82d238e1b01bc94b6e32223815794d0a631f59/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/ad82d238e1b01bc94b6e32223815794d0a631f59/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -81,9 +81,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/df37a7fa49244603fe2a28f4a57218dc4098f11a/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/ad82d238e1b01bc94b6e32223815794d0a631f59/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/df37a7fa49244603fe2a28f4a57218dc4098f11a">BIRSBiointegration/whitePaper@df37a7f</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/ad82d238e1b01bc94b6e32223815794d0a631f59">BIRSBiointegration/whitePaper@ad82d23</a>
 on July 1, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -180,11 +180,11 @@ remain (e.g methylation / gene expression)
 <ul>
 <li>Cellular and molecular regulation is fundamentally multi-scale and captured by distinct data modalities</li>
 <li>Traditional hypothesis-driven multi-omics/view studies only consider one facet of these technologies, but more can be learned through a holistic approach extending into atlases</li>
-<li>We present our learnings from some hackathons case studies that helped us obtain a broader picture and language</li>
+<li>We present our findings from hackathon case studies that helped us obtain a broader picture and language</li>
 </ul>
 Outline of the paper:</li>
 </ul>
-<p><img src="images/Outline.png" alt="Outline of the main themes following our brainstorming sessions from the hackathons (KA Le Cao)" height="400"/></p>
+<p><img src="images/Outline.png" alt="Outline of the main themes following our brainstorming sessions from the hackathons (KA Le Cao)" height="600"/></p>
 <p>Figure caption: Main challenges discussed during our brainstorming sessions from the hackathons</p>
 <h2 id="scrna-seq-fish-as-a-case-study-for-spatial-transcriptomics">scRNA-seq + FISH as a case study for spatial transcriptomics</h2>
 <h3 id="overview-and-biological-question">Overview and biological question</h3>
@@ -222,7 +222,7 @@ Outline of the paper:</li>
 <ul>
 <li>Why this is needed and how it was addressed across all hackathons
 <ul>
-<li>Normalisation / data transformation (seqFish), pre-processing, gene summaries (scNMT-seq) to variable selection (seqFish), these steps affect the downstream analyses, e.g. Alexis selected 19 genes whereas Zhu original paper based on 47 genes (difference in methods / processed data)</li>
+<li>Normalization / data transformation (seqFish), pre-processing, gene summaries (scNMT-seq) to variable selection (seqFish), these steps affect the downstream analyses, e.g. Alexis selected 19 genes whereas Zhu original paper based on 47 genes (difference in methods / processed data)</li>
 </ul></li>
 <li>Limitations and further developments required
 <ul>
@@ -256,7 +256,7 @@ Outline of the paper:</li>
 </ul></li>
 <li>How it was solved across all hackathons
 <ul>
-<li>See table, projection based methods seem to work best across all studiesAlso note that pre-processing was performed (but still large datasets)</li>
+<li>See table, projection based methods seem to work best across all studies. Also note that pre-processing was performed (but still large datasets)</li>
 </ul></li>
 <li>Limitations and further developments required
 <ul>
@@ -293,7 +293,7 @@ Outline of the paper:</li>
 Figure caption:</p>
 <ol type="A">
 <li>scSpatial: required overlap of features (genes), but cells do not overlap. Cell type prediction for seqFISH data was performed based on scRNA-seq (known) [credit: Amrit Singh]</li>
-<li>scProteomics: a small number of features overlap (proteins) but patients and cells do not overlap. Data imputation (?), spatial co-localisation or cell type prediction was performed [credit: Lauren Hsu and Pratheepan Jenagan]</li>
+<li>scProteomics: a small number of features overlap (proteins) but patients and cells do not overlap. Data imputation (?), spatial co-localization or cell type prediction was performed [credit: Lauren Hsu and Pratheepan Jenagan]</li>
 <li>scNMT-seq: cells are matching across assays but features do not overlap. Data integration was performed [credit: Al Abadi]</li>
 </ol>
 <h2 id="challenges-for-interpretation">Challenges for interpretation</h2>
@@ -347,7 +347,7 @@ the leading biological questions, one may abstract out common data
 integration tasks such as co-embedding, mapping or correlation, and
 inferring causal relationships. We distinguish data integration from
 further downstream analyses that may occur on integrated samples
-such as differential analysis of both assays wrt to a certain
+such as differential analysis of both assays with regard to to a certain
 exposure.</p>
 <p>Both the intended effects and data integration task rely on study
 design that takes into account:</p>
@@ -401,11 +401,11 @@ protocol, and date of technical processing.</li>
 2) Do we need a flexible, universal framework (e.g. MAE) or an experiment class for every possible combination of modalities or technologies?
 3) Do we have adequate data representation for all “assays”?</p>
 <ul>
-<li>Multi-modal single cell data may consist of multi-assay measurements from the same cell (e.g. citeSeq, sci-CAR) or integration of multi-assay measurements from distinct cells from the same or distinct starting samples. A sample here refers to the biological specimen of origin (tissue A from individual X).
+<li>Multi-modal single cell data may consist of multi-assay measurements from the same cell (e.g. CITE-seq, sci-CAR) or integration of multi-assay measurements from distinct cells from the same or distinct starting samples. A sample here refers to the biological specimen of origin (tissue A from individual X).
 A data container for a multi assay analysis must hold</li>
 </ul>
 <ol type="1">
-<li>Assay slots containing variables or features from multiple modalities (e.g. gene expression units from sc-RNAseq and protein units from sc-proteomics). In some cases, the feature may be multidimensional (e.g. spatial coordinates, locations of eQTLs).</li>
+<li>Assay slots containing variables or features from multiple modalities (e.g. gene expression units from scRNA-seq and protein units from sc-proteomics). In some cases, the feature may be multidimensional (e.g. spatial coordinates, locations of eQTLs).</li>
 <li>Observations or cell identities</li>
 <li>Metadata for sample of origin for the individual cells, e.g. study, center, phenotype, perturbation.</li>
 <li>A map between the different assays to enable analysis</li>
@@ -413,7 +413,7 @@ A data container for a multi assay analysis must hold</li>
 <ul>
 <li>The MAE is such a Bioconductor container for overlapping observations, and may serve as a starting point for further expansion. Besides the primary data elements for storing “data objects”, the summarizedExperiment class offers attributes and Methods for storing results of analysis, as an “analysis object”.
 <ul>
-<li>While common assays such as RNAseq and ATACseq have well-defined data representations (e.g. transcript names), data representation need to be defined newer assays, which may need multiple dimensions for adequate definition (e.g. x, y, z coordinates for images).</li>
+<li>While common assays such as RNA-seq and ATAC-seq have well-defined data representations (e.g. transcript names), data representation need to be defined newer assays, which may need multiple dimensions for adequate definition (e.g. x, y, z coordinates for images).</li>
 <li>The observations of different modalities may not be directly comparable (e.g. RNA may be measured from individual cells but spatial transcriptomics may cover a few cells in the matched area).<br />
 </li>
 <li>In the absence of universal standards, the metadata may vary from analysis to analysis.</li>
@@ -560,7 +560,7 @@ Perhaps one tool to address broader accessibility could be the inclusion an “a
 </table>
 <p>Here is the schematic of SpatialExperiment class from Dario Righelli.</p>
 <p><img src="images/SpatialExperimentScheme1.1.png" alt="SpatialExperiment (D. Righelli)" height="400"/></p>
-<p>Here is the schematic of how seqFISH data are stored inot the SingleCellMultiModal package from Dario Righelli.</p>
+<p>Here is the schematic of how seqFISH data are stored in the SingleCellMultiModal package from Dario Righelli.</p>
 <p><img src="images/scMultiModal_seqFISH.png" alt="seqFISH (D. Righelli)" height="400"/></p>
 <h2 id="discussion">Discussion</h2>
 <h3 id="emerging-analytical-methods-and-technologies">Emerging analytical methods and technologies</h3>
@@ -635,13 +635,13 @@ Perhaps one tool to address broader accessibility could be the inclusion an “a
 <tr class="odd">
 <td>?</td>
 <td>feature, variable</td>
-<td>A measureable quantity that describes a sample’s attributes. Variables from different modalities include age, sex, gene or protein abudance, single nucleotide variants, operational taxonomic units, pixel intensity <em>etc.</em></td>
+<td>A measurable quantity that describes a sample’s attributes. Variables from different modalities include age, sex, gene or protein abundance, single nucleotide variants, operational taxonomic units, pixel intensity <em>etc.</em></td>
 <td>?</td>
 </tr>
 <tr class="even">
 <td>?</td>
 <td>marker, biomarker</td>
-<td>A variable that is associated with normal or disease processes, or responses to exposures, or interventions. Any change in this variable is also assocaited with a change in the associated clinical outcome. These variables may be used for diagnostic, monitoring, Pharmacodynamic responses. Examples include LDL cholesterol, CD4 counts, hemoglobin A1C.</td>
+<td>A variable that is associated with normal or disease processes, or responses to exposures, or interventions. Any change in this variable is also associated with a change in the associated clinical outcome. These variables may be used for diagnostic, monitoring, Pharmacodynamic responses. Examples include LDL cholesterol, CD4 counts, hemoglobin A1C.</td>
 <td><span class="citation" data-cites="AtapBaNb"><a href="#ref-AtapBaNb" role="doc-biblioref">8</a></span></td>
 </tr>
 <tr class="odd">
