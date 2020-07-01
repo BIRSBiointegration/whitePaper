@@ -38,7 +38,7 @@ Matlab
 mixOmicsTeam
 MOFA
 Myeloid
-ProjectR
+projectR
 Righelli
 RNAseq
 Scanpy
