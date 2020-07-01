@@ -65,9 +65,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/1d664a438d005f334fd65cb706f65ff04d4eed42/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/1d664a438d005f334fd65cb706f65ff04d4eed42/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/1d664a438d005f334fd65cb706f65ff04d4eed42/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/214f4385da865390d6df5caace74c2a63f280138/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/214f4385da865390d6df5caace74c2a63f280138/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/214f4385da865390d6df5caace74c2a63f280138/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -81,9 +81,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/1d664a438d005f334fd65cb706f65ff04d4eed42/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/214f4385da865390d6df5caace74c2a63f280138/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/1d664a438d005f334fd65cb706f65ff04d4eed42">BIRSBiointegration/whitePaper@1d664a4</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/214f4385da865390d6df5caace74c2a63f280138">BIRSBiointegration/whitePaper@214f438</a>
 on July 1, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -563,37 +563,99 @@ Perhaps one tool to address broader accessibility could be the inclusion an “a
 <h3 id="emerging-analytical-methods-and-technologies">Emerging analytical methods and technologies</h3>
 <h3 id="community-needs-for-data-structures-analysis-methods-etc">Community needs for data structures, analysis methods, etc</h3>
 <h2 id="glossary">Glossary</h2>
+<div id="tbl:table_gloss" class="tablenos">
 <table>
+<caption><span>Table 1:</span> Glossary of interchangeable terms in the field of single-cell and bulk multi-omics (multi-source) data analysis. </caption>
 <colgroup>
-<col style="width: 42%" />
-<col style="width: 24%" />
-<col style="width: 33%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th>Consensus term</th>
-<th>Synonyms</th>
+<th>Consensus Term</th>
+<th>Related Terms</th>
 <th>Description</th>
+<th>Citation</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Network</td>
-<td>Graph</td>
+<td>network</td>
+<td>graph, adjacency matrix</td>
 <td>A set of <em>nodes</em>, representing objects of interest, linked by <em>edges</em>, representing specific relationships between nodes.</td>
+<td>?</td>
 </tr>
 <tr class="even">
-<td>Node</td>
-<td>Vertex</td>
+<td>node</td>
+<td>vertex</td>
 <td>Element of interest in a network and linked to other nodes. For example: people, cells, proteins or genes. Nodes can have several properties called <em>attributes</em> like cell type or position.</td>
+<td>?</td>
 </tr>
 <tr class="odd">
-<td>Edge</td>
-<td>Link</td>
+<td>edge</td>
+<td>link</td>
 <td>The relationship between 2 nodes in a network. For example: friendship in social networks, cells in contact in a spatial network, or gene-gene interactions in a gene regulatory network.</td>
+<td>?</td>
+</tr>
+<tr class="even">
+<td>?</td>
+<td>concordant, coherent, consistent</td>
+<td>?</td>
+<td><span class="citation" data-cites="IZfv7up4"><a href="#ref-IZfv7up4" role="doc-biblioref">2</a></span></td>
+</tr>
+<tr class="odd">
+<td>?</td>
+<td>variable weights, loadings, eigenvector, axis, direction, dimension, coefficients, slopes</td>
+<td>Contributions of the original variables in constructing the components.</td>
+<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">3</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">4</a></span></td>
+</tr>
+<tr class="even">
+<td>?</td>
+<td>variates, scores, projections, components, latent/hidden/unobserved variables/factors</td>
+<td>Weighted linear combinations of the original variables.</td>
+<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">3</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">4</a></span></td>
+</tr>
+<tr class="odd">
+<td>?</td>
+<td>Multiview, multiway arrays, multimodal, multidomain, multiblock, multitable, multi-omics, multi-source data analysis methods, N-integration</td>
+<td>Methods pertaining to the analysis of multiple data matrices for the same set of observations.</td>
+<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">3</a></span>, <span class="citation" data-cites="nhuT45y5"><a href="#ref-nhuT45y5" role="doc-biblioref">5</a></span>, <span class="citation" data-cites="2SDWXiwB"><a href="#ref-2SDWXiwB" role="doc-biblioref">6</a></span></td>
+</tr>
+<tr class="even">
+<td>?</td>
+<td>P-integration, meta-analysis, multigroup data analysis</td>
+<td>Methods pertaining to the analysis of multiple data matrices for the same set of variables.</td>
+<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">3</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">4</a></span>, <span class="citation" data-cites="UqaGRGDg"><a href="#ref-UqaGRGDg" role="doc-biblioref">7</a></span></td>
+</tr>
+<tr class="odd">
+<td>?</td>
+<td>feature, variable</td>
+<td>A measureable quantity that describes a sample’s attributes. Variables from different modalities include age, sex, gene or protein abudance, single nucleotide variants, operational taxonomic units, pixel intensity <em>etc.</em></td>
+<td>?</td>
+</tr>
+<tr class="even">
+<td>?</td>
+<td>marker, biomarker</td>
+<td>A variable that is associated with normal or disease processes, or responses to exposures, or interventions. Any change in this variable is also assocaited with a change in the associated clinical outcome. These variables may be used for diagnostic, monitoring, Pharmacodynamic responses. Examples include LDL cholesterol, CD4 counts, hemoglobin A1C.</td>
+<td><span class="citation" data-cites="AtapBaNb"><a href="#ref-AtapBaNb" role="doc-biblioref">8</a></span></td>
+</tr>
+<tr class="odd">
+<td>?</td>
+<td>biomarker panel, biomarker signature</td>
+<td>A subset of the originally measured variables that are determined to be associated with the outcome or response variable. This may be determined using statistical inference, feature selection methods, or machine/statistical learning.</td>
+<td><span class="citation" data-cites="17aD4MFPS"><a href="#ref-17aD4MFPS" role="doc-biblioref">9</a></span>, <span class="citation" data-cites="XWx8RAwW"><a href="#ref-XWx8RAwW" role="doc-biblioref">10</a></span></td>
+</tr>
+<tr class="even">
+<td>?</td>
+<td>sample, observation, array</td>
+<td>A single entity belonging to a larger grouping. Examples include patients, subjects, participants, cells, <em>etc.</em></td>
+<td>?</td>
 </tr>
 </tbody>
 </table>
+</div>
 <h2 class="page_break_before" id="references">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references hanging-indent" role="doc-bibliography">
@@ -602,6 +664,60 @@ Perhaps one tool to address broader accessibility could be the inclusion an “a
 Bang Wong<br />
 <em>Nature Methods</em> (2011-06-01) <a href="https://www.nature.com/articles/nmeth.1618">https://www.nature.com/articles/nmeth.1618</a> <br />
 DOI: <a href="https://doi.org/10.1038/nmeth.1618">10.1038/nmeth.1618</a></p>
+</div>
+<div id="ref-IZfv7up4">
+<p>2. <strong>Consistency and overfitting of multi-omics methods on experimental data</strong> <br />
+Sean D McCabe, Dan-Yu Lin, Michael I Love<br />
+<em>Briefings in Bioinformatics</em> (2019-07-04) <a href="https://doi.org/gghpmf">https://doi.org/gghpmf</a> <br />
+DOI: <a href="https://doi.org/10.1093/bib/bbz070">10.1093/bib/bbz070</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31281919">31281919</a></p>
+</div>
+<div id="ref-QSXGprag">
+<p>3. <strong>mixOmics: An R package for ‘omics feature selection and multiple data integration</strong> <br />
+Florian Rohart, Benoît Gautier, Amrit Singh, Kim-Anh Lê Cao<br />
+<em>PLOS Computational Biology</em> (2017-11-03) <a href="https://doi.org/gcj84s">https://doi.org/gcj84s</a> <br />
+DOI: <a href="https://doi.org/10.1371/journal.pcbi.1005752">10.1371/journal.pcbi.1005752</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29099853">29099853</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5687754">PMC5687754</a></p>
+</div>
+<div id="ref-18fTyQGoG">
+<p>4. <strong>Multivariate analysis of multiblock and multigroup data</strong> <br />
+A. Eslami, E. M. Qannari, A. Kohler, S. Bougeard<br />
+<em>Chemometrics and Intelligent Laboratory Systems</em> (2014-04) <a href="https://doi.org/f52wrr">https://doi.org/f52wrr</a> <br />
+DOI: <a href="https://doi.org/10.1016/j.chemolab.2014.01.016">10.1016/j.chemolab.2014.01.016</a></p>
+</div>
+<div id="ref-nhuT45y5">
+<p>5. <strong>Multitable Methods for Microbiome Data Integration</strong> <br />
+Kris Sankaran, Susan P. Holmes<br />
+<em>Frontiers in Genetics</em> (2019-08-28) <a href="https://doi.org/gf8dqn">https://doi.org/gf8dqn</a> <br />
+DOI: <a href="https://doi.org/10.3389/fgene.2019.00627">10.3389/fgene.2019.00627</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31555316">31555316</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6724662">PMC6724662</a></p>
+</div>
+<div id="ref-2SDWXiwB">
+<p>6. <strong>Dimension reduction techniques for the integrative analysis of multi-omics data</strong> <br />
+Chen Meng, Oana A. Zeleznik, Gerhard G. Thallinger, Bernhard Kuster, Amin M. Gholami, Aedín C. Culhane<br />
+<em>Briefings in Bioinformatics</em> (2016-07) <a href="https://doi.org/f83qvd">https://doi.org/f83qvd</a> <br />
+DOI: <a href="https://doi.org/10.1093/bib/bbv108">10.1093/bib/bbv108</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26969681">26969681</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4945831">PMC4945831</a></p>
+</div>
+<div id="ref-UqaGRGDg">
+<p>7. <strong>Robust meta-analysis of gene expression using the elastic net</strong> <br />
+Jacob J. Hughey, Atul J. Butte<br />
+<em>Nucleic Acids Research</em> (2015-07-13) <a href="https://doi.org/f7nnbm">https://doi.org/f7nnbm</a> <br />
+DOI: <a href="https://doi.org/10.1093/nar/gkv229">10.1093/nar/gkv229</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25829177">25829177</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4499117">PMC4499117</a></p>
+</div>
+<div id="ref-AtapBaNb">
+<p>8. <strong>Biomarker definitions and their applications</strong> <br />
+Robert M Califf<br />
+<em>Experimental Biology and Medicine</em> (2018-02-06) <a href="https://doi.org/gcxh8n">https://doi.org/gcxh8n</a> <br />
+DOI: <a href="https://doi.org/10.1177/1535370217750088">10.1177/1535370217750088</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29405771">29405771</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5813875">PMC5813875</a></p>
+</div>
+<div id="ref-17aD4MFPS">
+<p>9. <strong>Biomarker signatures of aging</strong> <br />
+Paola Sebastiani, Bharat Thyagarajan, Fangui Sun, Nicole Schupf, Anne B. Newman, Monty Montano, Thomas T. Perls<br />
+<em>Aging Cell</em> (2017-04) <a href="https://doi.org/d2cm">https://doi.org/d2cm</a> <br />
+DOI: <a href="https://doi.org/10.1111/acel.12557">10.1111/acel.12557</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28058805">28058805</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5334528">PMC5334528</a></p>
+</div>
+<div id="ref-XWx8RAwW">
+<p>10. <strong>Biomarker Panels in Critical Care</strong> <br />
+Susan R. Conway, Hector R. Wong<br />
+<em>Critical Care Clinics</em> (2020-01) <a href="https://doi.org/d2cn">https://doi.org/d2cn</a> <br />
+DOI: <a href="https://doi.org/10.1016/j.ccc.2019.08.007">10.1016/j.ccc.2019.08.007</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31733684">31733684</a></p>
 </div>
 </div>
 <!-- default theme -->
