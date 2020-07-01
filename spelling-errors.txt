@@ -51,7 +51,7 @@ Myeloid
 Normalisation
 Pratheepan
 pre
-ProjectR
+projectR
 Righelli
 RNAseq
 Scanpy
