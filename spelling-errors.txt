@@ -1,6 +1,6 @@
 Abadi
 abudance
-Aedin
+aedin
 AedinCulhane
 Amrit
 Anh
@@ -41,6 +41,7 @@ HCA
 heatmaps
 histoCAT
 Hsu
+HTAN
 Initative
 inot
 Ishihara’s
@@ -95,7 +96,7 @@ tradeoffs
 Transcriptome
 UMAP
 variates
-viridis
+Viridis
 wrr
 wrt
 XXXX
