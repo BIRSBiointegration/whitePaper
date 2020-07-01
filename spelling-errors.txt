@@ -20,7 +20,6 @@ ejfertig
 Elana
 eQTLs
 Farber
-featuing
 Fertig
 FertigLab
 GNT
@@ -29,7 +28,6 @@ hackathons
 HCA
 heatmaps
 histoCAT
-HTAN
 Initative
 inot
 Ishihara’s
@@ -44,7 +42,7 @@ methylation
 mixOmicsTeam
 MOFA
 Myeloid
-projectR
+ProjectR
 Righelli
 RNAseq
 Scanpy
