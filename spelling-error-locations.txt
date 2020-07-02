@@ -12,6 +12,11 @@ content/40.common-challenges.md:60:Hsu
 content/40.common-challenges.md:60:Jenagan
 content/40.common-challenges.md:60:Pratheepan
 content/40.common-challenges.md:61:Abadi
+content/45.interp-challenges.md:8:Explorator
+content/45.interp-challenges.md:13:Biomart
+content/45.interp-challenges.md:18:tSNE
+content/45.interp-challenges.md:19:Sankaran
+content/45.interp-challenges.md:22:identifiability
 content/60.software.md:79:Matlab
 content/60.software.md:80:Matlab
 content/80.glossary.md:8:gghpmf
