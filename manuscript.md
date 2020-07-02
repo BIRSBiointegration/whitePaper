@@ -6,8 +6,8 @@ author-meta:
 - Jane Roe
 bibliography:
 - content/manual-references.json
-date-meta: '2020-07-01'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"citation_title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"og:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"twitter:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"dc.date\" content=\"2020-07-01\" />\n<meta name=\"citation_publication_date\" content=\"2020-07-01\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Kim-Anh L\xEA Cao\" />\n<meta name=\"citation_author_institution\" content=\"Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3923-1116\" />\n<meta name=\"twitter:creator\" content=\"@mixOmicsTeam\" />\n<meta name=\"citation_author\" content=\"Aedin C Culhane\" />\n<meta name=\"citation_author_institution\" content=\"Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA\" />\n<meta name=\"citation_author_institution\" content=\"Biostatsitics, Harvard TH Chan School of Public Health, Boston, MA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1395-9734\" />\n<meta name=\"twitter:creator\" content=\"@AedinCulhane\" />\n<meta name=\"citation_author\" content=\"Elana Fertig\" />\n<meta name=\"citation_author_institution\" content=\"Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biomedical Engineering, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Applied Mathematics and Statistics, Johns Hopkins University Whiting School of Engineering, Baltimore, MD, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3204-342X\" />\n<meta name=\"twitter:creator\" content=\"@FertigLab\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@XXX\" />\n<link rel=\"canonical\" href=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"og:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"twitter:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://BIRSBiointegration.github.io/whitePaper/v/d3fa021e6111d46e89a7381cccb38588f4bc03f4/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/d3fa021e6111d46e89a7381cccb38588f4bc03f4/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/d3fa021e6111d46e89a7381cccb38588f4bc03f4/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+date-meta: '2020-07-02'
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"citation_title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"og:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"twitter:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"dc.date\" content=\"2020-07-02\" />\n<meta name=\"citation_publication_date\" content=\"2020-07-02\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Kim-Anh L\xEA Cao\" />\n<meta name=\"citation_author_institution\" content=\"Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3923-1116\" />\n<meta name=\"twitter:creator\" content=\"@mixOmicsTeam\" />\n<meta name=\"citation_author\" content=\"Aedin C Culhane\" />\n<meta name=\"citation_author_institution\" content=\"Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA\" />\n<meta name=\"citation_author_institution\" content=\"Biostatsitics, Harvard TH Chan School of Public Health, Boston, MA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1395-9734\" />\n<meta name=\"twitter:creator\" content=\"@AedinCulhane\" />\n<meta name=\"citation_author\" content=\"Elana Fertig\" />\n<meta name=\"citation_author_institution\" content=\"Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biomedical Engineering, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Applied Mathematics and Statistics, Johns Hopkins University Whiting School of Engineering, Baltimore, MD, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3204-342X\" />\n<meta name=\"twitter:creator\" content=\"@FertigLab\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@XXX\" />\n<link rel=\"canonical\" href=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"og:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"twitter:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://BIRSBiointegration.github.io/whitePaper/v/dadcadd529854ae1876be18366acb7a90f559b8d/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/dadcadd529854ae1876be18366acb7a90f559b8d/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/dadcadd529854ae1876be18366acb7a90f559b8d/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - markdown
 - publishing
@@ -27,10 +27,10 @@ title: Community-wide hackathons establish foundations for emerging single cell 
 
 <small><em>
 This manuscript
-([permalink](https://BIRSBiointegration.github.io/whitePaper/v/d3fa021e6111d46e89a7381cccb38588f4bc03f4/))
+([permalink](https://BIRSBiointegration.github.io/whitePaper/v/dadcadd529854ae1876be18366acb7a90f559b8d/))
 was automatically generated
-from [BIRSBiointegration/whitePaper@d3fa021](https://github.com/BIRSBiointegration/whitePaper/tree/d3fa021e6111d46e89a7381cccb38588f4bc03f4)
-on July 1, 2020.
+from [BIRSBiointegration/whitePaper@dadcadd](https://github.com/BIRSBiointegration/whitePaper/tree/dadcadd529854ae1876be18366acb7a90f559b8d)
+on July 2, 2020.
 </em></small>
 
 ## Authors
@@ -92,46 +92,26 @@ on July 1, 2020.
 
 ## Introduction
 
-### Multi-omics and multi-view single cell technologies
 
-- Do multi-omics answer our biological questions?
+### Comprehensive characterization of biological systems with multi-omics
+ - Single cell community has advanced technologies to enable concurrent processing of biological systems at multiple molecular resolutions
+ - The lack of prior knowledge and gold standard benchmark naturally leads to a data-driven approach
 
-    - Single cell community has naturally adopted a data-driven approach
-    - Helpful to complement with hypothesis-driven and mechanistic-driven
-    approaches
-    - Technological advances will help refine our hypothesis (e.g. multi-modal
-    studies focusing on a set of specific genes)
-    - Can inform how different levels of regulation are influencing each other
+### New single cell multi omics initiatives:
+ - Human Cell Atlas (HCA): assess variation in normal tissues
+ - Brain initiative and Allen Brain
+ - Human Tumor Atlas Network (HTAN): Single-cell, longitudinal, and clinical outcomes atlases of cancer transitions for diverse tumor types. 
 
-
-- State-of-the-art
-
-Brief overview of our three hackathon studies
-
-
-- What do we hope to learn from multi-omics / multi view single cell studies
-
-What bulk TCGA has taught us:
-
+### What bulk multi-omics (e.g. TCGA, ENCODE) have taught us:
  - Type of omics that can answer a specific biological question
  - The value of open resources for methodological developments
  - New hypotheses
 
-New single cell multi omics initiatives:
-
- - Human Cell Atlas (HCA): assess variation in normal tissues
- - Human Tumor Atlas Network (HTAN):
-      Clinical, experimental, computational framework to generate three- dimensional atlases of cancer transitions for diverse tumor types. Single-cell, longitudinal, and clinical outcomes
-
--  Are our technologies ready?
-
-  Do technologies capture the information we want?
-
-  Our hackathons featuring cutting edge technologies have showed that:
-    - Issues with noise and experimental design
-    - Time lag between regulatory levels not addressed and many open questions
-remain (e.g methylation / gene expression)
-    - Direction of regulation not captured
+### Using hackathons to illustrate analysis standards and challenges for capturing biological information from multi-omics technologies 
+ - Brief overview of our three hackathon studies highlighting state of the art challenges (e.g., spatial transcriptomics, cross-study analysis, epigenetic regulation)
+ - Challenges include issues with noise and experimental design, Time lag between regulatory levels not addressed and many open questions
+remain (e.g methylation / gene expression), Direction of regulation not captured
+ - We present our findings from hackathon case studies that helped us obtain benchmarks and define a common language for multi-omics
 
 
 - **Objectives of this paper**
