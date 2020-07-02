@@ -65,9 +65,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/e567631f08b323371b8ba4b2862da242236a81b0/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/e567631f08b323371b8ba4b2862da242236a81b0/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/e567631f08b323371b8ba4b2862da242236a81b0/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/ecd8e30748a30e6e87ac2f42eb14cd085634f046/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/ecd8e30748a30e6e87ac2f42eb14cd085634f046/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/ecd8e30748a30e6e87ac2f42eb14cd085634f046/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -81,9 +81,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/e567631f08b323371b8ba4b2862da242236a81b0/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/ecd8e30748a30e6e87ac2f42eb14cd085634f046/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/e567631f08b323371b8ba4b2862da242236a81b0">BIRSBiointegration/whitePaper@e567631</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/ecd8e30748a30e6e87ac2f42eb14cd085634f046">BIRSBiointegration/whitePaper@ecd8e30</a>
 on July 2, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -188,79 +188,49 @@ remain (e.g methylation / gene expression), Direction of regulation not captured
 <h4 id="challenge-1-defining-genomic-features">Challenge 1: defining genomic features</h4>
 <h4 id="challenge-2-dna-methylation-imputation">Challenge 2: DNA methylation imputation</h4>
 <h4 id="challenge-3-linking-epigenetic-features-chromatin-accessibility-to-gene-expression">Challenge 3: Linking epigenetic features / chromatin accessibility to gene expression</h4>
-<h2 id="overview-of-common-challenges-and-analytical-methods-spanning-technologies-and-hackathon-case-studies">Overview of common challenges and analytical methods spanning technologies and hackathon case studies</h2>
+<h2 id="analytical-approaches-for-hackathons-and-commonalities-for-multi-omics-analysis-illustrated-by-the-series-of-hackathons-figure-5-table-1">Analytical approaches for hackathons and commonalities for multi-omics analysis illustrated by the series of hackathons [Figure 5 + Table 1]</h2>
 <p>Short introduction explaining that we focus here on the common challenges across hackathons</p>
-<h3 id="data-integration">Data integration</h3>
-<h4 id="selection-of-pre-processing-method-andor-variable-selection-for-integration">Selection of pre-processing method and/or variable selection for integration</h4>
+<h3 id="summary-of-hackathon-study-specific-methods">Summary of hackathon study-specific methods</h3>
 <ul>
-<li>Why this is needed and how it was addressed across all hackathons
+<li>Table describes method, foundation in the context of previous bulk and single cell literature, and technology dependence
 <ul>
-<li>Normalization / data transformation (seqFish), pre-processing, gene summaries (scNMT-seq) to variable selection (seqFish), these steps affect the downstream analyses, e.g. Alexis selected 19 genes whereas Zhu original paper based on 47 genes (difference in methods / processed data)</li>
-</ul></li>
-<li>Limitations and further developments required
-<ul>
-<li>No consensus reached as those are emerging data with no ground truth nor established biological results</li>
-<li>Difficulty in reproducing original results (Alexis)</li>
-</ul></li>
-</ul>
-<h4 id="partial-overlap-of-information-cells-features-and-how-to-predict-cell-type-dataset-using-another-data-set">Partial overlap of information (cells / features) and how to predict (cell type, dataset) using another data set</h4>
-<ul>
-<li>Why this is needed
-<ul>
-<li>Common across all studies (seqFish: same features but not cells; scProt: same proteins, not cells but similar patients; scNMT-seq: same cells but not features)</li>
-<li>We need some commonalities to anchor information across datasets</li>
-</ul></li>
-<li>How it was solved across all hackathons:
-<ul>
-<li>See table, in particular Partial feature overlap (but cells not matching) and No cell overlap but some / all feature overlap addressed by participants</li>
-</ul></li>
-<li>Limitations and further developments required
-<ul>
-<li>See table, Partial cell overlap (but no features matching) and No overlap were not addressed</li>
-</ul></li>
-</ul>
-<h4 id="managing-differences-in-scale-and-size">Managing differences in scale and size</h4>
-<ul>
-<li>Why this is needed
-<ul>
-<li>Datasets do not match cells or features.</li>
-<li>scNMTQ-seq: MOFA limitation when # features vary (and size of datasets).</li>
-<li>seqFish: greedy approach to select the best gene subset (Alexis, size); consider batch effect removal method (Amrit, scale)</li>
-</ul></li>
-<li>How it was solved across all hackathons
-<ul>
-<li>See table, projection based methods seem to work best across all studies. Also note that pre-processing was performed (but still large datasets)</li>
-</ul></li>
-<li>Limitations and further developments required
-<ul>
-<li>Additional weighting is needed (e.g. Arora, Abadi).</li>
-</ul></li>
-</ul>
-<h4 id="incorporation-of-existing-knowledge-also-in-future-directions">Incorporation of existing knowledge (also in future directions)</h4>
-<ul>
-<li><p>Why this is needed</p>
-<ul>
-<li>‘From discovery to detection’ (Meuleman + debrief), time is ripe to include more knowledge in our data driven approaches</li>
-</ul></li>
-<li><p>Further developments required</p>
-<ul>
-<li>Better gene ontology and hypothesis generated need to be validated (see debrief)</li>
-</ul></li>
-</ul>
-<h3 id="from-generic-to-study-specific-approaches">From generic to study specific approaches</h3>
-<h4 id="methods-previously-developed-for-bulk-data-that-were-applied-to-single-cell-across-our-hackathons">Methods previously developed for bulk data that were applied to single cell across our hackathons</h4>
-<ul>
-<li>Attempts to tweak existing methods and challenges associated
-<ul>
-<li>See table Generic approaches for supervised analysis / prediction, Study specific methods and Managing differences in scale: most methods were developed for bulk and applied with some tweaks (e.g dealing with missing values, size).</li>
+<li>Attempts to tweak existing methods and challenges associated in hackathons</li>
 <li>List methods that are either technology dependent (e.g. spatial) vs universal and how to choose them</li>
 </ul></li>
 </ul>
-<h4 id="what-do-we-need-for-seamless-methods-extensions-to-single-cell-data">What do we need for seamless methods extensions to single cell data</h4>
+<h3 id="dependence-on-pre-processing-method-andor-variable-selection">Dependence on pre-processing method and/or variable selection</h3>
 <ul>
-<li>Methods that can span technologies</li>
-<li>Benchmark data</li>
-<li>Better software infrastructure for methods benchmark</li>
+<li>These steps are key and affect downstream analyses
+<ul>
+<li>Normalization / data transformation (seqFish), pre-processing, gene summaries (scNMT-seq) to variable selection (seqFish)</li>
+<li>reproducibility difficult / no consensus. e.g. Alexis selected 19 genes whereas Zhu original paper based on 47 genes (difference in methods / processed data)</li>
+</ul></li>
+<li>Hackathon data pre-processed enable better comparisons across methods</li>
+<li>No consensus reached as those are emerging data with no ground truth nor established biological results</li>
+</ul>
+<h3 id="approaches-for-partial-overlap-of-information-cells-features-and-how-to-predict-cell-type-dataset-using-another-data-set">Approaches for partial overlap of information (cells / features) and how to predict (cell type, dataset) using another data set</h3>
+<ul>
+<li>Overlap in each study
+<ul>
+<li>seqFish: same features but not cells; scProt: same proteins, not cells but similar patients; scNMT-seq: same cells but not features</li>
+<li>How it was solved (Table)</li>
+</ul></li>
+<li>Anchoring information across datasets or studies is needed (Figure)</li>
+<li>Incorporation of existing biological knowledge
+<ul>
+<li>‘From discovery to detection’ (Meuleman + debrief), time is ripe to include more knowledge in our data driven approaches</li>
+</ul></li>
+<li>Challenge: Partial cell overlap (but no features matching) and No overlap were not addressed</li>
+</ul>
+<h3 id="managing-differences-in-scale-and-size-for-datasets-that-do-not-match-cells-or-features">Managing differences in scale and size for datasets that do not match cells or features</h3>
+<ul>
+<li>Hackathons datasets did not match cells or features.
+<ul>
+<li>scNMTQ-seq: MOFA limitation when # features vary (and size of datasets).</li>
+<li>seqFish: greedy approach to select the best gene subset (Alexis, size); consider batch effect removal method (Amrit, scale)</li>
+</ul></li>
+<li>Consensus on projection based methods, even if pre-processing was applied (Table)</li>
+<li>Additional weighting is needed (e.g. Arora, Abadi).</li>
 </ul>
 <p><img src="images/Common_challenges.png" alt="Common challenge: partial overlap between multi modal data sets (KA Le Cao)" height="400"/>
 Figure caption:</p>
