@@ -31,6 +31,7 @@ Lê
 Lustgarten
 Matlab
 Meuleman
+mixOmics
 mixOmicsTeam
 nnbm
 Pratheepan

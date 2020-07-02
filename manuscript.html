@@ -65,9 +65,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/5590ad715630e2bf9ab2b9e8cdf1f36e6560bed1/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/5590ad715630e2bf9ab2b9e8cdf1f36e6560bed1/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/5590ad715630e2bf9ab2b9e8cdf1f36e6560bed1/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/e567631f08b323371b8ba4b2862da242236a81b0/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/e567631f08b323371b8ba4b2862da242236a81b0/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/e567631f08b323371b8ba4b2862da242236a81b0/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -81,9 +81,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/5590ad715630e2bf9ab2b9e8cdf1f36e6560bed1/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/e567631f08b323371b8ba4b2862da242236a81b0/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/5590ad715630e2bf9ab2b9e8cdf1f36e6560bed1">BIRSBiointegration/whitePaper@5590ad7</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/e567631f08b323371b8ba4b2862da242236a81b0">BIRSBiointegration/whitePaper@e567631</a>
 on July 2, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -395,6 +395,7 @@ A data container for a multi assay analysis must hold</li>
 <li>The observations of different modalities may not be directly comparable (e.g. RNA may be measured from individual cells but spatial transcriptomics may cover a few cells in the matched area).<br />
 </li>
 <li>In the absence of universal standards, the metadata may vary from analysis to analysis.</li>
+<li>It is crucial that data containers use consistent assay access methods (possibly through methods inheritance. e.g. from <code>SummarizedExperiment</code>). This will ensure less redundancy in development process and allow powerful implementation strategies.</li>
 </ul></li>
 </ul>
 <p>(Note, standard BioC container/class terms may not be correctly used. End of fodder - AS)</p>
@@ -533,6 +534,11 @@ Perhaps one tool to address broader accessibility could be the inclusion an “a
 <td>Shiny app</td>
 <td><a href="https://zouter.shinyapps.io/server/">Dynverse</a></td>
 <td>A comparison of single-cell trajectory inference methods: towards more accurate and robust tools</td>
+</tr>
+<tr class="even">
+<td>R package</td>
+<td><a href="https://github.com/mixOmicsTeam/mixOmics">mixOmics</a></td>
+<td>R toolkit for multivariate analysis of multi-modal data</td>
 </tr>
 </tbody>
 </table>

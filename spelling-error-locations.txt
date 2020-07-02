@@ -17,8 +17,11 @@ content/45.interp-challenges.md:13:Biomart
 content/45.interp-challenges.md:18:tSNE
 content/45.interp-challenges.md:19:Sankaran
 content/45.interp-challenges.md:22:identifiability
-content/60.software.md:79:Matlab
-content/60.software.md:80:Matlab
+content/60.software.md:81:Matlab
+content/60.software.md:82:Matlab
+content/60.software.md:100:mixOmics
+content/60.software.md:100:mixOmics
+content/60.software.md:100:mixOmicsTeam
 content/80.glossary.md:8:gghpmf
 content/80.glossary.md:9:eigenvector
 content/80.glossary.md:10:variates
