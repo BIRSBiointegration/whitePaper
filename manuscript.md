@@ -6,8 +6,8 @@ author-meta:
 - Jane Roe
 bibliography:
 - content/manual-references.json
-date-meta: '2020-07-02'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"citation_title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"og:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"twitter:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"dc.date\" content=\"2020-07-02\" />\n<meta name=\"citation_publication_date\" content=\"2020-07-02\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Kim-Anh L\xEA Cao\" />\n<meta name=\"citation_author_institution\" content=\"Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3923-1116\" />\n<meta name=\"twitter:creator\" content=\"@mixOmicsTeam\" />\n<meta name=\"citation_author\" content=\"Aedin C Culhane\" />\n<meta name=\"citation_author_institution\" content=\"Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA\" />\n<meta name=\"citation_author_institution\" content=\"Biostatsitics, Harvard TH Chan School of Public Health, Boston, MA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1395-9734\" />\n<meta name=\"twitter:creator\" content=\"@AedinCulhane\" />\n<meta name=\"citation_author\" content=\"Elana Fertig\" />\n<meta name=\"citation_author_institution\" content=\"Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biomedical Engineering, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Applied Mathematics and Statistics, Johns Hopkins University Whiting School of Engineering, Baltimore, MD, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3204-342X\" />\n<meta name=\"twitter:creator\" content=\"@FertigLab\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@XXX\" />\n<link rel=\"canonical\" href=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"og:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"twitter:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://BIRSBiointegration.github.io/whitePaper/v/86a230ef43eed604c46fa5ae84dbe47cc66c1472/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/86a230ef43eed604c46fa5ae84dbe47cc66c1472/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/86a230ef43eed604c46fa5ae84dbe47cc66c1472/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+date-meta: '2020-07-03'
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"citation_title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"og:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"twitter:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"dc.date\" content=\"2020-07-03\" />\n<meta name=\"citation_publication_date\" content=\"2020-07-03\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Kim-Anh L\xEA Cao\" />\n<meta name=\"citation_author_institution\" content=\"Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3923-1116\" />\n<meta name=\"twitter:creator\" content=\"@mixOmicsTeam\" />\n<meta name=\"citation_author\" content=\"Aedin C Culhane\" />\n<meta name=\"citation_author_institution\" content=\"Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA\" />\n<meta name=\"citation_author_institution\" content=\"Biostatsitics, Harvard TH Chan School of Public Health, Boston, MA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1395-9734\" />\n<meta name=\"twitter:creator\" content=\"@AedinCulhane\" />\n<meta name=\"citation_author\" content=\"Elana Fertig\" />\n<meta name=\"citation_author_institution\" content=\"Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biomedical Engineering, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Applied Mathematics and Statistics, Johns Hopkins University Whiting School of Engineering, Baltimore, MD, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3204-342X\" />\n<meta name=\"twitter:creator\" content=\"@FertigLab\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@XXX\" />\n<link rel=\"canonical\" href=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"og:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"twitter:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://BIRSBiointegration.github.io/whitePaper/v/2209421a172e417c12db03483660bf9a58063c38/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/2209421a172e417c12db03483660bf9a58063c38/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/2209421a172e417c12db03483660bf9a58063c38/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - markdown
 - publishing
@@ -27,10 +27,10 @@ title: Community-wide hackathons establish foundations for emerging single cell 
 
 <small><em>
 This manuscript
-([permalink](https://BIRSBiointegration.github.io/whitePaper/v/86a230ef43eed604c46fa5ae84dbe47cc66c1472/))
+([permalink](https://BIRSBiointegration.github.io/whitePaper/v/2209421a172e417c12db03483660bf9a58063c38/))
 was automatically generated
-from [BIRSBiointegration/whitePaper@86a230e](https://github.com/BIRSBiointegration/whitePaper/tree/86a230ef43eed604c46fa5ae84dbe47cc66c1472)
-on July 2, 2020.
+from [BIRSBiointegration/whitePaper@2209421](https://github.com/BIRSBiointegration/whitePaper/tree/2209421a172e417c12db03483660bf9a58063c38)
+on July 3, 2020.
 </em></small>
 
 ## Authors
@@ -85,6 +85,175 @@ on July 2, 2020.
      · Funded by XX
   </small>
 
+
+
+## Introduction [Figure 1 outline]
+
+### Comprehensive characterization of biological systems with multi-omics
+ - Single cell community has advanced technologies to enable concurrent processing of biological systems at multiple molecular resolutions
+ - The lack of prior knowledge and gold standard benchmark naturally leads to a data-driven approach
+
+### New single cell multi omics initiatives:
+ - Human Cell Atlas (HCA): assess variation in normal tissues
+ - Brain initiative and Allen Brain
+ - Human Tumor Atlas Network (HTAN): Single-cell, longitudinal, and clinical outcomes atlases of cancer transitions for diverse tumor types. 
+
+### What bulk multi-omics (e.g. TCGA, ENCODE) have taught us:
+ - Type of omics that can answer a specific biological question
+ - The value of open resources for methodological developments
+ - New hypotheses
+
+### Using hackathons to illustrate analysis standards and challenges for capturing biological information from multi-omics technologies 
+ - Brief overview of our three hackathon studies highlighting state of the art challenges (e.g., spatial transcriptomics, cross-study analysis, epigenetic regulation)
+ - Challenges include issues with noise and experimental design, Time lag between regulatory levels not addressed and many open questions
+remain (e.g methylation / gene expression), Direction of regulation not captured
+ - We present our findings from hackathon case studies that helped us obtain benchmarks and define a common language for multi-omics
+
+
+## Hackathon case studies
+
+### scRNA-seq + seqFISH as a case study for spatial transcriptomics [Figure 2 results]
+#### Overview and biological question
+#### Main challenges and how it was overcome by the participants
+- Challenge 1: overlay of scRNA-seq onto seqFISH for resolution enhancement 
+- Challenge 2: determine signatures of cellular co-localization or spatial coordinates in non-spatial scRNA-seq 
+
+
+### Spatial proteomics and cross-study analysis [Figure 3 results]
+#### Overview and biological question
+#### Main challenges and how it was overcome by the participants
+- Challenge 1: address the lack of overlap between proteins across studies
+- Challenge 2: spatial protein expression analysis
+
+### scNMT-seq as a case-study for epigenetic regulation [Figure 4 results], lead: Ricard Argelaguet
+#### Overview and biological question
+#### Main challenges and how it was overcome by the participants
+- Challenge 1: defining genomic features
+- Challenge 2: DNA methylation imputation
+- Challenge 3: Linking epigenetic features / chromatin accessibility to gene expression
+
+
+## Analytical approaches for hackathons and commonalities for multi-omics analysis illustrated by the series of hackathons [Figure 5 + Table 1]
+
+Short introduction explaining that we focus here on the common challenges across hackathons
+
+### Summary of hackathon study-specific methods
+ - Table describes method, foundation in the context of previous bulk and single cell literature, and technology dependence
+    - Attempts to tweak existing methods and challenges associated in hackathons
+    - List methods that are either technology dependent (e.g. spatial) vs universal and how to choose them
+  
+
+### Dependence on pre-processing method and/or variable selection
+- These steps are key and affect downstream analyses
+  - Normalization / data transformation (seqFish), pre-processing, gene summaries (scNMT-seq) to variable selection (seqFish)
+  - reproducibility difficult / no consensus. e.g. Alexis selected 19 genes whereas Zhu original paper based on 47 genes (difference in methods / processed data)
+- Hackathon data pre-processed enable better comparisons across methods
+- No consensus reached as those are emerging data with no ground truth nor established biological results
+
+### Approaches for partial overlap of information (cells / features) and how to predict (cell type, dataset) using another data set
+- Overlap in each study 
+  - seqFish: same features but not cells; scProt: same proteins, not cells but similar patients; scNMT-seq: same cells but not features
+  - How it was solved (Table)
+- Anchoring information across datasets or studies is needed (Figure)
+- Incorporation of existing biological knowledge
+  - ‘From discovery to detection’ (Meuleman + debrief), time is ripe to include more knowledge in our data driven approaches
+- Challenge: Partial cell overlap (but no features matching) and No overlap were not addressed
+
+### Managing differences in scale and size for datasets that do not match cells or features 
+- Hackathons datasets did not match cells or features.
+  - scNMTQ-seq: MOFA limitation when # features vary (and size of datasets).
+  - seqFish: greedy approach to select the best gene subset (Alexis, size); consider batch effect removal method (Amrit, scale)
+ 
+- Consensus on projection based methods, even if pre-processing was applied (Table)
+- Additional weighting is needed (e.g. Arora, Abadi).
+
+
+## Interpretation challenges [Table 2: Glossary of terms]
+
+### Interpretation requires a good understanding of the methods 
+- Glossary needed for communication
+- Incorporation of contiguous information to facilitate interpretation of analytical results 
+- Biological knowledge and incorporation of information from databases are important, including bridges to data bases (KEGG, Gene Ontology, HCA) to validate through complementary data.
+### Visualization tools for interpretation and communication
+- Example: tSNE/ UMAP.
+### Explaining results to biologists through generative models and simulations
+- Example: factor analysis.
+### Issues of over-discretization (premature-summarization) and over-simplification
+- Example: notion of cell-type is insufficient (rare cell types vs. more “continuous” view on cell types).
+- Problem with loss of information in the desire to simplify.
+- Over interpretation / over reliance of graphical outputs
+
+
+## Benchmarking in gold standard datasets [Figure 6, Table 3]
+### Definition of benchmarking
+- Goal 1: recovery of known cell types (processing of raw data, quantification, and clustering) 
+- Goal 2: benchmark methods for their ability to discover known relationships between data modalities, e.g. gene regulatory relationships observed between chromatin accessibility and gene expression (relationships are not fully known at the single cell level).
+### Strategies for benchmarking
+- Simulation useful for known truth, but difficult to simulate realistic covariance structure across features and across data modalities.
+- Benchmarking datasets for single cell studies (Table): limited focus on sequencing depth and diversity of cell types derived from a single assay:
+ground truth for the intended effect of exposure in a proposed study design.
+validation for a data integration task for which a new computational method may be proposed.
+- Multi-modal assays benchmarking: 
+- Design to address biological question (co-embedding, mapping or correlation, and inferring causal relationships). 
+- Design for either data integration or further downstream analyses (e.g. differential analysis)
+- Study design should take into account:
+  - Biological and technical variability via replicates, block design, and randomization.
+  - Power analysis for the intended effect or data integration task.
+  - Dependencies between modalities.
+- Challenge: No universal benchmark data scheme suits every combination of modality, benchmark datasets may be established for commonly used combinations of modalities or technologies, towards specific data integration tasks.
+### Hackathons
+- Cross-validation within study can be performed via Hackathons, e.g. cross-validation analysis of the scNMT-seq dataset using MOFA+
+- Assess if relationships discovered in one dataset present in other datasets, potentially looking across single cell and bulk.
+- Challenge: how to match dimensions of latent space across folds. (examples: permutation or cross-validation to assess model performance)
+
+## Software infrastructure [Figure 7, Table 4]
+### Key questions
+- Q1: How should multimodal single cell data be managed for interactive and batch analyses?
+- Q2: What methods will help software developers create scalable solutions for multimodal single cell analysis?
+- Q3: How can we ensure that visualization methods that are central to multimodal single cell analysis are usable by researchers with visual impairments?
+### Data management strategies
+- Abstract data type with “multiassay experiment”: 
+  - each mode =  different collection of features on possibly non-overlapping collections of samples;  
+  - metadata on features conventionally defined 
+  - metadata on samples include all relevant information on experimental conditions.
+- Data container for a multi assay analysis:  
+  - assays from the same cells, or measurements from distinct cells.
+  - Assay slots containing variables or features from multiple modalities (e.g. gene expression units from scRNA-seq and protein units from sc-proteomics), feature may be multidimensional (e.g. spatial coordinates, locations of eQTLs).
+- Map between the different assays to enable analysis
+### Scalability strategies
+- Reducing barriers to interpretable visualizations
+- Color is a powerful data visualization tool to represent complex and rich scientific data. 
+- Color vision deficiencies affect a substantial portion of the population. Include colorblind friendly visualizations [1] as a default setting in our visualizations
+
+
+## Future directions
+### What do we need for the future computation of multi omics single cell 
+### Upcoming cell atlases technologies
+- What is coming? 
+- how they provide contexts for experimental perturbations
+- How they provide context for novel datasets
+### Unifying analysis goals for new computational methods
+### Moving towards spatiotemporal omics and integration with mathematical models. 
+
+## Figures, Tables and online resources
+### Figures
+- Figure 1: Outline of manuscript (Provided below)
+- Figure 2: scRNA-seq + seqFISH main results
+- Figure 3: scTargeted proteomics main results
+- Figure 4: scNMT-seq main results
+- Figure 5: Illustration of partial overlap between studies (at the cells and / or features level)
+- Figure 6: Within study cross-validation
+- Figure 7: Infrastructure of Giotto package as illustration
+
+### Tables
+- Table 1:  Summary of tasks and methods across all hackathons highlighting methods and common challenges (Provided below)
+- Table 2: Glossary of terms, consensus terms will be used throughout the manuscript
+- Table 3: Benchmarking single cell data sets
+- Table 4: List of single cell analysis software
+
+### Online resources
+- Online resource 1: Three hackathon datasets (github)
+- Online resource 2: R packages with open source reproducible vignettes (12 vignettes)
 
 
 ## Abstract {.page_break_before}

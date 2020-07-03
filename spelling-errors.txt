@@ -1,8 +1,9 @@
 Abadi
-Aedin
+aedin
 AedinCulhane
 Amrit
 Anh
+Argelaguet
 Biomart
 Biostatsitics
 Cao
@@ -38,7 +39,11 @@ Pratheepan
 pre
 qvd
 reproducibility
+Ricard
 Sankaran
+scTargeted
+spatiotemporal
+summarization
 tSNE
 variates
 wrr
