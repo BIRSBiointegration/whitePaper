@@ -40,6 +40,9 @@ content/60.software.md:82:Matlab
 content/60.software.md:100:mixOmics
 content/60.software.md:100:mixOmics
 content/60.software.md:100:mixOmicsTeam
+content/60.software.md:101:autoencoder
+content/60.software.md:101:totalVI
+content/60.software.md:101:variational
 content/80.glossary.md:8:gghpmf
 content/80.glossary.md:9:eigenvector
 content/80.glossary.md:10:variates

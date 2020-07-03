@@ -4,6 +4,7 @@ AedinCulhane
 Amrit
 Anh
 Argelaguet
+autoencoder
 Biomart
 Biostatsitics
 Cao
@@ -44,8 +45,10 @@ Sankaran
 scTargeted
 spatiotemporal
 summarization
+totalVI
 tSNE
 variates
+variational
 wrr
 XXXX
 Zhu
