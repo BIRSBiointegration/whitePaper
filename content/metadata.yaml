@@ -43,6 +43,17 @@ authors:
        - Lustgarten Foundation
        - Emerson Foundation
        - Allegheny Health Network
+  - github: vjcitn
+    name: Vincent J. Carey
+    initials: VJC
+    orcid: 0000-0003-4046-0063
+    email: stvjc@channing.harvard.edu
+    affiliations:
+      - Channing Division of Network Medicine, Brigham and Women's Hospital, Harvard Medical School
+    funders:
+       - National Institutes of Health, National Human Genome Research Institute
+       - National Institutes of Health, National Cancer Institute
+       - Chan-Zuckerberg Initiative
   - github: janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)
     name: Jane Roe
     initials: JR
