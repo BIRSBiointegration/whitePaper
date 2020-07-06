@@ -1,5 +1,5 @@
 Abadi
-aedin
+Aedin
 AedinCulhane
 Amrit
 Anh
@@ -11,11 +11,14 @@ autoencoder
 Biomart
 Biostatsitics
 Cao
+CellProfiler
+cmIF
 cn
 Coullomb
 Craniofacial
 Culhane
 CyTOF
+Cytokit
 discriminative
 DNase
 dqn
@@ -24,6 +27,7 @@ ejfertig
 Elana
 ENet
 Explorator
+Facetto
 Farber
 Fertig
 gcj
@@ -35,6 +39,7 @@ HMRF
 Hsu
 HVG
 identifiability
+ImJoy
 Initative
 janeroe
 Jeganathan
@@ -52,6 +57,7 @@ Meuleman
 mixOmics
 mixOmicsTeam
 modelling
+napari
 NMF
 NN
 nnbm
@@ -60,6 +66,7 @@ novo
 PCA
 Pratheepan
 pre
+QuPath
 qvd
 reproducibility
 Ricard
