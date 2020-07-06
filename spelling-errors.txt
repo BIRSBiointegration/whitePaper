@@ -12,6 +12,7 @@ Biomart
 Biostatsitics
 Cao
 CellProfiler
+Channing
 cmIF
 cn
 Coullomb
@@ -85,6 +86,7 @@ totalVI
 tSNE
 variates
 variational
+vjcitn
 Voronoi
 VSN
 Welch
