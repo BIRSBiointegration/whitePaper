@@ -69,9 +69,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/838ef74501b083c0cb609f039dbd850085b5933c/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/838ef74501b083c0cb609f039dbd850085b5933c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/838ef74501b083c0cb609f039dbd850085b5933c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/46c0d6b29bba1f9b6cdead7d4c98a1853f6944be/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/46c0d6b29bba1f9b6cdead7d4c98a1853f6944be/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/46c0d6b29bba1f9b6cdead7d4c98a1853f6944be/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -85,9 +85,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/838ef74501b083c0cb609f039dbd850085b5933c/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/46c0d6b29bba1f9b6cdead7d4c98a1853f6944be/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/838ef74501b083c0cb609f039dbd850085b5933c">BIRSBiointegration/whitePaper@838ef74</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/46c0d6b29bba1f9b6cdead7d4c98a1853f6944be">BIRSBiointegration/whitePaper@46c0d6b</a>
 on July 16, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -733,14 +733,17 @@ towards specific data integration tasks.</p></li>
 following
 <a href="https://github.com/Wancen/CV-MOFA">cross-validation analysis of the scNMT-seq dataset</a>
 was performed using MOFA+</p>
-<p><img src="images/scNMT_MOFA_CV.png" alt="Cross validation of MOFA+ on scNMT-seq" height="300"/></p>
 <p>A challenge with within study cross-validation is how to
 match dimensions of latent space across folds. (add examples from
 Google Doc of papers that have performed either permutation or
 cross-validation to assess model performance)</p></li>
 <li><p>Cross-study validation would assess if relationships discovered in
 one dataset present in other datasets, potentially looking across
-single cell and bulk.</p></li>
+single cell and bulk.</p>
+<p><strong>Figure</strong> <strong>A)</strong> Silver standard: Svensson et al. (2017) Nat Methods; Wang et al. (2019) bioRxiv; Cole et al. (2019) Cell Systems; Zhang et al. (2017) bioRxiv;
+Soneson et al. (2018) Nat Methods; Saelens et al. (2019) Nat Biotechnol; Gold standard control data: Tian et al. (2019) Nat Meth; Freytag et al. (2018) F1000Res; Gold standard simulated data with the splatter R package appia et al. (2017) Genome Biol [credit: Matt Ritchie] <strong>B)</strong> scNMT-seq study: correlations with linear projections (Sparse mCCA and MOFA(+)) evaluated with cross-validation.</p>
+<p><img src="images/Benchmark.png" alt="Silver and Gold standard benchmarking" height="300"/>
+<img src="images/scNMT_MOFA_CV.png" alt="Cross validation of MOFA+ on scNMT-seq" height="300"/></p></li>
 </ul>
 <h2 id="software-strategies-to-enable-analyses-of-multimodal-single-cell-experiments">Software strategies to enable analyses of multimodal single cell experiments</h2>
 <h3 id="key-questions-1">Key questions</h3>
