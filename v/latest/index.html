@@ -69,9 +69,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/46c0d6b29bba1f9b6cdead7d4c98a1853f6944be/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/46c0d6b29bba1f9b6cdead7d4c98a1853f6944be/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/46c0d6b29bba1f9b6cdead7d4c98a1853f6944be/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/4fa77d7c99f12d80ee914fc7d2f5fd544cbf117b/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/4fa77d7c99f12d80ee914fc7d2f5fd544cbf117b/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/4fa77d7c99f12d80ee914fc7d2f5fd544cbf117b/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -85,9 +85,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/46c0d6b29bba1f9b6cdead7d4c98a1853f6944be/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/4fa77d7c99f12d80ee914fc7d2f5fd544cbf117b/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/46c0d6b29bba1f9b6cdead7d4c98a1853f6944be">BIRSBiointegration/whitePaper@46c0d6b</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/4fa77d7c99f12d80ee914fc7d2f5fd544cbf117b">BIRSBiointegration/whitePaper@4fa77d7</a>
 on July 16, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -423,11 +423,11 @@ Most analyses that were originally developed for scRNAseq data can be immediatel
 <h4 id="challenge-1-defining-genomic-features">Challenge 1: defining genomic features</h4>
 <h4 id="challenge-2-dna-methylation-imputation">Challenge 2: DNA methylation imputation</h4>
 <h4 id="challenge-3-linking-epigenetic-features-chromatin-accessibility-to-gene-expression">Challenge 3: Linking epigenetic features / chromatin accessibility to gene expression</h4>
-<h2 id="analytical-approaches-for-hackathons-and-commonalities-for-multi-omics-analysis-illustrated-by-the-series-of-hackathons-figure-5-table-1-1">Analytical approaches for hackathons and commonalities for multi-omics analysis illustrated by the series of hackathons [Figure 5 + Table 1]</h2>
-<p>Short introduction explaining that we focus here on the common challenges across hackathons</p>
+<h2 id="commonalities-between-analytical-multi-omics-approaches-for-hackathons-figure-5-table-1">Commonalities between analytical multi-omics approaches for hackathons [Figure 5 + Table 1]</h2>
+<p>We summarize the common main challenges faces across all hackathons, and the common approaches adopted to analyse multi-omics single cell data.</p>
 <h3 id="summary-of-hackathon-study-specific-methods-1">Summary of hackathon study-specific methods</h3>
 <ul>
-<li>Table describes method, foundation in the context of previous bulk and single cell literature, and technology dependence
+<li><strong>Table</strong> describes method, foundation in the context of previous bulk and single cell literature, and technology dependence
 <ul>
 <li>Attempts to tweak existing methods and challenges associated in hackathons</li>
 <li>List methods that are either technology dependent (e.g. spatial) vs universal and how to choose them</li>
@@ -467,14 +467,13 @@ Most analyses that were originally developed for scRNAseq data can be immediatel
 <li>Consensus on projection based methods, even if pre-processing was applied (Table)</li>
 <li>Additional weighting is needed (e.g. Arora, Abadi).</li>
 </ul>
-<p><img src="images/summary_fig_person.png" alt="Common challenge: partial overlap between multi modal data sets (KA Le Cao)" height="400"/>
-Figure caption:</p>
-<ol type="A">
-<li>scSpatial: required overlap of features (genes), but cells do not overlap. Cell type prediction for seqFISH data was performed based on scRNA-seq (known) [credit: Amrit Singh / Kris S]</li>
-<li>scProteomics: a small number of features overlap (proteins) but patients and cells do not overlap. Data imputation (?), spatial co-localization or cell type prediction was performed [credit: Lauren Hsu and Pratheepan Jenagan / Kris S]</li>
-<li>scNMT-seq: cells are matching across assays but features do not overlap. Data integration was performed [credit: Al Abadi / Kris S]</li>
-<li>Nor cells nor features are matching [credit: Chen Meng / Kris S]</li>
-</ol>
+<p><img src="images/summary_fig_person.png" alt="Common challenge: partial overlap between multi modal data sets (KA Le Cao)" height="400"/></p>
+<p>Figure caption:
+A) scSpatial: required overlap of features (genes), but cells do not overlap. Cell type prediction for seqFISH data was performed based on scRNA-seq (known) [credit: Amrit Singh / Kris S]
+B) scProteomics: a small number of features overlap (proteins) but patients and cells do not overlap. Data imputation (?), spatial co-localization or cell type prediction was performed [credit: Lauren Hsu and Pratheepan Jenagan / Kris S]
+C) scNMT-seq: cells are matching across assays but features do not overlap. Data integration was performed [credit: Al Abadi / Kris S]
+D) Nor cells nor features are matching [credit: Chen Meng / Kris S]</p>
+<p>Table: Different methods were used in the hackathon. * indicates the method was not applied on the hackathon data. For some common challenges, ‘bulk’ indicates the method was originally developed for bulk omics, ‘sc’ indicates the method was specifically developed specifically for single cell data {#tbl:example-id}</p>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -509,13 +508,13 @@ Figure caption:</p>
 <td class="tg-7euo">
 </td>
 <td class="tg-7euo">
-<span style="font-weight:400;font-style:normal;text-decoration:none">Normalisation, transformations, pre-processing </span>
+<span style="font-weight:700;font-style:normal;text-decoration:none">Normalisation, data transformation, pre-processing </span>
 </td>
 <td class="tg-7euo">
-<span style="font-weight:400;font-style:normal;text-decoration:none">Check data distribution (Coullomb, Singh)</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">HVG (Xu)</span>
+<span style="font-weight:400;font-style:normal;text-decoration:none">Data distribution checks (Coullomb, Singh)</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">HVG (Xu)</span>
 </td>
 <td class="tg-7euo">
-<span style="font-weight:400;font-style:normal;text-decoration:none">Row and column wise, VSN (Meng)</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">Arcsinh transformation (Jeganathan).</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">Inverse transformation (Jenagan)</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">Selection of TN patients (Jenagan)</span>
+<span style="font-weight:400;font-style:normal;text-decoration:none">VSN (Meng)</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">Arcsinh transformation (Jeganathan).</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">Inverse transformation (Jenagan)</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">Selection of patients (Jenagan)</span>
 </td>
 <td class="tg-7euo">
 <span style="font-weight:400;font-style:normal;text-decoration:none">Summaries of DNA measurements (data provided in hackathon)</span><br>
@@ -526,20 +525,20 @@ Figure caption:</p>
 <span style="font-weight:700;font-style:normal;text-decoration:none">Overlap</span>
 </td>
 <td class="tg-c8qn">
-<span style="font-weight:700;font-style:normal;text-decoration:none">Partial feature overlap </span><span style="font-weight:400;font-style:normal;text-decoration:none">(but cells not matching)</span>
+<span style="font-weight:700;font-style:normal;text-decoration:none">Partial feature overlap </span><span style="font-weight:400;font-style:normal;text-decoration:none">(cells not matching)</span>
 </td>
 <td class="tg-7euo">
 </td>
 <td class="tg-c8qn">
-<span style="font-weight:700;font-style:normal;text-decoration:none">Imputation</span><span style="font-weight:400;font-style:normal;text-decoration:none">:</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">Direct inversion latent variable analysis for prediction (Sankaran)</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">Optimal transport to predict protein expression (Lin)</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">KNN averaging (Jenathan<em>)</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">No imputation:</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">Biological Network Interaction (Foster</em>)</span>
+<span style="font-weight:700;font-style:normal;text-decoration:none">Imputation</span><span style="font-weight:400;font-style:normal;text-decoration:none">:</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">Direct inversion with latent variables (Sankaran)</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">Optimal transport to predict protein expression (Lin)</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">KNN averaging (Jenathan<em>)</span><br><span style="font-weight:700;font-style:normal;text-decoration:none">No imputation:</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">Biological Network Interaction (Foster</em>)</span>
 </td>
 <td class="tg-7euo">
-<span style="font-weight:400;font-style:normal;text-decoration:none">Removed</span><br>
+<span style="font-weight:400;font-style:normal;text-decoration:none"> </span><br>
 </td>
 </tr>
 <tr>
 <td class="tg-c8qn">
-<span style="font-weight:700;font-style:normal;text-decoration:none">Partial cell overlap </span><span style="font-weight:400;font-style:normal;text-decoration:none">(but no features matching)</span>
+<span style="font-weight:700;font-style:normal;text-decoration:none">Partial cell overlap </span><span style="font-weight:400;font-style:normal;text-decoration:none">(no features matching)</span>
 </td>
 <td class="tg-7euo">
 </td>
@@ -551,16 +550,16 @@ Figure caption:</p>
 </tr>
 <tr>
 <td class="tg-c8qn">
-<span style="font-weight:700;font-style:normal;text-decoration:none">No cell overlap </span><span style="font-weight:400;font-style:normal;text-decoration:none">but some / all feature overlap</span>
+<span style="font-weight:700;font-style:normal;text-decoration:none">No cell overlap </span><span style="font-weight:400;font-style:normal;text-decoration:none"> (partial or complete feature overlap)</span>
 </td>
 <td class="tg-7euo">
 <span style="font-weight:400;font-style:normal;text-decoration:none">Averaging nearest neighbors in latent space to impute unmeasured expression values (Coullomb?)</span>
 </td>
 <td class="tg-7euo">
-<span style="font-weight:400;font-style:normal;text-decoration:none">Topic modelling to predict cell spatial co-location or spatial expression (Jenathan), partial feature overlap</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">Transfer cell type label with Random Forest (Hsu), all feature overlap?</span>
+<span style="font-weight:400;font-style:normal;text-decoration:none">Topic modelling to predict cell spatial co-location or spatial expression (Jenathan, partial feature overlap)</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">Transfer cell type label with Random Forest (Hsu, complete feature overlap?)</span>
 </td>
 <td class="tg-7euo">
-<span style="font-weight:400;font-style:normal;text-decoration:none">LIGER - NMF (Welch), all feature overlap</span>
+<span style="font-weight:400;font-style:normal;text-decoration:none">LIGER - NMF (Welch, complete feature overlap)</span>
 </td>
 </tr>
 <tr>
@@ -577,7 +576,7 @@ Figure caption:</p>
 </tr>
 <tr>
 <td class="tg-c8qn" rowspan="2">
-<span style="font-weight:700;font-style:normal;text-decoration:none">Generic approaches </span><br><span style="font-weight:400;font-style:italic;text-decoration:none">Distinction btw ‘bulk’ = adapted from bulk omics vs</span><br><span style="font-weight:400;font-style:italic;text-decoration:none">‘Sc’ = developed specifically for single cell</span>
+<span style="font-weight:700;font-style:normal;text-decoration:none">Generic approaches </span>
 </td>
 <td class="tg-c8qn">
 <span style="font-weight:700;font-style:normal;text-decoration:none">Classification &amp; feature selection</span>
@@ -596,7 +595,7 @@ Figure caption:</p>
 <span style="font-weight:700;font-style:normal;text-decoration:none">Cell type prediction</span>
 </td>
 <td class="tg-7euo">
-<span style="font-weight:400;font-style:normal;text-decoration:none">Projections / clustering (Sodicoff*)</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">SVM (Coullomb, Xu)</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">ssEnet (Singh) </span><br><span style="font-weight:400;font-style:normal;text-decoration:none">(all bulk)</span>
+<span style="font-weight:400;font-style:normal;text-decoration:none">Projections and clustering (Sodicoff*)</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">SVM (Coullomb, Xu)</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">ssEnet (Singh) </span><br><span style="font-weight:400;font-style:normal;text-decoration:none">(all bulk)</span>
 </td>
 <td class="tg-7euo">
 </td>
@@ -605,7 +604,7 @@ Figure caption:</p>
 </tr>
 <tr>
 <td class="tg-c8qn">
-<span style="font-weight:700;font-style:normal;text-decoration:none">Study specific approaches</span><br><span style="font-weight:400;font-style:italic;text-decoration:none">Distinction btw ‘bulk’ = adapted from bulk omics vs</span><br><span style="font-weight:400;font-style:italic;text-decoration:none">‘Sc’ = developed specifically for single cell</span>
+<span style="font-weight:700;font-style:normal;text-decoration:none">Study specific approaches</span>
 </td>
 <td class="tg-c8qn">
 <span style="font-weight:700;font-style:normal;text-decoration:none">Spatial analysis</span><br><br><br><br>
@@ -621,10 +620,10 @@ Figure caption:</p>
 </tr>
 <tr>
 <td class="tg-c8qn">
-<span style="font-weight:700;font-style:normal;text-decoration:none">Managing differences in scale</span><br><span style="font-weight:400;font-style:italic;text-decoration:none">Distinction btw ‘bulk’ = adapted from bulk omics vs</span><br><span style="font-weight:400;font-style:italic;text-decoration:none">‘Sc’ = developed specifically for single cell</span>
+<span style="font-weight:700;font-style:normal;text-decoration:none">Managing differences in scale</span><br>
 </td>
 <td class="tg-7euo">
-<span style="font-weight:400;font-style:normal;text-decoration:none">Data integration</span>
+<span style="font-weight:700;font-style:normal;text-decoration:none">Data integration</span>
 </td>
 <td class="tg-7euo">
 <span style="font-weight:400;font-style:normal;text-decoration:none">LIGER - NMF (Sodicoff<em>) (sc)</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">ComBat (Singh</em>)</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">Projection methods MFA, sGCCA (Singh<em>)</span><br><span style="font-weight:400;font-style:normal;text-decoration:none">UMAP / tSNE (Sodicoff</em>) (sc)</span>
@@ -641,7 +640,7 @@ Figure caption:</p>
 <span style="font-weight:700;font-style:normal;text-decoration:none">Inclusion of additional information </span>
 </td>
 <td class="tg-7euo">
-<span style="font-weight:400;font-style:normal;text-decoration:none">Inclusion of additional information </span>
+<span style="font-weight:400;font-style:normal;text-decoration:none"> </span>
 </td>
 <td class="tg-7euo">
 </td>
@@ -654,7 +653,6 @@ Figure caption:</p>
 </tr>
 </tbody>
 </table>
-<p>Table: Different methods were used in the hackathon. {#tbl:example-id}</p>
 <h2 id="challenges-for-interpretation">Challenges for interpretation</h2>
 <h3 id="interpretation-for-quantitative-team-requires-a-good-understanding-of-the-methods-no-black-boxes-a-common-language">Interpretation for quantitative team: requires a good understanding of the methods (no black boxes, a common language)</h3>
 <p>Communicating within the field: what approaches are we talking about, this requires agreement on a glossary (ref: Table1).
