@@ -138,15 +138,17 @@
     "issued": {
       "date-parts": [
         [
-          2019,
-          7,
-          4
+          2020,
+          7
         ]
       ]
     },
     "abstract": "Knowledge on the relationship between different biological modalities (RNA, chromatin, etc.) can help further our understanding of the processes through which biological components interact. The ready availability of multi-omics datasets has led to the development of numerous methods for identifying sources of common variation across biological modalities. However, evaluation of the performance of these methods, in terms of consistency, has been difficult because most methods are unsupervised. We present a comparison of sparse multiple canonical correlation analysis (Sparse mCCA), angle-based joint and individual variation explained (AJIVE) and multi-omics factor analysis (MOFA) using a cross-validation approach to assess overfitting and consistency. Both large and small-sample datasets were used to evaluate performance, and a permuted null dataset was used to identify overfitting through the application of our framework and approach. In the large-sample setting, we found that all methods demonstrated consistency and lack of overfitting; however, in the small-sample size setting, AJIVE provided the most stable results. We provide an R package so that our framework and approach can be applied to evaluate other methods and datasets.",
     "container-title": "Briefings in Bioinformatics",
     "DOI": "10.1093/bib/bbz070",
+    "volume": "21",
+    "issue": "4",
+    "page": "1277-1284",
     "publisher": "Oxford University Press (OUP)",
     "title": "Consistency and overfitting of multi-omics methods on experimental data",
     "URL": "https://doi.org/gghpmf",
