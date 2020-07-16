@@ -65,7 +65,6 @@ Lubeck
 Lustgarten
 Matlab
 MBPCA
-mCCA
 Meng
 Meuleman
 mixOmics

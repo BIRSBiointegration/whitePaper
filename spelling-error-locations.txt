@@ -155,7 +155,6 @@ content/50.benchmarking.md:70:Zhang
 content/50.benchmarking.md:71:appia
 content/50.benchmarking.md:71:Biotechnol
 content/50.benchmarking.md:71:Freytag
-content/50.benchmarking.md:71:mCCA
 content/50.benchmarking.md:71:Ritchie
 content/50.benchmarking.md:71:Saelens
 content/50.benchmarking.md:71:Soneson
