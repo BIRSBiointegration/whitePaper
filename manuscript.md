@@ -8,7 +8,7 @@ author-meta:
 bibliography:
 - content/manual-references.json
 date-meta: '2020-07-17'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"citation_title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"og:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"twitter:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"dc.date\" content=\"2020-07-17\" />\n<meta name=\"citation_publication_date\" content=\"2020-07-17\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Kim-Anh L\xEA Cao\" />\n<meta name=\"citation_author_institution\" content=\"Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3923-1116\" />\n<meta name=\"twitter:creator\" content=\"@mixOmicsTeam\" />\n<meta name=\"citation_author\" content=\"Aedin C Culhane\" />\n<meta name=\"citation_author_institution\" content=\"Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA\" />\n<meta name=\"citation_author_institution\" content=\"Biostatsitics, Harvard TH Chan School of Public Health, Boston, MA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1395-9734\" />\n<meta name=\"twitter:creator\" content=\"@AedinCulhane\" />\n<meta name=\"citation_author\" content=\"Elana Fertig\" />\n<meta name=\"citation_author_institution\" content=\"Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biomedical Engineering, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Applied Mathematics and Statistics, Johns Hopkins University Whiting School of Engineering, Baltimore, MD, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3204-342X\" />\n<meta name=\"twitter:creator\" content=\"@FertigLab\" />\n<meta name=\"citation_author\" content=\"Vincent J. Carey\" />\n<meta name=\"citation_author_institution\" content=\"Channing Division of Network Medicine, Brigham and Women&#39;s Hospital, Harvard Medical School\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4046-0063\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@XXX\" />\n<link rel=\"canonical\" href=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"og:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"twitter:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://BIRSBiointegration.github.io/whitePaper/v/19f4382928433834ccf87e8c0bea0d2c6c29f6e8/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/19f4382928433834ccf87e8c0bea0d2c6c29f6e8/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/19f4382928433834ccf87e8c0bea0d2c6c29f6e8/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"citation_title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"og:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"twitter:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"dc.date\" content=\"2020-07-17\" />\n<meta name=\"citation_publication_date\" content=\"2020-07-17\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Kim-Anh L\xEA Cao\" />\n<meta name=\"citation_author_institution\" content=\"Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3923-1116\" />\n<meta name=\"twitter:creator\" content=\"@mixOmicsTeam\" />\n<meta name=\"citation_author\" content=\"Aedin C Culhane\" />\n<meta name=\"citation_author_institution\" content=\"Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA\" />\n<meta name=\"citation_author_institution\" content=\"Biostatsitics, Harvard TH Chan School of Public Health, Boston, MA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1395-9734\" />\n<meta name=\"twitter:creator\" content=\"@AedinCulhane\" />\n<meta name=\"citation_author\" content=\"Elana Fertig\" />\n<meta name=\"citation_author_institution\" content=\"Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biomedical Engineering, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Applied Mathematics and Statistics, Johns Hopkins University Whiting School of Engineering, Baltimore, MD, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3204-342X\" />\n<meta name=\"twitter:creator\" content=\"@FertigLab\" />\n<meta name=\"citation_author\" content=\"Vincent J. Carey\" />\n<meta name=\"citation_author_institution\" content=\"Channing Division of Network Medicine, Brigham and Women&#39;s Hospital, Harvard Medical School\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4046-0063\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@XXX\" />\n<link rel=\"canonical\" href=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"og:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"twitter:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://BIRSBiointegration.github.io/whitePaper/v/03e8b408e35aff1ecae48bb695074d34574388de/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/03e8b408e35aff1ecae48bb695074d34574388de/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/03e8b408e35aff1ecae48bb695074d34574388de/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - markdown
 - publishing
@@ -28,9 +28,9 @@ title: Community-wide hackathons establish foundations for emerging single cell 
 
 <small><em>
 This manuscript
-([permalink](https://BIRSBiointegration.github.io/whitePaper/v/19f4382928433834ccf87e8c0bea0d2c6c29f6e8/))
+([permalink](https://BIRSBiointegration.github.io/whitePaper/v/03e8b408e35aff1ecae48bb695074d34574388de/))
 was automatically generated
-from [BIRSBiointegration/whitePaper@19f4382](https://github.com/BIRSBiointegration/whitePaper/tree/19f4382928433834ccf87e8c0bea0d2c6c29f6e8)
+from [BIRSBiointegration/whitePaper@03e8b40](https://github.com/BIRSBiointegration/whitePaper/tree/03e8b408e35aff1ecae48bb695074d34574388de)
 on July 17, 2020.
 </em></small>
 
@@ -707,30 +707,30 @@ important to achieving desired goals in this domain.
 * How can we ensure that visualization methods that are central to multimodal single cell analysis
 are usable by researchers with visual impairments?
 
-These questions will ultimately be answered through the creation of a __software ecosystem__.
-As an example of an ecosystem of broad scope, we cite bioconductor.org.  This project
+These questions will ultimately be answered through the creation of a __software ecosystem__[@doi:10.1126/science.aaf6162; @https://chaoss.github.io/grimoirelab/; @http://ceur-ws.org/Vol-987/3.pdf].
+As an example of an ecosystem of broad scope, we cite bioconductor.org [@https://bioconductor.org].  This project
 produces code in R for __data representation and data services__ for many data modalities used
 in genome-scale experimentation.  Bioconductor's resources for achieving __scalability__[@doi:10.1184/R1/6575879.v1] include
-tools for analyzing massive data resources with tunable RAM footprints, and tooling for
-supporting fault-tolerant parallel distributed computing in various cluster and cloud contexts.
+tools for analyzing massive data resources with tunable RAM footprints[@https://bioconductor.org/packages/DelayedArray/], and tooling for
+supporting fault-tolerant parallel distributed computing in various cluster and cloud contexts [@https://bioconductor.org/packages/BiocParallel].
 Finally, Bioconductor supports _developers_ who seek to build broad user bases by providing
-multiplatform/multistream __continuous integration/continuous delivery__ of contributed packages,
+multiplatform/multistream __continuous integration/continuous delivery__ of contributed packages [@https://bioconductor.org/checkResults/],
 and _users_ with different skill sets by articulating standards for documentation, and testing, and
-by hosting community forums and workshops.
+by hosting community forums and workshops[@https://bioconductor.org/support/].
 
 ### Data management strategies
 
 __A ready-to-use integrative data class.__ The Waldron group at City University of New York has defined a Bioconductor
-class implementing an abstract data type called "multiassay experiment".  This is relevant
+class implementing an abstract data type called "multiassay experiment"[@doi:10.1158/0008-5472.CAN-17-0344].  This is relevant
 for multimodal single-cell experiments as each mode will
 be characterized by a different collection of features on possibly non-overlapping collections
 of samples.  Metadata on features is bound directly into the class instance.  For example,
-genes and transcripts are enumerated using Ensembl catalog identifiers, represented as
-GRanges instances; regions of accessibility
-are from ATAC-seq are defined using genomic coordinates in a clearly specified reference build.  Metadata on
+genes and transcripts can be enumerated using Ensembl catalog identifiers, represented as
+GRanges instances[@doi:10.1371/journal.pcbi.1003118]; regions of accessibility
+from, e.g., ATAC-seq experiments, may be defined using genomic coordinates in a clearly specified reference build.  Metadata on
 samples includes all relevant information on experimental conditions such as treatment,
 protocol, and date of technical processing.  Figure {@fig:spatialExpt} shows how this
-class can incorporate results of a seqFISH experiment.
+class can be used to amalgamate and annotate results of a seqFISH experiment.
 
 ![Left: Combination of seqFISH-based SpatialExperiment
 and SingleCellExperiment instances into a MultiAssayExperiment.  Right: details of the SpatialExperiment class design.](images/fusedDataStructures.png){#fig:spatialExpt width="85%"}
@@ -749,33 +749,25 @@ Of note:
 
 * Serializations and data access methods for
     * spatial transcriptomics
-    * scNMT-seq ...
+    * scNMT-seq
+    * other combinations
 
 
 
 
 ### Reducing barriers to interpretable visualizations
 Color is a powerful data visualization tool that helps representing the different dimensions of our increasingly complex and rich scientific data.
-Color vision deficiencies affect a substantial portion of the population.
+Color vision deficiencies affect a substantial portion of the population[@https://tinyurl.com/y4emdyvr].
 Therefore,  it is desirable to aim towards presenting scientific information in a manner that is as accessible as possible for all readers. 
 Color vision deficiency leads to difficulties in perceiving patterns (the basis for the Ishihara's color vision tests) in multi-colored figures.
 In rare cases, the perceived patterns; e.g. in heatmaps and reduced dimension plots, can differ between individuals with normal and color deficient vision.
 
-One strategy to address these issues is to include colorblind friendly visualizations [@https://doi.org/10.1038/nmeth.1618] as a default setting in our visualizations.
-Several colorblind-friendly palettes exist (e.g., see R packages [viridis](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html) and [dittoSeq](https://github.com/dtm2451/dittoSeq)) and can be integrated into data presentation as the default option.
+One strategy to address these issues is to include colorblind friendly visualizations [@https://doi.org/10.1038/nmeth.1618; @doi:10.1038/nmeth0810-573] as a default setting in our visualizations.
+Several colorblind-friendly palettes exist (e.g., see R packages viridis[@https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html] and dittoSeq[@https://github.com/dtm2451/dittoSeq]) and can be integrated into data presentation as the default option.
 Even with these palettes in place, it is desirable to limit the number (about 8-10 at a maximum) of colors in visualizations.
 To reduce the dependence on colors, one solution would be to include additional visual cues to differentiate regions (hatched areas) or cells (point shapes).
 Overall, a broader discussion regarding the accessibility of our figures that is not just limited to color vision deficiencies would be greatly beneficial towards improving data accessibility.
 Perhaps one tool to address broader accessibility could be the inclusion an "accessibility caption" accompanying figures which "guide" the reader's perception of the images.
-
-
-[Reference 1: Color Coding](https://www.nature.com/articles/nmeth0810-573)
-
-[Reference 2: Points of View: Color Blindness](https://www.nature.com/articles/nmeth.1618)
-
-[Viridis Color Palettes](https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html)
-
-[An overview of the issues with impaired color perception](https://www.vwvj.be/sites/default/files/zien/zien_-_uit_voorbije_vorming/kleurzinonderzoekextratips.pdf)
 
 [US Government tools for accessibility](https://accessibility.18f.gov/tools/)
 
