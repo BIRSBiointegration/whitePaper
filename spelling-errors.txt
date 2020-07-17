@@ -1,5 +1,5 @@
 Abadi
-aedin
+Aedin
 AedinCulhane
 Amrit
 Amrith
@@ -76,6 +76,7 @@ NN
 nnbm
 Normalisation
 novo
+overfitting
 PCA
 Pratheepan
 pre
@@ -84,6 +85,7 @@ quantile
 QuPath
 qvd
 reproducibility
+resampling
 Ricard
 Ritchie
 RLQ
