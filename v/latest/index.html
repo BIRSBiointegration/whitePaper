@@ -69,9 +69,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/19f4382928433834ccf87e8c0bea0d2c6c29f6e8/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/19f4382928433834ccf87e8c0bea0d2c6c29f6e8/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/19f4382928433834ccf87e8c0bea0d2c6c29f6e8/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/03e8b408e35aff1ecae48bb695074d34574388de/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/03e8b408e35aff1ecae48bb695074d34574388de/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/03e8b408e35aff1ecae48bb695074d34574388de/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -85,9 +85,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/19f4382928433834ccf87e8c0bea0d2c6c29f6e8/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/03e8b408e35aff1ecae48bb695074d34574388de/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/19f4382928433834ccf87e8c0bea0d2c6c29f6e8">BIRSBiointegration/whitePaper@19f4382</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/03e8b408e35aff1ecae48bb695074d34574388de">BIRSBiointegration/whitePaper@03e8b40</a>
 on July 17, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -780,28 +780,28 @@ important to achieving desired goals in this domain.</p>
 <li>How can we ensure that visualization methods that are central to multimodal single cell analysis
 are usable by researchers with visual impairments?</li>
 </ul>
-<p>These questions will ultimately be answered through the creation of a <strong>software ecosystem</strong>.
-As an example of an ecosystem of broad scope, we cite bioconductor.org. This project
+<p>These questions will ultimately be answered through the creation of a <strong>software ecosystem</strong><span class="citation" data-cites="dwXJ9SC4 102RKxFFz 14np73aSU">[<a href="#ref-dwXJ9SC4" role="doc-biblioref">22</a>,<a href="#ref-102RKxFFz" role="doc-biblioref">23</a>,<a href="#ref-14np73aSU" role="doc-biblioref">24</a>]</span>.
+As an example of an ecosystem of broad scope, we cite bioconductor.org <span class="citation" data-cites="E7tdylV2">[<a href="#ref-E7tdylV2" role="doc-biblioref">25</a>]</span>. This project
 produces code in R for <strong>data representation and data services</strong> for many data modalities used
-in genome-scale experimentation. Bioconductor’s resources for achieving <strong>scalability</strong><span class="citation" data-cites="10Moc29vA">[<a href="#ref-10Moc29vA" role="doc-biblioref">22</a>]</span> include
-tools for analyzing massive data resources with tunable RAM footprints, and tooling for
-supporting fault-tolerant parallel distributed computing in various cluster and cloud contexts.
+in genome-scale experimentation. Bioconductor’s resources for achieving <strong>scalability</strong><span class="citation" data-cites="10Moc29vA">[<a href="#ref-10Moc29vA" role="doc-biblioref">26</a>]</span> include
+tools for analyzing massive data resources with tunable RAM footprints<span class="citation" data-cites="19Kf3KKXT">[<a href="#ref-19Kf3KKXT" role="doc-biblioref">27</a>]</span>, and tooling for
+supporting fault-tolerant parallel distributed computing in various cluster and cloud contexts <span class="citation" data-cites="DxMfDYNc">[<a href="#ref-DxMfDYNc" role="doc-biblioref">28</a>]</span>.
 Finally, Bioconductor supports <em>developers</em> who seek to build broad user bases by providing
-multiplatform/multistream <strong>continuous integration/continuous delivery</strong> of contributed packages,
+multiplatform/multistream <strong>continuous integration/continuous delivery</strong> of contributed packages <span class="citation" data-cites="oRTa5zGU">[<a href="#ref-oRTa5zGU" role="doc-biblioref">29</a>]</span>,
 and <em>users</em> with different skill sets by articulating standards for documentation, and testing, and
-by hosting community forums and workshops.</p>
+by hosting community forums and workshops<span class="citation" data-cites="SkTqlnmn">[<a href="#ref-SkTqlnmn" role="doc-biblioref">30</a>]</span>.</p>
 <h3 id="data-management-strategies">Data management strategies</h3>
 <p><strong>A ready-to-use integrative data class.</strong> The Waldron group at City University of New York has defined a Bioconductor
-class implementing an abstract data type called “multiassay experiment”. This is relevant
+class implementing an abstract data type called “multiassay experiment”<span class="citation" data-cites="gdnUpsQo">[<a href="#ref-gdnUpsQo" role="doc-biblioref">31</a>]</span>. This is relevant
 for multimodal single-cell experiments as each mode will
 be characterized by a different collection of features on possibly non-overlapping collections
 of samples. Metadata on features is bound directly into the class instance. For example,
-genes and transcripts are enumerated using Ensembl catalog identifiers, represented as
-GRanges instances; regions of accessibility
-are from ATAC-seq are defined using genomic coordinates in a clearly specified reference build. Metadata on
+genes and transcripts can be enumerated using Ensembl catalog identifiers, represented as
+GRanges instances<span class="citation" data-cites="14d6Jzwus">[<a href="#ref-14d6Jzwus" role="doc-biblioref">32</a>]</span>; regions of accessibility
+from, e.g., ATAC-seq experiments, may be defined using genomic coordinates in a clearly specified reference build. Metadata on
 samples includes all relevant information on experimental conditions such as treatment,
 protocol, and date of technical processing. Figure <a href="#fig:spatialExpt">1</a> shows how this
-class can incorporate results of a seqFISH experiment.</p>
+class can be used to amalgamate and annotate results of a seqFISH experiment.</p>
 <div id="fig:spatialExpt" class="fignos">
 <figure>
 <img src="images/fusedDataStructures.png" style="width:85.0%" alt="" /><figcaption><span>Figure 1:</span> Left: Combination of seqFISH-based SpatialExperiment
@@ -821,25 +821,22 @@ The MultiAssayExperiment class includes
 <li>Serializations and data access methods for
 <ul>
 <li>spatial transcriptomics</li>
-<li>scNMT-seq …</li>
+<li>scNMT-seq</li>
+<li>other combinations</li>
 </ul></li>
 </ul>
 <h3 id="reducing-barriers-to-interpretable-visualizations">Reducing barriers to interpretable visualizations</h3>
 <p>Color is a powerful data visualization tool that helps representing the different dimensions of our increasingly complex and rich scientific data.
-Color vision deficiencies affect a substantial portion of the population.
+Color vision deficiencies affect a substantial portion of the population<span class="citation" data-cites="x7pNDE94">[<a href="#ref-x7pNDE94" role="doc-biblioref">33</a>]</span>.
 Therefore,  it is desirable to aim towards presenting scientific information in a manner that is as accessible as possible for all readers. 
 Color vision deficiency leads to difficulties in perceiving patterns (the basis for the Ishihara’s color vision tests) in multi-colored figures.
 In rare cases, the perceived patterns; e.g. in heatmaps and reduced dimension plots, can differ between individuals with normal and color deficient vision.</p>
-<p>One strategy to address these issues is to include colorblind friendly visualizations <span class="citation" data-cites="11uDSb0Nf">[<a href="#ref-11uDSb0Nf" role="doc-biblioref">23</a>]</span> as a default setting in our visualizations.
-Several colorblind-friendly palettes exist (e.g., see R packages <a href="https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html">viridis</a> and <a href="https://github.com/dtm2451/dittoSeq">dittoSeq</a>) and can be integrated into data presentation as the default option.
+<p>One strategy to address these issues is to include colorblind friendly visualizations <span class="citation" data-cites="11uDSb0Nf Ecm3XS4">[<a href="#ref-11uDSb0Nf" role="doc-biblioref">34</a>,<a href="#ref-Ecm3XS4" role="doc-biblioref">35</a>]</span> as a default setting in our visualizations.
+Several colorblind-friendly palettes exist (e.g., see R packages viridis<span class="citation" data-cites="lLv68Zzx">[<a href="#ref-lLv68Zzx" role="doc-biblioref">36</a>]</span> and dittoSeq<span class="citation" data-cites="19usrpNlS">[<a href="#ref-19usrpNlS" role="doc-biblioref">37</a>]</span>) and can be integrated into data presentation as the default option.
 Even with these palettes in place, it is desirable to limit the number (about 8-10 at a maximum) of colors in visualizations.
 To reduce the dependence on colors, one solution would be to include additional visual cues to differentiate regions (hatched areas) or cells (point shapes).
 Overall, a broader discussion regarding the accessibility of our figures that is not just limited to color vision deficiencies would be greatly beneficial towards improving data accessibility.
 Perhaps one tool to address broader accessibility could be the inclusion an “accessibility caption” accompanying figures which “guide” the reader’s perception of the images.</p>
-<p><a href="https://www.nature.com/articles/nmeth0810-573">Reference 1: Color Coding</a></p>
-<p><a href="https://www.nature.com/articles/nmeth.1618">Reference 2: Points of View: Color Blindness</a></p>
-<p><a href="https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html">Viridis Color Palettes</a></p>
-<p><a href="https://www.vwvj.be/sites/default/files/zien/zien_-_uit_voorbije_vorming/kleurzinonderzoekextratips.pdf">An overview of the issues with impaired color perception</a></p>
 <p><a href="https://accessibility.18f.gov/tools/">US Government tools for accessibility</a></p>
 <h3 id="details-of-working-components-trimmed">Details of working components – trimmed</h3>
 <p>you can interact with underlying data at <a href="https://docs.google.com/spreadsheets/d/1tSUQ9iDKqq72TB9G3Cx1evg2sekS-ytx5wRXDv6vxfg/edit?usp=sharing">google sheet</a></p>
@@ -1059,25 +1056,25 @@ reports can be generated for enhanced efficiency and portability, respectively.<
 <td>contributions</td>
 <td>variable weights, loadings, eigenvector, axis, direction, dimension, coefficients, slopes</td>
 <td>Contributions of the original variables in constructing the components.</td>
-<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">15</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">24</a></span></td>
+<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">15</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">38</a></span></td>
 </tr>
 <tr class="even">
 <td>latent factors</td>
 <td>variates, scores, projections, components, latent/hidden/unobserved variables/factors</td>
 <td>Weighted linear combinations of the original variables.</td>
-<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">15</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">24</a></span></td>
+<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">15</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">38</a></span></td>
 </tr>
 <tr class="odd">
 <td>multimodal</td>
 <td>Multiview, multiway arrays, multimodal, multidomain, multiblock, multitable, multi-omics, multi-source data analysis methods, N-integration</td>
 <td>Methods pertaining to the analysis of multiple data matrices for the same set of observations.</td>
-<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">15</a></span>, <span class="citation" data-cites="nhuT45y5"><a href="#ref-nhuT45y5" role="doc-biblioref">25</a></span>, <span class="citation" data-cites="2SDWXiwB"><a href="#ref-2SDWXiwB" role="doc-biblioref">26</a></span></td>
+<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">15</a></span>, <span class="citation" data-cites="nhuT45y5"><a href="#ref-nhuT45y5" role="doc-biblioref">39</a></span>, <span class="citation" data-cites="2SDWXiwB"><a href="#ref-2SDWXiwB" role="doc-biblioref">40</a></span></td>
 </tr>
 <tr class="even">
 <td>conjoint analysis</td>
 <td>conjoint analysis, P-integration, meta-analysis, multigroup data analysis</td>
 <td>Methods pertaining to the analysis of multiple data matrices for the same set of variables.</td>
-<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">15</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">24</a></span>, <span class="citation" data-cites="UqaGRGDg"><a href="#ref-UqaGRGDg" role="doc-biblioref">27</a></span></td>
+<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">15</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">38</a></span>, <span class="citation" data-cites="UqaGRGDg"><a href="#ref-UqaGRGDg" role="doc-biblioref">41</a></span></td>
 </tr>
 <tr class="odd">
 <td>variable</td>
@@ -1089,13 +1086,13 @@ reports can be generated for enhanced efficiency and portability, respectively.<
 <td>biomarker</td>
 <td>marker, biomarker</td>
 <td>A variable that is associated with normal or disease processes, or responses to exposures, or interventions. Any change in this variable is also associated with a change in the associated clinical outcome. These variables may be used for diagnostic, monitoring, Pharmacodynamic responses. Examples include LDL cholesterol, CD4 counts, hemoglobin A1C.</td>
-<td><span class="citation" data-cites="AtapBaNb"><a href="#ref-AtapBaNb" role="doc-biblioref">28</a></span></td>
+<td><span class="citation" data-cites="AtapBaNb"><a href="#ref-AtapBaNb" role="doc-biblioref">42</a></span></td>
 </tr>
 <tr class="odd">
 <td>panel</td>
 <td>biomarker panel, biomarker signature</td>
 <td>A subset of the originally measured variables that are determined to be associated with the outcome or response variable. This may be determined using statistical inference, feature selection methods, or machine/statistical learning.</td>
-<td><span class="citation" data-cites="17aD4MFPS"><a href="#ref-17aD4MFPS" role="doc-biblioref">29</a></span>, <span class="citation" data-cites="XWx8RAwW"><a href="#ref-XWx8RAwW" role="doc-biblioref">30</a></span></td>
+<td><span class="citation" data-cites="17aD4MFPS"><a href="#ref-17aD4MFPS" role="doc-biblioref">43</a></span>, <span class="citation" data-cites="XWx8RAwW"><a href="#ref-XWx8RAwW" role="doc-biblioref">44</a></span></td>
 </tr>
 <tr class="even">
 <td>observation</td>
@@ -1235,56 +1232,116 @@ Benjamin Haibe-Kains, Christine Desmedt, Sherene Loi, Aedin C. Culhane, Gianluca
 <em>JNCI: Journal of the National Cancer Institute</em> (2012-02-22) <a href="https://doi.org/fzb27r">https://doi.org/fzb27r</a> <br />
 DOI: <a href="https://doi.org/10.1093/jnci/djr545">10.1093/jnci/djr545</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/22262870">22262870</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3283537">PMC3283537</a></p>
 </div>
+<div id="ref-dwXJ9SC4">
+<p>22. <strong>A federated ecosystem for sharing genomic, clinical data</strong> <br />
+The Global Alliance for Genomics and Health<br />
+<em>Science</em> (2016-06-09) <a href="https://doi.org/ggctm3">https://doi.org/ggctm3</a> <br />
+DOI: <a href="https://doi.org/10.1126/science.aaf6162">10.1126/science.aaf6162</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27284183">27284183</a></p>
+</div>
+<div id="ref-102RKxFFz">
+<p>23. <strong>GrimoireLab - Software Development and Community Analytics platform</strong> <a href="https://chaoss.github.io/grimoirelab/">https://chaoss.github.io/grimoirelab/</a></p>
+</div>
+<div id="ref-14np73aSU">
+<p>24. <a href="http://ceur-ws.org/Vol-987/3.pdf">http://ceur-ws.org/Vol-987/3.pdf</a></p>
+</div>
+<div id="ref-E7tdylV2">
+<p>25. <strong>Bioconductor - Home</strong> <a href="https://bioconductor.org/">https://bioconductor.org/</a></p>
+</div>
 <div id="ref-10Moc29vA">
-<p>22. <strong>On System Scalability</strong> <br />
+<p>26. <strong>On System Scalability</strong> <br />
 Charles B. Weinstock, John Goodenough<br />
 <em>Figshare</em> (2018) <a href="https://doi.org/gg47cw">https://doi.org/gg47cw</a> <br />
 DOI: <a href="https://doi.org/10.1184/r1/6575879.v1">10.1184/r1/6575879.v1</a></p>
 </div>
+<div id="ref-19Kf3KKXT">
+<p>27. <strong>DelayedArray: A unified framework for working transparently with on-disk and in-memory array-like datasets</strong> <br />
+Hervé Pagès <hpages>at fredhutch.org&gt;, with contributions from Peter Hickey <peter>hickey at gmail.com&gt;, Aaron Lun <infinite>monkeys with keyboards at gmail.com&gt;<br />
+<em>Bioconductor version: Release (3.11)</em> (2020) <a href="https://bioconductor.org/packages/DelayedArray/">https://bioconductor.org/packages/DelayedArray/</a></p>
+</div>
+<div id="ref-DxMfDYNc">
+<p>28. <strong>BiocParallel: Bioconductor facilities for parallel evaluation</strong> <br />
+Bioconductor Package Maintainer, Martin Morgan, Valerie Obenchain, Michel Lang, Ryan Thompson, Nitesh Turaga<br />
+<em>Bioconductor version: Release (3.11)</em> (2020) <a href="https://bioconductor.org/packages/BiocParallel/">https://bioconductor.org/packages/BiocParallel/</a></p>
+</div>
+<div id="ref-oRTa5zGU">
+<p>29. <strong>Bioconductor build/check results</strong> <a href="https://bioconductor.org/checkResults/">https://bioconductor.org/checkResults/</a></p>
+</div>
+<div id="ref-SkTqlnmn">
+<p>30. <a href="https://bioconductor.org/support">https://bioconductor.org/support</a></p>
+</div>
+<div id="ref-gdnUpsQo">
+<p>31. <strong>Software for the Integration of Multiomics Experiments in Bioconductor</strong> <br />
+Marcel Ramos, Lucas Schiffer, Angela Re, Rimsha Azhar, Azfar Basunia, Carmen Rodriguez, Tiffany Chan, Phil Chapman, Sean R. Davis, David Gomez-Cabrero, … Levi Waldron<br />
+<em>Cancer Research</em> (2017-10-31) <a href="https://doi.org/gcj278">https://doi.org/gcj278</a> <br />
+DOI: <a href="https://doi.org/10.1158/0008-5472.can-17-0344">10.1158/0008-5472.can-17-0344</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29092936">29092936</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5679241">PMC5679241</a></p>
+</div>
+<div id="ref-14d6Jzwus">
+<p>32. <strong>Software for Computing and Annotating Genomic Ranges</strong> <br />
+Michael Lawrence, Wolfgang Huber, Hervé Pagès, Patrick Aboyoun, Marc Carlson, Robert Gentleman, Martin T. Morgan, Vincent J. Carey<br />
+<em>PLoS Computational Biology</em> (2013-08-08) <a href="https://doi.org/f5cmfg">https://doi.org/f5cmfg</a> <br />
+DOI: <a href="https://doi.org/10.1371/journal.pcbi.1003118">10.1371/journal.pcbi.1003118</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23950696">23950696</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3738458">PMC3738458</a></p>
+</div>
+<div id="ref-x7pNDE94">
+<p>33. <a href="https://tinyurl.com/y4emdyvr">https://tinyurl.com/y4emdyvr</a></p>
+</div>
 <div id="ref-11uDSb0Nf">
-<p>23. <strong>Points of view: Color blindness</strong> <br />
+<p>34. <strong>Points of view: Color blindness</strong> <br />
 Bang Wong<br />
 <em>Nature Methods</em> (2011-06-01) <a href="https://www.nature.com/articles/nmeth.1618">https://www.nature.com/articles/nmeth.1618</a> <br />
 DOI: <a href="https://doi.org/10.1038/nmeth.1618">10.1038/nmeth.1618</a></p>
 </div>
+<div id="ref-Ecm3XS4">
+<p>35. <strong>Color coding</strong> <br />
+Bang Wong<br />
+<em>Nature Methods</em> (2010-08) <a href="https://doi.org/dhm3mz">https://doi.org/dhm3mz</a> <br />
+DOI: <a href="https://doi.org/10.1038/nmeth0810-573">10.1038/nmeth0810-573</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/20704014">20704014</a></p>
+</div>
+<div id="ref-lLv68Zzx">
+<p>36. <strong>The viridis color palettes</strong> <a href="https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html">https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html</a></p>
+</div>
+<div id="ref-19usrpNlS">
+<p>37. <strong>dtm2451/dittoSeq</strong> <br />
+Daniel Bunis<br />
+(2020-06-20) <a href="https://github.com/dtm2451/dittoSeq">https://github.com/dtm2451/dittoSeq</a></p>
+</div>
 <div id="ref-18fTyQGoG">
-<p>24. <strong>Multivariate analysis of multiblock and multigroup data</strong> <br />
+<p>38. <strong>Multivariate analysis of multiblock and multigroup data</strong> <br />
 A. Eslami, E. M. Qannari, A. Kohler, S. Bougeard<br />
 <em>Chemometrics and Intelligent Laboratory Systems</em> (2014-04) <a href="https://doi.org/f52wrr">https://doi.org/f52wrr</a> <br />
 DOI: <a href="https://doi.org/10.1016/j.chemolab.2014.01.016">10.1016/j.chemolab.2014.01.016</a></p>
 </div>
 <div id="ref-nhuT45y5">
-<p>25. <strong>Multitable Methods for Microbiome Data Integration</strong> <br />
+<p>39. <strong>Multitable Methods for Microbiome Data Integration</strong> <br />
 Kris Sankaran, Susan P. Holmes<br />
 <em>Frontiers in Genetics</em> (2019-08-28) <a href="https://doi.org/gf8dqn">https://doi.org/gf8dqn</a> <br />
 DOI: <a href="https://doi.org/10.3389/fgene.2019.00627">10.3389/fgene.2019.00627</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31555316">31555316</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6724662">PMC6724662</a></p>
 </div>
 <div id="ref-2SDWXiwB">
-<p>26. <strong>Dimension reduction techniques for the integrative analysis of multi-omics data</strong> <br />
+<p>40. <strong>Dimension reduction techniques for the integrative analysis of multi-omics data</strong> <br />
 Chen Meng, Oana A. Zeleznik, Gerhard G. Thallinger, Bernhard Kuster, Amin M. Gholami, Aedín C. Culhane<br />
 <em>Briefings in Bioinformatics</em> (2016-07) <a href="https://doi.org/f83qvd">https://doi.org/f83qvd</a> <br />
 DOI: <a href="https://doi.org/10.1093/bib/bbv108">10.1093/bib/bbv108</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26969681">26969681</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4945831">PMC4945831</a></p>
 </div>
 <div id="ref-UqaGRGDg">
-<p>27. <strong>Robust meta-analysis of gene expression using the elastic net</strong> <br />
+<p>41. <strong>Robust meta-analysis of gene expression using the elastic net</strong> <br />
 Jacob J. Hughey, Atul J. Butte<br />
 <em>Nucleic Acids Research</em> (2015-07-13) <a href="https://doi.org/f7nnbm">https://doi.org/f7nnbm</a> <br />
 DOI: <a href="https://doi.org/10.1093/nar/gkv229">10.1093/nar/gkv229</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25829177">25829177</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4499117">PMC4499117</a></p>
 </div>
 <div id="ref-AtapBaNb">
-<p>28. <strong>Biomarker definitions and their applications</strong> <br />
+<p>42. <strong>Biomarker definitions and their applications</strong> <br />
 Robert M Califf<br />
 <em>Experimental Biology and Medicine</em> (2018-02-06) <a href="https://doi.org/gcxh8n">https://doi.org/gcxh8n</a> <br />
 DOI: <a href="https://doi.org/10.1177/1535370217750088">10.1177/1535370217750088</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29405771">29405771</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5813875">PMC5813875</a></p>
 </div>
 <div id="ref-17aD4MFPS">
-<p>29. <strong>Biomarker signatures of aging</strong> <br />
+<p>43. <strong>Biomarker signatures of aging</strong> <br />
 Paola Sebastiani, Bharat Thyagarajan, Fangui Sun, Nicole Schupf, Anne B. Newman, Monty Montano, Thomas T. Perls<br />
 <em>Aging Cell</em> (2017-04) <a href="https://doi.org/d2cm">https://doi.org/d2cm</a> <br />
 DOI: <a href="https://doi.org/10.1111/acel.12557">10.1111/acel.12557</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28058805">28058805</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5334528">PMC5334528</a></p>
 </div>
 <div id="ref-XWx8RAwW">
-<p>30. <strong>Biomarker Panels in Critical Care</strong> <br />
+<p>44. <strong>Biomarker Panels in Critical Care</strong> <br />
 Susan R. Conway, Hector R. Wong<br />
 <em>Critical Care Clinics</em> (2020-01) <a href="https://doi.org/d2cn">https://doi.org/d2cn</a> <br />
 DOI: <a href="https://doi.org/10.1016/j.ccc.2019.08.007">10.1016/j.ccc.2019.08.007</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31733684">31733684</a></p>
