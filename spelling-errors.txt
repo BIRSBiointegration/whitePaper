@@ -1,5 +1,5 @@
 Abadi
-aedin
+Aedin
 AedinCulhane
 Amrit
 Amrith
@@ -10,6 +10,7 @@ Arcsinh
 Arora
 autocorrelation
 autoencoder
+Bioconductor’s
 Biomart
 bioRxiv
 Biostatsitics
@@ -70,6 +71,8 @@ Meuleman
 mixOmics
 mixOmicsTeam
 modelling
+multiplatform
+multistream
 napari
 NMF
 NN
@@ -111,6 +114,7 @@ Tian
 totalVI
 transcriptomic
 tSNE
+tunable
 UMI
 variates
 variational
