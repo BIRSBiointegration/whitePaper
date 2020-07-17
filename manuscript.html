@@ -69,9 +69,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/a2a462f4b5d5a5d51c568f8e10db526b13a8d573/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/a2a462f4b5d5a5d51c568f8e10db526b13a8d573/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/a2a462f4b5d5a5d51c568f8e10db526b13a8d573/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/4de90b8a8ab35f01a555208db6e74828bf3060fa/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/4de90b8a8ab35f01a555208db6e74828bf3060fa/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/4de90b8a8ab35f01a555208db6e74828bf3060fa/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -85,9 +85,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/a2a462f4b5d5a5d51c568f8e10db526b13a8d573/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/4de90b8a8ab35f01a555208db6e74828bf3060fa/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/a2a462f4b5d5a5d51c568f8e10db526b13a8d573">BIRSBiointegration/whitePaper@a2a462f</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/4de90b8a8ab35f01a555208db6e74828bf3060fa">BIRSBiointegration/whitePaper@4de90b8</a>
 on July 17, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -791,8 +791,7 @@ multiplatform/multistream <strong>continuous integration/continuous delivery</st
 and <em>users</em> with different skill sets by articulating standards for documentation, and testing, and
 by hosting community forums and workshops.</p>
 <h3 id="data-management-strategies">Data management strategies</h3>
-<ul>
-<li>The Waldron group at City University of New York has defined a Bioconductor
+<p><strong>A ready-to-use integrative data class.</strong> The Waldron group at City University of New York has defined a Bioconductor
 class implementing an abstract data type called “multiassay experiment”. This is relevant
 for multimodal single-cell experiments as each mode will
 be characterized by a different collection of features on possibly non-overlapping collections
@@ -802,40 +801,22 @@ GRanges instances; regions of accessibility
 are from ATAC-seq are defined using genomic coordinates in a clearly specified reference build. Metadata on
 samples includes all relevant information on experimental conditions such as treatment,
 protocol, and date of technical processing. Figure <a href="#fig:spatialExpt">1</a> shows how this
-class can incorporate results of a seqFISH experiment.</li>
-</ul>
+class can incorporate results of a seqFISH experiment.</p>
 <div id="fig:spatialExpt" class="fignos">
 <figure>
-<img src="images/fusedDataStructures.png" alt="" /><figcaption><span>Figure 1:</span> Left: SpatialExperiment class design schematic. Right: Combination of SpatialExperiment
-and SingleCellExperiment instances into a MultiAssayExperiment.</figcaption>
+<img src="images/fusedDataStructures.png" alt="" /><figcaption><span>Figure 1:</span> Left: Combination of seqFISH-based SpatialExperiment
+and SingleCellExperiment instances into a MultiAssayExperiment. Right: details of the SpatialExperiment class design.</figcaption>
 </figure>
 </div>
-<p>(More fodder-AS)</p>
-<p><strong>Key points:</strong>
-1) What do we want to store and share? Data object vs analysis object. How would the design change based on what is stored?
-2) Do we need a flexible, universal framework (e.g. MAE) or an experiment class for every possible combination of modalities or technologies?
-3) Do we have adequate data representation for all “assays”?</p>
-<ul>
-<li>Multi-modal single cell data may consist of multi-assay measurements from the same cell (e.g. CITE-seq, sci-CAR) or integration of multi-assay measurements from distinct cells from the same or distinct starting samples. A sample here refers to the biological specimen of origin (tissue A from individual X).
-A data container for a multi assay analysis must hold</li>
-</ul>
-<ol type="1">
-<li>Assay slots containing variables or features from multiple modalities (e.g. gene expression units from scRNA-seq and protein units from sc-proteomics). In some cases, the feature may be multidimensional (e.g. spatial coordinates, locations of eQTLs).</li>
-<li>Observations or cell identities</li>
-<li>Metadata for sample of origin for the individual cells, e.g. study, center, phenotype, perturbation.</li>
-<li>A map between the different assays to enable analysis</li>
-</ol>
-<ul>
-<li>The MAE is such a Bioconductor container for overlapping observations, and may serve as a starting point for further expansion. Besides the primary data elements for storing “data objects”, the summarizedExperiment class offers attributes and Methods for storing results of analysis, as an “analysis object”.
-<ul>
-<li>While common assays such as RNA-seq and ATAC-seq have well-defined data representations (e.g. transcript names), data representation need to be defined newer assays, which may need multiple dimensions for adequate definition (e.g. x, y, z coordinates for images).</li>
-<li>The observations of different modalities may not be directly comparable (e.g. RNA may be measured from individual cells but spatial transcriptomics may cover a few cells in the matched area).<br />
-</li>
-<li>In the absence of universal standards, the metadata may vary from analysis to analysis.</li>
-<li>It is crucial that data containers use consistent assay access methods (possibly through methods inheritance. e.g. from <code>SummarizedExperiment</code>). This will ensure less redundancy in development process and allow powerful implementation strategies.</li>
-</ul></li>
-</ul>
-<p>(Note, standard BioC container/class terms may not be correctly used. End of fodder - AS)</p>
+<p>Multi-modal single cell data may consist of multi-assay measurements from the same cell (e.g. CITE-seq, sci-CAR) or integration of multi-assay measurements from distinct cells from the same or distinct starting samples. A sample here refers to the biological specimen of origin (tissue A from individual X).
+The MultiAssayExperiment class includes
+1) Assay slots containing variables or features from multiple modalities (e.g. gene expression units from scRNA-seq and protein units from sc-proteomics). In some cases, the feature may be multidimensional (e.g. spatial coordinates, locations of eQTLs).
+2) Metadata for sample of origin for the individual cells, e.g. study, center, phenotype, perturbation.
+3) A map between the different assays to enable analysis</p>
+<p>Of note:
+- The observations of different modalities may not be directly comparable (e.g. RNA may be measured from individual cells but spatial transcriptomics may cover a few cells in the matched area).<br />
+- In the absence of universal standards, the metadata may vary from analysis to analysis.
+- It is crucial that data containers use consistent assay access methods (possibly through methods inheritance. e.g. from <code>SummarizedExperiment</code>). This will ensure less redundancy in development process and allow powerful implementation strategies.</p>
 <ul>
 <li>Serializations and data access methods for
 <ul>
@@ -843,9 +824,6 @@ A data container for a multi assay analysis must hold</li>
 <li>scNMT-seq …</li>
 </ul></li>
 </ul>
-<h3 id="scalability-strategies">Scalability strategies</h3>
-<h4 id="an-overview-of-our-suggested-approach-for-compilation-of-the-hackathon-contributions">An overview of our suggested approach for compilation of the hackathon contributions</h4>
-<p>The contributed challenge analyses as well as the used datasets may be collated into software packages which include their specific dependencies. In such a setting, the analysis packages can simply use the corresponding dataset package(s) as a dependency. Additionally, if the challenge datasets have undergone preprocessing it is essential that all the preprocessing steps are outlined and made available in the dataset packages. This will facilitate transparency and analysis reproducibility, as well as allow Continuous Integration (CI) of the analyses and preprocessing changes and Continuous Delivery (CD) of the analysis reports. The CI/CD workflow may also be automated on a hosted server and containerized reports can be generated for enhanced efficiency and portability, respectively.</p>
 <h3 id="reducing-barriers-to-interpretable-visualizations">Reducing barriers to interpretable visualizations</h3>
 <p>Color is a powerful data visualization tool that helps representing the different dimensions of our increasingly complex and rich scientific data.
 Color vision deficiencies affect a substantial portion of the population.
@@ -1021,7 +999,16 @@ Perhaps one tool to address broader accessibility could be the inclusion an “a
 </tr>
 </tbody>
 </table>
-<p><img src="images/fusedDataStructures.png" height="500" alt="data structure schemata"/></p>
+<h3 id="scalability-strategies">Scalability strategies</h3>
+<h3 id="connecting-the-hackathon-activities-to-the-longer-term-software-strategy-for-multimodal-single-cell-experiments">Connecting the hackathon activities to the longer-term software strategy for multimodal single-cell experiments</h3>
+<p>The contributed challenge analyses as well as the used datasets may be collated into software packages
+which include their specific dependencies. In such a setting, the analysis packages can simply use the
+corresponding dataset package(s) as a dependency. Additionally, if the challenge datasets have undergone
+preprocessing it is essential that all the preprocessing steps are outlined and made available in the
+dataset packages. This will facilitate transparency and analysis reproducibility, as well as allow
+Continuous Integration (CI) of the analyses and preprocessing changes and Continuous Delivery (CD)
+of the analysis reports. The CI/CD workflow may also be automated on a hosted server and containerized
+reports can be generated for enhanced efficiency and portability, respectively.</p>
 <h2 id="discussion">Discussion</h2>
 <h3 id="emerging-analytical-methods-and-technologies">Emerging analytical methods and technologies</h3>
 <h3 id="community-needs-for-data-structures-analysis-methods-etc">Community needs for data structures, analysis methods, etc</h3>
@@ -1227,7 +1214,7 @@ DOI: <a href="https://doi.org/10.1093/bib/bbz070">10.1093/bib/bbz070</a> · PMID
 <div id="ref-4CvJHFCU">
 <p>18. <strong>Bootstrapping cluster analysis: Assessing the reliability of conclusions from microarray experiments</strong> <br />
 M. K. Kerr, G. A. Churchill<br />
-<em>Proceedings of the National Academy of Sciences</em> (2001-07-24) <a href="https://doi.org/cgpp6p">https://doi.org/cgpp6p</a> <br />
+<em>Proceedings of the National Academy of Sciences</em> (2001-07-31) <a href="https://doi.org/cgpp6p">https://doi.org/cgpp6p</a> <br />
 DOI: <a href="https://doi.org/10.1073/pnas.161273698">10.1073/pnas.161273698</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/11470909">11470909</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC55356">PMC55356</a></p>
 </div>
 <div id="ref-QfQVcW0v">
