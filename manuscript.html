@@ -69,9 +69,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/c48315e8b4318c854ec6ce60f1e58a1936f80e17/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/c48315e8b4318c854ec6ce60f1e58a1936f80e17/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/c48315e8b4318c854ec6ce60f1e58a1936f80e17/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/a2a462f4b5d5a5d51c568f8e10db526b13a8d573/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/a2a462f4b5d5a5d51c568f8e10db526b13a8d573/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/a2a462f4b5d5a5d51c568f8e10db526b13a8d573/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -85,9 +85,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/c48315e8b4318c854ec6ce60f1e58a1936f80e17/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/a2a462f4b5d5a5d51c568f8e10db526b13a8d573/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/c48315e8b4318c854ec6ce60f1e58a1936f80e17">BIRSBiointegration/whitePaper@c48315e</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/a2a462f4b5d5a5d51c568f8e10db526b13a8d573">BIRSBiointegration/whitePaper@a2a462f</a>
 on July 17, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -792,14 +792,24 @@ and <em>users</em> with different skill sets by articulating standards for docum
 by hosting community forums and workshops.</p>
 <h3 id="data-management-strategies">Data management strategies</h3>
 <ul>
-<li>Abstract data type: “multiassay experiment”. This reflects the idea that each mode will
+<li>The Waldron group at City University of New York has defined a Bioconductor
+class implementing an abstract data type called “multiassay experiment”. This is relevant
+for multimodal single-cell experiments as each mode will
 be characterized by a different collection of features on possibly non-overlapping collections
-of samples. The metadata on features should be clearly and conventionally defined. For example,
-genes and transcripts are enumerated using Ensembl catalog identifiers; regions of accessibility
-are defined using genomic coordinates in a clearly specified reference build. Metadata on
-samples must include all relevant information on experimental conditions such as treatment,
-protocol, and date of technical processing.</li>
+of samples. Metadata on features is bound directly into the class instance. For example,
+genes and transcripts are enumerated using Ensembl catalog identifiers, represented as
+GRanges instances; regions of accessibility
+are from ATAC-seq are defined using genomic coordinates in a clearly specified reference build. Metadata on
+samples includes all relevant information on experimental conditions such as treatment,
+protocol, and date of technical processing. Figure <a href="#fig:spatialExpt">1</a> shows how this
+class can incorporate results of a seqFISH experiment.</li>
 </ul>
+<div id="fig:spatialExpt" class="fignos">
+<figure>
+<img src="images/fusedDataStructures.png" alt="" /><figcaption><span>Figure 1:</span> Left: SpatialExperiment class design schematic. Right: Combination of SpatialExperiment
+and SingleCellExperiment instances into a MultiAssayExperiment.</figcaption>
+</figure>
+</div>
 <p>(More fodder-AS)</p>
 <p><strong>Key points:</strong>
 1) What do we want to store and share? Data object vs analysis object. How would the design change based on what is stored?

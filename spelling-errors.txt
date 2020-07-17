@@ -99,10 +99,12 @@ Scanorama
 scRNAseq
 scTargeted
 sGCCA
+SingleCellExperiment
 situ
 smoothened
 Sodicoff
 Soneson
+spatialExpt
 ssEnet
 STATIS
 subcellular
@@ -121,6 +123,7 @@ variational
 vjcitn
 Voronoi
 VSN
+Waldron
 Welch
 wrr
 Xu
