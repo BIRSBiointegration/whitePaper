@@ -1,5 +1,5 @@
 Abadi
-Aedin
+aedin
 AedinCulhane
 Amrit
 Amrith
@@ -7,7 +7,6 @@ analyse
 Anh
 appia
 Arcsinh
-Argelaguet
 Arora
 autocorrelation
 autoencoder
@@ -23,6 +22,7 @@ cn
 Coullomb
 Coulumb
 Craniofacial
+crossref
 Culhane
 CyTOF
 Cytokit
@@ -34,7 +34,6 @@ ejfertig
 Elana
 ENet
 excitatory
-Explorator
 Facetto
 Farber
 Fertig
@@ -46,6 +45,7 @@ gf
 gghpmf
 glmnet
 GNT
+hackaton
 HMRF
 Hsu
 HVG
@@ -78,6 +78,7 @@ Normalisation
 novo
 overfitting
 PCA
+practitionners
 Pratheepan
 pre
 preprocessing
@@ -86,7 +87,6 @@ QuPath
 qvd
 reproducibility
 resampling
-Ricard
 Ritchie
 RLQ
 RNAseq
@@ -100,11 +100,9 @@ situ
 smoothened
 Sodicoff
 Soneson
-spatiotemporal
 ssEnet
 STATIS
 subcellular
-summarization
 Svensson
 SVM
 Tasic
