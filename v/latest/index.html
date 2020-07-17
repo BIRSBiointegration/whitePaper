@@ -69,9 +69,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/fe94a4a6220f3914d435fa04175b889f7d7e891e/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/fe94a4a6220f3914d435fa04175b889f7d7e891e/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/fe94a4a6220f3914d435fa04175b889f7d7e891e/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/a78e2e3496a00045553241fa45d8c55d207b4888/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/a78e2e3496a00045553241fa45d8c55d207b4888/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/a78e2e3496a00045553241fa45d8c55d207b4888/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -85,9 +85,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/fe94a4a6220f3914d435fa04175b889f7d7e891e/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/a78e2e3496a00045553241fa45d8c55d207b4888/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/fe94a4a6220f3914d435fa04175b889f7d7e891e">BIRSBiointegration/whitePaper@fe94a4a</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/a78e2e3496a00045553241fa45d8c55d207b4888">BIRSBiointegration/whitePaper@a78e2e3</a>
 on July 17, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -147,9 +147,202 @@ Department of Something, University of Whatever; Department of Whatever, Univers
 </small></p></li>
 </ul>
 <h1 id="draft-outline">Draft outline</h1>
+<p>Full outline described in 01.outline.md but as comment if you need to go back to the big picture.</p>
 <p><img src="images/Outline.png" alt="Outline of the main themes following our brainstorming sessions from the hackathons (KA Le Cao)" height="600"/></p>
 <p>Figure caption: Main challenges discussed during our brainstorming sessions from the hackathons</p>
-<h2 id="introduction-figure-1-outline">Introduction [Figure 1 outline]</h2>
+<!---
+## Introduction [Figure 1 outline]
+
+### Comprehensive characterization of biological systems with multi-omics
+ - Single cell community has advanced technologies to enable concurrent processing of biological systems at multiple molecular resolutions
+ - The lack of prior knowledge and gold standard benchmark naturally leads to a data-driven approach
+
+### New single cell multi omics initiatives:
+ - Human Cell Atlas (HCA): assess variation in normal tissues
+ - Brain initiative and Allen Brain
+ - Human Tumor Atlas Network (HTAN): Single-cell, longitudinal, and clinical outcomes atlases of cancer transitions for diverse tumor types. 
+
+### What bulk multi-omics (e.g. TCGA, ENCODE) have taught us:
+ - Type of omics that can answer a specific biological question
+ - The value of open resources for methodological developments
+ - New hypotheses
+
+### Using hackathons to illustrate analysis standards and challenges for capturing biological information from multi-omics technologies 
+ - Brief overview of our three hackathon studies highlighting state of the art challenges (e.g., spatial transcriptomics, cross-study analysis, epigenetic regulation)
+ - Challenges include issues with noise and experimental design, Time lag between regulatory levels not addressed and many open questions
+remain (e.g methylation / gene expression), Direction of regulation not captured
+ - We present our findings from hackathon case studies that helped us obtain benchmarks and define a common language for multi-omics
+
+
+
+## Hackathon case studies
+
+### scRNA-seq + seqFISH as a case study for spatial transcriptomics [Figure 2 results]
+#### Overview and biological question
+#### Main challenges and how it was overcome by the participants
+- Challenge 1: overlay of scRNA-seq onto seqFISH for resolution enhancement 
+- Challenge 2: determine signatures of cellular co-localization or spatial coordinates in non-spatial scRNA-seq 
+
+
+### Spatial proteomics and cross-study analysis [Figure 3 results]
+#### Overview and biological question
+#### Main challenges and how it was overcome by the participants
+- Challenge 1: address the lack of overlap between proteins across studies
+- Challenge 2: spatial protein expression analysis
+
+### scNMT-seq as a case-study for epigenetic regulation [Figure 4 results], lead: Ricard Argelaguet
+#### Overview and biological question
+#### Main challenges and how it was overcome by the participants
+- Challenge 1: defining genomic features
+- Challenge 2: DNA methylation imputation
+- Challenge 3: Linking epigenetic features / chromatin accessibility to gene expression
+
+
+## Analytical approaches for hackathons and commonalities for multi-omics analysis illustrated by the series of hackathons [Figure 5 + Table 1]
+
+Short introduction explaining that we focus here on the common challenges across hackathons
+
+### Summary of hackathon study-specific methods
+ - Table describes method, foundation in the context of previous bulk and single cell literature, and technology dependence
+    - Attempts to tweak existing methods and challenges associated in hackathons
+    - List methods that are either technology dependent (e.g. spatial) vs universal and how to choose them
+  
+
+### Dependence on pre-processing method and/or variable selection
+- These steps are key and affect downstream analyses
+  - Normalization / data transformation (seqFish), pre-processing, gene summaries (scNMT-seq) to variable selection (seqFish)
+  - reproducibility difficult / no consensus. e.g. Alexis selected 19 genes whereas Zhu original paper based on 47 genes (difference in methods / processed data)
+- Hackathon data pre-processed enable better comparisons across methods
+- No consensus reached as those are emerging data with no ground truth nor established biological results
+
+### Approaches for partial overlap of information (cells / features) and how to predict (cell type, dataset) using another data set
+- Overlap in each study 
+  - seqFish: same features but not cells; scProt: same proteins, not cells but similar patients; scNMT-seq: same cells but not features
+  - How it was solved (Table)
+- Anchoring information across datasets or studies is needed (Figure)
+- Incorporation of existing biological knowledge
+  - ‘From discovery to detection’ (Meuleman + debrief), time is ripe to include more knowledge in our data driven approaches
+- Challenge: Partial cell overlap (but no features matching) and No overlap were not addressed
+
+### Managing differences in scale and size for datasets that do not match cells or features 
+- Hackathons datasets did not match cells or features.
+  - scNMTQ-seq: MOFA limitation when # features vary (and size of datasets).
+  - seqFish: greedy approach to select the best gene subset (Alexis, size); consider batch effect removal method (Amrit, scale)
+ 
+- Consensus on projection based methods, even if pre-processing was applied (Table)
+- Additional weighting is needed (e.g. Arora, Abadi).
+
+
+## Interpretation challenges [Table 2: Glossary of terms]
+
+### Interpretation requires a good understanding of the methods 
+- Glossary needed for communication
+- Incorporation of contiguous information to facilitate interpretation of analytical results 
+- Biological knowledge and incorporation of information from databases are important, including bridges to data bases (KEGG, Gene Ontology, HCA) to validate through complementary data.
+
+### Visualization tools for interpretation and communication
+- Example: tSNE/ UMAP.
+
+### Explaining results to biologists through generative models and simulations
+- Example: factor analysis.
+
+### Issues of over-discretization (premature-summarization) and over-simplification
+- Example: notion of cell-type is insufficient (rare cell types vs. more “continuous” view on cell types).
+- Problem with loss of information in the desire to simplify.
+- Over interpretation / over reliance of graphical outputs
+
+
+## Benchmarking in gold standard datasets [Figure 6, Table 3]
+
+### Definition of benchmarking
+- Goal 1: recovery of known cell types (processing of raw data, quantification, and clustering) 
+- Goal 2: benchmark methods for their ability to discover known relationships between data modalities, e.g. gene regulatory relationships observed between chromatin accessibility and gene expression (relationships are not fully known at the single cell level).
+
+### Strategies for benchmarking
+- Simulation useful for known truth, but difficult to simulate realistic covariance structure across features and across data modalities.
+- Benchmarking datasets for single cell studies (Table): limited focus on sequencing depth and diversity of cell types derived from a single assay:
+ground truth for the intended effect of exposure in a proposed study design.
+validation for a data integration task for which a new computational method may be proposed.
+- Multi-modal assays benchmarking: 
+- Design to address biological question (co-embedding, mapping or correlation, and inferring causal relationships). 
+- Design for either data integration or further downstream analyses (e.g. differential analysis)
+- Study design should take into account:
+  - Biological and technical variability via replicates, block design, and randomization.
+  - Power analysis for the intended effect or data integration task.
+  - Dependencies between modalities.
+- Challenge: No universal benchmark data scheme suits every combination of modality, benchmark datasets may be established for commonly used combinations of modalities or technologies, towards specific data integration tasks.
+
+### Hackathons
+- Cross-validation within study can be performed via Hackathons, e.g. cross-validation analysis of the scNMT-seq dataset using MOFA+
+- Assess if relationships discovered in one dataset present in other datasets, potentially looking across single cell and bulk.
+- Challenge: how to match dimensions of latent space across folds. (examples: permutation or cross-validation to assess model performance)
+
+## Software infrastructure [Figure 7, Table 4]
+
+### Key questions
+
+- Q1: How should multimodal single cell data be managed for interactive and batch analyses?
+- Q2: What methods will help software developers create scalable solutions for multimodal single cell analysis?
+- Q3: How can we ensure that visualization methods that are central to multimodal single cell analysis are usable by researchers with visual impairments?
+
+### Data management strategies
+
+- Abstract data type with “multiassay experiment”: 
+  - each mode =  different collection of features on possibly non-overlapping collections of samples;  
+  - metadata on features conventionally defined 
+  - metadata on samples include all relevant information on experimental conditions.
+- Data container for a multi assay analysis:  
+  - assays from the same cells, or measurements from distinct cells.
+  - Assay slots containing variables or features from multiple modalities (e.g. gene expression units from scRNA-seq and protein units from sc-proteomics), feature may be multidimensional (e.g. spatial coordinates, locations of eQTLs).
+- Map between the different assays to enable analysis
+
+### Scalability strategies
+
+- Reducing barriers to interpretable visualizations
+- Color is a powerful data visualization tool to represent complex and rich scientific data. 
+- Color vision deficiencies affect a substantial portion of the population. Include colorblind friendly visualizations [1] as a default setting in our visualizations
+
+
+## Future directions
+
+### What do we need for the future computation of multi omics single cell 
+
+### Upcoming cell atlases technologies
+
+- What is coming? 
+- how they provide contexts for experimental perturbations
+- How they provide context for novel datasets
+
+### Unifying analysis goals for new computational methods
+
+### Moving towards spatiotemporal omics and integration with mathematical models. 
+
+--->
+<h2 id="figures-tables-and-online-resources">Figures, Tables and online resources</h2>
+<h3 id="figures">Figures</h3>
+<ul>
+<li>Figure 1: Outline of manuscript (Provided below)</li>
+<li>Figure 2: scRNA-seq + seqFISH main results</li>
+<li>Figure 3: scTargeted proteomics main results</li>
+<li>Figure 4: scNMT-seq main results</li>
+<li>Figure 5: Illustration of partial overlap between studies (at the cells and / or features level)</li>
+<li>Figure 6: Within study cross-validation</li>
+<li>Figure 7: Infrastructure of Giotto package as illustration</li>
+</ul>
+<h3 id="tables">Tables</h3>
+<ul>
+<li>Table 1: Summary of tasks and methods across all hackathons highlighting methods and common challenges (Provided below)</li>
+<li>Table 2: Glossary of terms, consensus terms will be used throughout the manuscript</li>
+<li>Table 3: Benchmarking single cell data sets</li>
+<li>Table 4: List of single cell analysis software</li>
+</ul>
+<h3 id="online-resources">Online resources</h3>
+<ul>
+<li>Online resource 1: Three hackathon datasets (github)</li>
+<li>Online resource 2: R packages with open source reproducible vignettes (12 vignettes)</li>
+</ul>
+<h2 class="page_break_before" id="abstract">Abstract</h2>
+<h2 id="introduction">Introduction</h2>
 <h3 id="comprehensive-characterization-of-biological-systems-with-multi-omics">Comprehensive characterization of biological systems with multi-omics</h3>
 <ul>
 <li>Single cell community has advanced technologies to enable concurrent processing of biological systems at multiple molecular resolutions</li>
@@ -169,39 +362,60 @@ Department of Something, University of Whatever; Department of Whatever, Univers
 </ul>
 <h3 id="using-hackathons-to-illustrate-analysis-standards-and-challenges-for-capturing-biological-information-from-multi-omics-technologies">Using hackathons to illustrate analysis standards and challenges for capturing biological information from multi-omics technologies</h3>
 <ul>
-<li>Brief overview of our three hackathon studies highlighting state of the art challenges (e.g., spatial transcriptomics, cross-study analysis, epigenetic regulation)</li>
-<li>Challenges include issues with noise and experimental design, Time lag between regulatory levels not addressed and many open questions
-remain (e.g methylation / gene expression), Direction of regulation not captured</li>
-<li>We present our findings from hackathon case studies that helped us obtain benchmarks and define a common language for multi-omics</li>
-</ul>
-<h2 id="hackathon-case-studies">Hackathon case studies</h2>
-<h3 id="scrna-seq-seqfish-as-a-case-study-for-spatial-transcriptomics-figure-2-results">scRNA-seq + seqFISH as a case study for spatial transcriptomics [Figure 2 results]</h3>
-<h4 id="overview-and-biological-question">Overview and biological question</h4>
-<h4 id="main-challenges-and-how-it-was-overcome-by-the-participants">Main challenges and how it was overcome by the participants</h4>
+<li><p>Brief overview of our three hackathon studies highlighting state of the art challenges (e.g., spatial transcriptomics, cross-study analysis, epigenetic regulation)</p></li>
+<li><p>Challenges include issues with noise and experimental design, Time lag between regulatory levels not addressed and many open questions
+remain (e.g methylation / gene expression), Direction of regulation not captured</p></li>
+<li><p>We present our findings from hackathon case studies that helped us obtain benchmarks and define a common language for multi-omics</p></li>
+<li><p><strong>Objectives of this paper</strong></p>
 <ul>
-<li>Challenge 1: overlay of scRNA-seq onto seqFISH for resolution enhancement</li>
-<li>Challenge 2: determine signatures of cellular co-localization or spatial coordinates in non-spatial scRNA-seq</li>
-</ul>
-<h3 id="spatial-proteomics-and-cross-study-analysis-figure-3-results">Spatial proteomics and cross-study analysis [Figure 3 results]</h3>
-<h4 id="overview-and-biological-question-1">Overview and biological question</h4>
-<h4 id="main-challenges-and-how-it-was-overcome-by-the-participants-1">Main challenges and how it was overcome by the participants</h4>
+<li>Provide guidelines on tools / data / technologies / methods and needs to model the multi-scale regulatory processes in biological systems for a computational biologist audience</li>
+</ul></li>
+<li><p><strong>Outline and messages</strong></p>
 <ul>
-<li>Challenge 1: address the lack of overlap between proteins across studies</li>
-<li>Challenge 2: spatial protein expression analysis</li>
+<li>Cellular and molecular regulation is fundamentally multi-scale and captured by distinct data modalities</li>
+<li>Traditional hypothesis-driven multi-omics/view studies only consider one facet of these technologies, but more can be learned through a holistic approach extending into atlases</li>
+<li>We present our findings from hackathon case studies that helped us obtain a broader picture and language</li>
 </ul>
-<h3 id="scnmt-seq-as-a-case-study-for-epigenetic-regulation-figure-4-results-lead-ricard-argelaguet">scNMT-seq as a case-study for epigenetic regulation [Figure 4 results], lead: Ricard Argelaguet</h3>
-<h4 id="overview-and-biological-question-2">Overview and biological question</h4>
-<h4 id="main-challenges-and-how-it-was-overcome-by-the-participants-2">Main challenges and how it was overcome by the participants</h4>
-<ul>
-<li>Challenge 1: defining genomic features</li>
-<li>Challenge 2: DNA methylation imputation</li>
-<li>Challenge 3: Linking epigenetic features / chromatin accessibility to gene expression</li>
+<p>Outline of the paper:</p></li>
 </ul>
-<h2 id="analytical-approaches-for-hackathons-and-commonalities-for-multi-omics-analysis-illustrated-by-the-series-of-hackathons-figure-5-table-1">Analytical approaches for hackathons and commonalities for multi-omics analysis illustrated by the series of hackathons [Figure 5 + Table 1]</h2>
-<p>Short introduction explaining that we focus here on the common challenges across hackathons</p>
+<p><img src="images/Outline.png" alt="Outline of the main themes following our brainstorming sessions from the hackathons (KA Le Cao)" height="600"/></p>
+<p>Figure caption: Main challenges discussed during our brainstorming sessions from the hackathons</p>
+<h2 id="scrna-seq-fish-as-a-case-study-for-spatial-transcriptomics">scRNA-seq + FISH as a case study for spatial transcriptomics</h2>
+<h3 id="overview-and-biological-question">Overview and biological question</h3>
+<p>Single cells are considered the smallest units and building blocks of each tissue, but they still require proper spatial and structural three-dimensional organization in order to assemble into a functional tissue that can exert its physiological function. In addition, most tissues are composed of multiple cell types whose identity and function can be inferred through their unique transcriptomic profile. In the last decade single-cell RNA-seq (scRNA-seq) played a key role to capture single cell gene expression profiles, which allowed us to map virtually all the different cell types and states in whole organisms. Despite this remarkable achievement this technology is based on cellular dissociation and hence does not maintain spatial relationships between single cells.<br />
+More recently technologies have begun to emerge that can profile the transcriptome of single cells within their original environment. These technological advancements offer the possibility to examine how gene expression is influenced by cell-to-cell interactions or organized in a spatially coherent manner. One such approach is sequential single-molecule fluorescence in situ hybridization (seqFISH), which can identify single molecules at (sub)cellular resolution with high sensitivity. Nevertheless, and in contrast with scRNAseq, seqFISH and many other spatial transcriptomic technologies often pose significant technological challenges and hence the number of profiled genes per cell is usually restricted to a smaller number (10-100s).<br />
+To overcome the lack of spatial information with scRNAseq and the common limited coverage in spatial datasets, we sought to combine and integrate a matching scRNAseq and seqFISH dataset, since both were generated from the mouse visual cortex region. More specifically, in this hackathon we explored a number of strategies to identify the most likely cell types in the seqfish dataset based on information obtained from the scRNAseq dataset. And in the opposite direction, we sought out how to transfer spatial information obtained from the seqfish dataset to that of the scRNAseq dataset.</p>
+<h3 id="computational-challenges">Computational challenges</h3>
+<h4 id="challenge-1-overlay-of-scrna-seq-onto-seqfish-for-resolution-enhancement">Challenge 1: overlay of scRNA-seq onto seqFISH for resolution enhancement</h4>
+<p><strong>[suggestion 1]</strong><br />
+Sequencing and imaging based single-cell transcriptomic profiling have complementary strengths. Whereas single-cell RNAseq generates transcriptome-wide information, it does not have spatial information. On the other hand, seqFISH (Lubeck 2014; Shah 2016) provides single-cell resolution spatial information, but typically profiles the expression level of only 100-300 genes. Although the newer generation of seqFISH technology (called seqFISH+) has greatly enhanced its capacity which can now be used to profile 10,000 genes (Eng 2019), the technology is significantly more complex and costly. As such, it is desirable to develop computational approaches to effectively integrate scRNAseq and seqFISH data analyses.</p>
+<p>In this hackathon, the participants were provided with seqFISH (Zhu 2018) and scRNAseq (Tasic 2016) data corresponding to the mouse visual cortex and challenged to accurately identify cell-types by integrating both datasets. Cell type labels, derived from scRNAseq analysis (Tasic 2016) and previous seqFISH/scRNAseq integration (Zhu 2018) were also provided as reference. A variety of computational approaches were applied to achieve this goal, including: supervised classification with support vector machines (Coulumb, Xu), semi-supervised self-training (Singh), and unsupervised matrix factorization methods (Sodicoff). While the methodologies are different, a number of themes recur, such as the importance of gene selection and batch effect correction. As expected, the ability to identify refined cell-type structure relies on the selection of cell-type specific marker genes in seqFISH data, suggesting a potential benefit of using single-cell RNAseq data to guide seqFISH experimental design. Batch effect is another important factor affecting the accuracy of data integration. While a number of batch effect correction methods have been developed (COMBAT, Seurat, Scanorama, etc), it remains challenging to distinguish technical from biological variations if the biological samples do not match exactly.</p>
+<p><strong>[suggestion 2]</strong><br />
+The mouse visual cortex consists of multiple complex cell types, however the number of profiled genes in the seqFISH dataset is limited to 125 genes. Moreover, these genes were not prioritized based on their ability to discriminate between cell types and thus assigning the correct cell identity is challenging. In contrast the scRNAseq dataset is transcriptome wide, thus including the 125 aforementioned genes. As such we first used all genes to identify the cell type labels for each cell in the scRNAseq data with high certainty. Next, we leveraged that information to build a classifier based on (a subset of) the 125 common genes only. This classifier could subsequently be applied to the seqFISH dataset in order to assign cell types to each cell with high probability.</p>
+<p>During the hackathon we tested various machine learning or data integration models, but also noted that initial dataset normalization strategies might have a significant impact on the final results (see common challenges <span class="citation" data-cites="Amrith">[<span class="citeproc-not-found" data-reference-id="Amrith"><strong>???</strong></span>]</span>). Although unique molecular identifier (UMI) based scRNAseq and seqFISH can both be considered as count data, we observed dataset specific biases that could be attributed to either platform (imaging vs sequencing) or sample specific sources of variation. Here we opted to apply a quantile normalization approach which forces a similar expression distribution for each shared gene.
+The hackathon participants selected two machine learning classifiers, a supervised support vector machine (SVM) and a semi-supervised lasso and elastic-net regularized generalized linear model (glmnet). To further improve the SVM model the participants tried multiple kernels and searched for optimal hyperparameters using a combined randomized and zoomed search. In addition, different flavors of recursive feature elimination was used to find the optimal or minimum number of genes needed to correctly classify the majority of the cells. Importantly, participants tested different classification accuracy metrics to alleviate the major class imbalance in the dataset, since more than 90% of cells were excitatory or inhibitory neurons. The glmnet approach used a iterative model building approach, which combines both datasets and initially only retains the highest confidence labels and then gradually adds more cell type labels until all cells have been classified. This type of self training approach might in fact be more generalizable to other datasets.
+Finally, a data integration approach based on integrative non-negative matrix factorization (NMF) was used by applying the previously published LIGER approach. By integrating both datasets in a similar subspace based on shared factors, cell type labels can be transferred using a nearest neighbor approach.</p>
+<h4 id="challenge-2-determine-signatures-of-cellular-co-localization-or-spatial-coordinates-in-non-spatial-scrna-seq">Challenge 2: determine signatures of cellular co-localization or spatial coordinates in non-spatial scRNA-seq</h4>
+<p><strong>[suggestion 1]</strong><br />
+How could one identify spatial patterns in the seqFISH data? This broad question can be divided into a number of specific tasks, such as detecting genes whose expression is spatially coherent, cell types whose spatial distribution is confined to distinct regions, recurrent multi-cell-type interaction clusters, etc, and the spatial scale may vary from subcellular all the way to tissue-wide organizations. While there have been abundant studies in the geo-spatial analysis domain, computational tools targeting specific spatial transcriptomic questions are still lacking. In this hackathon, one group tackled this challenge by aggregating gene expression data from neighboring cells followed by spatial clustering (Coulumb). Much more work in the future is need to further explore such information.</p>
+<p><strong>[suggestion 2]</strong><br />
+Most analyses that were originally developed for scRNAseq data can be immediately applied to spatial transcriptomic datasets, however methods to extract sources of variation that originate from spatial factors are still sparse. To incorporate spatial information the cells from the seqFISH dataset were first connected through a spatial network based on Voronoi tessellation and then the expression of each individual cell was spatially smoothed by calculating the average gene expression levels over all the neighboring cells. This smoothened and aggregated data matrix was subsequently used to create a 2 dimensional UMAP from which clusters were identified through a density based clustering approach. The obtained cluster labels can then be mapped back to the original spatial locations for further visual inspection and analysis.</p>
+<h2 id="spatial-proteomics-and-cross-study-analysis">Spatial proteomics and cross-study analysis</h2>
+<h3 id="overview-and-biological-question-1">Overview and biological question</h3>
+<h3 id="computational-challenges-1">Computational challenges</h3>
+<h4 id="challenge-1-address-the-lack-of-overlap-between-proteins-across-studies">Challenge 1: address the lack of overlap between proteins across studies</h4>
+<h4 id="challenge-2-spatial-protein-expression-analysis">Challenge 2: spatial protein expression analysis</h4>
+<h2 id="scnmt-seq-as-a-case-study-for-epigenetic-regulation">scNMT-seq as a case-study for epigenetic regulation</h2>
+<h3 id="overview-and-biological-question-2">Overview and biological question</h3>
+<h3 id="computational-challenges-2">Computational challenges</h3>
+<h4 id="challenge-1-defining-genomic-features">Challenge 1: defining genomic features</h4>
+<h4 id="challenge-2-dna-methylation-imputation">Challenge 2: DNA methylation imputation</h4>
+<h4 id="challenge-3-linking-epigenetic-features-chromatin-accessibility-to-gene-expression">Challenge 3: Linking epigenetic features / chromatin accessibility to gene expression</h4>
+<h2 id="commonalities-between-analytical-multi-omics-approaches-for-hackathons-figure-5-table-1">Commonalities between analytical multi-omics approaches for hackathons [Figure 5 + Table 1]</h2>
+<p>We summarize the common main challenges faces across all hackathons, and the common approaches adopted to analyse multi-omics single cell data.</p>
 <h3 id="summary-of-hackathon-study-specific-methods">Summary of hackathon study-specific methods</h3>
 <ul>
-<li>Table describes method, foundation in the context of previous bulk and single cell literature, and technology dependence
+<li><strong>Table</strong> describes method, foundation in the context of previous bulk and single cell literature, and technology dependence
 <ul>
 <li>Attempts to tweak existing methods and challenges associated in hackathons</li>
 <li>List methods that are either technology dependent (e.g. spatial) vs universal and how to choose them</li>
@@ -232,232 +446,6 @@ remain (e.g methylation / gene expression), Direction of regulation not captured
 <li>Challenge: Partial cell overlap (but no features matching) and No overlap were not addressed</li>
 </ul>
 <h3 id="managing-differences-in-scale-and-size-for-datasets-that-do-not-match-cells-or-features">Managing differences in scale and size for datasets that do not match cells or features</h3>
-<ul>
-<li>Hackathons datasets did not match cells or features.
-<ul>
-<li>scNMTQ-seq: MOFA limitation when # features vary (and size of datasets).</li>
-<li>seqFish: greedy approach to select the best gene subset (Alexis, size); consider batch effect removal method (Amrit, scale)</li>
-</ul></li>
-<li>Consensus on projection based methods, even if pre-processing was applied (Table)</li>
-<li>Additional weighting is needed (e.g. Arora, Abadi).</li>
-</ul>
-<h2 id="interpretation-challenges-table-2-glossary-of-terms">Interpretation challenges [Table 2: Glossary of terms]</h2>
-<h3 id="interpretation-requires-a-good-understanding-of-the-methods">Interpretation requires a good understanding of the methods</h3>
-<ul>
-<li>Glossary needed for communication</li>
-<li>Incorporation of contiguous information to facilitate interpretation of analytical results</li>
-<li>Biological knowledge and incorporation of information from databases are important, including bridges to data bases (KEGG, Gene Ontology, HCA) to validate through complementary data.</li>
-</ul>
-<h3 id="visualization-tools-for-interpretation-and-communication">Visualization tools for interpretation and communication</h3>
-<ul>
-<li>Example: tSNE/ UMAP.</li>
-</ul>
-<h3 id="explaining-results-to-biologists-through-generative-models-and-simulations">Explaining results to biologists through generative models and simulations</h3>
-<ul>
-<li>Example: factor analysis.</li>
-</ul>
-<h3 id="issues-of-over-discretization-premature-summarization-and-over-simplification">Issues of over-discretization (premature-summarization) and over-simplification</h3>
-<ul>
-<li>Example: notion of cell-type is insufficient (rare cell types vs. more “continuous” view on cell types).</li>
-<li>Problem with loss of information in the desire to simplify.</li>
-<li>Over interpretation / over reliance of graphical outputs</li>
-</ul>
-<h2 id="benchmarking-in-gold-standard-datasets-figure-6-table-3">Benchmarking in gold standard datasets [Figure 6, Table 3]</h2>
-<h3 id="definition-of-benchmarking">Definition of benchmarking</h3>
-<ul>
-<li>Goal 1: recovery of known cell types (processing of raw data, quantification, and clustering)</li>
-<li>Goal 2: benchmark methods for their ability to discover known relationships between data modalities, e.g. gene regulatory relationships observed between chromatin accessibility and gene expression (relationships are not fully known at the single cell level).</li>
-</ul>
-<h3 id="strategies-for-benchmarking">Strategies for benchmarking</h3>
-<ul>
-<li>Simulation useful for known truth, but difficult to simulate realistic covariance structure across features and across data modalities.</li>
-<li>Benchmarking datasets for single cell studies (Table): limited focus on sequencing depth and diversity of cell types derived from a single assay:
-ground truth for the intended effect of exposure in a proposed study design.
-validation for a data integration task for which a new computational method may be proposed.</li>
-<li>Multi-modal assays benchmarking:</li>
-<li>Design to address biological question (co-embedding, mapping or correlation, and inferring causal relationships).</li>
-<li>Design for either data integration or further downstream analyses (e.g. differential analysis)</li>
-<li>Study design should take into account:
-<ul>
-<li>Biological and technical variability via replicates, block design, and randomization.</li>
-<li>Power analysis for the intended effect or data integration task.</li>
-<li>Dependencies between modalities.</li>
-</ul></li>
-<li>Challenge: No universal benchmark data scheme suits every combination of modality, benchmark datasets may be established for commonly used combinations of modalities or technologies, towards specific data integration tasks.</li>
-</ul>
-<h3 id="hackathons">Hackathons</h3>
-<ul>
-<li>Cross-validation within study can be performed via Hackathons, e.g. cross-validation analysis of the scNMT-seq dataset using MOFA+</li>
-<li>Assess if relationships discovered in one dataset present in other datasets, potentially looking across single cell and bulk.</li>
-<li>Challenge: how to match dimensions of latent space across folds. (examples: permutation or cross-validation to assess model performance)</li>
-</ul>
-<h2 id="software-infrastructure-figure-7-table-4">Software infrastructure [Figure 7, Table 4]</h2>
-<h3 id="key-questions">Key questions</h3>
-<ul>
-<li>Q1: How should multimodal single cell data be managed for interactive and batch analyses?</li>
-<li>Q2: What methods will help software developers create scalable solutions for multimodal single cell analysis?</li>
-<li>Q3: How can we ensure that visualization methods that are central to multimodal single cell analysis are usable by researchers with visual impairments?</li>
-</ul>
-<h3 id="data-management-strategies">Data management strategies</h3>
-<ul>
-<li>Abstract data type with “multiassay experiment”:
-<ul>
-<li>each mode = different collection of features on possibly non-overlapping collections of samples;<br />
-</li>
-<li>metadata on features conventionally defined</li>
-<li>metadata on samples include all relevant information on experimental conditions.</li>
-</ul></li>
-<li>Data container for a multi assay analysis:
-<ul>
-<li>assays from the same cells, or measurements from distinct cells.</li>
-<li>Assay slots containing variables or features from multiple modalities (e.g. gene expression units from scRNA-seq and protein units from sc-proteomics), feature may be multidimensional (e.g. spatial coordinates, locations of eQTLs).</li>
-</ul></li>
-<li>Map between the different assays to enable analysis</li>
-</ul>
-<h3 id="scalability-strategies">Scalability strategies</h3>
-<ul>
-<li>Reducing barriers to interpretable visualizations</li>
-<li>Color is a powerful data visualization tool to represent complex and rich scientific data.</li>
-<li>Color vision deficiencies affect a substantial portion of the population. Include colorblind friendly visualizations [1] as a default setting in our visualizations</li>
-</ul>
-<h2 id="future-directions">Future directions</h2>
-<h3 id="what-do-we-need-for-the-future-computation-of-multi-omics-single-cell">What do we need for the future computation of multi omics single cell</h3>
-<h3 id="upcoming-cell-atlases-technologies">Upcoming cell atlases technologies</h3>
-<ul>
-<li>What is coming?</li>
-<li>how they provide contexts for experimental perturbations</li>
-<li>How they provide context for novel datasets</li>
-</ul>
-<h3 id="unifying-analysis-goals-for-new-computational-methods">Unifying analysis goals for new computational methods</h3>
-<h3 id="moving-towards-spatiotemporal-omics-and-integration-with-mathematical-models.">Moving towards spatiotemporal omics and integration with mathematical models.</h3>
-<h2 id="figures-tables-and-online-resources">Figures, Tables and online resources</h2>
-<h3 id="figures">Figures</h3>
-<ul>
-<li>Figure 1: Outline of manuscript (Provided below)</li>
-<li>Figure 2: scRNA-seq + seqFISH main results</li>
-<li>Figure 3: scTargeted proteomics main results</li>
-<li>Figure 4: scNMT-seq main results</li>
-<li>Figure 5: Illustration of partial overlap between studies (at the cells and / or features level)</li>
-<li>Figure 6: Within study cross-validation</li>
-<li>Figure 7: Infrastructure of Giotto package as illustration</li>
-</ul>
-<h3 id="tables">Tables</h3>
-<ul>
-<li>Table 1: Summary of tasks and methods across all hackathons highlighting methods and common challenges (Provided below)</li>
-<li>Table 2: Glossary of terms, consensus terms will be used throughout the manuscript</li>
-<li>Table 3: Benchmarking single cell data sets</li>
-<li>Table 4: List of single cell analysis software</li>
-</ul>
-<h3 id="online-resources">Online resources</h3>
-<ul>
-<li>Online resource 1: Three hackathon datasets (github)</li>
-<li>Online resource 2: R packages with open source reproducible vignettes (12 vignettes)</li>
-</ul>
-<h2 class="page_break_before" id="abstract">Abstract</h2>
-<h2 id="introduction">Introduction</h2>
-<h3 id="comprehensive-characterization-of-biological-systems-with-multi-omics-1">Comprehensive characterization of biological systems with multi-omics</h3>
-<ul>
-<li>Single cell community has advanced technologies to enable concurrent processing of biological systems at multiple molecular resolutions</li>
-<li>The lack of prior knowledge and gold standard benchmark naturally leads to a data-driven approach</li>
-</ul>
-<h3 id="new-single-cell-multi-omics-initiatives-1">New single cell multi omics initiatives:</h3>
-<ul>
-<li>Human Cell Atlas (HCA): assess variation in normal tissues</li>
-<li>Brain initiative and Allen Brain</li>
-<li>Human Tumor Atlas Network (HTAN): Single-cell, longitudinal, and clinical outcomes atlases of cancer transitions for diverse tumor types.</li>
-</ul>
-<h3 id="what-bulk-multi-omics-e.g.-tcga-encode-have-taught-us-1">What bulk multi-omics (e.g. TCGA, ENCODE) have taught us:</h3>
-<ul>
-<li>Type of omics that can answer a specific biological question</li>
-<li>The value of open resources for methodological developments</li>
-<li>New hypotheses</li>
-</ul>
-<h3 id="using-hackathons-to-illustrate-analysis-standards-and-challenges-for-capturing-biological-information-from-multi-omics-technologies-1">Using hackathons to illustrate analysis standards and challenges for capturing biological information from multi-omics technologies</h3>
-<ul>
-<li><p>Brief overview of our three hackathon studies highlighting state of the art challenges (e.g., spatial transcriptomics, cross-study analysis, epigenetic regulation)</p></li>
-<li><p>Challenges include issues with noise and experimental design, Time lag between regulatory levels not addressed and many open questions
-remain (e.g methylation / gene expression), Direction of regulation not captured</p></li>
-<li><p>We present our findings from hackathon case studies that helped us obtain benchmarks and define a common language for multi-omics</p></li>
-<li><p><strong>Objectives of this paper</strong></p>
-<ul>
-<li>Provide guidelines on tools / data / technologies / methods and needs to model the multi-scale regulatory processes in biological systems for a computational biologist audience</li>
-</ul></li>
-<li><p><strong>Outline and messages</strong></p>
-<ul>
-<li>Cellular and molecular regulation is fundamentally multi-scale and captured by distinct data modalities</li>
-<li>Traditional hypothesis-driven multi-omics/view studies only consider one facet of these technologies, but more can be learned through a holistic approach extending into atlases</li>
-<li>We present our findings from hackathon case studies that helped us obtain a broader picture and language</li>
-</ul>
-<p>Outline of the paper:</p></li>
-</ul>
-<p><img src="images/Outline.png" alt="Outline of the main themes following our brainstorming sessions from the hackathons (KA Le Cao)" height="600"/></p>
-<p>Figure caption: Main challenges discussed during our brainstorming sessions from the hackathons</p>
-<h2 id="scrna-seq-fish-as-a-case-study-for-spatial-transcriptomics">scRNA-seq + FISH as a case study for spatial transcriptomics</h2>
-<h3 id="overview-and-biological-question-3">Overview and biological question</h3>
-<p>Single cells are considered the smallest units and building blocks of each tissue, but they still require proper spatial and structural three-dimensional organization in order to assemble into a functional tissue that can exert its physiological function. In addition, most tissues are composed of multiple cell types whose identity and function can be inferred through their unique transcriptomic profile. In the last decade single-cell RNA-seq (scRNA-seq) played a key role to capture single cell gene expression profiles, which allowed us to map virtually all the different cell types and states in whole organisms. Despite this remarkable achievement this technology is based on cellular dissociation and hence does not maintain spatial relationships between single cells.<br />
-More recently technologies have begun to emerge that can profile the transcriptome of single cells within their original environment. These technological advancements offer the possibility to examine how gene expression is influenced by cell-to-cell interactions or organized in a spatially coherent manner. One such approach is sequential single-molecule fluorescence in situ hybridization (seqFISH), which can identify single molecules at (sub)cellular resolution with high sensitivity. Nevertheless, and in contrast with scRNAseq, seqFISH and many other spatial transcriptomic technologies often pose significant technological challenges and hence the number of profiled genes per cell is usually restricted to a smaller number (10-100s).<br />
-To overcome the lack of spatial information with scRNAseq and the common limited coverage in spatial datasets, we sought to combine and integrate a matching scRNAseq and seqFISH dataset, since both were generated from the mouse visual cortex region. More specifically, in this hackathon we explored a number of strategies to identify the most likely cell types in the seqfish dataset based on information obtained from the scRNAseq dataset. And in the opposite direction, we sought out how to transfer spatial information obtained from the seqfish dataset to that of the scRNAseq dataset.</p>
-<h3 id="computational-challenges">Computational challenges</h3>
-<h4 id="challenge-1-overlay-of-scrna-seq-onto-seqfish-for-resolution-enhancement">Challenge 1: overlay of scRNA-seq onto seqFISH for resolution enhancement</h4>
-<p><strong>[suggestion 1]</strong><br />
-Sequencing and imaging based single-cell transcriptomic profiling have complementary strengths. Whereas single-cell RNAseq generates transcriptome-wide information, it does not have spatial information. On the other hand, seqFISH (Lubeck 2014; Shah 2016) provides single-cell resolution spatial information, but typically profiles the expression level of only 100-300 genes. Although the newer generation of seqFISH technology (called seqFISH+) has greatly enhanced its capacity which can now be used to profile 10,000 genes (Eng 2019), the technology is significantly more complex and costly. As such, it is desirable to develop computational approaches to effectively integrate scRNAseq and seqFISH data analyses.</p>
-<p>In this hackathon, the participants were provided with seqFISH (Zhu 2018) and scRNAseq (Tasic 2016) data corresponding to the mouse visual cortex and challenged to accurately identify cell-types by integrating both datasets. Cell type labels, derived from scRNAseq analysis (Tasic 2016) and previous seqFISH/scRNAseq integration (Zhu 2018) were also provided as reference. A variety of computational approaches were applied to achieve this goal, including: supervised classification with support vector machines (Coulumb, Xu), semi-supervised self-training (Singh), and unsupervised matrix factorization methods (Sodicoff). While the methodologies are different, a number of themes recur, such as the importance of gene selection and batch effect correction. As expected, the ability to identify refined cell-type structure relies on the selection of cell-type specific marker genes in seqFISH data, suggesting a potential benefit of using single-cell RNAseq data to guide seqFISH experimental design. Batch effect is another important factor affecting the accuracy of data integration. While a number of batch effect correction methods have been developed (COMBAT, Seurat, Scanorama, etc), it remains challenging to distinguish technical from biological variations if the biological samples do not match exactly.</p>
-<p><strong>[suggestion 2]</strong><br />
-The mouse visual cortex consists of multiple complex cell types, however the number of profiled genes in the seqFISH dataset is limited to 125 genes. Moreover, these genes were not prioritized based on their ability to discriminate between cell types and thus assigning the correct cell identity is challenging. In contrast the scRNAseq dataset is transcriptome wide, thus including the 125 aforementioned genes. As such we first used all genes to identify the cell type labels for each cell in the scRNAseq data with high certainty. Next, we leveraged that information to build a classifier based on (a subset of) the 125 common genes only. This classifier could subsequently be applied to the seqFISH dataset in order to assign cell types to each cell with high probability.</p>
-<p>During the hackathon we tested various machine learning or data integration models, but also noted that initial dataset normalization strategies might have a significant impact on the final results (see common challenges <span class="citation" data-cites="Amrith">[<span class="citeproc-not-found" data-reference-id="Amrith"><strong>???</strong></span>]</span>). Although unique molecular identifier (UMI) based scRNAseq and seqFISH can both be considered as count data, we observed dataset specific biases that could be attributed to either platform (imaging vs sequencing) or sample specific sources of variation. Here we opted to apply a quantile normalization approach which forces a similar expression distribution for each shared gene.
-The hackathon participants selected two machine learning classifiers, a supervised support vector machine (SVM) and a semi-supervised lasso and elastic-net regularized generalized linear model (glmnet). To further improve the SVM model the participants tried multiple kernels and searched for optimal hyperparameters using a combined randomized and zoomed search. In addition, different flavors of recursive feature elimination was used to find the optimal or minimum number of genes needed to correctly classify the majority of the cells. Importantly, participants tested different classification accuracy metrics to alleviate the major class imbalance in the dataset, since more than 90% of cells were excitatory or inhibitory neurons. The glmnet approach used a iterative model building approach, which combines both datasets and initially only retains the highest confidence labels and then gradually adds more cell type labels until all cells have been classified. This type of self training approach might in fact be more generalizable to other datasets.
-Finally, a data integration approach based on integrative non-negative matrix factorization (NMF) was used by applying the previously published LIGER approach. By integrating both datasets in a similar subspace based on shared factors, cell type labels can be transferred using a nearest neighbor approach.</p>
-<h4 id="challenge-2-determine-signatures-of-cellular-co-localization-or-spatial-coordinates-in-non-spatial-scrna-seq">Challenge 2: determine signatures of cellular co-localization or spatial coordinates in non-spatial scRNA-seq</h4>
-<p><strong>[suggestion 1]</strong><br />
-How could one identify spatial patterns in the seqFISH data? This broad question can be divided into a number of specific tasks, such as detecting genes whose expression is spatially coherent, cell types whose spatial distribution is confined to distinct regions, recurrent multi-cell-type interaction clusters, etc, and the spatial scale may vary from subcellular all the way to tissue-wide organizations. While there have been abundant studies in the geo-spatial analysis domain, computational tools targeting specific spatial transcriptomic questions are still lacking. In this hackathon, one group tackled this challenge by aggregating gene expression data from neighboring cells followed by spatial clustering (Coulumb). Much more work in the future is need to further explore such information.</p>
-<p><strong>[suggestion 2]</strong><br />
-Most analyses that were originally developed for scRNAseq data can be immediately applied to spatial transcriptomic datasets, however methods to extract sources of variation that originate from spatial factors are still sparse. To incorporate spatial information the cells from the seqFISH dataset were first connected through a spatial network based on Voronoi tessellation and then the expression of each individual cell was spatially smoothed by calculating the average gene expression levels over all the neighboring cells. This smoothened and aggregated data matrix was subsequently used to create a 2 dimensional UMAP from which clusters were identified through a density based clustering approach. The obtained cluster labels can then be mapped back to the original spatial locations for further visual inspection and analysis.</p>
-<h2 id="spatial-proteomics-and-cross-study-analysis">Spatial proteomics and cross-study analysis</h2>
-<h3 id="overview-and-biological-question-4">Overview and biological question</h3>
-<h3 id="computational-challenges-1">Computational challenges</h3>
-<h4 id="challenge-1-address-the-lack-of-overlap-between-proteins-across-studies">Challenge 1: address the lack of overlap between proteins across studies</h4>
-<h4 id="challenge-2-spatial-protein-expression-analysis">Challenge 2: spatial protein expression analysis</h4>
-<h2 id="scnmt-seq-as-a-case-study-for-epigenetic-regulation">scNMT-seq as a case-study for epigenetic regulation</h2>
-<h3 id="overview-and-biological-question-5">Overview and biological question</h3>
-<h3 id="computational-challenges-2">Computational challenges</h3>
-<h4 id="challenge-1-defining-genomic-features">Challenge 1: defining genomic features</h4>
-<h4 id="challenge-2-dna-methylation-imputation">Challenge 2: DNA methylation imputation</h4>
-<h4 id="challenge-3-linking-epigenetic-features-chromatin-accessibility-to-gene-expression">Challenge 3: Linking epigenetic features / chromatin accessibility to gene expression</h4>
-<h2 id="commonalities-between-analytical-multi-omics-approaches-for-hackathons-figure-5-table-1">Commonalities between analytical multi-omics approaches for hackathons [Figure 5 + Table 1]</h2>
-<p>We summarize the common main challenges faces across all hackathons, and the common approaches adopted to analyse multi-omics single cell data.</p>
-<h3 id="summary-of-hackathon-study-specific-methods-1">Summary of hackathon study-specific methods</h3>
-<ul>
-<li><strong>Table</strong> describes method, foundation in the context of previous bulk and single cell literature, and technology dependence
-<ul>
-<li>Attempts to tweak existing methods and challenges associated in hackathons</li>
-<li>List methods that are either technology dependent (e.g. spatial) vs universal and how to choose them</li>
-</ul></li>
-</ul>
-<h3 id="dependence-on-pre-processing-method-andor-variable-selection-1">Dependence on pre-processing method and/or variable selection</h3>
-<ul>
-<li>These steps are key and affect downstream analyses
-<ul>
-<li>Normalization / data transformation (seqFish), pre-processing, gene summaries (scNMT-seq) to variable selection (seqFish)</li>
-<li>reproducibility difficult / no consensus. e.g. Alexis selected 19 genes whereas Zhu original paper based on 47 genes (difference in methods / processed data)</li>
-</ul></li>
-<li>Hackathon data pre-processed enable better comparisons across methods</li>
-<li>No consensus reached as those are emerging data with no ground truth nor established biological results</li>
-</ul>
-<h3 id="approaches-for-partial-overlap-of-information-cells-features-and-how-to-predict-cell-type-dataset-using-another-data-set-1">Approaches for partial overlap of information (cells / features) and how to predict (cell type, dataset) using another data set</h3>
-<ul>
-<li>Overlap in each study
-<ul>
-<li>seqFish: same features but not cells; scProt: same proteins, not cells but similar patients; scNMT-seq: same cells but not features</li>
-<li>How it was solved (Table)</li>
-</ul></li>
-<li>Anchoring information across datasets or studies is needed (Figure)</li>
-<li>Incorporation of existing biological knowledge
-<ul>
-<li>‘From discovery to detection’ (Meuleman + debrief), time is ripe to include more knowledge in our data driven approaches</li>
-</ul></li>
-<li>Challenge: Partial cell overlap (but no features matching) and No overlap were not addressed</li>
-</ul>
-<h3 id="managing-differences-in-scale-and-size-for-datasets-that-do-not-match-cells-or-features-1">Managing differences in scale and size for datasets that do not match cells or features</h3>
 <ul>
 <li>Hackathons datasets did not match cells or features.
 <ul>
@@ -654,10 +642,15 @@ D) Nor cells nor features are matching [credit: Chen Meng / Kris S]</p>
 </tbody>
 </table>
 <h2 id="challenges-for-interpretation">Challenges for interpretation</h2>
-<h3 id="interpretation-for-quantitative-team-requires-a-good-understanding-of-the-methods-no-black-boxes-a-common-language">Interpretation for quantitative team: requires a good understanding of the methods (no black boxes, a common language)</h3>
-<p>Communicating within the field: what approaches are we talking about, this requires agreement on a glossary (ref: Table1).
+<p>There are many difficulties involved of the understanding and communication of results from such complex data sets and analyses as we have seen. Let’s separate out the different challenges into different levels. The first is the communication within the data scientists, ie communicating methods to practitionners who do not have the same vocabulary or background.</p>
+<h3 id="interpretation-for-data-scientists-reading-the-methods-sections-requires-a-good-understanding-of-the-building-blocks">Interpretation for data scientists reading the methods sections requires a good understanding of the building blocks</h3>
+<p>Communicating within the field: what approaches are we talking about?
+This requires agreement on a glossary which we have attempted to construct in (ref: Table1).
+Then comes a dichotomy of methods and their underlying properties. A simple delineation is available as some methods
+aim to predict a clearly defined outcome at the start of the project. This is the case in ref: crossref hackaton example on
+@
 Supervised versus unsupervised methods.
-Visualization figures are useful for the mathematical and data science team in the Explorator phase.</p>
+Visualization figures are useful for the mathematical and data science team in the Exploratory phase.</p>
 <h3 id="interpretation-for-biologists">Interpretation for biologists:</h3>
 <p>Understanding the output from the analyses of the data is facilitated by the incorporation of contiguous information.
 Redundant biological knowledge and incorporation of information from databases are important in the workflow.
@@ -672,6 +665,7 @@ Example of effective visual interpretation tools : brushing UMAP (Kris Sankaran)
 or non-sufficiency of summaries, simulations can often provide effective communication tools.</p>
 <h3 id="issues-of-over-discretization-over-simplification">Issues of over-discretization, over-simplification</h3>
 <p>Example 1: The notion of cell-type is insufficient (Communication challenge with biologists about tradeoffs between focusing on rare cell types vs. more “continuous” view on cell types).</p>
+<p>Reference the human cell atlas and the cell type discussion (ref:)</p>
 <p>Problem with loss of information in the desire to simplify.</p>
 <h3 id="counterexamples">Counterexamples</h3>
 <h2 id="techniques-and-challenges-for-benchmarking-methods">Techniques and challenges for benchmarking methods</h2>
@@ -688,7 +682,7 @@ and gene expression. However, this is made difficult by the fact
 that these relationships are not fully known at the single cell
 level.</li>
 </ul>
-<h3 id="strategies-for-benchmarking-1">Strategies for benchmarking</h3>
+<h3 id="strategies-for-benchmarking">Strategies for benchmarking</h3>
 <ul>
 <li><p>First, we acknowledge that benchmarking multi-modal methods on
 typical multi-modal datasets is inherently difficult, as we rarely
@@ -766,14 +760,14 @@ Soneson et al. (2018) Nat Methods; Saelens et al. (2019) Nat Biotechnol; Gold 
 <img src="images/scNMT_MOFA_CV.png" alt="Cross validation of MOFA+ on scNMT-seq" height="300"/></p></li>
 </ul>
 <h2 id="software-strategies-to-enable-analyses-of-multimodal-single-cell-experiments">Software strategies to enable analyses of multimodal single cell experiments</h2>
-<h3 id="key-questions-1">Key questions</h3>
+<h3 id="key-questions">Key questions</h3>
 <ul>
 <li>How should multimodal single cell data be managed for interactive and batch analyses?</li>
 <li>What methods will help software developers create scalable solutions for multimodal single cell analysis?</li>
 <li>How can we ensure that visualization methods that are central to multimodal single cell analysis
 are usable by researchers with visual impairments?</li>
 </ul>
-<h3 id="data-management-strategies-1">Data management strategies</h3>
+<h3 id="data-management-strategies">Data management strategies</h3>
 <ul>
 <li>Abstract data type: “multiassay experiment”. This reflects the idea that each mode will
 be characterized by a different collection of features on possibly non-overlapping collections
@@ -816,7 +810,7 @@ A data container for a multi assay analysis must hold</li>
 <li>scNMT-seq …</li>
 </ul></li>
 </ul>
-<h3 id="scalability-strategies-1">Scalability strategies</h3>
+<h3 id="scalability-strategies">Scalability strategies</h3>
 <h4 id="an-overview-of-our-suggested-approach-for-compilation-of-the-hackathon-contributions">An overview of our suggested approach for compilation of the hackathon contributions</h4>
 <p>The contributed challenge analyses as well as the used datasets may be collated into software packages which include their specific dependencies. In such a setting, the analysis packages can simply use the corresponding dataset package(s) as a dependency. Additionally, if the challenge datasets have undergone preprocessing it is essential that all the preprocessing steps are outlined and made available in the dataset packages. This will facilitate transparency and analysis reproducibility, as well as allow Continuous Integration (CI) of the analyses and preprocessing changes and Continuous Delivery (CD) of the analysis reports. The CI/CD workflow may also be automated on a hosted server and containerized reports can be generated for enhanced efficiency and portability, respectively.</p>
 <h3 id="reducing-barriers-to-interpretable-visualizations">Reducing barriers to interpretable visualizations</h3>
