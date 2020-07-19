@@ -9,7 +9,7 @@
   <meta name="author" content="Elana Fertig" />
   <meta name="author" content="Vincent J. Carey" />
   <meta name="author" content="Jane Roe" />
-  <meta name="dcterms.date" content="2020-07-17" />
+  <meta name="dcterms.date" content="2020-07-19" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Community-wide hackathons establish foundations for emerging single cell data integration</title>
   <style>
@@ -32,8 +32,8 @@
   <meta name="citation_title" content="Community-wide hackathons establish foundations for emerging single cell data integration" />
   <meta property="og:title" content="Community-wide hackathons establish foundations for emerging single cell data integration" />
   <meta property="twitter:title" content="Community-wide hackathons establish foundations for emerging single cell data integration" />
-  <meta name="dc.date" content="2020-07-17" />
-  <meta name="citation_publication_date" content="2020-07-17" />
+  <meta name="dc.date" content="2020-07-19" />
+  <meta name="citation_publication_date" content="2020-07-19" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -69,9 +69,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/03e8b408e35aff1ecae48bb695074d34574388de/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/03e8b408e35aff1ecae48bb695074d34574388de/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/03e8b408e35aff1ecae48bb695074d34574388de/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/cf11da2a630fe8dfbf0fcd16e335a928c8d6ef6a/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/cf11da2a630fe8dfbf0fcd16e335a928c8d6ef6a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/cf11da2a630fe8dfbf0fcd16e335a928c8d6ef6a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -85,10 +85,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/03e8b408e35aff1ecae48bb695074d34574388de/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/cf11da2a630fe8dfbf0fcd16e335a928c8d6ef6a/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/03e8b408e35aff1ecae48bb695074d34574388de">BIRSBiointegration/whitePaper@03e8b40</a>
-on July 17, 2020.
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/cf11da2a630fe8dfbf0fcd16e335a928c8d6ef6a">BIRSBiointegration/whitePaper@cf11da2</a>
+on July 19, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -642,32 +642,109 @@ D) Nor cells nor features are matching [credit: Chen Meng / Kris S]</p>
 </tbody>
 </table>
 <h2 id="challenges-for-interpretation">Challenges for interpretation</h2>
-<p>There are many difficulties involved of the understanding and communication of results from such complex data sets and analyses as we have seen. Let’s separate out the different challenges into different levels. The first is the communication within the data scientists, ie communicating methods to practitionners who do not have the same vocabulary or background.</p>
+<p>There are many difficulties involved of the understanding and communication of results from complex data sets and analyses as we have seen in <span class="citation" data-cites="ref">[<span class="citeproc-not-found" data-reference-id="ref"><strong>???</strong></span>]</span>(sec:scNMTQ-seq),
+<span class="citation" data-cites="ref">[<span class="citeproc-not-found" data-reference-id="ref"><strong>???</strong></span>]</span>(sec:scProteomics),
+<span class="citation" data-cites="ref">[<span class="citeproc-not-found" data-reference-id="ref"><strong>???</strong></span>]</span>(sec:scSpatial).</p>
+<p>We’ll separate out the different challenges into different levels.</p>
 <h3 id="interpretation-for-data-scientists-reading-the-methods-sections-requires-a-good-understanding-of-the-building-blocks">Interpretation for data scientists reading the methods sections requires a good understanding of the building blocks</h3>
-<p>Communicating within the field: what approaches are we talking about?
-This requires agreement on a glossary which we have attempted to construct in (ref: Table1).
-Then comes a dichotomy of methods and their underlying properties. A simple delineation is available as some methods
-aim to predict a clearly defined outcome at the start of the project. This is the case in ref: crossref hackaton example on
-@
-Supervised versus unsupervised methods.
-Visualization figures are useful for the mathematical and data science team in the Exploratory phase.</p>
-<h3 id="interpretation-for-biologists">Interpretation for biologists:</h3>
-<p>Understanding the output from the analyses of the data is facilitated by the incorporation of contiguous information.
-Redundant biological knowledge and incorporation of information from databases are important in the workflow.
-Biological interpretations are facilitated by bridges to databases such as KEGG, Gene Ontology, Human Cell Atlas, Biomart and many other databases.
-Validation through complementary data and sequential experimental design.</p>
-<h3 id="visualization-tools-for-interpretation-and-communication-to-biologists">Visualization tools for interpretation and communication to biologists</h3>
-<p>There are pitfalls in using sophisticated graphics which lead to over-interpretation or misinterpretation
-(size of clusters in tSNE related to sampling baselines rather than density, …)
-Example of effective visual interpretation tools : brushing UMAP (Kris Sankaran).</p>
-<h3 id="explaining-results-to-biologists-through-generative-models-and-simulations-ex-factor-analysis.">Explaining results to biologists through generative models and simulations (ex: Factor Analysis).</h3>
+<p>The first is the communication within the community of data scientists, computer scientists and computational biologists ie communicating about methods within a community of practitionners who do not have the same vocabulary or background.</p>
+<p>Many tools are used as black boxes and users
+don’t know or agree on what exactly the methods are doing (MOFA and tSNE are examples). The first step in unblinding these black boxes used as methodology shortcuts is to have a clear glossary of terms and how we are using them.
+Many synonyms for multimodal data exist and some have nuances, see the table we have compiled (ref: Table1).
+Understanding the relation between methods developed by different teams is essential and we often try to organize the methods first, thus it is useful to create a dichotomy of methods and their underlying properties.</p>
+<p>A very useful tool for making methodological black boxes more transparent are simulated data. These can follow benchmark methods such as those presented in <span class="citation" data-cites="ref">[<span class="citeproc-not-found" data-reference-id="ref"><strong>???</strong></span>]</span>(sec:sec-benchmark) and use well defined generative processes to clarify what some complex methods do.</p>
+<p>Visualization of the data, following the step by step transformations and optimizations of data representations also help clarify how certain methods fit models or compress and reduce data dimensionality. These visualizations are often very specialized (think for instance, correspondence analyses, goodness of fit plots like qqplots or rootograms or mean-variance fitting).
+These intermediary plots don’t usually end up in the main text of final biological publications and serve as intermediary checks to unpack the black boxes.</p>
+<h3 id="subsec:super">Supervised versus unsupervised</h3>
+<p>One simple delineation between methods is that some
+aim to predict a clearly defined outcome at the start of the project, such as recognizing the environment of tumor cells versus that of healthy cells <span class="citation" data-cites="ref">[<span class="citeproc-not-found" data-reference-id="ref"><strong>???</strong></span>]</span>(sec:scProteomics).
+The supervised setting often provides easier interpretations, one can easily rank the covariates and contiguous data in terms of their predictive potential.</p>
+<p>On the other hand when data are collected using multiple
+different technologies the data integration needs to provide organizing patterns that enable interpretation.
+Clustering is often used as one unsupervised method and is a good example of the use of a latent variable, in this case a factor or categorical variable which was not directly measured on the data but is often used to enable simple interpretations.</p>
+<p>In cellular biology, a favorite such division into clusters is that involved in the definition of cell type
+<span class="citation" data-cites="doi10.1016/j.cels.2017.03.006">[<span class="citeproc-not-found" data-reference-id="doi10.1016/j.cels.2017.03.006"><strong>???</strong></span>]</span>.</p>
+<p>Sometimes people get carried away in “clustering data” and manipulate the data, in cytometry one often sees cell gating done. The goal there is to eliminate cells in intermediary states to give clearly delineated inventories of cell types or cells in discrete states, this is a static description and will not enable researchers down the road to predict or understand transtitions between types.</p>
+<p>Although a latent factor can be a useful first approximation, keep in mind that development of cells and their fate is a dynamic process and it can often be beneficial to keep data that enable interpretation of the cell trajectories: in that case, locally the underlying latent variable of interest is continuous along a gradient of development.</p>
+<p>So far, we have seen two types of latent variables: clusters and a one dimensional continuous “gradient”, (pseduo-time, disease progression are two examples of such latent gradients). However the idea of latent variables is a rich anchor for many multimodal methods and can often be useful in highlighting what the modalities have in “common” and how they differ. The commonalities are well understood in the case of classical multivariate factor analyses where the data are decomposed into “commonalities” and uniqueness components <span class="citation" data-cites="doi10.1037/h0069792">[<span class="citeproc-not-found" data-reference-id="doi10.1037/h0069792"><strong>???</strong></span>]</span>.</p>
+<p>A schematic summary of the different stages in interpretation is provided here:</p>
+<figure>
+<img src="Interpretation_WorkflowL.png" alt="" /><figcaption>#fig:InterpWorkflow</figcaption>
+</figure>
+<p>Multiple domains of knowledge can be combined easily if there is a common coordinate system, as in geospatial analyses.This is often a goal in multimodal or conjoint analyses, when the first step is to find a common compromise or consensus on which to project each of the individual modalities.
+Conjoint analyses also known as STATIS <span class="citation" data-cites="doi.org10.1016/0167-9473">[<span class="citeproc-not-found" data-reference-id="doi.org10.1016/0167-9473"><strong>???</strong></span>]</span> was a very early multimodal method designed as PCA of PCAs where the first step in the analyses was to find what the different modalities had in common and define a consensus <span class="citation" data-cites="doi.org10.1214/193940307000000455">[<span class="citeproc-not-found" data-reference-id="doi.org10.1214/193940307000000455"><strong>???</strong></span>]</span> onto which the individual tables were projected.
+This method can be seen as an extension of the class of matrix decomposition methods to data cubes. Many extensions to matrix decompositions have been designed for multimodal data, <span class="citation" data-cites="doi.org10.3389/fgene.2019.00627">[<span class="citeproc-not-found" data-reference-id="doi.org10.3389/fgene.2019.00627"><strong>???</strong></span>]</span> offers an overview of the relations between many of them.</p>
+<h2 id="reasonning-by-analogy-with-geospatial-problems">Reasonning by analogy with geospatial problems</h2>
+<p>In both the proteomics example <span class="citation" data-cites="ref">[<span class="citeproc-not-found" data-reference-id="ref"><strong>???</strong></span>]</span>(sec:scProteomics)
+and the <span class="citation" data-cites="ref">[<span class="citeproc-not-found" data-reference-id="ref"><strong>???</strong></span>]</span>(sec:scSpatial) examplary data, a spatial dimension is already naturally available. As in previous studies one can leverage
+extensive methods developed in spatial statistics to
+quantify spatial effects <span class="citation" data-cites="doi.org10.1371/journal.pone.0012420">[<span class="citeproc-not-found" data-reference-id="doi.org10.1371/journal.pone.0012420"><strong>???</strong></span>]</span>. Contiguity and clustering can be tested and easily understood in the spatial context.</p>
+<p>In these cases, layers of information can be mapped to the natural coordinate system in the same way
+a GIS system incorporates them.</p>
+<figure>
+<img src="USGS_The_National_Map.jpg" alt="" /><figcaption>#fig:GISlayers</figcaption>
+</figure>
+<p>The spatial coordinate system analogy can be pursued
+further by finding a “consensus space” that provides a common coordinate system.</p>
+<p>There are however pitfalls in using very sophisticated dimension reduction techniques which lead to over-interpretation or misinterpretation
+(size of clusters in tSNE related to sampling baselines rather than density, …)</p>
+<h3 id="disparate-sources-of-evidence-are-more-compelling-than-more-of-the-same.">Disparate sources of evidence are more compelling than more of the same.</h3>
+<p>Following <a href="https://www.encyclopedia.com/people/philosophy-and-religion/roman-catholic-and-orthodox-churches-general-biographies/john-henry-newman">Cardinal Newman’s principle</a><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>
+disparate sources of evidence, or in this case data from different technologies, are more compelling than many replicates of the same technology. Thus, if different technologies allow a consensus on underlying latent variables, this information is worth retaining.</p>
+<h3 id="explaining-results-to-biologists-through-generative-models-and-simulations-ex-factor-analysis-hierarchical-models.">Explaining results to biologists through generative models and simulations (ex: Factor Analysis, Hierarchical models).</h3>
 <p>Several difficulties arise when explaining summaries and conclusions, problems encountered include non-identifiability of models
 or non-sufficiency of summaries, simulations can often provide effective communication tools.</p>
-<h3 id="issues-of-over-discretization-over-simplification">Issues of over-discretization, over-simplification</h3>
-<p>Example 1: The notion of cell-type is insufficient (Communication challenge with biologists about tradeoffs between focusing on rare cell types vs. more “continuous” view on cell types).</p>
-<p>Reference the human cell atlas and the cell type discussion (ref:)</p>
-<p>Problem with loss of information in the desire to simplify.</p>
-<h3 id="counterexamples">Counterexamples</h3>
+<p>One can often generate data from different probabilistic models and show that the methods cannot differentiate between the generation processes, this is the identifiability problems that most overparametrized models lead to. Added constraints on the parameters can often
+be integrated into the analyses to make them more realistic and reduce if not eliminate the identifiability issues.</p>
+<h3 id="meaningful-interpretation-by-linking-in-databases">Meaningful Interpretation by linking in databases</h3>
+<p>In the right side of the Figure <span class="citation" data-cites="ref">[<span class="citeproc-not-found" data-reference-id="ref"><strong>???</strong></span>]</span>(fig:InterpWorkflow)
+we show how connections to layers of information from outside databases can be incorporated into the final output. Real biological understanding is often subordinated to the integration
+of this contiguous information. Either from the metadata already available in the multiassay containers as for instance in the <a href="https://bioconductor.org/packages/release/bioc/html/MultiAssayExperiment.html">MultiAssayExperiment package</a> or from exterior sources such as Gene Ontologies, Biomart <span class="citation" data-cites="doi.org10.1038/nprot.2009.97">[<span class="citeproc-not-found" data-reference-id="doi.org10.1038/nprot.2009.97"><strong>???</strong></span> ]</span>, Kegg, Human Cell Atlas (HCA) or other sources often available through links provided within systems like bioconductor ().</p>
+<p>Redundant biological knowledge is often enlightening,
+as many methods suffer from identifiability issues (ie in a gradient, the direction of the direction is unknown).
+By providing information on the extreme points in a map
+or brushing a map with known gene expression features
+one can delineate orientations and clusters.</p>
+<p>For instance coloring by CD56 across time shows the dynamics of immune response <span class="citation" data-cites="doi.org10.3389/fimmu.2020.00714">[<span class="citeproc-not-found" data-reference-id="doi.org10.3389/fimmu.2020.00714"><strong>???</strong></span>]</span>:
+<img src="ImmuneResponse_CD56.png" alt="#fig:UMP_Immune" /></p>
+<h3 id="visualization-tools-for-interpretation-and-communication-to-biologists">Visualization tools for interpretation and communication to biologists</h3>
+<p>An example of effective visual interpretation tools is interactive brushing of UMAP plot, see <span class="citation" data-cites="ref">[<span class="citeproc-not-found" data-reference-id="ref"><strong>???</strong></span>]</span>(fig:BrushUMap) by Kris Sankaran.</p>
+<h2 id="missing">Missing</h2>
+<ul>
+<li><p>Validation through complementary data and sequential experimental design.</p></li>
+<li><p>Examples from other parts, references and commentary here missing until documents become availabe (<span class="citation" data-cites="sec:seqFish">[<span class="citeproc-not-found" data-reference-id="sec:seqFish"><strong>???</strong></span>]</span>)</p></li>
+</ul>
+<h2 id="references">References</h2>
+<p>Cell type definition:
+<span class="citation" data-cites="doi10.1016/j.cels.2017.03.006">[<span class="citeproc-not-found" data-reference-id="doi10.1016/j.cels.2017.03.006"><strong>???</strong></span>]</span></p>
+<p>Factor Analysis:
+<span class="citation" data-cites="doi10.1037/h0069792">[<span class="citeproc-not-found" data-reference-id="doi10.1037/h0069792"><strong>???</strong></span>]</span></p>
+<p>Statis, conjoint analysis:
+<span class="citation" data-cites="doi.org10.1016/0167-9473">[<span class="citeproc-not-found" data-reference-id="doi.org10.1016/0167-9473"><strong>???</strong></span>]</span>(94)90134-1</p>
+<p>The French way:
+<span class="citation" data-cites="doi.org10.1214/193940307000000455">[<span class="citeproc-not-found" data-reference-id="doi.org10.1214/193940307000000455"><strong>???</strong></span>]</span></p>
+<p>Overview and connections of methods: KS
+<span class="citation" data-cites="doi.org10.3389/fgene.2019.00627">[<span class="citeproc-not-found" data-reference-id="doi.org10.3389/fgene.2019.00627"><strong>???</strong></span> ]</span></p>
+<p>Kevin Murphy:
+Probabilistic Machine Learning, MIT Press
+<span class="citation" data-cites="doi.org10.5555/2380985">[<span class="citeproc-not-found" data-reference-id="doi.org10.5555/2380985"><strong>???</strong></span>]</span>
+isbn 13: 978-0262018029
+ISBN 10: 0262018020</p>
+<p>GIS: reference
+https://www.usgs.gov/faqs/what-a-geographic-information-system-gis</p>
+<p>Original: https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/full_width/public/thumbnails/image/8BaseLayersofTheNationalMap.JPG</p>
+<p>Biomart:
+<span class="citation" data-cites="doi.org10.1038/nprot.2009.97">[<span class="citeproc-not-found" data-reference-id="doi.org10.1038/nprot.2009.97"><strong>???</strong></span>]</span></p>
+<p>UMAP:
+<span class="citation" data-cites="doi.org10.1038/nbt.4314">[<span class="citeproc-not-found" data-reference-id="doi.org10.1038/nbt.4314"><strong>???</strong></span>]</span>
+https://arxiv.org/abs/1802.03426v2</p>
+<p>Spatial tumor and immune cells:
+<span class="citation" data-cites="doi.org10.1371/journal.pone.0012420">[<span class="citeproc-not-found" data-reference-id="doi.org10.1371/journal.pone.0012420"><strong>???</strong></span>]</span></p>
+<p>CD56 Immune cell coloring, paper with C. Blish:
+<span class="citation" data-cites="doi.org10.3389/fimmu.2020.00714">[<span class="citeproc-not-found" data-reference-id="doi.org10.3389/fimmu.2020.00714"><strong>???</strong></span>]</span></p>
+<p>Footnote:
+Cardinal Newman wrote <strong>The Grammar of Assent.</strong> and cited in [Bruno de Finetti, Volume 1, 1974 Theory of Probability]:</p>
+<p><em>Supposes a thesis (e.g. the guilt of an accused man) is supported by a great deal of circumstantial evidence of different forms, but in agreement with each other; then even if each piece of evidence is in itself insufficient to produce any strong belief, the thesis is decisively strengthened by their joint effect.</em></p>
 <h2 id="techniques-and-challenges-for-benchmarking-methods">Techniques and challenges for benchmarking methods</h2>
 <h3 id="we-must-first-define-what-we-are-benchmarking">We must first define what we are benchmarking</h3>
 <ul>
@@ -1103,7 +1180,7 @@ reports can be generated for enhanced efficiency and portability, respectively.<
 </tbody>
 </table>
 </div>
-<h2 class="page_break_before" id="references">References</h2>
+<h2 class="page_break_before" id="references-1">References</h2>
 <!-- Explicitly insert bibliography here -->
 <div id="refs" class="references hanging-indent" role="doc-bibliography">
 <div id="ref-chgaiKOU">
@@ -1347,6 +1424,12 @@ Susan R. Conway, Hector R. Wong<br />
 DOI: <a href="https://doi.org/10.1016/j.ccc.2019.08.007">10.1016/j.ccc.2019.08.007</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31733684">31733684</a></p>
 </div>
 </div>
+<section class="footnotes" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1" role="doc-endnote"><p>Supposes a thesis (e.g. the guilt of an accused man) is supported by a great deal of circumstantial evidence of different forms, but in agreement with each other; then even if each piece of evidence is in itself insufficient to produce any strong belief, the thesis is decisively strengthened by their joint effect.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
 <!-- default theme -->
 
 <style>
