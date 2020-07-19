@@ -147,7 +147,7 @@ content/45.interp-challenges.md:20:rootograms
 content/45.interp-challenges.md:27:covariates
 content/45.interp-challenges.md:36:transtitions
 content/45.interp-challenges.md:40:pseduo
-content/45.interp-challenges.md:44:InterpWorkflow
+content/45.interp-challenges.md:44:interpretaion
 content/45.interp-challenges.md:47:geospatial
 content/45.interp-challenges.md:48:PCA
 content/45.interp-challenges.md:48:PCAs
@@ -157,7 +157,6 @@ content/45.interp-challenges.md:52:geospatial
 content/45.interp-challenges.md:52:Reasonning
 content/45.interp-challenges.md:55:examplary
 content/45.interp-challenges.md:60:GIS
-content/45.interp-challenges.md:62:GISlayers
 content/45.interp-challenges.md:68:tSNE
 content/45.interp-challenges.md:80:identifiability
 content/45.interp-challenges.md:83:identifiability
@@ -167,6 +166,7 @@ content/45.interp-challenges.md:89:InterpWorkflow
 content/45.interp-challenges.md:91:Biomart
 content/45.interp-challenges.md:91:Ontologies
 content/45.interp-challenges.md:97:identifiability
+content/45.interp-challenges.md:103:covariate
 content/45.interp-challenges.md:108:BrushUMap
 content/45.interp-challenges.md:108:Sankaran
 content/45.interp-challenges.md:115:availabe

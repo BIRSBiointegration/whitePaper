@@ -1,5 +1,5 @@
 Abadi
-aedin
+Aedin
 AedinCulhane
 Amrit
 Amrith
@@ -25,6 +25,7 @@ cmIF
 cn
 Coullomb
 Coulumb
+covariate
 covariates
 Craniofacial
 Culhane
@@ -53,7 +54,6 @@ geospatial
 gf
 gghpmf
 GIS
-GISlayers
 glmnet
 GNT
 HMRF
@@ -63,6 +63,7 @@ hyperparameters
 identifiability
 ImJoy
 Initative
+interpretaion
 InterpWorkflow
 janeroe
 Jeganathan
@@ -123,7 +124,7 @@ Sodicoff
 Soneson
 spatialExpt
 ssEnet
-Statis
+STATIS
 subcellular
 Svensson
 SVM

@@ -69,9 +69,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/cf11da2a630fe8dfbf0fcd16e335a928c8d6ef6a/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/cf11da2a630fe8dfbf0fcd16e335a928c8d6ef6a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/cf11da2a630fe8dfbf0fcd16e335a928c8d6ef6a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/935a7eed62f434a8617821542507a9de38d202d7/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/935a7eed62f434a8617821542507a9de38d202d7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/935a7eed62f434a8617821542507a9de38d202d7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -85,9 +85,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/cf11da2a630fe8dfbf0fcd16e335a928c8d6ef6a/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/935a7eed62f434a8617821542507a9de38d202d7/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/cf11da2a630fe8dfbf0fcd16e335a928c8d6ef6a">BIRSBiointegration/whitePaper@cf11da2</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/935a7eed62f434a8617821542507a9de38d202d7">BIRSBiointegration/whitePaper@935a7ee</a>
 on July 19, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -668,9 +668,11 @@ Clustering is often used as one unsupervised method and is a good example of the
 <p>Although a latent factor can be a useful first approximation, keep in mind that development of cells and their fate is a dynamic process and it can often be beneficial to keep data that enable interpretation of the cell trajectories: in that case, locally the underlying latent variable of interest is continuous along a gradient of development.</p>
 <p>So far, we have seen two types of latent variables: clusters and a one dimensional continuous “gradient”, (pseduo-time, disease progression are two examples of such latent gradients). However the idea of latent variables is a rich anchor for many multimodal methods and can often be useful in highlighting what the modalities have in “common” and how they differ. The commonalities are well understood in the case of classical multivariate factor analyses where the data are decomposed into “commonalities” and uniqueness components <span class="citation" data-cites="doi10.1037/h0069792">[<span class="citeproc-not-found" data-reference-id="doi10.1037/h0069792"><strong>???</strong></span>]</span>.</p>
 <p>A schematic summary of the different stages in interpretation is provided here:</p>
+<div id="fig:InterWorkflow" class="fignos">
 <figure>
-<img src="Interpretation_WorkflowL.png" alt="" /><figcaption>#fig:InterpWorkflow</figcaption>
+<img src="images/Interpretation_WorkflowL.png" style="width:85.0%" alt="" /><figcaption><span>Figure 1:</span> Schematic diagram of stages of interpretaion and integration of data sources</figcaption>
 </figure>
+</div>
 <p>Multiple domains of knowledge can be combined easily if there is a common coordinate system, as in geospatial analyses.This is often a goal in multimodal or conjoint analyses, when the first step is to find a common compromise or consensus on which to project each of the individual modalities.
 Conjoint analyses also known as STATIS <span class="citation" data-cites="doi.org10.1016/0167-9473">[<span class="citeproc-not-found" data-reference-id="doi.org10.1016/0167-9473"><strong>???</strong></span>]</span> was a very early multimodal method designed as PCA of PCAs where the first step in the analyses was to find what the different modalities had in common and define a consensus <span class="citation" data-cites="doi.org10.1214/193940307000000455">[<span class="citeproc-not-found" data-reference-id="doi.org10.1214/193940307000000455"><strong>???</strong></span>]</span> onto which the individual tables were projected.
 This method can be seen as an extension of the class of matrix decomposition methods to data cubes. Many extensions to matrix decompositions have been designed for multimodal data, <span class="citation" data-cites="doi.org10.3389/fgene.2019.00627">[<span class="citeproc-not-found" data-reference-id="doi.org10.3389/fgene.2019.00627"><strong>???</strong></span>]</span> offers an overview of the relations between many of them.</p>
@@ -681,9 +683,11 @@ extensive methods developed in spatial statistics to
 quantify spatial effects <span class="citation" data-cites="doi.org10.1371/journal.pone.0012420">[<span class="citeproc-not-found" data-reference-id="doi.org10.1371/journal.pone.0012420"><strong>???</strong></span>]</span>. Contiguity and clustering can be tested and easily understood in the spatial context.</p>
 <p>In these cases, layers of information can be mapped to the natural coordinate system in the same way
 a GIS system incorporates them.</p>
+<div id="fig:GISlayers" class="fignos">
 <figure>
-<img src="USGS_The_National_Map.jpg" alt="" /><figcaption>#fig:GISlayers</figcaption>
+<img src="images/USGS_The_National_Map.jpg" style="width:90.0%" alt="" /><figcaption><span>Figure 2:</span> Standards in Geographic Information Systems enable the integration of multiple layers of data</figcaption>
 </figure>
+</div>
 <p>The spatial coordinate system analogy can be pursued
 further by finding a “consensus space” that provides a common coordinate system.</p>
 <p>There are however pitfalls in using very sophisticated dimension reduction techniques which lead to over-interpretation or misinterpretation
@@ -706,7 +710,7 @@ By providing information on the extreme points in a map
 or brushing a map with known gene expression features
 one can delineate orientations and clusters.</p>
 <p>For instance coloring by CD56 across time shows the dynamics of immune response <span class="citation" data-cites="doi.org10.3389/fimmu.2020.00714">[<span class="citeproc-not-found" data-reference-id="doi.org10.3389/fimmu.2020.00714"><strong>???</strong></span>]</span>:
-<img src="ImmuneResponse_CD56.png" alt="#fig:UMP_Immune" /></p>
+<img src="images/ImmuneResponse_CD56.png" id="fig:UMAP_Immune" style="width:85.0%" alt="Brushing an UMAP with a covariate can illustrate the dynamics of cell changes" /></p>
 <h3 id="visualization-tools-for-interpretation-and-communication-to-biologists">Visualization tools for interpretation and communication to biologists</h3>
 <p>An example of effective visual interpretation tools is interactive brushing of UMAP plot, see <span class="citation" data-cites="ref">[<span class="citeproc-not-found" data-reference-id="ref"><strong>???</strong></span>]</span>(fig:BrushUMap) by Kris Sankaran.</p>
 <h2 id="missing">Missing</h2>
@@ -877,11 +881,11 @@ genes and transcripts can be enumerated using Ensembl catalog identifiers, repre
 GRanges instances<span class="citation" data-cites="14d6Jzwus">[<a href="#ref-14d6Jzwus" role="doc-biblioref">32</a>]</span>; regions of accessibility
 from, e.g., ATAC-seq experiments, may be defined using genomic coordinates in a clearly specified reference build. Metadata on
 samples includes all relevant information on experimental conditions such as treatment,
-protocol, and date of technical processing. Figure <a href="#fig:spatialExpt">1</a> shows how this
+protocol, and date of technical processing. Figure <a href="#fig:spatialExpt">3</a> shows how this
 class can be used to amalgamate and annotate results of a seqFISH experiment.</p>
 <div id="fig:spatialExpt" class="fignos">
 <figure>
-<img src="images/fusedDataStructures.png" style="width:85.0%" alt="" /><figcaption><span>Figure 1:</span> Left: Combination of seqFISH-based SpatialExperiment
+<img src="images/fusedDataStructures.png" style="width:85.0%" alt="" /><figcaption><span>Figure 3:</span> Left: Combination of seqFISH-based SpatialExperiment
 and SingleCellExperiment instances into a MultiAssayExperiment. Right: details of the SpatialExperiment class design.</figcaption>
 </figure>
 </div>
