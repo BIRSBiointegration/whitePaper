@@ -64,6 +64,17 @@ content/20.scProteomics.md:7:microenvironment
 content/20.scProteomics.md:7:situ
 content/20.scProteomics.md:9:bioinformatics
 content/20.scProteomics.md:16:biomarkers
+content/20.scProteomics.md:21:Hsu
+content/20.scProteomics.md:21:Tibshirani
+content/20.scProteomics.md:23:CyTOF
+content/20.scProteomics.md:23:CyTOF
+content/20.scProteomics.md:23:entropic
+content/20.scProteomics.md:23:tumour
+content/20.scProteomics.md:23:utilising
+content/20.scProteomics.md:23:Yingxin
+content/20.scProteomics.md:27:consortiums
+content/20.scProteomics.md:27:differentially
+content/20.scProteomics.md:27:IHC
 content/40.common-challenges.md:3:analyse
 content/40.common-challenges.md:11:pre
 content/40.common-challenges.md:13:pre
