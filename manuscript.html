@@ -69,9 +69,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/680b0f2b8da1f847c52d2f8a9d30182130507129/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/680b0f2b8da1f847c52d2f8a9d30182130507129/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/680b0f2b8da1f847c52d2f8a9d30182130507129/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/bde42f3fcb68585f2a0126255939b1908584755d/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/bde42f3fcb68585f2a0126255939b1908584755d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/bde42f3fcb68585f2a0126255939b1908584755d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -85,9 +85,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/680b0f2b8da1f847c52d2f8a9d30182130507129/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/bde42f3fcb68585f2a0126255939b1908584755d/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/680b0f2b8da1f847c52d2f8a9d30182130507129">BIRSBiointegration/whitePaper@680b0f2</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/bde42f3fcb68585f2a0126255939b1908584755d">BIRSBiointegration/whitePaper@bde42f3</a>
 on July 20, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -417,6 +417,13 @@ The single-cell targeted proteomics hackathon investigated the tumor-immune micr
 <p>The assignment of cell type relied on manually curated protein annotation, and was dependent on domain-specific knowledge; for example that CD4 is expressed by T-cells. To date, methods for cell type assignment, classification or extraction of differentially expressed proteins cannot easily be applied to targeted proteomics. Participants expressed a need for a unifying map between cells present in different datasets, and for annotation resources to provide quality metric or priors of protein cell type markers. There is a need for protein expression atlases to support cell type classification and potentially if this could be developed from large scale consortiums IHC of proteins (Human Protein Atlas [5, 6]), although the antibodies used and their performances might vary between labs.</p>
 <p>Standards/QC/Normalization</p>
 <h4 id="challenge-2-spatial-protein-expression-analysis">Challenge 2: spatial protein expression analysis</h4>
+<p>Whereas the CyToF mass spectrometry provided protein expression and counts/composition of cells in breast tumor-immune environment, the MIBI-TOF data provided spatial information that quantified cell attributes (shape/size/spatial coordinates) in addition to expression levels, thus providing the opportunity to examine protein expression, cell microenvironment, and predict cell-cell interactions and the cellular community ecosystem.</p>
+<p>Spatial information can be encoded as a set of XY coordinates (cell centroid), a line (eg tumor-immune boundary) or a polygon, which is a closed plane defined by a number of lines. A polygon can define complex shapes such as a cell or a community of cells. Spatial protein expression can be summarized using spatial descriptive statistics, such as the autocorrelation of the expression of a protein within a neighborhood of polygons. The neighborhood of polygons can be defined with a Euclidean distance or sphere, by a number of bounded cells or other measures, many of which were developed in geographical information science or ecology and assess if a spatially measured variable has a random, dispersed or clustered pattern [7].</p>
+<p>Kris Sankaran examined the extent to which expression data could be used to predict spatial properties of tissue samples. To build predictors, cells were first clustered (K = 20) on the basis of protein expression. Sample-level expression summaries were defined as the proportions of cells belonging to each cluster. To build the spatial response variables, a K-nearest neighbor graph was obtained from cell centroids (K = 5). For each cell, the average distance to its 5 nearest neighbors was computed, reflecting its local density. Further, the entropy of the cluster memberships across nearest neighbors was found, reflecting local heterogeneity. To summarize samples’ cell ecosystems, cell-level statistics were averaged across each sample’s cells. A random forest model trained from expression to spatial predictors achieved an average cross validation RMSEs of (tk ) for neighborhood size and entropy, respectively, relative to baselines of () obtainable by predicting the mean.</p>
+<p>Dr. Pratheepa Jeganathan applied topic modelling and defined five topic trained on protein expression and cell compositions in the CyToF data were sufficient to predict cell co-locations, in 10% MIBI-ToF Test data. Pratheepa Jeganathan (Stanford) applied a Bayesian modelling approach implemented using RStan and topic modelling [ Needs input from Pratheepa]</p>
+<p>Yingxin Lin (Sydney) examined the prognostic performance of different higher level spatial metrics. She measured protein autocorrelation using Moran’s Index (I) with a sphere distance, cell type localisation using nearest neighbour correlation, or cell type interaction composition, Ripley’s L-function. High-dimensional Cox models with fused lasso penalty and random forest survival models were fitted utilising different features, including clinical features such as tumour stage, tumour grade, age and tumour size, as well as features like cell type composition. Evaluating by the c-index via cross-validation, the spatial metrics are found to be predictive, especially in triple negative breast cancer where clinical features such as grade are poorly prognostic.</p>
+<p>Lauren Hsu (Harvard) also considered Moran’s I but used a graph-based neighborhood measure (Gabriel graph, based on Delaunay triangulation) instead of a sphere euclidean distance, and found that Moran’s I differed significantly between the three prognostic tumor scores described by Keren, et al.</p>
+<p>Need for development of spatial measure - different in dimensions of RNA v proteins</p>
 <h2 id="scnmt-seq-as-a-case-study-for-epigenetic-regulation">scNMT-seq as a case-study for epigenetic regulation</h2>
 <h3 id="overview-and-biological-question-2">Overview and biological question</h3>
 <h3 id="computational-challenges-2">Computational challenges</h3>

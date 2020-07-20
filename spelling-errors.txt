@@ -22,6 +22,8 @@ Blish
 BrushUMap
 Cao
 CellProfiler
+centroid
+centroids
 Channing
 cmIF
 cn
@@ -35,11 +37,13 @@ Culhane
 CyTOF
 Cytokit
 decompositions
+Delaunay
 differentially
 dimensionality
 discriminative
 DNase
 dqn
+eg
 eigenvector
 ejfertig
 Elana
@@ -81,6 +85,7 @@ KNN
 Lê
 learnings
 LIGER
+localisation
 Lubeck
 Lustgarten
 Matlab
@@ -94,6 +99,7 @@ modelling
 multiplatform
 multistream
 napari
+neighbour
 NMF
 NN
 nnbm
@@ -105,6 +111,7 @@ overparametrized
 PCA
 PCAs
 practitionners
+Pratheepa
 Pratheepan
 pre
 preprocessing
@@ -118,8 +125,10 @@ reproducibility
 resampling
 Ritchie
 RLQ
+RMSEs
 RNAseq
 rootograms
+RStan
 Saelens
 Sankaran
 Scanorama
@@ -142,6 +151,7 @@ Tasic
 tesselation
 Tian
 Tibshirani
+tk
 totalVI
 transcriptomic
 transtitions
@@ -161,6 +171,7 @@ Welch
 wrr
 Xu
 XXXX
+XY
 Yingxin
 Zhang
 Zhu
