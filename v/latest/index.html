@@ -69,9 +69,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/ea52212887cf1c2c601190a9018713833a401855/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/ea52212887cf1c2c601190a9018713833a401855/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/ea52212887cf1c2c601190a9018713833a401855/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/680b0f2b8da1f847c52d2f8a9d30182130507129/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/680b0f2b8da1f847c52d2f8a9d30182130507129/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/680b0f2b8da1f847c52d2f8a9d30182130507129/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -85,9 +85,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/ea52212887cf1c2c601190a9018713833a401855/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/680b0f2b8da1f847c52d2f8a9d30182130507129/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/ea52212887cf1c2c601190a9018713833a401855">BIRSBiointegration/whitePaper@ea52212</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/680b0f2b8da1f847c52d2f8a9d30182130507129">BIRSBiointegration/whitePaper@680b0f2</a>
 on July 20, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -411,6 +411,11 @@ The single-cell targeted proteomics hackathon investigated the tumor-immune micr
 <h4 id="challenge-1-lack-of-overlap-between-protein-features-across-studies">Challenge 1: Lack of overlap between protein features across studies</h4>
 <p>The low number of features precluded integration of features at the level of gene set or pathways. There were only 20 proteins that were assayed in both studies (Figure 3b). The majority of features were cell-type markers or biomarkers targets of breast cancer therapeutic intervention. The limited overlap in these studies necessitated the use of surrogate measures of cross- study association.</p>
 <p><a href="https://github.com/BIRSBiointegration/Hackathon/raw/master/sc-targeted-proteomics/pics/assays_venn.png">Fig3b</a></p>
+<p>Although the overlap in proteins was low, many proteins were cell-type markers, providing the opportunity to perform cross-study integration of cell type proportions in tumor tissue samples. Hackathon participants applied several semi-supervised and supervised algorithms to transfer cell labels and cell compositions from one dataset to the second. To capture the hierarchical structure of cell lineage, Lauren Hsu (Harvard) applied a simple random forest (RF) approach to perform feature transfer learning of cell type labels. An adaptation of the prediction strength approach described in Tibshirani (2012 https://doi.org/10.1198/106186005X59243) demonstrated model robustness: first, a model was trained on the labeled dataset and used to predict labels in the unlabeled dataset; next, a second model was trained based on the second dataset with the newly predicted labels; finally, she assessed the ability of the second model to recover the correct original labels when making predictions on the labeled dataset.</p>
+<p>Yingxin Lin (Univ of Sydney) mapped the cells from CyTOF to imaging with spatial information by solving an entropic regularization optimal transport problem [4, 11], utilising the cosine distance of the common proteins between the two datasets as transport cost. The constructed optimal transport plan can be considered as likelihood of cells from one modality mapped to cells from the other modality, which allows the prediction of protein expression measured only in CyTOF on imaging data. By clustering on the imputed expression matrix, she was able to identify a sub tumour cell type that is not revealed in the original matrix.</p>
+<p>However the scales of protein expression was a possible limiting factors When integrating cell compositions using the correlation expression of protein markers, some cell markers were expected on a range of cell types (e.g., CD45), whereas others are more specialized and represent a subset of those cells (e.g., CD4). Others challenges associated with cell compositions analysis of proteomics analysis included uncertainty over antibody specificity and consistency between studies, the sensitivity and specificity of protein markers for cell types, tissue and disease heterogeneity</p>
+<p>The assignment of cell type relied on manually curated protein annotation, and was dependent on domain-specific knowledge; for example that CD4 is expressed by T-cells. To date, methods for cell type assignment, classification or extraction of differentially expressed proteins cannot easily be applied to targeted proteomics. Participants expressed a need for a unifying map between cells present in different datasets, and for annotation resources to provide quality metric or priors of protein cell type markers. There is a need for protein expression atlases to support cell type classification and potentially if this could be developed from large scale consortiums IHC of proteins (Human Protein Atlas [5, 6]), although the antibodies used and their performances might vary between labs.</p>
+<p>Standards/QC/Normalization</p>
 <h4 id="challenge-2-spatial-protein-expression-analysis">Challenge 2: spatial protein expression analysis</h4>
 <h2 id="scnmt-seq-as-a-case-study-for-epigenetic-regulation">scNMT-seq as a case-study for epigenetic regulation</h2>
 <h3 id="overview-and-biological-question-2">Overview and biological question</h3>
