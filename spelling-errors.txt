@@ -1,5 +1,5 @@
 Abadi
-Aedin
+aedin
 AedinCulhane
 Amrit
 Amrith
@@ -12,6 +12,7 @@ autocorrelation
 autoencoder
 availabe
 Bioconductor’s
+bioinformatics
 Biomart
 bioRxiv
 Biostatsitics
@@ -69,6 +70,7 @@ janeroe
 Jeganathan
 Jenagan
 Jenathan
+Keren
 Kimmel
 KNN
 Lê
@@ -80,6 +82,7 @@ Matlab
 MBPCA
 Meng
 Meuleman
+microenvironment
 mixOmics
 mixOmicsTeam
 modelling
