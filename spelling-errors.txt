@@ -13,6 +13,7 @@ autoencoder
 availabe
 Bioconductor’s
 bioinformatics
+biomarkers
 Biomart
 bioRxiv
 Biostatsitics
@@ -132,6 +133,7 @@ STATIS
 subcellular
 Svensson
 SVM
+targarted
 Tasic
 tesselation
 Tian

@@ -63,6 +63,7 @@ content/20.scProteomics.md:7:Keren
 content/20.scProteomics.md:7:microenvironment
 content/20.scProteomics.md:7:situ
 content/20.scProteomics.md:9:bioinformatics
+content/20.scProteomics.md:16:biomarkers
 content/40.common-challenges.md:3:analyse
 content/40.common-challenges.md:11:pre
 content/40.common-challenges.md:13:pre

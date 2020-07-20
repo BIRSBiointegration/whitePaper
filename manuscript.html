@@ -69,9 +69,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/56d332f2903c873f793b795b8c91b91c9823a1bc/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/56d332f2903c873f793b795b8c91b91c9823a1bc/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/56d332f2903c873f793b795b8c91b91c9823a1bc/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/ea52212887cf1c2c601190a9018713833a401855/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/ea52212887cf1c2c601190a9018713833a401855/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/ea52212887cf1c2c601190a9018713833a401855/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -85,9 +85,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/56d332f2903c873f793b795b8c91b91c9823a1bc/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/ea52212887cf1c2c601190a9018713833a401855/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/56d332f2903c873f793b795b8c91b91c9823a1bc">BIRSBiointegration/whitePaper@56d332f</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/ea52212887cf1c2c601190a9018713833a401855">BIRSBiointegration/whitePaper@ea52212</a>
 on July 20, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -406,8 +406,11 @@ Most analyses that were originally developed for scRNAseq data can be immediatel
 <p>Overview and Biological Question
 The single-cell targeted proteomics hackathon investigated the tumor-immune microenvironment of primary breast cancer tissue. The challenge was the joint cross-study, cross-platform integrative analysis of single cell proteomics data that had low feature overlap, were generated on different antibody-based targeted proteomics technological platforms and in different laboratories [1, 2]. Mass cytometry (CyTOF) from Wagner et al. (2019) measured 73 proteins in two panels (immune, tumor) in 194 tissue samples from 143 subjects, of which 6 patients had triple-negative negative breast cancer. The second dataset applied Multiplexed Ion Beam Imaging (MIBI) to quantify spatial in-situ expression of 36 proteins in 41 triple-negative breast cancer patients (Keren et al. 2018). (Figure 3a)</p>
 <p>Whilst this is a formidable data integration challenge, it reflects the bioinformatics analysis of clinical teams who wish to compare and investigate data collected on different cohorts of cancer patients. The first questions simply asked if partially-overlapping proteomic data collected on different patients with similar phenotypes could be integrated, and asked participants to test if measurements in one technology could be transferred and used to predict information in the second. The MIBI data provided spatial location and expression of proteins, therefore the challenge asked if the spatial expression patterns of proteins measured on mass-tag could be predicted. Secondly it raised questions unique to spatial ‘omics technologies. Does spatial capture unique information, beyond cell compositions. Could information about the spatial location of immune cell populations in breast cancer be discovered in integrated analyses of these datasets. Finally the datasets had no overlap in patients, so how could heterogeneous phenotype information be used to integrate patient ‘omics data with low feature and no tumor biological sample overlap.</p>
+<p>[Fig1a] (Create pictogram of sc_targarted proteins hackathon challenge )</p>
 <h3 id="computational-challenges-1">Computational challenges</h3>
-<h4 id="challenge-1-address-the-lack-of-overlap-between-proteins-across-studies">Challenge 1: address the lack of overlap between proteins across studies</h4>
+<h4 id="challenge-1-lack-of-overlap-between-protein-features-across-studies">Challenge 1: Lack of overlap between protein features across studies</h4>
+<p>The low number of features precluded integration of features at the level of gene set or pathways. There were only 20 proteins that were assayed in both studies (Figure 3b). The majority of features were cell-type markers or biomarkers targets of breast cancer therapeutic intervention. The limited overlap in these studies necessitated the use of surrogate measures of cross- study association.</p>
+<p><a href="https://github.com/BIRSBiointegration/Hackathon/raw/master/sc-targeted-proteomics/pics/assays_venn.png">Fig3b</a></p>
 <h4 id="challenge-2-spatial-protein-expression-analysis">Challenge 2: spatial protein expression analysis</h4>
 <h2 id="scnmt-seq-as-a-case-study-for-epigenetic-regulation">scNMT-seq as a case-study for epigenetic regulation</h2>
 <h3 id="overview-and-biological-question-2">Overview and biological question</h3>
