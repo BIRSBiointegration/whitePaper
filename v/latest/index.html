@@ -9,7 +9,7 @@
   <meta name="author" content="Elana Fertig" />
   <meta name="author" content="Vincent J. Carey" />
   <meta name="author" content="Jane Roe" />
-  <meta name="dcterms.date" content="2020-07-19" />
+  <meta name="dcterms.date" content="2020-07-20" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Community-wide hackathons establish foundations for emerging single cell data integration</title>
   <style>
@@ -32,8 +32,8 @@
   <meta name="citation_title" content="Community-wide hackathons establish foundations for emerging single cell data integration" />
   <meta property="og:title" content="Community-wide hackathons establish foundations for emerging single cell data integration" />
   <meta property="twitter:title" content="Community-wide hackathons establish foundations for emerging single cell data integration" />
-  <meta name="dc.date" content="2020-07-19" />
-  <meta name="citation_publication_date" content="2020-07-19" />
+  <meta name="dc.date" content="2020-07-20" />
+  <meta name="citation_publication_date" content="2020-07-20" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -69,9 +69,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/935a7eed62f434a8617821542507a9de38d202d7/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/935a7eed62f434a8617821542507a9de38d202d7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/935a7eed62f434a8617821542507a9de38d202d7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/536a1bd9dc730ceead07dfe7a2a68c8488b532b3/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/536a1bd9dc730ceead07dfe7a2a68c8488b532b3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/536a1bd9dc730ceead07dfe7a2a68c8488b532b3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -85,10 +85,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/935a7eed62f434a8617821542507a9de38d202d7/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/536a1bd9dc730ceead07dfe7a2a68c8488b532b3/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/935a7eed62f434a8617821542507a9de38d202d7">BIRSBiointegration/whitePaper@935a7ee</a>
-on July 19, 2020.
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/536a1bd9dc730ceead07dfe7a2a68c8488b532b3">BIRSBiointegration/whitePaper@536a1bd</a>
+on July 20, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -750,38 +750,32 @@ https://arxiv.org/abs/1802.03426v2</p>
 Cardinal Newman wrote <strong>The Grammar of Assent.</strong> and cited in [Bruno de Finetti, Volume 1, 1974 Theory of Probability]:</p>
 <p><em>Supposes a thesis (e.g. the guilt of an accused man) is supported by a great deal of circumstantial evidence of different forms, but in agreement with each other; then even if each piece of evidence is in itself insufficient to produce any strong belief, the thesis is decisively strengthened by their joint effect.</em></p>
 <h2 id="techniques-and-challenges-for-benchmarking-methods">Techniques and challenges for benchmarking methods</h2>
-<h3 id="we-must-first-define-what-we-are-benchmarking">We must first define what we are benchmarking</h3>
-<ul>
-<li>Often the goal in benchmarking is recovery of known cell types with
+<h3 id="definition-of-benchmarking">Definition of benchmarking</h3>
+<p>Often, the goal in benchmarking is recovery of known cell types with
 processing of raw data, quantification, and clustering. The
 Adjusted Rand Index (ARI) or other metrics for partitions are
-used.</li>
-<li>One may also attempt to benchmark methods for their ability to
+used.</p>
+<p>One may also attempt to benchmark methods for their ability to
 discover known relationships between data modalities, e.g. gene
 regulatory relationships observed between chromatin accessibility
 and gene expression. However, this is made difficult by the fact
 that these relationships are not fully known at the single cell
-level.</li>
-</ul>
+level.</p>
 <h3 id="strategies-for-benchmarking">Strategies for benchmarking</h3>
-<ul>
-<li><p>First, we acknowledge that benchmarking multi-modal methods on
-typical multi-modal datasets is inherently difficult, as we rarely
-know the ground truth <span class="citation" data-cites="chgaiKOU">[<a href="#ref-chgaiKOU" role="doc-biblioref">1</a>]</span>.</p></li>
-<li><p>Simulation is useful for having known truth, but it is difficult to
+<p>Benchmarking multi-modal methods on typical multi-modal datasets is inherently difficult, as we rarely
+know the ground truth <span class="citation" data-cites="chgaiKOU">[<a href="#ref-chgaiKOU" role="doc-biblioref">1</a>]</span>. Simulation is useful for having known truth, but it is difficult to
 simulate realistic covariance structure across features and across
-data modalities.</p></li>
-<li><p>Benchmarking datasets (add examples from Google Doc). Benchmark
-datasets for single cell studies have largely centered around
+data modalities (<strong>Figure</strong>).</p>
+<h4 id="creating-benchmarking-datasets">Creating benchmarking datasets</h4>
+<p>(<strong>add examples from Google Doc</strong>)
+Benchmark datasets for single cell studies have largely centered around
 measuring sequencing depth and diversity of cell types derived from
 a single assay of interest (e.g. scRNAseq). A benchmark dataset
-serves a few purposes:</p>
-<ul>
-<li>Provides ground truth for the intended effect of exposure in a
-proposed study design.</li>
-<li>Provides validation for a data integration task for which a new
-computational method may be proposed.</li>
-</ul>
+serves a few purposes:
+- Provides ground truth for the intended effect of exposure in a
+proposed study design.
+- Provides validation for a data integration task for which a new
+computational method may be proposed.</p>
 <p>For multi-modal assays, while the intended effects can vary based on
 the leading biological questions, one may abstract out common data
 integration tasks such as co-embedding, mapping or correlation, and
@@ -790,26 +784,22 @@ further downstream analyses that may occur on integrated samples
 such as differential analysis of both assays with regard to to a certain
 exposure.</p>
 <p>Both the intended effects and data integration task rely on study
-design that takes into account:</p>
-<ul>
-<li>Biological and technical variability via replicates, block
-design, and randomization.</li>
-<li>Power analysis for the intended effect or data integration
-task.</li>
-<li>Dependencies between modalities, for e.g. gene expression
+design that takes into account:
+- Biological and technical variability via replicates, block
+design, and randomization.
+- Power analysis for the intended effect or data integration
+task.
+- Dependencies between modalities, for e.g. gene expression
 depending on gene regulatory element activity, requires that
 experiment design must also account for spatial and temporal
-elements in sampling for a given observation.</li>
-</ul>
+elements in sampling for a given observation.</p>
 <p>As such, no universal benchmark data scheme may suit every
 combination of modality, and benchmark datasets may be established
 for commonly used combinations of modalities or technologies,
-towards specific data integration tasks.</p></li>
-<li><p>Cross-validation within study can be performed. For example the
-following
-<a href="https://github.com/Wancen/CV-MOFA">cross-validation analysis of the scNMT-seq dataset</a>
-was performed using MOFA+.</p>
-<p>Such an evaluation of methods using permutation or cross-validation
+towards specific data integration tasks.</p>
+<h4 id="cross-validation-within-study">Cross-validation within study</h4>
+<p>For example the <a href="https://github.com/Wancen/CV-MOFA">cross-validation analysis of the scNMT-seq dataset</a>
+was performed using MOFA+ (<strong>Figure</strong>). Such an evaluation of methods using permutation or cross-validation
 has been performed previously, typically to optimize a tuning
 parameter or other aspects of model selection. Permutation has been
 used to create null datasets, either as demonstration that a method
@@ -817,8 +807,7 @@ is not overfitting, or for tuning parameter selection, where the
 optimal parameter setting should produce an objective that is far
 from the null distribution
 <span class="citation" data-cites="vJJXeGCv MYhQ5fRN NSuq56O9">[<a href="#ref-vJJXeGCv" role="doc-biblioref">2</a>,<a href="#ref-MYhQ5fRN" role="doc-biblioref">3</a>,<a href="#ref-NSuq56O9" role="doc-biblioref">4</a>]</span>.
-Cross-validation using folds or leave-one-out has likewise been used
-in many multi-modal method development papers
+Cross-validation using folds or leave-one-out has likewise been used in many multi-modal method development papers
 <span class="citation" data-cites="13ibOJcF0 maAEgLQK yVYfg2ZK YY25QUrX 5B54vifR tOD4Gkgt AQWTNms4 bFa7ptnr wkhRfjyx wP2BgpVi QSXGprag cZOVX9E7">[<a href="#ref-13ibOJcF0" role="doc-biblioref">5</a>,<a href="#ref-maAEgLQK" role="doc-biblioref">6</a>,<a href="#ref-yVYfg2ZK" role="doc-biblioref">7</a>,<a href="#ref-YY25QUrX" role="doc-biblioref">8</a>,<a href="#ref-5B54vifR" role="doc-biblioref">9</a>,<a href="#ref-tOD4Gkgt" role="doc-biblioref">10</a>,<a href="#ref-AQWTNms4" role="doc-biblioref">11</a>,<a href="#ref-bFa7ptnr" role="doc-biblioref">12</a>,<a href="#ref-wkhRfjyx" role="doc-biblioref">13</a>,<a href="#ref-wP2BgpVi" role="doc-biblioref">14</a>,<a href="#ref-QSXGprag" role="doc-biblioref">15</a>,<a href="#ref-cZOVX9E7" role="doc-biblioref">16</a>]</span>.</p>
 <p>A challenge with within study cross-validation is how to
 match dimensions of latent space across folds. Previous evaluations
@@ -831,15 +820,16 @@ determine prediction strength
 <span class="citation" data-cites="4CvJHFCU QfQVcW0v gbdea2Ea I1iOQSFC">[<a href="#ref-4CvJHFCU" role="doc-biblioref">18</a>,<a href="#ref-QfQVcW0v" role="doc-biblioref">19</a>,<a href="#ref-gbdea2Ea" role="doc-biblioref">20</a>,<a href="#ref-I1iOQSFC" role="doc-biblioref">21</a>]</span>.
 For clustering of cells into putative cell types or cell states,
 such previously developed techniques could be applied in a
-multi-modal setting.</p></li>
-<li><p>Cross-study validation would assess if relationships discovered in
+multi-modal setting.</p>
+<p>Cross-study validation would assess if relationships discovered in
 one dataset present in other datasets, potentially looking across
 single cell and bulk.</p>
+<h3 id="using-hackathon-studies-as-community-benchmarking">Using hackathon studies as community benchmarking</h3>
+<p><em>to fill here, could mention the dream challenge and link back to our own experience / learnings</em></p>
 <p><strong>Figure</strong> <strong>A)</strong> Silver standard: Svensson et al. (2017) Nat Methods; Wang et al. (2019) bioRxiv; Cole et al. (2019) Cell Systems; Zhang et al. (2017) bioRxiv;
-Soneson et al. (2018) Nat Methods; Saelens et al. (2019) Nat Biotechnol; Gold standard control data: Tian et al. (2019) Nat Meth; Freytag et al. (2018) F1000Res; Gold standard simulated data with the splatter R package appia et al. (2017) Genome Biol [credit: Matt Ritchie] <strong>B)</strong> scNMT-seq study: correlations with linear projections (MOFA+) evaluated with cross-validation.</p>
+Soneson et al. (2018) Nat Methods; Saelens et al. (2019) Nat Biotechnol; Gold standard control data: Tian et al. (2019) Nat Meth; Freytag et al. (2018) F1000Res; Gold standard simulated data with the splatter R package appia et al. (2017) Genome Biol [credit: Matt Ritchie] <strong>B)</strong> scNMT-seq study: correlations with linear projections (MOFA+) evaluated with cross-validation [credit: Mike Love]. <strong>DOI missing</strong></p>
 <p><img src="images/Benchmark.png" alt="Silver and Gold standard benchmarking" height="300"/>
-<img src="images/scNMT_MOFA_CV.png" alt="Cross validation of MOFA+ on scNMT-seq" height="300"/></p></li>
-</ul>
+<img src="images/scNMT_MOFA_CV.png" alt="Cross validation of MOFA+ on scNMT-seq" height="300"/></p>
 <h2 id="software-strategies-to-enable-analyses-of-multimodal-single-cell-experiments">Software strategies to enable analyses of multimodal single cell experiments</h2>
 <p>In this chapter we review the situation of scientists who
 create and use analytic software for visualization and inference in multimodal
