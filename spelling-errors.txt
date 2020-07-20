@@ -1,5 +1,5 @@
 Abadi
-Aedin
+aedin
 AedinCulhane
 Amrit
 Amrith
@@ -34,7 +34,7 @@ covariate
 covariates
 Craniofacial
 Culhane
-CyTOF
+CyToF
 Cytokit
 decompositions
 Delaunay
