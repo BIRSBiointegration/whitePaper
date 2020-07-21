@@ -7,8 +7,8 @@ author-meta:
 - Jane Roe
 bibliography:
 - content/manual-references.json
-date-meta: '2020-07-20'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"citation_title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"og:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"twitter:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"dc.date\" content=\"2020-07-20\" />\n<meta name=\"citation_publication_date\" content=\"2020-07-20\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Kim-Anh L\xEA Cao\" />\n<meta name=\"citation_author_institution\" content=\"Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3923-1116\" />\n<meta name=\"twitter:creator\" content=\"@mixOmicsTeam\" />\n<meta name=\"citation_author\" content=\"Aedin C Culhane\" />\n<meta name=\"citation_author_institution\" content=\"Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA\" />\n<meta name=\"citation_author_institution\" content=\"Biostatsitics, Harvard TH Chan School of Public Health, Boston, MA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1395-9734\" />\n<meta name=\"twitter:creator\" content=\"@AedinCulhane\" />\n<meta name=\"citation_author\" content=\"Elana Fertig\" />\n<meta name=\"citation_author_institution\" content=\"Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biomedical Engineering, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Applied Mathematics and Statistics, Johns Hopkins University Whiting School of Engineering, Baltimore, MD, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3204-342X\" />\n<meta name=\"twitter:creator\" content=\"@FertigLab\" />\n<meta name=\"citation_author\" content=\"Vincent J. Carey\" />\n<meta name=\"citation_author_institution\" content=\"Channing Division of Network Medicine, Brigham and Women&#39;s Hospital, Harvard Medical School\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4046-0063\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@XXX\" />\n<link rel=\"canonical\" href=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"og:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"twitter:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://BIRSBiointegration.github.io/whitePaper/v/74342f7e42d24a288305e67f87e63cec4ac49daf/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/74342f7e42d24a288305e67f87e63cec4ac49daf/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/74342f7e42d24a288305e67f87e63cec4ac49daf/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+date-meta: '2020-07-21'
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"citation_title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"og:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"twitter:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"dc.date\" content=\"2020-07-21\" />\n<meta name=\"citation_publication_date\" content=\"2020-07-21\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Kim-Anh L\xEA Cao\" />\n<meta name=\"citation_author_institution\" content=\"Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3923-1116\" />\n<meta name=\"twitter:creator\" content=\"@mixOmicsTeam\" />\n<meta name=\"citation_author\" content=\"Aedin C Culhane\" />\n<meta name=\"citation_author_institution\" content=\"Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA\" />\n<meta name=\"citation_author_institution\" content=\"Biostatsitics, Harvard TH Chan School of Public Health, Boston, MA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1395-9734\" />\n<meta name=\"twitter:creator\" content=\"@AedinCulhane\" />\n<meta name=\"citation_author\" content=\"Elana Fertig\" />\n<meta name=\"citation_author_institution\" content=\"Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biomedical Engineering, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Applied Mathematics and Statistics, Johns Hopkins University Whiting School of Engineering, Baltimore, MD, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3204-342X\" />\n<meta name=\"twitter:creator\" content=\"@FertigLab\" />\n<meta name=\"citation_author\" content=\"Vincent J. Carey\" />\n<meta name=\"citation_author_institution\" content=\"Channing Division of Network Medicine, Brigham and Women&#39;s Hospital, Harvard Medical School\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4046-0063\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@XXX\" />\n<link rel=\"canonical\" href=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"og:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"twitter:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://BIRSBiointegration.github.io/whitePaper/v/e8bdb358b0482ffdb6720d96290672f491ecc64d/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/e8bdb358b0482ffdb6720d96290672f491ecc64d/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/e8bdb358b0482ffdb6720d96290672f491ecc64d/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - markdown
 - publishing
@@ -28,10 +28,10 @@ title: Community-wide hackathons establish foundations for emerging single cell 
 
 <small><em>
 This manuscript
-([permalink](https://BIRSBiointegration.github.io/whitePaper/v/74342f7e42d24a288305e67f87e63cec4ac49daf/))
+([permalink](https://BIRSBiointegration.github.io/whitePaper/v/e8bdb358b0482ffdb6720d96290672f491ecc64d/))
 was automatically generated
-from [BIRSBiointegration/whitePaper@74342f7](https://github.com/BIRSBiointegration/whitePaper/tree/74342f7e42d24a288305e67f87e63cec4ac49daf)
-on July 20, 2020.
+from [BIRSBiointegration/whitePaper@e8bdb35](https://github.com/BIRSBiointegration/whitePaper/tree/e8bdb358b0482ffdb6720d96290672f491ecc64d)
+on July 21, 2020.
 </em></small>
 
 ## Authors
@@ -586,28 +586,28 @@ Table: Different methods were used in the hackathon. * indicates the method was 
 
 There are many difficulties involved of the understanding and communication of results from complex data sets and analyses as we have seen in @ref(sec:scNMTQ-seq),
 @ref(sec:scProteomics),
-@ref(sec:scSpatial). 
+@ref(sec:scSpatial).
 
-We'll separate out the different challenges into different levels. 
+We'll separate out the different challenges into different levels.
 
-### Interpretation for data scientists reading the methods sections requires a good understanding of the building blocks 
+### Interpretation for data scientists reading the methods sections requires a good understanding of the building blocks
 
 The first is the communication within the community of data scientists, computer scientists and computational biologists ie communicating about methods within a community of practitionners who do not have the same vocabulary or background.
 
 Many tools are used as black boxes and users
 don't know or agree on what exactly the methods are doing (MOFA and tSNE are examples). The first step in unblinding these black boxes used as methodology shortcuts is to have a clear glossary of terms and how we are using them.
 Many synonyms for multimodal data exist and some have nuances, see the table we have compiled (ref: Table1).
-Understanding the relation between methods developed by different teams is essential and we often try to organize the methods first, thus it is useful to create a dichotomy of methods and their underlying properties. 
+Understanding the relation between methods developed by different teams is essential and we often try to organize the methods first, thus it is useful to create a dichotomy of methods and their underlying properties.
 
 A very useful tool for making methodological black boxes more transparent are simulated data. These can follow benchmark methods such as those presented in @ref(sec:sec-benchmark) and use well defined generative processes to clarify what some complex methods do.
 
-Visualization of the data, following the step by step transformations and optimizations of data representations also help  clarify how certain methods fit models or  compress and reduce data dimensionality. These visualizations are often very specialized (think for instance, correspondence analyses, goodness of fit plots like qqplots or rootograms or mean-variance fitting). 
+Visualization of the data, following the step by step transformations and optimizations of data representations also help  clarify how certain methods fit models or  compress and reduce data dimensionality. These visualizations are often very specialized (think for instance, correspondence analyses, goodness of fit plots like qqplots or rootograms or mean-variance fitting).
 These intermediary plots don't usually end up in the main text of final biological publications and serve as intermediary checks to unpack the black boxes.
 
 ### Supervised versus unsupervised {#subsec:super}
 
 One simple delineation between methods is that some
-aim to predict a clearly defined outcome at the start of the project, such as recognizing the environment of tumor cells  versus that of healthy cells @ref(sec:scProteomics). 
+aim to predict a clearly defined outcome at the start of the project, such as recognizing the environment of tumor cells  versus that of healthy cells @ref(sec:scProteomics).
 The supervised setting  often provides easier interpretations, one can easily rank the covariates and contiguous data in terms of their predictive potential.
 
 On the other hand when data are collected using multiple
@@ -615,13 +615,13 @@ different technologies the data integration needs to provide organizing patterns
 Clustering is often used as one unsupervised method and is a good example of the use of a latent variable, in this case a factor or categorical variable which was not directly measured on the data but is often used to enable simple interpretations.
 
 In cellular biology,  a favorite such division into clusters is that involved in the definition of cell type
-[@doi10.1016/j.cels.2017.03.006]. 
+[@doi:10.1016/j.cels.2017.03.006].
 
 Sometimes people get carried away in "clustering data" and manipulate the data, in cytometry one often sees cell gating done. The goal there is to eliminate cells in intermediary states to give clearly delineated inventories of cell types or cells in discrete states, this is a static description and will not enable researchers down the road to predict or understand transtitions between types.
 
 Although a latent factor can be a useful first approximation,  keep in mind that development of cells and their fate is a dynamic process and it can often be beneficial to keep data that enable interpretation of the cell trajectories: in that case, locally the underlying latent variable of interest is continuous along a gradient of development.
 
-So far, we have seen two types of latent variables: clusters and a one dimensional continuous "gradient", (pseduo-time, disease progression are two examples of such latent gradients). However the idea of latent variables is a rich anchor for many multimodal methods and can often be useful in highlighting what the modalities have in "common" and how they differ. The commonalities are well understood in the case of classical multivariate factor  analyses where the data are decomposed into "commonalities" and uniqueness components [@doi10.1037/h0069792].
+So far, we have seen two types of latent variables: clusters and a one dimensional continuous "gradient", (pseduo-time, disease progression are two examples of such latent gradients). However the idea of latent variables is a rich anchor for many multimodal methods and can often be useful in highlighting what the modalities have in "common" and how they differ. The commonalities are well understood in the case of classical multivariate factor  analyses where the data are decomposed into "commonalities" and uniqueness components [@doi:10.1037/h0069792].
 
 A schematic summary of the different stages in interpretation is provided here:
 
@@ -629,16 +629,16 @@ A schematic summary of the different stages in interpretation is provided here:
 
 
 Multiple domains of knowledge can be combined easily if there is a common coordinate system, as in geospatial analyses.This is often a goal in multimodal or conjoint analyses, when the first step is to find a common compromise or consensus on which to project each of the individual modalities.
-Conjoint analyses also known as STATIS [@doi.org10.1016/0167-9473(94)90134-1] was a very early multimodal method designed as PCA of PCAs where the first step in the analyses was to find what the different modalities had in common and define a consensus [@doi.org10.1214/193940307000000455] onto which the individual tables were projected.
-This method can be seen as an extension of the class of matrix decomposition methods to data cubes. Many extensions to matrix decompositions have been designed for multimodal data, [@doi.org10.3389/fgene.2019.00627] offers an overview of the relations between many of them.
+Conjoint analyses also known as STATIS [@doi:10.1016/0167-9473(94)90134-1] was a very early multimodal method designed as PCA of PCAs where the first step in the analyses was to find what the different modalities had in common and define a consensus [@doi:10.1214/193940307000000455] onto which the individual tables were projected.
+This method can be seen as an extension of the class of matrix decomposition methods to data cubes. Many extensions to matrix decompositions have been designed for multimodal data, [@doi:10.3389/fgene.2019.00627] offers an overview of the relations between many of them.
 
 
 ## Reasonning by analogy with geospatial problems
 
-In both the proteomics example @ref(sec:scProteomics) 
+In both the proteomics example @ref(sec:scProteomics)
 and the @ref(sec:scSpatial) examplary data, a spatial dimension is already naturally available. As in previous studies one can leverage
 extensive methods developed in spatial statistics to
-quantify spatial effects [@doi.org10.1371/journal.pone.0012420]. Contiguity and clustering can be tested and easily understood in the spatial context.
+quantify spatial effects [@doi:10.1371/journal.pone.0012420]. Contiguity and clustering can be tested and easily understood in the spatial context.
 
 In these cases,  layers of information can be mapped to the natural coordinate system in the same way
 a GIS system incorporates them.
@@ -672,18 +672,18 @@ be integrated into the analyses to make them more realistic and reduce if not el
 
 In the right side of the Figure @ref(fig:InterpWorkflow)
 we show how connections to layers of information from outside databases can be incorporated into the final output. Real biological understanding is often subordinated to the integration
- of this contiguous information. Either from the metadata already available in the multiassay containers as for instance in the [MultiAssayExperiment package](https://bioconductor.org/packages/release/bioc/html/MultiAssayExperiment.html) or from exterior sources such as Gene Ontologies, Biomart [@doi.org10.1038/nprot.2009.97 ], Kegg, Human Cell Atlas (HCA) or other sources often available through links provided within systems like bioconductor ().
- 
- 
- 
- 
+ of this contiguous information. Either from the metadata already available in the multiassay containers as for instance in the [MultiAssayExperiment package](https://bioconductor.org/packages/release/bioc/html/MultiAssayExperiment.html) or from exterior sources such as Gene Ontologies, Biomart [@doi:10.1038/nprot.2009.97 ], Kegg, Human Cell Atlas (HCA) or other sources often available through links provided within systems like bioconductor ().
+
+
+
+
 Redundant biological knowledge is often enlightening,
 as many methods suffer from identifiability issues (ie in a gradient, the direction of the direction is unknown).
 By providing information on the extreme points in a map
 or brushing a map with known gene expression features
 one can delineate orientations and clusters.
 
-For instance coloring by CD56 across time shows the dynamics of immune response [@doi.org10.3389/fimmu.2020.00714]:
+For instance coloring by CD56 across time shows the dynamics of immune response [@doi:10.3389/fimmu.2020.00714]:
 ![Brushing an UMAP with a covariate can illustrate the dynamics of cell changes](images/ImmuneResponse_CD56.png){#fig:UMAP_Immune width="85%"}
 
 ### Visualization tools for interpretation and communication to biologists
@@ -692,7 +692,7 @@ For instance coloring by CD56 across time shows the dynamics of immune response 
 An example of effective visual interpretation tools is interactive  brushing of UMAP plot,  see @ref(fig:BrushUMap) by Kris Sankaran.
 
 
-## Missing 
+## Missing
 
  - Validation  through complementary data and sequential experimental design.
 
@@ -705,23 +705,23 @@ An example of effective visual interpretation tools is interactive  brushing of 
 ## References
 
 Cell type definition:
-[@doi10.1016/j.cels.2017.03.006]
+[@doi:10.1016/j.cels.2017.03.006]
 
 Factor Analysis:
-[@doi10.1037/h0069792]
+[@doi:10.1037/h0069792]
 
 Statis, conjoint analysis:
-@doi.org10.1016/0167-9473(94)90134-1
+@doi:10.1016/0167-9473(94)90134-1
 
 The French way:
-[@doi.org10.1214/193940307000000455]
+[@doi:10.1214/193940307000000455]
 
 Overview and connections of methods: KS
-[@doi.org10.3389/fgene.2019.00627 ]
+[@doi:10.3389/fgene.2019.00627 ]
 
 Kevin Murphy:
 Probabilistic Machine Learning, MIT Press
-[@doi.org10.5555/2380985]
+[@doi:10.5555/2380985]
 isbn 13: 978-0262018029
 ISBN 10: 0262018020
 
@@ -731,20 +731,20 @@ https://www.usgs.gov/faqs/what-a-geographic-information-system-gis
 
 Original: https://prd-wret.s3.us-west-2.amazonaws.com/assets/palladium/production/s3fs-public/styles/full_width/public/thumbnails/image/8BaseLayersofTheNationalMap.JPG
 
-Biomart: 
-[@doi.org10.1038/nprot.2009.97] 
+Biomart:
+[@doi:10.1038/nprot.2009.97]
 
-UMAP: 
-[@doi.org10.1038/nbt.4314]
+UMAP:
+[@doi:10.1038/nbt.4314]
 https://arxiv.org/abs/1802.03426v2
 
 Spatial tumor and immune cells:
-[@doi.org10.1371/journal.pone.0012420]
+[@doi:10.1371/journal.pone.0012420]
 
 CD56 Immune cell coloring, paper with C. Blish:
-[@doi.org10.3389/fimmu.2020.00714]
+[@doi:10.3389/fimmu.2020.00714]
 
-Footnote: 
+Footnote:
 Cardinal Newman wrote  **The Grammar of Assent.** and cited in  [Bruno de Finetti, Volume 1, 1974 Theory of Probability]:
 
 *Supposes a thesis (e.g. the guilt of an accused man) is supported by a great deal of circumstantial evidence of different forms, but in agreement with each other; then even if each piece of evidence is in itself insufficient to produce any strong belief, the thesis is decisively strengthened by their joint effect.*

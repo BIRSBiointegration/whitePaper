@@ -34,7 +34,7 @@ covariate
 covariates
 Craniofacial
 Culhane
-CyToF
+CyTOF
 Cytokit
 decompositions
 Delaunay
@@ -142,7 +142,7 @@ Sodicoff
 Soneson
 spatialExpt
 ssEnet
-STATIS
+Statis
 subcellular
 Svensson
 SVM
