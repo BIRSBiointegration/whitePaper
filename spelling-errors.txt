@@ -1,5 +1,5 @@
 Abadi
-aedin
+Aedin
 AedinCulhane
 Amrit
 Amrith
@@ -142,7 +142,7 @@ Sodicoff
 Soneson
 spatialExpt
 ssEnet
-Statis
+STATIS
 subcellular
 Svensson
 SVM
