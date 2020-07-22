@@ -5,6 +5,7 @@ AedinCulhane
 Amrit
 Amrith
 analyse
+analysing
 Anh
 appia
 Arcsinh
@@ -14,6 +15,7 @@ arround
 autocorrelation
 autoencoder
 availabe
+bBecause
 Bioconductor’s
 bioinformatics
 biomarkers
@@ -29,6 +31,7 @@ CellProfiler
 centric
 centroid
 centroids
+challanges
 Channing
 cmIF
 cn
@@ -41,7 +44,7 @@ CpG
 Craniofacial
 CTCF
 Culhane
-CyToF
+CyTOF
 Cytokit
 decompositions
 Delaunay
@@ -63,13 +66,14 @@ ENet
 entropic
 examplary
 excitatory
+ExperimentHub
 Facetto
 factorisation
 Farber
 Fertig
 Finetti
 Freytag
-gastrulation
+Gastrulation
 gcj
 gcxh
 generalisation
@@ -137,6 +141,7 @@ Ontologies
 overfitting
 overparametrized
 partialy
+Patheepa
 PCA
 PCAs
 PLS
@@ -156,7 +161,7 @@ qvd
 RArgelaguet
 Reasonning
 remodelling
-reproducibility
+Reproducibility
 resampling
 Ricard
 Ritchie
@@ -178,7 +183,7 @@ Sodicoff
 Soneson
 spatialExpt
 ssEnet
-Statis
+STATIS
 subcellular
 substract
 succesful
@@ -206,7 +211,6 @@ variational
 vjcitn
 Voronoi
 VSN
-Waldron
 Welch
 wrr
 Xu
