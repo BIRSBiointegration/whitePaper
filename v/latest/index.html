@@ -74,9 +74,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/534dacfb42903cdab63b9dc8975a08951c6de212/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/534dacfb42903cdab63b9dc8975a08951c6de212/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/534dacfb42903cdab63b9dc8975a08951c6de212/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/b8f29f055181fb3777ddb18eab6458a9f797872a/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/b8f29f055181fb3777ddb18eab6458a9f797872a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/b8f29f055181fb3777ddb18eab6458a9f797872a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -90,9 +90,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/534dacfb42903cdab63b9dc8975a08951c6de212/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/b8f29f055181fb3777ddb18eab6458a9f797872a/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/534dacfb42903cdab63b9dc8975a08951c6de212">BIRSBiointegration/whitePaper@534dacf</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/b8f29f055181fb3777ddb18eab6458a9f797872a">BIRSBiointegration/whitePaper@b8f29f0</a>
 on July 22, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -903,9 +903,7 @@ Soneson et al. (2018) Nat Methods; Saelens et al. (2019) Nat Biotechnol; Gold 
 <p><img src="images/Benchmark.png" alt="Silver and Gold standard benchmarking" height="300"/>
 <img src="images/scNMT_MOFA_CV.png" alt="Cross validation of MOFA+ on scNMT-seq" height="300"/></p>
 <h2 id="software-strategies-to-enable-analyses-of-multimodal-single-cell-experiments">Software strategies to enable analyses of multimodal single cell experiments</h2>
-<p>In this chapter we review the situation of scientists who
-create and use analytic software for visualization and inference in multimodal
-single-cell experiments. Our discussion is necessarily limited in scope, but
+<p>In this section we reflect on the challanges we have faced when analysing this series of hackathons whilst using analytic software for visualization and inference in multimodal single-cell experiments. Our discussion is necessarily limited in scope, but
 we provide pointers to concrete details when relevant.</p>
 <h3 id="basic-aims">Basic aims</h3>
 <p>We take it for granted that <strong>openness</strong> is a <em>sine qua non</em> for computational tooling in this
@@ -934,53 +932,47 @@ multiplatform/multistream <strong>continuous integration/continuous delivery</st
 and <em>users</em> with different skill sets by articulating standards for documentation, and testing, and
 by hosting community forums and workshops<span class="citation" data-cites="SkTqlnmn">[<a href="#ref-SkTqlnmn" role="doc-biblioref">46</a>]</span>.</p>
 <h3 id="data-management-strategies">Data management strategies</h3>
-<p><strong>A ready-to-use integrative data class.</strong> The Waldron group at City University of New York has defined a Bioconductor
-class implementing an abstract data type called “multiassay experiment”<span class="citation" data-cites="gdnUpsQo">[<a href="#ref-gdnUpsQo" role="doc-biblioref">47</a>]</span>. This is relevant
-for multimodal single-cell experiments as each mode will
-be characterized by a different collection of features on possibly non-overlapping collections
-of samples. Metadata on features is bound directly into the class instance. For example,
+<p><strong>A ready-to-use integrative data class with <code>multiAssayExperiment</code>.</strong>
+The Bioconductor class implementing an abstract data type called <code>multiAssayExperiment</code> is highly relevant
+for multimodal single-cell experiments as each mode is characterized by a different collection of features on possibly non-overlapping collections
+of samples <span class="citation" data-cites="gdnUpsQo">[<a href="#ref-gdnUpsQo" role="doc-biblioref">47</a>]</span>.</p>
+<p>The Metadata on features is bound directly into the class instance. For example,
 genes and transcripts can be enumerated using Ensembl catalog identifiers, represented as
 GRanges instances<span class="citation" data-cites="14d6Jzwus">[<a href="#ref-14d6Jzwus" role="doc-biblioref">48</a>]</span>; regions of accessibility
 from, e.g., ATAC-seq experiments, may be defined using genomic coordinates in a clearly specified reference build. Metadata on
 samples includes all relevant information on experimental conditions such as treatment,
 protocol, and date of technical processing. Figure <a href="#fig:spatialExpt">3</a> shows how this
-class can be used to amalgamate and annotate results of a seqFISH experiment.</p>
+class was used to amalgamate and annotate results of a seqFISH experiment (Dario).</p>
 <div id="fig:spatialExpt" class="fignos">
 <figure>
 <img src="images/fusedDataStructures.png" style="width:85.0%" alt="" /><figcaption><span>Figure 3:</span> Left: Combination of seqFISH-based SpatialExperiment
 and SingleCellExperiment instances into a MultiAssayExperiment. Right: details of the SpatialExperiment class design.</figcaption>
 </figure>
 </div>
-<p>Multi-modal single cell data may consist of multi-assay measurements from the same cell (e.g. CITE-seq, sci-CAR) or integration of multi-assay measurements from distinct cells from the same or distinct starting samples. A sample here refers to the biological specimen of origin (tissue A from individual X).
-The MultiAssayExperiment class includes
-1) Assay slots containing variables or features from multiple modalities (e.g. gene expression units from scRNA-seq and protein units from sc-proteomics). In some cases, the feature may be multidimensional (e.g. spatial coordinates, locations of eQTLs).
+<p>The <code>multiAssayExperiment</code> class includes
+1) Assay slots containing variables or features from multiple modalities (e.g. gene expression units from scRNA-seq and protein units in sc-proteomics), either from the same cells or distinct cells from the same or distinct starting samples or biological specimen of origin. In some cases, the feature may be multidimensional (e.g. spatial coordinates, locations of eQTLs).
 2) Metadata for sample of origin for the individual cells, e.g. study, center, phenotype, perturbation.
 3) A map between the different assays to enable analysis</p>
-<p>Of note:
-- The observations of different modalities may not be directly comparable (e.g. RNA may be measured from individual cells but spatial transcriptomics may cover a few cells in the matched area).<br />
-- In the absence of universal standards, the metadata may vary from analysis to analysis.
-- It is crucial that data containers use consistent assay access methods (possibly through methods inheritance. e.g. from <code>SummarizedExperiment</code>). This will ensure less redundancy in development process and allow powerful implementation strategies.</p>
-<ul>
-<li>Serializations and data access methods for
-<ul>
-<li>spatial transcriptomics</li>
-<li>scNMT-seq</li>
-<li>other combinations</li>
-</ul></li>
-</ul>
+<p>Some of our contributors (Al Abadi, Patheepa Jeganathan) used the <code>multiAssayExperiment</code> class to integrate the multi-modal single cell data (scNMT-seq, sc Proteomics, <strong>pointers to vignettes</strong>), allowing for easier preprocessing, transformation, extraction of spatial information from raster objects, addition of cell information and visualization <strong>Al, details please if needed</strong>.</p>
+<!--In our hackathon context, we considered multi-assay measurements from the same cell (e.g. scNMT-seq) or integration of multi-assay measurements from  (seqFish, scProteomics). 
+-->
+<p>Challenges we face in our hackathons were that some of the observations of different modalities were not be directly comparable (e.g. RNA may be measured from individual cells but spatial transcriptomics may cover a few cells in the matched area) and bBecause of the absence of universal standards, the metadata varied from analysis to analysis.</p>
+<h3 id="scalability-strategies">Scalability strategies</h3>
+<p><strong>to fill if relevant?</strong></p>
+<h3 id="data-access-for-the-hackathons-and-long-term-software-strategy-for-multimodal-single-cell-experiments">Data access for the hackathons and long term software strategy for multimodal single-cell experiments</h3>
+<p>Reproducibility and transparency are crucial aspect in hackathons. Input data across all hackathons were pre-processed with steps documented, and the data were added into the ExperimentHub package <code>SingleCellMultimodal</code> <strong>Dario, fix/details, beware of repetitions from above please</strong> (Fig. <a href="#fig:spatialExpt">3</a>), so that the datasets can be used for further computational developments by others.</p>
+<p>The vignettes of all contributors were included into containers <strong>Al, details please</strong> using the ExperimentHub package as a dependency. In these containers, we used consistent assay access methods to powerful implementation strategies (possibly through methods inheritance. e.g. from <code>SummarizedExperiment</code> <strong>Al please amend</strong>).
+Such setting will in the long-term facilitate Continuous Integration (CI) of the analyses and preprocessing changes and Continuous Delivery (CD)
+of the analysis reports. The CI/CD workflow may also be automated on a hosted server and containerized
+reports can be generated for enhanced efficiency and portability.</p>
 <h3 id="reducing-barriers-to-interpretable-visualizations">Reducing barriers to interpretable visualizations</h3>
 <p>Color is a powerful data visualization tool that helps representing the different dimensions of our increasingly complex and rich scientific data.
-Color vision deficiencies affect a substantial portion of the population<span class="citation" data-cites="x7pNDE94">[<a href="#ref-x7pNDE94" role="doc-biblioref">49</a>]</span>.
-Therefore,  it is desirable to aim towards presenting scientific information in a manner that is as accessible as possible for all readers. 
-Color vision deficiency leads to difficulties in perceiving patterns (the basis for the Ishihara’s color vision tests) in multi-colored figures.
-In rare cases, the perceived patterns; e.g. in heatmaps and reduced dimension plots, can differ between individuals with normal and color deficient vision.</p>
-<p>One strategy to address these issues is to include colorblind friendly visualizations <span class="citation" data-cites="11uDSb0Nf Ecm3XS4">[<a href="#ref-11uDSb0Nf" role="doc-biblioref">50</a>,<a href="#ref-Ecm3XS4" role="doc-biblioref">51</a>]</span> as a default setting in our visualizations.
-Several colorblind-friendly palettes exist (e.g., see R packages viridis<span class="citation" data-cites="lLv68Zzx">[<a href="#ref-lLv68Zzx" role="doc-biblioref">52</a>]</span> and dittoSeq<span class="citation" data-cites="19usrpNlS">[<a href="#ref-19usrpNlS" role="doc-biblioref">53</a>]</span>) and can be integrated into data presentation as the default option.
-Even with these palettes in place, it is desirable to limit the number (about 8-10 at a maximum) of colors in visualizations.
-To reduce the dependence on colors, one solution would be to include additional visual cues to differentiate regions (hatched areas) or cells (point shapes).
-Overall, a broader discussion regarding the accessibility of our figures that is not just limited to color vision deficiencies would be greatly beneficial towards improving data accessibility.
-Perhaps one tool to address broader accessibility could be the inclusion an “accessibility caption” accompanying figures which “guide” the reader’s perception of the images.</p>
-<p><a href="https://accessibility.18f.gov/tools/">US Government tools for accessibility</a></p>
+Color vision deficiencies affect a substantial portion of the population<span class="citation" data-cites="x7pNDE94">[<a href="#ref-x7pNDE94" role="doc-biblioref">49</a>]</span> and leads to difficulties in perceiving patterns (the basis for the Ishihara’s color vision tests) in multi-colored figures. In some cases, the perceived patterns such as heatmaps and reduced dimension plots can differ between individuals with normal and color deficient vision.</p>
+<p>One strategy to present scientific information accessible information to all readers is to include colorblind friendly visualizations <span class="citation" data-cites="11uDSb0Nf Ecm3XS4">[<a href="#ref-11uDSb0Nf" role="doc-biblioref">50</a>,<a href="#ref-Ecm3XS4" role="doc-biblioref">51</a>]</span> as a default setting, using palettes such as form the R packages viridis<span class="citation" data-cites="lLv68Zzx">[<a href="#ref-lLv68Zzx" role="doc-biblioref">52</a>]</span> and dittoSeq<span class="citation" data-cites="19usrpNlS">[<a href="#ref-19usrpNlS" role="doc-biblioref">53</a>]</span>, whilst limiting to a number of 10 colors. Additional visual cues to differentiate regions (hatched areas) or cells (point shapes) can also reduce the dependence on colors. The inclusion an “accessibility caption” accompanying figures which “guide” the reader’s perception of the images would greatly benefit broader data accessibility.</p>
+<!-- Overall, a broader discussion regarding the accessibility of our figures that is not just limited to color vision deficiencies would be greatly beneficial towards improving data accessibility.
+Perhaps one tool to address broader accessibility could be 
+[US Government tools for accessibility](https://accessibility.18f.gov/tools/)
+-->
 <h3 id="details-of-working-components-trimmed">Details of working components – trimmed</h3>
 <p>you can interact with underlying data at <a href="https://docs.google.com/spreadsheets/d/1tSUQ9iDKqq72TB9G3Cx1evg2sekS-ytx5wRXDv6vxfg/edit?usp=sharing">google sheet</a></p>
 <table>
@@ -1139,16 +1131,6 @@ Perhaps one tool to address broader accessibility could be the inclusion an “a
 </tr>
 </tbody>
 </table>
-<h3 id="scalability-strategies">Scalability strategies</h3>
-<h3 id="connecting-the-hackathon-activities-to-the-longer-term-software-strategy-for-multimodal-single-cell-experiments">Connecting the hackathon activities to the longer-term software strategy for multimodal single-cell experiments</h3>
-<p>The contributed challenge analyses as well as the used datasets may be collated into software packages
-which include their specific dependencies. In such a setting, the analysis packages can simply use the
-corresponding dataset package(s) as a dependency. Additionally, if the challenge datasets have undergone
-preprocessing it is essential that all the preprocessing steps are outlined and made available in the
-dataset packages. This will facilitate transparency and analysis reproducibility, as well as allow
-Continuous Integration (CI) of the analyses and preprocessing changes and Continuous Delivery (CD)
-of the analysis reports. The CI/CD workflow may also be automated on a hosted server and containerized
-reports can be generated for enhanced efficiency and portability, respectively.</p>
 <h2 id="discussion">Discussion</h2>
 <h3 id="emerging-analytical-methods-and-technologies">Emerging analytical methods and technologies</h3>
 <h3 id="community-needs-for-data-structures-analysis-methods-etc">Community needs for data structures, analysis methods, etc</h3>
