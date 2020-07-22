@@ -10,6 +10,7 @@ appia
 Arcsinh
 Argelaguet
 Arora
+arround
 autocorrelation
 autoencoder
 availabe
@@ -33,7 +34,6 @@ cmIF
 cn
 consortiums
 Coullomb
-Coulumb
 covariate
 covariates
 covariation
@@ -82,6 +82,7 @@ glmnet
 GNT
 GpC
 hackaton
+HDBSCAN
 HiC
 histone
 HMRF
@@ -117,6 +118,7 @@ Meng
 methyltransferase
 Meuleman
 microenvironment
+minium
 mixOmics
 mixOmicsTeam
 modelling
@@ -176,8 +178,9 @@ Sodicoff
 Soneson
 spatialExpt
 ssEnet
-STATIS
+Statis
 subcellular
+substract
 succesful
 Svensson
 SVM
