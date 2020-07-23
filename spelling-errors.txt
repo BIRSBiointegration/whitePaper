@@ -5,7 +5,6 @@ AedinCulhane
 Amrit
 Amrith
 analyse
-analysing
 Anh
 appia
 Arcsinh
@@ -15,7 +14,6 @@ arround
 autocorrelation
 autoencoder
 availabe
-bBecause
 Bioconductor’s
 bioinformatics
 biomarkers
@@ -31,7 +29,6 @@ CellProfiler
 centric
 centroid
 centroids
-challanges
 Channing
 cmIF
 cn
@@ -44,7 +41,7 @@ CpG
 Craniofacial
 CTCF
 Culhane
-CyToF
+CyTOF
 Cytokit
 decompositions
 Delaunay
@@ -158,10 +155,10 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
 remodelling
-Reproducibility
+reproducibility
 resampling
 Ricard
 Ritchie
@@ -183,7 +180,7 @@ Sodicoff
 Soneson
 spatialExpt
 ssEnet
-STATIS
+Statis
 subcellular
 substract
 succesful
@@ -196,7 +193,7 @@ Tian
 Tibshirani
 tk
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 transtitions
 tSNE

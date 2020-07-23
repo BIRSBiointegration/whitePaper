@@ -1026,6 +1026,334 @@
   },
   {
     "type": "article-journal",
+    "id": "oDiClyTE",
+    "author": [
+      {
+        "family": "Yates",
+        "given": "Andrew D"
+      },
+      {
+        "family": "Achuthan",
+        "given": "Premanand"
+      },
+      {
+        "family": "Akanni",
+        "given": "Wasiu"
+      },
+      {
+        "family": "Allen",
+        "given": "James"
+      },
+      {
+        "family": "Allen",
+        "given": "Jamie"
+      },
+      {
+        "family": "Alvarez-Jarreta",
+        "given": "Jorge"
+      },
+      {
+        "family": "Amode",
+        "given": "M Ridwan"
+      },
+      {
+        "family": "Armean",
+        "given": "Irina M"
+      },
+      {
+        "family": "Azov",
+        "given": "Andrey G"
+      },
+      {
+        "family": "Bennett",
+        "given": "Ruth"
+      },
+      {
+        "family": "Bhai",
+        "given": "Jyothish"
+      },
+      {
+        "family": "Billis",
+        "given": "Konstantinos"
+      },
+      {
+        "family": "Boddu",
+        "given": "Sanjay"
+      },
+      {
+        "family": "Marugán",
+        "given": "José Carlos"
+      },
+      {
+        "family": "Cummins",
+        "given": "Carla"
+      },
+      {
+        "family": "Davidson",
+        "given": "Claire"
+      },
+      {
+        "family": "Dodiya",
+        "given": "Kamalkumar"
+      },
+      {
+        "family": "Fatima",
+        "given": "Reham"
+      },
+      {
+        "family": "Gall",
+        "given": "Astrid"
+      },
+      {
+        "family": "Giron",
+        "given": "Carlos Garcia"
+      },
+      {
+        "family": "Gil",
+        "given": "Laurent"
+      },
+      {
+        "family": "Grego",
+        "given": "Tiago"
+      },
+      {
+        "family": "Haggerty",
+        "given": "Leanne"
+      },
+      {
+        "family": "Haskell",
+        "given": "Erin"
+      },
+      {
+        "family": "Hourlier",
+        "given": "Thibaut"
+      },
+      {
+        "family": "Izuogu",
+        "given": "Osagie G"
+      },
+      {
+        "family": "Janacek",
+        "given": "Sophie H"
+      },
+      {
+        "family": "Juettemann",
+        "given": "Thomas"
+      },
+      {
+        "family": "Kay",
+        "given": "Mike"
+      },
+      {
+        "family": "Lavidas",
+        "given": "Ilias"
+      },
+      {
+        "family": "Le",
+        "given": "Tuan"
+      },
+      {
+        "family": "Lemos",
+        "given": "Diana"
+      },
+      {
+        "family": "Martinez",
+        "given": "Jose Gonzalez"
+      },
+      {
+        "family": "Maurel",
+        "given": "Thomas"
+      },
+      {
+        "family": "McDowall",
+        "given": "Mark"
+      },
+      {
+        "family": "McMahon",
+        "given": "Aoife"
+      },
+      {
+        "family": "Mohanan",
+        "given": "Shamika"
+      },
+      {
+        "family": "Moore",
+        "given": "Benjamin"
+      },
+      {
+        "family": "Nuhn",
+        "given": "Michael"
+      },
+      {
+        "family": "Oheh",
+        "given": "Denye N"
+      },
+      {
+        "family": "Parker",
+        "given": "Anne"
+      },
+      {
+        "family": "Parton",
+        "given": "Andrew"
+      },
+      {
+        "family": "Patricio",
+        "given": "Mateus"
+      },
+      {
+        "family": "Sakthivel",
+        "given": "Manoj Pandian"
+      },
+      {
+        "family": "Abdul Salam",
+        "given": "Ahamed Imran"
+      },
+      {
+        "family": "Schmitt",
+        "given": "Bianca M"
+      },
+      {
+        "family": "Schuilenburg",
+        "given": "Helen"
+      },
+      {
+        "family": "Sheppard",
+        "given": "Dan"
+      },
+      {
+        "family": "Sycheva",
+        "given": "Mira"
+      },
+      {
+        "family": "Szuba",
+        "given": "Marek"
+      },
+      {
+        "family": "Taylor",
+        "given": "Kieron"
+      },
+      {
+        "family": "Thormann",
+        "given": "Anja"
+      },
+      {
+        "family": "Threadgold",
+        "given": "Glen"
+      },
+      {
+        "family": "Vullo",
+        "given": "Alessandro"
+      },
+      {
+        "family": "Walts",
+        "given": "Brandon"
+      },
+      {
+        "family": "Winterbottom",
+        "given": "Andrea"
+      },
+      {
+        "family": "Zadissa",
+        "given": "Amonida"
+      },
+      {
+        "family": "Chakiachvili",
+        "given": "Marc"
+      },
+      {
+        "family": "Flint",
+        "given": "Bethany"
+      },
+      {
+        "family": "Frankish",
+        "given": "Adam"
+      },
+      {
+        "family": "Hunt",
+        "given": "Sarah E"
+      },
+      {
+        "family": "IIsley",
+        "given": "Garth"
+      },
+      {
+        "family": "Kostadima",
+        "given": "Myrto"
+      },
+      {
+        "family": "Langridge",
+        "given": "Nick"
+      },
+      {
+        "family": "Loveland",
+        "given": "Jane E"
+      },
+      {
+        "family": "Martin",
+        "given": "Fergal J"
+      },
+      {
+        "family": "Morales",
+        "given": "Joannella"
+      },
+      {
+        "family": "Mudge",
+        "given": "Jonathan M"
+      },
+      {
+        "family": "Muffato",
+        "given": "Matthieu"
+      },
+      {
+        "family": "Perry",
+        "given": "Emily"
+      },
+      {
+        "family": "Ruffier",
+        "given": "Magali"
+      },
+      {
+        "family": "Trevanion",
+        "given": "Stephen J"
+      },
+      {
+        "family": "Cunningham",
+        "given": "Fiona"
+      },
+      {
+        "family": "Howe",
+        "given": "Kevin L"
+      },
+      {
+        "family": "Zerbino",
+        "given": "Daniel R"
+      },
+      {
+        "family": "Flicek",
+        "given": "Paul"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          11,
+          6
+        ]
+      ]
+    },
+    "abstract": "The Ensembl (https://www.ensembl.org) is a system for generating and distributing genome annotation such as genes, variation, regulation and comparative genomics across the vertebrate subphylum and key model organisms. The Ensembl annotation pipeline is capable of integrating experimental and reference data from multiple providers into a single integrated resource. Here, we present 94 newly annotated and re-annotated genomes, bringing the total number of genomes offered by Ensembl to 227. This represents the single largest expansion of the resource since its inception. We also detail our continued efforts to improve human annotation, developments in our epigenome analysis and display, a new tool for imputing causal genes from genome-wide association studies and visualisation of variation within a 3D protein model. Finally, we present information on our new website. Both software and data are made available without restriction via our website, online tools platform and programmatic interfaces (available under an Apache 2.0 license) and data updates made available four times a year.",
+    "container-title": "Nucleic Acids Research",
+    "DOI": "10.1093/nar/gkz966",
+    "publisher": "Oxford University Press (OUP)",
+    "title": "Ensembl 2020",
+    "URL": "https://doi.org/ggqp72",
+    "PMCID": "PMC7145704",
+    "PMID": "31691826",
+    "note": "This CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: doi:10.1093/nar/gkz966"
+  },
+  {
+    "type": "article-journal",
     "id": "17aD4MFPS",
     "author": [
       {
@@ -2169,51 +2497,6 @@
       {
         "family": "Turaga",
         "given": "Nitesh"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2020"
-        ]
-      ]
-    },
-    "accessed": {
-      "date-parts": [
-        [
-          "2020",
-          7,
-          23
-        ]
-      ]
-    }
-  },
-  {
-    "id": "19Kf3KKXT",
-    "type": "book",
-    "title": "DelayedArray: A unified framework for working transparently with on-disk and in-memory array-like datasets",
-    "publisher": "Bioconductor version: Release (3.11)",
-    "version": "0.14.1",
-    "source": "Bioconductor",
-    "abstract": "Wrapping an array-like object (typically an on-disk object) in a DelayedArray object allows one to perform common array operations on it without loading the object in memory. In order to reduce memory usage and optimize performance, operations on the object are either delayed or executed using a block processing mechanism. Note that this also works on in-memory array-like objects like DataFrame objects (typically with Rle columns), Matrix objects, and ordinary arrays and data frames.",
-    "URL": "https://bioconductor.org/packages/DelayedArray/",
-    "note": "DOI: 10.18129/B9.bioc.DelayedArray\nThis CSL JSON Item was automatically generated by Manubot v0.3.1 using citation-by-identifier.\nstandard_id: url:https://bioconductor.org/packages/DelayedArray",
-    "shortTitle": "DelayedArray",
-    "author": [
-      {
-        "family": "fredhutch.org>",
-        "given": "Hervé Pagès <hpages",
-        "dropping-particle": "at"
-      },
-      {
-        "family": "gmail.com>",
-        "given": "with contributions from Peter Hickey <peter",
-        "dropping-particle": "hickey at"
-      },
-      {
-        "family": "gmail.com>",
-        "given": "Aaron Lun <infinite",
-        "dropping-particle": "monkeys with keyboards at"
       }
     ],
     "issued": {
