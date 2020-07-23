@@ -1,6 +1,6 @@
 Abadi
 activatory
-aedin
+Aedin
 AedinCulhane
 Amrit
 Amrith
@@ -158,7 +158,7 @@ qvd
 rargelaguet
 Reasonning
 remodelling
-reproducibility
+Reproducibility
 resampling
 Ricard
 Ritchie
