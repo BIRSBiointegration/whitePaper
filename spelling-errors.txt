@@ -1,6 +1,6 @@
 Abadi
 activatory
-Aedin
+aedin
 AedinCulhane
 Amrit
 Amrith
@@ -15,7 +15,7 @@ autocorrelation
 autoencoder
 availabe
 Bioconductor’s
-Bioinformatics
+bioinformatics
 biomarkers
 Biomart
 bioRxiv
@@ -70,7 +70,7 @@ Farber
 Fertig
 Finetti
 Freytag
-Gastrulation
+gastrulation
 gcj
 gcxh
 generalisation
@@ -155,7 +155,7 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
 remodelling
 Reproducibility
@@ -180,7 +180,7 @@ Sodicoff
 Soneson
 spatialExpt
 ssEnet
-STATIS
+Statis
 subcellular
 substract
 succesful
