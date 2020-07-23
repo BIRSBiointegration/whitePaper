@@ -74,9 +74,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/ce5efd48cf6c065ca49a3703f9ceec5918a539ce/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/ce5efd48cf6c065ca49a3703f9ceec5918a539ce/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/ce5efd48cf6c065ca49a3703f9ceec5918a539ce/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/76ea1927474bcadaf31df359a81b6b570ab7943a/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/76ea1927474bcadaf31df359a81b6b570ab7943a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/76ea1927474bcadaf31df359a81b6b570ab7943a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -90,9 +90,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/ce5efd48cf6c065ca49a3703f9ceec5918a539ce/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/76ea1927474bcadaf31df359a81b6b570ab7943a/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/ce5efd48cf6c065ca49a3703f9ceec5918a539ce">BIRSBiointegration/whitePaper@ce5efd4</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/76ea1927474bcadaf31df359a81b6b570ab7943a">BIRSBiointegration/whitePaper@76ea192</a>
 on July 23, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -946,7 +946,7 @@ protocol, and date of technical processing. Figure <a href="#fig:spatialExpt">3<
 class was used to amalgamate and annotate results of a seqFISH experiment (Dario).</p>
 <div id="fig:spatialExpt" class="fignos">
 <figure>
-<img src="images/fusedDataStructures.png" style="width:85.0%" alt="" /><figcaption><span>Figure 3:</span> Left: Combination of seqFISH-based SpatialExperiment
+<img src="images/fusedDataStructures.png" style="width:50.0%" alt="" /><figcaption><span>Figure 3:</span> Left: Combination of seqFISH-based SpatialExperiment
 and SingleCellExperiment instances into a MultiAssayExperiment. Right: details of the SpatialExperiment class design.</figcaption>
 </figure>
 </div>
@@ -961,9 +961,8 @@ and SingleCellExperiment instances into a MultiAssayExperiment. Right: details o
 <h3 id="scalability-strategies">Scalability strategies</h3>
 <p>In addition to standardize data infrastructures that allows for scalability of <em>storing</em> and <em>access</em> of large datasets <span class="citation" data-cites="KhbsUBNe mOp2pMsC">[<a href="#ref-KhbsUBNe" role="doc-biblioref">49</a>,<a href="#ref-mOp2pMsC" role="doc-biblioref">50</a>]</span>, new strategies are emerging that allow for scalable <em>algorithms</em> that allow for data to be stored in memory or on disk such as unsupervised clustering of cell types in either R <span class="citation" data-cites="g9O7LIML 19jAJjD6o">[<a href="#ref-g9O7LIML" role="doc-biblioref">51</a>,<a href="#ref-19jAJjD6o" role="doc-biblioref">52</a>]</span> or Python <span class="citation" data-cites="qIZTS1II">[<a href="#ref-qIZTS1II" role="doc-biblioref">53</a>]</span>. While these strategies were originally developed in application of single-cell RNA-sequencing analyses, these scalable algorithms are applicable to multimodal single-cell experiments.</p>
 <h3 id="data-access-for-the-hackathons-and-long-term-software-strategy-for-multimodal-single-cell-experiments">Data access for the hackathons and long term software strategy for multimodal single-cell experiments</h3>
-<p>Reproducibility and transparency are crucial aspect in hackathons. Input data across all hackathons were pre-processed with steps documented, and the data were added into the ExperimentHub package <code>SingleCellMultimodal</code> <strong>Dario, fix/details, beware of repetitions from above please</strong> (Fig. <a href="#fig:spatialExpt">3</a>), so that the datasets can be used for further computational developments by others.</p>
-<p>The vignettes of all contributors were included into containers <strong>Al, details please</strong> using the <code>ExperimentHub</code> package as a dependency. In these containers, we used consistent assay access methods to powerful implementation strategies (possibly through methods inheritance. e.g. from <code>SummarizedExperiment</code> <strong>Al please amend</strong>).
-Such setting will in the long-term facilitate Continuous Integration (CI) of the analyses and preprocessing changes and Continuous Delivery (CD)
+<p>Reproducibility and transparency are crucial aspect in hackathons, starting with data availability. Providing data to the community is a long standing issue (e.g. SAGEBionetwork <strong>complete Elana</strong>). In our context, input data across all hackathons were pre-processed with steps documented, and the data were added into the ExperimentHub package <code>SingleCellMultimodal</code> <strong>Dario, fix/details, beware of repetitions from above please plus highlight limitations e.g. scProteomics</strong> (Fig. <a href="#fig:spatialExpt">3</a>), so that the datasets can be used for further computational developments by others.</p>
+<p>The vignettes of all contributors were included into containers <strong>Al, details please</strong> using the <code>ExperimentHub</code> package as a dependency. In these containers, we used consistent assay access methods to powerful implementation strategies (possibly through methods inheritance. e.g. from <code>SummarizedExperiment</code> <strong>Al please amend</strong>). Such setting will in the long-term facilitate Continuous Integration (CI) of the analyses and preprocessing changes and Continuous Delivery (CD)
 of the analysis reports. The CI/CD workflow may also be automated on a hosted server and containerized
 reports can be generated for enhanced efficiency and portability.</p>
 <h3 id="reducing-barriers-to-interpretable-visualizations">Reducing barriers to interpretable visualizations</h3>
