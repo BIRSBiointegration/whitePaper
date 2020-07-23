@@ -70,7 +70,7 @@ Farber
 Fertig
 Finetti
 Freytag
-gastrulation
+Gastrulation
 gcj
 gcxh
 generalisation
@@ -155,10 +155,10 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
 remodelling
-Reproducibility
+reproducibility
 resampling
 Ricard
 Ritchie
@@ -180,7 +180,7 @@ Sodicoff
 Soneson
 spatialExpt
 ssEnet
-Statis
+STATIS
 subcellular
 substract
 succesful
@@ -193,7 +193,7 @@ Tian
 Tibshirani
 tk
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 transtitions
 tSNE
