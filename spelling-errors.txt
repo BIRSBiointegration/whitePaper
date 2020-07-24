@@ -130,6 +130,7 @@ mixOmics
 mixOmicsTeam
 modelling
 mRNA
+MultiAssaiExperiment
 multiplatform
 multipliable
 multistream
@@ -166,7 +167,7 @@ qvd
 rargelaguet
 Reasonning
 remodelling
-reproducibility
+Reproducibility
 resampling
 Ricard
 Ritchie
@@ -187,7 +188,7 @@ Sodicoff
 Soneson
 spatialExpt
 ssEnet
-STATIS
+Statis
 subcellular
 substract
 subtypes
