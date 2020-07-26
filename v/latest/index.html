@@ -74,9 +74,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/8f31f8c6c546daa3cc81622d80b259ef6d90cc6a/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/8f31f8c6c546daa3cc81622d80b259ef6d90cc6a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/8f31f8c6c546daa3cc81622d80b259ef6d90cc6a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/a1e4665099256349e065c544617da67898c8d5cf/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/a1e4665099256349e065c544617da67898c8d5cf/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/a1e4665099256349e065c544617da67898c8d5cf/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -90,9 +90,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/8f31f8c6c546daa3cc81622d80b259ef6d90cc6a/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/a1e4665099256349e065c544617da67898c8d5cf/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/8f31f8c6c546daa3cc81622d80b259ef6d90cc6a">BIRSBiointegration/whitePaper@8f31f8c</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/a1e4665099256349e065c544617da67898c8d5cf">BIRSBiointegration/whitePaper@a1e4665</a>
 on July 26, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -967,11 +967,18 @@ regulatory relationships observed between chromatin accessibility
 and gene expression. However, this is made difficult by the fact
 that these relationships are not fully known at the single cell
 level.</p>
+<div id="fig:benchmark" class="fignos">
+<figure>
+<img src="images/Benchmark_mockup.png" alt="" /><figcaption><span>Figure 5:</span> <strong>A</strong> Silver standard: Svensson et al. (2017) Nat Methods; Wang et al. (2019) bioRxiv; Cole et al. (2019) Cell Systems; Zhang et al. (2017) bioRxiv;
+Soneson et al. (2018) Nat Methods; Saelens et al. (2019) Nat Biotechnol; Gold standard control data: Tian et al. (2019) Nat Meth; Freytag et al. (2018) F1000Res; Gold standard simulated data with the splatter R package appia et al. (2017) Genome Biol [credit: Matt Ritchie] (<strong>Refs to be added proper</strong>).
+<strong>B</strong> scNMT-seq study: correlations with linear projections (MOFA+) evaluated with cross-validation [credit: Mike Love].</figcaption>
+</figure>
+</div>
 <h3 id="strategies-for-benchmarking">Strategies for benchmarking</h3>
 <p>Benchmarking multi-modal methods on typical multi-modal datasets is inherently difficult, as we rarely
 know the ground truth <span class="citation" data-cites="chgaiKOU">[<a href="#ref-chgaiKOU" role="doc-biblioref">22</a>]</span>. Simulation is useful for having known truth, but it is difficult to
 simulate realistic covariance structure across features and across
-data modalities (<strong>Figure</strong>).</p>
+data modalities (Figure <a href="#fig:benchmark">5</a>A).</p>
 <h4 id="creating-benchmarking-datasets">Creating benchmarking datasets</h4>
 <p>(<strong>add examples from Google Doc</strong>)
 Benchmark datasets for single cell studies have largely centered around
@@ -1009,7 +1016,7 @@ towards specific data integration tasks.</p></li>
 </ul>
 <h4 id="cross-validation-within-study">Cross-validation within study</h4>
 <p>For example the <a href="https://github.com/Wancen/CV-MOFA">cross-validation analysis of the scNMT-seq dataset</a>
-was performed using MOFA+ (<strong>Figure</strong>). Such an evaluation of methods using permutation or cross-validation
+was performed using MOFA+ (Figure <a href="#fig:benchmark">5</a>B). Such an evaluation of methods using permutation or cross-validation
 has been performed previously, typically to optimize a tuning
 parameter or other aspects of model selection. Permutation has been
 used to create null datasets, either as demonstration that a method
@@ -1035,11 +1042,7 @@ multi-modal setting.</p>
 one dataset present in other datasets, potentially looking across
 single cell and bulk.</p>
 <h3 id="using-hackathon-studies-as-community-benchmarking">Using hackathon studies as community benchmarking</h3>
-<p><em>to fill here, could mention the dream challenge and link back to our own experience / learnings</em></p>
-<p><strong>Figure</strong> <strong>A)</strong> Silver standard: Svensson et al. (2017) Nat Methods; Wang et al. (2019) bioRxiv; Cole et al. (2019) Cell Systems; Zhang et al. (2017) bioRxiv;
-Soneson et al. (2018) Nat Methods; Saelens et al. (2019) Nat Biotechnol; Gold standard control data: Tian et al. (2019) Nat Meth; Freytag et al. (2018) F1000Res; Gold standard simulated data with the splatter R package appia et al. (2017) Genome Biol [credit: Matt Ritchie] <strong>B)</strong> scNMT-seq study: correlations with linear projections (MOFA+) evaluated with cross-validation [credit: Mike Love]. <strong>DOI missing</strong></p>
-<p><img src="images/Benchmark.png" alt="Silver and Gold standard benchmarking" height="300"/>
-<img src="images/scNMT_MOFA_CV.png" alt="Cross validation of MOFA+ on scNMT-seq" height="300"/></p>
+<p><strong>to fill here, could mention the dream challenge and link back to our own experience / learnings</strong></p>
 <h2 id="software-strategies-to-enable-analyses-of-multimodal-single-cell-experiments">Software strategies to enable analyses of multimodal single cell experiments</h2>
 <p>In this section, we reflect on the challenges we have faced when analyzing this series of hackathons whilst using analytic software for visualization and inference in multimodal single-cell experiments. Our discussion is necessarily limited in scope, but
 we provide pointers to concrete details when relevant.</p>
@@ -1080,13 +1083,13 @@ genes and transcripts can be enumerated using Ensembl <span class="citation" dat
 <code>GRanges</code> instances <span class="citation" data-cites="14d6Jzwus">[<a href="#ref-14d6Jzwus" role="doc-biblioref">51</a>]</span>; regions of accessibility
 from, e.g., ATAC-seq experiments, may be defined using genomic coordinates in a clearly specified reference build. Metadata on
 samples includes all relevant information on experimental conditions such as treatment,
-protocol, and date of technical processing. Figure <a href="#fig:spatialExpt">5</a> shows how this
+protocol, and date of technical processing. Figure <a href="#fig:spatialExpt">6</a> shows how this
 class was used to amalgamate and annotate results of a multimodal dataset consisting of seqFISH and scRNA-seq experimental data.
 To combine these two different experiments, the seqFISH data were stored into the SpatialExperiment S4 class object, while the scRNA-seq data were stored into a SingleCellExperiment Bioconductor class object <span class="citation" data-cites="R7sfk7Aq">[<a href="#ref-R7sfk7Aq" role="doc-biblioref">52</a>]</span>.
 Then, these objects were easily stored into a MultiAssayExperiment class object and released with the SingleCellMultiModal Bioconductor package <span class="citation" data-cites="doi:10.18129/B9.bioc.SingleCellMultiModal">[<span class="citeproc-not-found" data-reference-id="doi:10.18129/B9.bioc.SingleCellMultiModal"><strong>???</strong></span>]</span>.</p>
 <div id="fig:spatialExpt" class="fignos">
 <figure>
-<img src="images/fusedDataStructures.png" style="width:50.0%" alt="" /><figcaption><span>Figure 5:</span> Left: Combination of seqFISH-based SpatialExperiment
+<img src="images/fusedDataStructures.png" style="width:50.0%" alt="" /><figcaption><span>Figure 6:</span> Left: Combination of seqFISH-based SpatialExperiment
 and SingleCellExperiment instances into a MultiAssayExperiment. Right: details of the SpatialExperiment class design.</figcaption>
 </figure>
 </div>
@@ -1101,7 +1104,7 @@ and SingleCellExperiment instances into a MultiAssayExperiment. Right: details o
 <h3 id="scalability-strategies">Scalability strategies</h3>
 <p>In addition to standardize data infrastructures that allows for scalability of <em>storing</em> and <em>access</em> of large datasets <span class="citation" data-cites="KhbsUBNe mOp2pMsC">[<a href="#ref-KhbsUBNe" role="doc-biblioref">53</a>,<a href="#ref-mOp2pMsC" role="doc-biblioref">54</a>]</span>, new strategies are emerging that allow for scalable <em>algorithms</em> that allow for data to be stored in memory or on disk such as unsupervised clustering of cell types in either R <span class="citation" data-cites="g9O7LIML 19jAJjD6o">[<a href="#ref-g9O7LIML" role="doc-biblioref">55</a>,<a href="#ref-19jAJjD6o" role="doc-biblioref">56</a>]</span> or Python <span class="citation" data-cites="qIZTS1II">[<a href="#ref-qIZTS1II" role="doc-biblioref">57</a>]</span>. While these strategies were originally developed in application of single-cell RNA-sequencing analyses, these scalable algorithms are applicable to multimodal single-cell experiments.</p>
 <h3 id="data-access-for-the-hackathons-and-long-term-software-strategy-for-multimodal-single-cell-experiments">Data access for the hackathons and long term software strategy for multimodal single-cell experiments</h3>
-<p>Reproducibility and transparency are crucial aspect in hackathons, starting with data availability. Providing data to the community is a long standing issue (e.g. SAGEBionetwork <strong>complete Elana</strong>). In our context, input data across all hackathons were pre-processed with steps documented, and the data were added into the ExperimentHub package <code>SingleCellMultimodal</code> [doi:10.18129/B9.bioc.SingleCellMultiModal], developed to incorporate multiple multi modal datasets in MultiAssaiExperiment format so that they can be used for further computational developments by others. At the moment, it includes the hackathons scNMT-seq and the seqFISH+scRNA-seq (Fig. <a href="#fig:spatialExpt">5</a>) datasets, easily stored because of the samples overlapping between multiple modalities, while we are working on the integration of the scProteomics dataset which has no overlap between samples.</p>
+<p>Reproducibility and transparency are crucial aspect in hackathons, starting with data availability. Providing data to the community is a long standing issue (e.g. SAGEBionetwork <strong>complete Elana</strong>). In our context, input data across all hackathons were pre-processed with steps documented, and the data were added into the ExperimentHub package <code>SingleCellMultimodal</code> [doi:10.18129/B9.bioc.SingleCellMultiModal], developed to incorporate multiple multi modal datasets in MultiAssaiExperiment format so that they can be used for further computational developments by others. At the moment, it includes the hackathons scNMT-seq and the seqFISH+scRNA-seq (Fig. <a href="#fig:spatialExpt">6</a>) datasets, easily stored because of the samples overlapping between multiple modalities, while we are working on the integration of the scProteomics dataset which has no overlap between samples.</p>
 <p>The vignettes of all contributors were included into containers <strong>Al, details please</strong> using the <code>ExperimentHub</code> package as a dependency. In these containers, we used consistent assay access methods to powerful implementation strategies (possibly through methods inheritance. e.g. from <code>SummarizedExperiment</code> <strong>Al please amend</strong>). Such setting will in the long-term facilitate Continuous Integration (CI) of the analyses and preprocessing changes and Continuous Delivery (CD)
 of the analysis reports. The CI/CD workflow may also be automated on a hosted server and containerized
 reports can be generated for enhanced efficiency and portability.</p>
