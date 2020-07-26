@@ -17,7 +17,7 @@ autoencoder
 availabe
 benchmarked
 Bioconductor’s
-bioinformatics
+Bioinformatics
 biomarkers
 Biomart
 bioRxiv
@@ -74,7 +74,7 @@ Farber
 Fertig
 Finetti
 Freytag
-Gastrulation
+gastrulation
 gcj
 gcxh
 generalisation
@@ -166,7 +166,7 @@ RArgelaguet
 Reasonning
 reinclude
 remodelling
-Reproducibility
+reproducibility
 resampling
 Ricard
 Ritchie
@@ -200,7 +200,7 @@ Tian
 Tibshirani
 tk
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 transtitions
 tSNE
