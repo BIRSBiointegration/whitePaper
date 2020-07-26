@@ -1,6 +1,6 @@
 Abadi
 activatory
-Aedin
+aedin
 AedinCulhane
 Amrit
 Amrith
@@ -17,7 +17,7 @@ autoencoder
 availabe
 benchmarked
 Bioconductor’s
-bioinformatics
+Bioinformatics
 biomarkers
 Biomart
 bioRxiv
@@ -75,7 +75,7 @@ Farber
 Fertig
 Finetti
 Freytag
-gastrulation
+Gastrulation
 gcj
 gcxh
 generalisation
@@ -188,7 +188,7 @@ Sodicoff
 Soneson
 spatialExpt
 ssEnet
-Statis
+STATIS
 subcellular
 substract
 subtypes
