@@ -74,9 +74,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/2d8e54ee5bf29998d9e0754a503d7fda10035bd3/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/2d8e54ee5bf29998d9e0754a503d7fda10035bd3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/2d8e54ee5bf29998d9e0754a503d7fda10035bd3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/fe0ecca468f36c463423684457fb6f6dbfeeb635/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/fe0ecca468f36c463423684457fb6f6dbfeeb635/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/fe0ecca468f36c463423684457fb6f6dbfeeb635/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -90,9 +90,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/2d8e54ee5bf29998d9e0754a503d7fda10035bd3/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/fe0ecca468f36c463423684457fb6f6dbfeeb635/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/2d8e54ee5bf29998d9e0754a503d7fda10035bd3">BIRSBiointegration/whitePaper@2d8e54e</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/fe0ecca468f36c463423684457fb6f6dbfeeb635">BIRSBiointegration/whitePaper@fe0ecca</a>
 on July 26, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -873,9 +873,11 @@ The goal there is to eliminate cells in intermediary states to give clearly deli
 However the idea of latent variables is a rich anchor for many multimodal methods and can often be useful in highlighting what the modalities have in “common” and how they differ.
 The commonalities are well understood in the case of classical multivariate factor analyses where the data are decomposed into “commonalities” and uniqueness components <span class="citation" data-cites="q9SIZrho">[<a href="#ref-q9SIZrho" role="doc-biblioref">13</a>]</span>.</p>
 <p>A schematic summary of the different stages in interpretation is provided here:</p>
-<div id="fig:InterWorkflow" class="fignos">
+<div id="fig:interpretation" class="fignos">
 <figure>
-<img src="images/Interpretation_WorkflowL.png" style="width:50.0%" alt="" /><figcaption><span>Figure 4:</span> Schematic diagram of stages of interpretaion and integration of data sources</figcaption>
+<img src="images/Interpretation_mockup.png" style="width:70.0%" alt="" /><figcaption><span>Figure 4:</span> <strong>A</strong> Schematic diagram of stages of interpretaion and integration of data sources (<strong>Kris to redesign</strong>).
+<strong>B</strong> Standards in Geographic Information Systems enable the integration of multiple layers of data (<strong>Kris to redesign</strong>).
+<strong>C</strong> Brushing an UMAP with a covariate can illustrate the dynamics of cell changes (<strong>Kris to reinclude own fig</strong>).</figcaption>
 </figure>
 </div>
 <p>Multiple domains of knowledge can be combined easily if there is a common coordinate system, as in geospatial analyses.This is often a goal in multimodal or conjoint analyses, when the first step is to find a common compromise or consensus on which to project each of the individual modalities.
@@ -890,12 +892,7 @@ extensive methods developed in spatial statistics to
 quantify spatial effects <span class="citation" data-cites="1ABBBCpyT">[<a href="#ref-1ABBBCpyT" role="doc-biblioref">17</a>]</span>.
 Contiguity and clustering can be tested and easily understood in the spatial context.</p>
 <p>In these cases, layers of information can be mapped to the natural coordinate system in the same way
-a GIS system incorporates them.</p>
-<div id="fig:GISlayers" class="fignos">
-<figure>
-<img src="images/USGS_The_National_Map.jpg" style="width:50.0%" alt="" /><figcaption><span>Figure 5:</span> Standards in Geographic Information Systems enable the integration of multiple layers of data</figcaption>
-</figure>
-</div>
+a GIS system incorporates them (Figure <a href="#fig:interpretation">4</a>B).</p>
 <p>The spatial coordinate system analogy can be pursued
 further by finding a “consensus space” that provides a common coordinate system.</p>
 <p>There are however pitfalls in using very sophisticated dimension reduction techniques which lead to over-interpretation or misinterpretation
@@ -911,8 +908,7 @@ or non-sufficiency of summaries, simulations can often provide effective communi
 Added constraints on the parameters can often
 be integrated into the analyses to make them more realistic and reduce if not eliminate the identifiability issues.</p>
 <h3 id="meaningful-interpretation-by-linking-in-databases">Meaningful Interpretation by linking in databases</h3>
-<p>In the right side of the Figure <span class="citation" data-cites="ref">[<span class="citeproc-not-found" data-reference-id="ref"><strong>???</strong></span>]</span>(fig:InterpWorkflow)
-we show how connections to layers of information from outside databases can be incorporated into the final output. Real biological understanding is often subordinated to the integration
+<p>In the right side of Figure <a href="#fig:interpretation">4</a>A we show how connections to layers of information from outside databases can be incorporated into the final output. Real biological understanding is often subordinated to the integration
 of this contiguous information.
 Either from the metadata already available in the multiassay containers as for instance in the <a href="https://bioconductor.org/packages/release/bioc/html/MultiAssayExperiment.html">MultiAssayExperiment package</a> or from exterior sources such as Gene Ontologies, Biomart <span class="citation" data-cites="XkAC715J">[<a href="#ref-XkAC715J" role="doc-biblioref">18</a>]</span>, Kegg, Human Cell Atlas (HCA) or other sources often available through links provided within systems like bioconductor ().</p>
 <p>Redundant biological knowledge is often enlightening,
@@ -920,10 +916,9 @@ as many methods suffer from identifiability issues (ie in a gradient, the direct
 By providing information on the extreme points in a map
 or brushing a map with known gene expression features
 one can delineate orientations and clusters.</p>
-<p>For instance coloring by CD56 across time shows the dynamics of immune response <span class="citation" data-cites="1GblcsF7">[<a href="#ref-1GblcsF7" role="doc-biblioref">19</a>]</span>:
-<img src="images/ImmuneResponse_CD56.png" id="fig:UMAP_Immune" style="width:60.0%" alt="Brushing an UMAP with a covariate can illustrate the dynamics of cell changes" /></p>
+<p>For instance coloring by CD56 across time shows the dynamics of immune response <span class="citation" data-cites="1GblcsF7">[<a href="#ref-1GblcsF7" role="doc-biblioref">19</a>]</span> (Figure <a href="#fig:interpretation">4</a>C).</p>
 <h3 id="visualization-tools-for-interpretation-and-communication-to-biologists">Visualization tools for interpretation and communication to biologists</h3>
-<p>An example of effective visual interpretation tools is interactive brushing of UMAP plot, see <span class="citation" data-cites="ref">[<span class="citeproc-not-found" data-reference-id="ref"><strong>???</strong></span>]</span>(fig:BrushUMap) by Kris Sankaran.</p>
+<p>An example of effective visual interpretation tools is interactive brushing of UMAP plot, see Figure <a href="#fig:interpretation">4</a>C by Kris Sankaran.</p>
 <h3 id="missing">Missing</h3>
 <ul>
 <li><p>Validation through complementary data and sequential experimental design.</p></li>
@@ -1085,13 +1080,13 @@ genes and transcripts can be enumerated using Ensembl <span class="citation" dat
 <code>GRanges</code> instances <span class="citation" data-cites="14d6Jzwus">[<a href="#ref-14d6Jzwus" role="doc-biblioref">51</a>]</span>; regions of accessibility
 from, e.g., ATAC-seq experiments, may be defined using genomic coordinates in a clearly specified reference build. Metadata on
 samples includes all relevant information on experimental conditions such as treatment,
-protocol, and date of technical processing. Figure <a href="#fig:spatialExpt">6</a> shows how this
+protocol, and date of technical processing. Figure <a href="#fig:spatialExpt">5</a> shows how this
 class was used to amalgamate and annotate results of a multimodal dataset consisting of seqFISH and scRNA-seq experimental data.
 To combine these two different experiments, the seqFISH data were stored into the SpatialExperiment S4 class object, while the scRNA-seq data were stored into a SingleCellExperiment Bioconductor class object <span class="citation" data-cites="R7sfk7Aq">[<a href="#ref-R7sfk7Aq" role="doc-biblioref">52</a>]</span>.
 Then, these objects were easily stored into a MultiAssayExperiment class object and released with the SingleCellMultiModal Bioconductor package <span class="citation" data-cites="doi:10.18129/B9.bioc.SingleCellMultiModal">[<span class="citeproc-not-found" data-reference-id="doi:10.18129/B9.bioc.SingleCellMultiModal"><strong>???</strong></span>]</span>.</p>
 <div id="fig:spatialExpt" class="fignos">
 <figure>
-<img src="images/fusedDataStructures.png" style="width:50.0%" alt="" /><figcaption><span>Figure 6:</span> Left: Combination of seqFISH-based SpatialExperiment
+<img src="images/fusedDataStructures.png" style="width:50.0%" alt="" /><figcaption><span>Figure 5:</span> Left: Combination of seqFISH-based SpatialExperiment
 and SingleCellExperiment instances into a MultiAssayExperiment. Right: details of the SpatialExperiment class design.</figcaption>
 </figure>
 </div>
@@ -1106,7 +1101,7 @@ and SingleCellExperiment instances into a MultiAssayExperiment. Right: details o
 <h3 id="scalability-strategies">Scalability strategies</h3>
 <p>In addition to standardize data infrastructures that allows for scalability of <em>storing</em> and <em>access</em> of large datasets <span class="citation" data-cites="KhbsUBNe mOp2pMsC">[<a href="#ref-KhbsUBNe" role="doc-biblioref">53</a>,<a href="#ref-mOp2pMsC" role="doc-biblioref">54</a>]</span>, new strategies are emerging that allow for scalable <em>algorithms</em> that allow for data to be stored in memory or on disk such as unsupervised clustering of cell types in either R <span class="citation" data-cites="g9O7LIML 19jAJjD6o">[<a href="#ref-g9O7LIML" role="doc-biblioref">55</a>,<a href="#ref-19jAJjD6o" role="doc-biblioref">56</a>]</span> or Python <span class="citation" data-cites="qIZTS1II">[<a href="#ref-qIZTS1II" role="doc-biblioref">57</a>]</span>. While these strategies were originally developed in application of single-cell RNA-sequencing analyses, these scalable algorithms are applicable to multimodal single-cell experiments.</p>
 <h3 id="data-access-for-the-hackathons-and-long-term-software-strategy-for-multimodal-single-cell-experiments">Data access for the hackathons and long term software strategy for multimodal single-cell experiments</h3>
-<p>Reproducibility and transparency are crucial aspect in hackathons, starting with data availability. Providing data to the community is a long standing issue (e.g. SAGEBionetwork <strong>complete Elana</strong>). In our context, input data across all hackathons were pre-processed with steps documented, and the data were added into the ExperimentHub package <code>SingleCellMultimodal</code> [doi:10.18129/B9.bioc.SingleCellMultiModal], developed to incorporate multiple multi modal datasets in MultiAssaiExperiment format so that they can be used for further computational developments by others. At the moment, it includes the hackathons scNMT-seq and the seqFISH+scRNA-seq (Fig. <a href="#fig:spatialExpt">6</a>) datasets, easily stored because of the samples overlapping between multiple modalities, while we are working on the integration of the scProteomics dataset which has no overlap between samples.</p>
+<p>Reproducibility and transparency are crucial aspect in hackathons, starting with data availability. Providing data to the community is a long standing issue (e.g. SAGEBionetwork <strong>complete Elana</strong>). In our context, input data across all hackathons were pre-processed with steps documented, and the data were added into the ExperimentHub package <code>SingleCellMultimodal</code> [doi:10.18129/B9.bioc.SingleCellMultiModal], developed to incorporate multiple multi modal datasets in MultiAssaiExperiment format so that they can be used for further computational developments by others. At the moment, it includes the hackathons scNMT-seq and the seqFISH+scRNA-seq (Fig. <a href="#fig:spatialExpt">5</a>) datasets, easily stored because of the samples overlapping between multiple modalities, while we are working on the integration of the scProteomics dataset which has no overlap between samples.</p>
 <p>The vignettes of all contributors were included into containers <strong>Al, details please</strong> using the <code>ExperimentHub</code> package as a dependency. In these containers, we used consistent assay access methods to powerful implementation strategies (possibly through methods inheritance. e.g. from <code>SummarizedExperiment</code> <strong>Al please amend</strong>). Such setting will in the long-term facilitate Continuous Integration (CI) of the analyses and preprocessing changes and Continuous Delivery (CD)
 of the analysis reports. The CI/CD workflow may also be automated on a hosted server and containerized
 reports can be generated for enhanced efficiency and portability.</p>

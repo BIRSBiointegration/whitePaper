@@ -17,7 +17,7 @@ autoencoder
 availabe
 benchmarked
 Bioconductor’s
-Bioinformatics
+bioinformatics
 biomarkers
 Biomart
 bioRxiv
@@ -27,7 +27,6 @@ bisulfite
 Blei
 Blish
 boxplot
-BrushUMap
 Cao
 CellProfiler
 centric
@@ -103,7 +102,6 @@ integrations
 interpretability
 interpretabiliy
 interpretaion
-InterpWorkflow
 janeroe
 Jeganathan
 Jenagan
@@ -164,8 +162,9 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
+reinclude
 remodelling
 Reproducibility
 resampling
