@@ -20,7 +20,6 @@ content/10.scSpatial.md:15:scRNAseq
 content/10.scSpatial.md:15:scRNAseq
 content/10.scSpatial.md:16:scRNAseq
 content/10.scSpatial.md:17:scRNAseq
-content/10.scSpatial.md:20:infered
 content/10.scSpatial.md:20:scRNAseq
 content/10.scSpatial.md:20:SVM
 content/10.scSpatial.md:20:Voronoi
