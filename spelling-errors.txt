@@ -17,7 +17,7 @@ autoencoder
 availabe
 benchmarked
 Bioconductor’s
-bioinformatics
+Bioinformatics
 biomarkers
 Biomart
 bioRxiv
@@ -74,7 +74,7 @@ Farber
 Fertig
 Finetti
 Freytag
-Gastrulation
+gastrulation
 gcj
 gcxh
 generalisation
@@ -188,7 +188,7 @@ Sodicoff
 Soneson
 spatialExpt
 ssEnet
-STATIS
+Statis
 subcellular
 substract
 subtypes
@@ -201,7 +201,7 @@ Tian
 Tibshirani
 tk
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 transtitions
 tSNE
