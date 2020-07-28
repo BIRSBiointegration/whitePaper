@@ -74,9 +74,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/2681055aebd973d3f32158b1c33a14c58963b5cd/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/2681055aebd973d3f32158b1c33a14c58963b5cd/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/2681055aebd973d3f32158b1c33a14c58963b5cd/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/f763716baedac86606a739e2c907668a4faced98/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/f763716baedac86606a739e2c907668a4faced98/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/f763716baedac86606a739e2c907668a4faced98/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -90,9 +90,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/2681055aebd973d3f32158b1c33a14c58963b5cd/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/f763716baedac86606a739e2c907668a4faced98/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/2681055aebd973d3f32158b1c33a14c58963b5cd">BIRSBiointegration/whitePaper@2681055</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/f763716baedac86606a739e2c907668a4faced98">BIRSBiointegration/whitePaper@f763716</a>
 on July 28, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -417,10 +417,10 @@ More specifically, in this hackathon we explored a number of strategies to ident
 And in the opposite direction, we sought out how to transfer spatial information obtained from the seqfish dataset to that of the scRNAseq dataset.</p>
 <div id="fig:spatial" class="fignos">
 <figure>
-<img src="images/seqFish_mockup.png" alt="" /><figcaption><span>Figure 3:</span> Overview of analysis. <strong>A</strong> A spatial network was built from cells’ positions using Voronoi tessellation, whilst cell types were inferred from an SVM trained on scRNAseq data. Left: A neighbors aggregation method computes aggregation statistics such as mean or standard deviation on the gene expression data for each node and its first order neighbors. Right: This approach identified spatially coherent areas that can contain one or several cell types, and can be used to detect genes whose expression is modulated by spatial factors rather than cell type.<strong>
-</strong>B** <strong>Caption missing, Amrit</strong>
+<img src="images/seqFish_mockup.png" alt="" /><figcaption><span>Figure 3:</span> Overview of analysis. <em>note: letters order can be changed</em> <strong>A</strong> A spatial network was built from cells’ positions using Voronoi tessellation, whilst cell types were inferred from an SVM trained on scRNAseq data. Left: A neighbors aggregation method computes aggregation statistics such as mean or standard deviation on the gene expression data for each node and its first order neighbors. Right: This approach identified spatially coherent areas that can contain one or several cell types, and can be used to detect genes whose expression is modulated by spatial factors rather than cell type.<strong>
+</strong>B** Assessment of cell type prediction using different normalization techniques and classifiers. Results performance (based on what?)are projected on a PCA plot, showing that methods that integration information from both seqFish and scRNAseq are distinct from methods that do not (along the x-axis). (<strong>Amrit, figure still in discussion</strong>)
 <strong>C</strong> <strong>Caption missing, Josh</strong>
-<strong>D</strong> <strong>Caption missing, Hang</strong>
+<strong>D</strong> Challenge 2: what is the minimal number of genes required for data integration? SVM classification models (C=1e-6, C=1e-3, C=1) were trained and evaluated with different number of genes in scRNAseq data using Recursive Feature Elimination (RFE). The results show that a small (<em>do you mean smaller that the original study?</em>) gene list to identify cell types in both data types, but the lack of goad standard hinders our ability to evaluate the relevance of such genes. <strong>Hang</strong>
 .</figcaption>
 </figure>
 </div>
