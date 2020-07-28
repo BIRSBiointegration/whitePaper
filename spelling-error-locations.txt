@@ -24,6 +24,11 @@ content/10.scSpatial.md:20:scRNAseq
 content/10.scSpatial.md:20:SVM
 content/10.scSpatial.md:20:Voronoi
 content/10.scSpatial.md:21:Amrit
+content/10.scSpatial.md:21:PCA
+content/10.scSpatial.md:21:scRNAseq
+content/10.scSpatial.md:23:RFE
+content/10.scSpatial.md:23:scRNAseq
+content/10.scSpatial.md:23:SVM
 content/10.scSpatial.md:32:transcriptomic
 content/10.scSpatial.md:33:RNAseq
 content/10.scSpatial.md:34:Lubeck
