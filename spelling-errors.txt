@@ -1,7 +1,8 @@
 Abadi
 activatory
-aedin
+Aedin
 AedinCulhane
+Amongst
 Amrit
 Amrith
 analyse
@@ -17,7 +18,7 @@ autoencoder
 availabe
 benchmarked
 Bioconductor’s
-Bioinformatics
+bioinformatics
 biomarkers
 Biomart
 bioRxiv
@@ -90,9 +91,7 @@ hackaton
 HDBSCAN
 HiC
 histone
-HMRF
 Hsu
-HVG
 hyperparameters
 identifiability
 IHC
@@ -108,7 +107,6 @@ Jenagan
 Jenathan
 Keren
 Kimmel
-KNN
 Lê
 learnings
 LIGER
@@ -117,7 +115,6 @@ Lubeck
 Lustgarten
 Matlab
 maximises
-MBPCA
 megabases
 Meng
 methyltransferase
@@ -127,6 +124,7 @@ minium
 mixOmics
 mixOmicsTeam
 modelling
+moslty
 mRNA
 MultiAssaiExperiment
 multiplatform
@@ -136,6 +134,7 @@ napari
 neighbour
 neighbourhood
 NMF
+NMT
 NN
 nnbm
 Normalisation
@@ -162,7 +161,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 Reasonning
 reinclude
 remodelling
@@ -188,11 +187,12 @@ Sodicoff
 Soneson
 spatialExpt
 ssEnet
-Statis
+STATIS
 subcellular
 substract
 subtypes
 succesful
+summarization
 Svensson
 SVM
 Tasic
@@ -203,6 +203,7 @@ tk
 totalVI
 transcriptional
 transcriptomic
+transpor
 transtitions
 tSNE
 tumour
@@ -215,7 +216,6 @@ variates
 variational
 vjcitn
 Voronoi
-VSN
 Welch
 wrr
 Xu
