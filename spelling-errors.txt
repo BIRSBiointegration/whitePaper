@@ -1,6 +1,6 @@
 Abadi
 activatory
-aedin
+Aedin
 AedinCulhane
 Amongst
 Amrit
@@ -18,7 +18,7 @@ autoencoder
 availabe
 benchmarked
 Bioconductor’s
-Bioinformatics
+bioinformatics
 biomarkers
 Biomart
 bioRxiv
@@ -39,6 +39,7 @@ cmIF
 cn
 comptuational
 consortiums
+cortext
 Coullomb
 covariate
 covariates
@@ -47,7 +48,7 @@ CpG
 Craniofacial
 CTCF
 Culhane
-CyToF
+CyTOF
 Cytokit
 decompositions
 Delaunay
@@ -65,6 +66,7 @@ eigenvector
 ejfertig
 Elana
 EMBL
+enalble
 ENet
 entropic
 examplary
@@ -139,7 +141,7 @@ NMF
 NMT
 NN
 nnbm
-normalisation
+Normalisation
 novo
 Ontologies
 overfitting
@@ -163,7 +165,7 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
 reinclude
 remodelling
@@ -203,7 +205,7 @@ Tian
 Tibshirani
 tk
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 transpor
 transtitions
