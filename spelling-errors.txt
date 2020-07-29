@@ -1,6 +1,6 @@
 Abadi
 activatory
-Aedin
+aedin
 AedinCulhane
 Amongst
 Amrit
@@ -46,7 +46,7 @@ CpG
 Craniofacial
 CTCF
 Culhane
-CyTOF
+CyToF
 Cytokit
 decompositions
 Delaunay
@@ -75,7 +75,7 @@ Farber
 Fertig
 Finetti
 Freytag
-gastrulation
+Gastrulation
 gcj
 gcxh
 generalisation
@@ -101,6 +101,7 @@ integrations
 interpretability
 interpretabiliy
 interpretaion
+intra
 janeroe
 Jeganathan
 Jenagan
@@ -137,7 +138,7 @@ NMF
 NMT
 NN
 nnbm
-normalisation
+Normalisation
 novo
 Ontologies
 overfitting
@@ -151,7 +152,7 @@ PLS
 practitionners
 Pratheepa
 Pratheepan
-Pre
+pre
 preprocessing
 prespecified
 priori
@@ -161,7 +162,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 Reasonning
 reinclude
 remodelling
@@ -201,7 +202,7 @@ Tian
 Tibshirani
 tk
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 transpor
 transtitions

@@ -13,6 +13,13 @@ content/01.outline.md:88:Arora
 content/01.outline.md:99:tSNE
 content/01.outline.md:104:summarization
 content/01.outline.md:182:scTargeted
+content/03.introduction.md:41:CyTOF
+content/03.introduction.md:41:gastrulation
+content/03.introduction.md:41:intra
+content/03.introduction.md:41:nn
+content/03.introduction.md:41:situ
+content/03.introduction.md:41:transcriptional
+content/03.introduction.md:41:transcriptional
 content/10.scSpatial.md:6:transcriptomic
 content/10.scSpatial.md:12:situ
 content/10.scSpatial.md:13:scRNAseq
