@@ -18,7 +18,7 @@ autoencoder
 availabe
 benchmarked
 Bioconductor’s
-bioinformatics
+Bioinformatics
 biomarkers
 Biomart
 bioRxiv
@@ -37,6 +37,7 @@ Channing
 Chessel
 cmIF
 cn
+comptuational
 consortiums
 Coullomb
 covariate
@@ -46,7 +47,7 @@ CpG
 Craniofacial
 CTCF
 Culhane
-CyTOF
+CyToF
 Cytokit
 decompositions
 Delaunay
@@ -138,7 +139,7 @@ NMF
 NMT
 NN
 nnbm
-Normalisation
+normalisation
 novo
 Ontologies
 overfitting
@@ -152,7 +153,7 @@ PLS
 practitionners
 Pratheepa
 Pratheepan
-pre
+Pre
 preprocessing
 prespecified
 priori
