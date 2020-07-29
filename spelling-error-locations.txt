@@ -24,7 +24,6 @@ content/10.scSpatial.md:5:comptuational
 content/10.scSpatial.md:5:cortext
 content/10.scSpatial.md:5:transcriptomic
 content/10.scSpatial.md:8:situ
-content/10.scSpatial.md:9:enalble
 content/10.scSpatial.md:9:Lubeck
 content/10.scSpatial.md:9:scRNAseq
 content/10.scSpatial.md:9:scRNAseq
@@ -51,6 +50,8 @@ content/10.scSpatial.md:27:Voronoi
 content/10.scSpatial.md:28:Amrit
 content/10.scSpatial.md:28:PCA
 content/10.scSpatial.md:28:scRNAseq
+content/10.scSpatial.md:29:LIGER
+content/10.scSpatial.md:29:transcriptomic
 content/10.scSpatial.md:30:RFE
 content/10.scSpatial.md:30:scRNAseq
 content/10.scSpatial.md:30:SVM
