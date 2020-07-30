@@ -18,7 +18,7 @@ autoencoder
 availabe
 benchmarked
 Bioconductor’s
-bioinformatics
+Bioinformatics
 biomarkers
 Biomart
 bioRxiv
@@ -141,7 +141,7 @@ NMF
 NMT
 NN
 nnbm
-normalisation
+Normalisation
 novo
 Ontologies
 overfitting
@@ -155,7 +155,7 @@ PLS
 practitionners
 Pratheepa
 Pratheepan
-pre
+Pre
 preprocessing
 prespecified
 priori
@@ -205,7 +205,7 @@ Tian
 Tibshirani
 tk
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 transpor
 transtitions

@@ -25,15 +25,13 @@ content/10.scSpatial.md:5:comptuational
 content/10.scSpatial.md:5:cortext
 content/10.scSpatial.md:5:transcriptomic
 content/10.scSpatial.md:8:situ
-content/10.scSpatial.md:9:Lubeck
+content/10.scSpatial.md:9:nn
 content/10.scSpatial.md:9:scRNAseq
 content/10.scSpatial.md:9:scRNAseq
 content/10.scSpatial.md:9:scRNAseq
 content/10.scSpatial.md:9:scRNAseq
-content/10.scSpatial.md:9:Tasic
 content/10.scSpatial.md:9:transcriptional
 content/10.scSpatial.md:9:transcriptomic
-content/10.scSpatial.md:9:Zhu
 content/10.scSpatial.md:10:scRNAseq
 content/10.scSpatial.md:12:Elana
 content/10.scSpatial.md:13:transcriptomic
