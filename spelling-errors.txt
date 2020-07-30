@@ -37,6 +37,7 @@ Channing
 Chessel
 cmIF
 cn
+complemenatary
 comptuational
 consortiums
 cortext
@@ -48,7 +49,7 @@ CpG
 Craniofacial
 CTCF
 Culhane
-CyToF
+CyTOF
 Cytokit
 decompositions
 Delaunay
@@ -164,7 +165,7 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
 reinclude
 remodelling
