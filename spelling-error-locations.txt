@@ -331,7 +331,9 @@ content/40.common-challenges.md:197:novo
 content/45.interp-challenges.md:3:bbiologicaly
 content/45.interp-challenges.md:3:dimensionality
 content/45.interp-challenges.md:3:Elana
+content/45.interp-challenges.md:7:arguemnt
 content/45.interp-challenges.md:7:Elana
+content/45.interp-challenges.md:7:namings
 content/45.interp-challenges.md:14:covariates
 content/45.interp-challenges.md:24:transtitions
 content/45.interp-challenges.md:28:pseduo

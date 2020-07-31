@@ -10,6 +10,7 @@ ANOVA
 appia
 Arcsinh
 Argelaguet
+arguemnt
 Arora
 arround
 autocorrelation
@@ -18,7 +19,7 @@ availabe
 bbiologicaly
 benchmarked
 Bioconductor’s
-Bioinformatics
+bioinformatics
 biomarkers
 Biomart
 bioRxiv
@@ -79,7 +80,7 @@ Farber
 Fertig
 Finetti
 Freytag
-Gastrulation
+gastrulation
 gcj
 gcxh
 generalisation
@@ -137,6 +138,7 @@ MultiAssaiExperiment
 multiplatform
 multipliable
 multistream
+namings
 napari
 neighbour
 neighbourhood
@@ -144,7 +146,7 @@ NMF
 NMT
 NN
 nnbm
-normalisation
+Normalisation
 novo
 Ontologies
 overfitting
@@ -158,7 +160,7 @@ PLS
 practitionners
 Pratheepa
 Pratheepan
-Pre
+pre
 preprocessing
 prespecified
 priori
@@ -168,11 +170,11 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
 reinclude
 remodelling
-Reproducibility
+reproducibility
 resampling
 RFE
 Ricard
@@ -194,7 +196,7 @@ Sodicoff
 Soneson
 spatialExpt
 ssEnet
-Statis
+STATIS
 subcellular
 substract
 subtypes
