@@ -74,9 +74,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/db2e870c1646b629241b0540056fe4bb5272c1c6/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/db2e870c1646b629241b0540056fe4bb5272c1c6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/db2e870c1646b629241b0540056fe4bb5272c1c6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/58a94b9670e19c562018e0c3d2de38e66d04bef3/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/58a94b9670e19c562018e0c3d2de38e66d04bef3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/58a94b9670e19c562018e0c3d2de38e66d04bef3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -90,9 +90,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/db2e870c1646b629241b0540056fe4bb5272c1c6/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/58a94b9670e19c562018e0c3d2de38e66d04bef3/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/db2e870c1646b629241b0540056fe4bb5272c1c6">BIRSBiointegration/whitePaper@db2e870</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/58a94b9670e19c562018e0c3d2de38e66d04bef3">BIRSBiointegration/whitePaper@58a94b9</a>
 on July 31, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -1025,6 +1025,35 @@ Soneson et al. (2018) Nat Methods; Saelens et al. (2019) Nat Biotechnol; Gold 
 know the ground truth <span class="citation" data-cites="chgaiKOU">[<a href="#ref-chgaiKOU" role="doc-biblioref">32</a>]</span>. Simulation methods that generate high-throughput data in silico are useful for having known truth, but it is difficult to
 simulate realistic covariance structure across features and across
 data modalities (Figure <a href="#fig:benchmark">5</a>A). Moreover, these simulations can inadvertently embed the same underlying assumptions as the computational methods employed for analysis, introducing further biases into benchmark studies. Therefore, high-throughput datasets with a known ground truth are also critical for multi-omics studies and robust testgrounds for future hackathon studies that were widely discussed throughout the workshop.</p>
+<h4 id="cross-validation-within-study">Cross-validation within study</h4>
+<p>For example the <a href="https://github.com/Wancen/CV-MOFA">cross-validation analysis of the scNMT-seq dataset</a>
+was performed using MOFA+ (Figure <a href="#fig:benchmark">5</a>B). Such an evaluation of methods using permutation or cross-validation
+has been performed previously, typically to optimize a tuning
+parameter or other aspects of model selection. Permutation has been
+used to create null datasets, either as demonstration that a method
+is not overfitting, or for tuning parameter selection, where the
+optimal parameter setting should produce an objective that is far
+from the null distribution
+<span class="citation" data-cites="vJJXeGCv MYhQ5fRN NSuq56O9">[<a href="#ref-vJJXeGCv" role="doc-biblioref">33</a>,<a href="#ref-MYhQ5fRN" role="doc-biblioref">34</a>,<a href="#ref-NSuq56O9" role="doc-biblioref">35</a>]</span>.
+Cross-validation using folds or leave-one-out has likewise been used in many multi-modal method development papers
+<span class="citation" data-cites="13ibOJcF0 maAEgLQK yVYfg2ZK YY25QUrX 5B54vifR tOD4Gkgt AQWTNms4 bFa7ptnr wkhRfjyx wP2BgpVi QSXGprag cZOVX9E7">[<a href="#ref-cZOVX9E7" role="doc-biblioref">15</a>,<a href="#ref-13ibOJcF0" role="doc-biblioref">36</a>,<a href="#ref-maAEgLQK" role="doc-biblioref">37</a>,<a href="#ref-yVYfg2ZK" role="doc-biblioref">38</a>,<a href="#ref-YY25QUrX" role="doc-biblioref">39</a>,<a href="#ref-5B54vifR" role="doc-biblioref">40</a>,<a href="#ref-tOD4Gkgt" role="doc-biblioref">41</a>,<a href="#ref-AQWTNms4" role="doc-biblioref">42</a>,<a href="#ref-bFa7ptnr" role="doc-biblioref">43</a>,<a href="#ref-wkhRfjyx" role="doc-biblioref">44</a>,<a href="#ref-wP2BgpVi" role="doc-biblioref">45</a>,<a href="#ref-QSXGprag" role="doc-biblioref">46</a>]</span>.</p>
+<p>A challenge with within study cross-validation is how to
+match dimensions of latent space across folds. Previous evaluations
+of multi-modal methods using cross-validation have focused on the
+top factor, swapping the sign of the project as needed to align
+the top latent factor across folds <span class="citation" data-cites="IZfv7up4">[<a href="#ref-IZfv7up4" role="doc-biblioref">47</a>]</span>.</p>
+<p>Finally, we note that for assessing clustering, a number of papers
+have suggested to resampling or data-splitting strategies to
+determine prediction strength
+<span class="citation" data-cites="4CvJHFCU QfQVcW0v gbdea2Ea I1iOQSFC">[<a href="#ref-gbdea2Ea" role="doc-biblioref">9</a>,<a href="#ref-4CvJHFCU" role="doc-biblioref">48</a>,<a href="#ref-QfQVcW0v" role="doc-biblioref">49</a>,<a href="#ref-I1iOQSFC" role="doc-biblioref">50</a>]</span>.
+For clustering of cells into putative cell types or cell states,
+such previously developed techniques could be applied in a
+multi-modal setting.</p>
+<p>Cross-study validation would assess if relationships discovered in
+one dataset present in other datasets, potentially looking across
+single cell and bulk.</p>
+<h3 id="using-hackathon-studies-as-community-benchmarking">Using hackathon studies as community benchmarking</h3>
+<p><strong>to fill here, could mention the dream challenge and link back to our own experience / learnings</strong></p>
 <h4 id="creating-benchmarking-datasets">Creating benchmarking datasets</h4>
 <p>(<strong>add examples from Google Doc</strong>)
 Benchmark datasets for single cell studies have largely centered around
@@ -1060,35 +1089,6 @@ combination of modality, and benchmark datasets may be established
 for commonly used combinations of modalities or technologies,
 towards specific data integration tasks.</p></li>
 </ul>
-<h4 id="cross-validation-within-study">Cross-validation within study</h4>
-<p>For example the <a href="https://github.com/Wancen/CV-MOFA">cross-validation analysis of the scNMT-seq dataset</a>
-was performed using MOFA+ (Figure <a href="#fig:benchmark">5</a>B). Such an evaluation of methods using permutation or cross-validation
-has been performed previously, typically to optimize a tuning
-parameter or other aspects of model selection. Permutation has been
-used to create null datasets, either as demonstration that a method
-is not overfitting, or for tuning parameter selection, where the
-optimal parameter setting should produce an objective that is far
-from the null distribution
-<span class="citation" data-cites="vJJXeGCv MYhQ5fRN NSuq56O9">[<a href="#ref-vJJXeGCv" role="doc-biblioref">33</a>,<a href="#ref-MYhQ5fRN" role="doc-biblioref">34</a>,<a href="#ref-NSuq56O9" role="doc-biblioref">35</a>]</span>.
-Cross-validation using folds or leave-one-out has likewise been used in many multi-modal method development papers
-<span class="citation" data-cites="13ibOJcF0 maAEgLQK yVYfg2ZK YY25QUrX 5B54vifR tOD4Gkgt AQWTNms4 bFa7ptnr wkhRfjyx wP2BgpVi QSXGprag cZOVX9E7">[<a href="#ref-cZOVX9E7" role="doc-biblioref">15</a>,<a href="#ref-13ibOJcF0" role="doc-biblioref">36</a>,<a href="#ref-maAEgLQK" role="doc-biblioref">37</a>,<a href="#ref-yVYfg2ZK" role="doc-biblioref">38</a>,<a href="#ref-YY25QUrX" role="doc-biblioref">39</a>,<a href="#ref-5B54vifR" role="doc-biblioref">40</a>,<a href="#ref-tOD4Gkgt" role="doc-biblioref">41</a>,<a href="#ref-AQWTNms4" role="doc-biblioref">42</a>,<a href="#ref-bFa7ptnr" role="doc-biblioref">43</a>,<a href="#ref-wkhRfjyx" role="doc-biblioref">44</a>,<a href="#ref-wP2BgpVi" role="doc-biblioref">45</a>,<a href="#ref-QSXGprag" role="doc-biblioref">46</a>]</span>.</p>
-<p>A challenge with within study cross-validation is how to
-match dimensions of latent space across folds. Previous evaluations
-of multi-modal methods using cross-validation have focused on the
-top factor, swapping the sign of the project as needed to align
-the top latent factor across folds <span class="citation" data-cites="IZfv7up4">[<a href="#ref-IZfv7up4" role="doc-biblioref">47</a>]</span>.</p>
-<p>Finally, we note that for assessing clustering, a number of papers
-have suggested to resampling or data-splitting strategies to
-determine prediction strength
-<span class="citation" data-cites="4CvJHFCU QfQVcW0v gbdea2Ea I1iOQSFC">[<a href="#ref-gbdea2Ea" role="doc-biblioref">9</a>,<a href="#ref-4CvJHFCU" role="doc-biblioref">48</a>,<a href="#ref-QfQVcW0v" role="doc-biblioref">49</a>,<a href="#ref-I1iOQSFC" role="doc-biblioref">50</a>]</span>.
-For clustering of cells into putative cell types or cell states,
-such previously developed techniques could be applied in a
-multi-modal setting.</p>
-<p>Cross-study validation would assess if relationships discovered in
-one dataset present in other datasets, potentially looking across
-single cell and bulk.</p>
-<h3 id="using-hackathon-studies-as-community-benchmarking">Using hackathon studies as community benchmarking</h3>
-<p><strong>to fill here, could mention the dream challenge and link back to our own experience / learnings</strong></p>
 <h2 id="software-strategies-to-enable-analyses-of-multimodal-single-cell-experiments">Software strategies to enable analyses of multimodal single cell experiments</h2>
 <p>In this section, we reflect on the challenges we have faced when analyzing this series of hackathons whilst using analytic software for visualization and inference in multimodal single-cell experiments. Our discussion is necessarily limited in scope, but
 we provide pointers to concrete details when relevant.</p>
