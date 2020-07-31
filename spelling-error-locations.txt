@@ -251,6 +251,7 @@ content/40.common-challenges.md:18:sGCCA
 content/40.common-challenges.md:18:transpor
 content/40.common-challenges.md:20:NMT
 content/40.common-challenges.md:28:Meuleman
+content/40.common-challenges.md:33:Elana
 content/40.common-challenges.md:35:Abadi
 content/40.common-challenges.md:35:Abadi
 content/40.common-challenges.md:35:Arora
