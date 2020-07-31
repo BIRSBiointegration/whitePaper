@@ -19,7 +19,7 @@ availabe
 bbiologicaly
 benchmarked
 Bioconductor’s
-bioinformatics
+Bioinformatics
 biomarkers
 Biomart
 bioRxiv
@@ -80,7 +80,7 @@ Farber
 Fertig
 Finetti
 Freytag
-gastrulation
+Gastrulation
 gcj
 gcxh
 generalisation
@@ -176,7 +176,7 @@ rargelaguet
 Reasonning
 reinclude
 remodelling
-reproducibility
+Reproducibility
 resampling
 RFE
 Ricard
@@ -191,6 +191,7 @@ Scanorama
 scRNAseq
 scTargeted
 sGCCA
+silico
 SingleCellExperiment
 situ
 smoothened
@@ -198,7 +199,7 @@ Sodicoff
 Soneson
 spatialExpt
 ssEnet
-Statis
+STATIS
 subcellular
 substract
 subtypes
@@ -209,6 +210,7 @@ SVM
 Tasic
 techical
 tesselation
+testgrounds
 Tian
 Tibshirani
 tk
