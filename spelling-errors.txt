@@ -1,6 +1,6 @@
 Abadi
 activatory
-Aedin
+aedin
 AedinCulhane
 Amongst
 Amrit
@@ -15,6 +15,7 @@ arround
 autocorrelation
 autoencoder
 availabe
+bbiologicaly
 benchmarked
 Bioconductor’s
 bioinformatics
@@ -48,7 +49,7 @@ CpG
 Craniofacial
 CTCF
 Culhane
-CyTOF
+CyToF
 Cytokit
 decompositions
 deconvolute
@@ -143,7 +144,7 @@ NMF
 NMT
 NN
 nnbm
-normalisation
+Normalisation
 novo
 Ontologies
 overfitting
@@ -157,7 +158,7 @@ PLS
 practitionners
 Pratheepa
 Pratheepan
-Pre
+pre
 preprocessing
 prespecified
 priori
@@ -193,7 +194,7 @@ Sodicoff
 Soneson
 spatialExpt
 ssEnet
-STATIS
+Statis
 subcellular
 substract
 subtypes
@@ -207,7 +208,7 @@ Tian
 Tibshirani
 tk
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 transpor
 transtitions
