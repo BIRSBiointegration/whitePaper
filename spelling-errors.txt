@@ -167,10 +167,12 @@ priori
 programme
 pseduo
 qqplots
+quanitiative
+quantiatitive
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 Reasonning
 reinclude
 remodelling
@@ -196,7 +198,7 @@ Sodicoff
 Soneson
 spatialExpt
 ssEnet
-STATIS
+Statis
 subcellular
 substract
 subtypes
@@ -205,6 +207,7 @@ summarization
 Svensson
 SVM
 Tasic
+techical
 tesselation
 Tian
 Tibshirani
