@@ -50,7 +50,7 @@ CpG
 Craniofacial
 CTCF
 Culhane
-CyToF
+CyTOF
 Cytokit
 decompositions
 deconvolute
@@ -80,7 +80,7 @@ Farber
 Fertig
 Finetti
 Freytag
-Gastrulation
+gastrulation
 gcj
 gcxh
 generalisation
@@ -176,7 +176,7 @@ rargelaguet
 Reasonning
 reinclude
 remodelling
-Reproducibility
+reproducibility
 resampling
 RFE
 Ricard
@@ -215,7 +215,7 @@ Tian
 Tibshirani
 tk
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 transpor
 transtitions
