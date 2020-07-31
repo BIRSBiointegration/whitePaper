@@ -78,7 +78,7 @@ Farber
 Fertig
 Finetti
 Freytag
-Gastrulation
+gastrulation
 gcj
 gcxh
 generalisation
@@ -157,7 +157,7 @@ PLS
 practitionners
 Pratheepa
 Pratheepan
-Pre
+pre
 preprocessing
 prespecified
 priori
@@ -167,11 +167,11 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 Reasonning
 reinclude
 remodelling
-Reproducibility
+reproducibility
 resampling
 RFE
 Ricard
