@@ -17,7 +17,7 @@ autoencoder
 availabe
 benchmarked
 Bioconductor’s
-bioinformatics
+Bioinformatics
 biomarkers
 Biomart
 bioRxiv
@@ -141,7 +141,7 @@ NMF
 NMT
 NN
 nnbm
-normalisation
+Normalisation
 novo
 Ontologies
 overfitting
@@ -165,11 +165,11 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 Reasonning
 reinclude
 remodelling
-Reproducibility
+reproducibility
 resampling
 RFE
 Ricard
@@ -191,7 +191,7 @@ Sodicoff
 Soneson
 spatialExpt
 ssEnet
-Statis
+STATIS
 subcellular
 substract
 subtypes
