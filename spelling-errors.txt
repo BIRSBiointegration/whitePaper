@@ -1,6 +1,6 @@
 Abadi
 activatory
-Aedin
+aedin
 AedinCulhane
 Amongst
 Amrit
@@ -18,7 +18,7 @@ autoencoder
 availabe
 benchmarked
 Bioconductor’s
-bioinformatics
+Bioinformatics
 biomarkers
 Biomart
 bioRxiv
@@ -49,7 +49,7 @@ CpG
 Craniofacial
 CTCF
 Culhane
-CyToF
+CyTOF
 Cytokit
 decompositions
 Delaunay
@@ -78,7 +78,7 @@ Farber
 Fertig
 Finetti
 Freytag
-Gastrulation
+gastrulation
 gcj
 gcxh
 generalisation
@@ -119,6 +119,7 @@ Lubeck
 Lustgarten
 Matlab
 maximises
+mechansisms
 megabases
 Meng
 methyltransferase
@@ -191,7 +192,7 @@ Sodicoff
 Soneson
 spatialExpt
 ssEnet
-STATIS
+Statis
 subcellular
 substract
 subtypes
