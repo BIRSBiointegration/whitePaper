@@ -3461,11 +3461,12 @@
     "page": "441-441",
     "volume": "8",
     "issue": "6",
-    "source": "www.nature.com",
-    "URL": "https://www.nature.com/articles/nmeth.1618",
+    "source": "DOI.org (Crossref)",
+    "URL": "http://www.nature.com/articles/nmeth.1618",
     "DOI": "10.1038/nmeth.1618",
-    "ISSN": "1548-7105",
+    "ISSN": "1548-7091, 1548-7105",
     "shortTitle": "Points of view",
+    "journalAbbreviation": "Nat Methods",
     "language": "en",
     "author": [
       {
@@ -3477,8 +3478,7 @@
       "date-parts": [
         [
           "2011",
-          6,
-          1
+          6
         ]
       ]
     },

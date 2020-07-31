@@ -234,7 +234,10 @@ content/40.common-challenges.md:7:NMF
 content/40.common-challenges.md:7:PCA
 content/40.common-challenges.md:7:pre
 content/40.common-challenges.md:7:tSNE
+content/40.common-challenges.md:9:comptuational
+content/40.common-challenges.md:9:Elana
 content/40.common-challenges.md:9:moslty
+content/40.common-challenges.md:9:pre
 content/40.common-challenges.md:17:pre
 content/40.common-challenges.md:18:Coullomb
 content/40.common-challenges.md:18:normalisation
