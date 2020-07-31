@@ -1,6 +1,6 @@
 Abadi
 activatory
-aedin
+Aedin
 AedinCulhane
 Amongst
 Amrit
@@ -141,7 +141,7 @@ NMF
 NMT
 NN
 nnbm
-Normalisation
+normalisation
 novo
 Ontologies
 overfitting
@@ -169,7 +169,7 @@ rargelaguet
 Reasonning
 reinclude
 remodelling
-reproducibility
+Reproducibility
 resampling
 RFE
 Ricard
