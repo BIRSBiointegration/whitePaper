@@ -17,7 +17,7 @@ autoencoder
 availabe
 benchmarked
 Bioconductor’s
-Bioinformatics
+bioinformatics
 biomarkers
 Biomart
 bioRxiv
@@ -51,6 +51,7 @@ Culhane
 CyTOF
 Cytokit
 decompositions
+deconvolute
 Delaunay
 demethylation
 DIABLO
@@ -77,7 +78,7 @@ Farber
 Fertig
 Finetti
 Freytag
-gastrulation
+Gastrulation
 gcj
 gcxh
 generalisation
@@ -104,6 +105,7 @@ interpretability
 interpretabiliy
 interpretaion
 intra
+introns
 janeroe
 Jeganathan
 Jenagan
@@ -141,7 +143,7 @@ NMF
 NMT
 NN
 nnbm
-Normalisation
+normalisation
 novo
 Ontologies
 overfitting
@@ -165,11 +167,11 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
 reinclude
 remodelling
-reproducibility
+Reproducibility
 resampling
 RFE
 Ricard
@@ -191,7 +193,7 @@ Sodicoff
 Soneson
 spatialExpt
 ssEnet
-STATIS
+Statis
 subcellular
 substract
 subtypes
@@ -205,7 +207,7 @@ Tian
 Tibshirani
 tk
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 transpor
 transtitions

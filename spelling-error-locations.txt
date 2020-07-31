@@ -393,6 +393,8 @@ content/60.software.md:62:Abadi
 content/60.software.md:62:Jeganathan
 content/60.software.md:62:Patheepa
 content/60.software.md:62:preprocessing
+content/60.software.md:67:deconvolute
+content/60.software.md:67:introns
 content/60.software.md:76:Elana
 content/60.software.md:76:ExperimentHub
 content/60.software.md:76:MultiAssaiExperiment
