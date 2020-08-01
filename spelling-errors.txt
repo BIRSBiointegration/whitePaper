@@ -19,7 +19,7 @@ availabe
 bbiologicaly
 benchmarked
 Bioconductor’s
-Bioinformatics
+bioinformatics
 biomarkers
 Biomart
 bioRxiv
@@ -80,7 +80,7 @@ Farber
 Fertig
 Finetti
 Freytag
-gastrulation
+Gastrulation
 gcj
 gcxh
 generalisation
@@ -160,7 +160,7 @@ PLS
 practitionners
 Pratheepa
 Pratheepan
-pre
+Pre
 preprocessing
 prespecified
 priori
@@ -176,7 +176,7 @@ rargelaguet
 Reasonning
 reinclude
 remodelling
-reproducibility
+Reproducibility
 resampling
 RFE
 Ricard

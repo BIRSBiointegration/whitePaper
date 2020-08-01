@@ -395,6 +395,7 @@ content/50.benchmarking.md:36:bioinformatics
 content/50.benchmarking.md:45:resampling
 content/50.benchmarking.md:58:learnings
 content/50.benchmarking.md:64:scRNAseq
+content/60.software.md:3:comptuational
 content/60.software.md:29:Bioconductor's
 content/60.software.md:30:tunable
 content/60.software.md:33:multiplatform
