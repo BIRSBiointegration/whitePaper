@@ -19,7 +19,7 @@ availabe
 bbiologicaly
 benchmarked
 Bioconductor’s
-bioinformatics
+Bioinformatics
 biomarkers
 Biomart
 bioRxiv
@@ -50,7 +50,7 @@ CpG
 Craniofacial
 CTCF
 Culhane
-CyTOF
+CyToF
 Cytokit
 decompositions
 deconvolute
@@ -80,7 +80,7 @@ Farber
 Fertig
 Finetti
 Freytag
-Gastrulation
+gastrulation
 gcj
 gcxh
 generalisation
@@ -160,7 +160,7 @@ PLS
 practitionners
 Pratheepa
 Pratheepan
-Pre
+pre
 preprocessing
 prespecified
 priori
@@ -172,11 +172,11 @@ quantiatitive
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
 reinclude
 remodelling
-Reproducibility
+reproducibility
 resampling
 RFE
 Ricard
@@ -199,7 +199,7 @@ Sodicoff
 Soneson
 spatialExpt
 ssEnet
-STATIS
+Statis
 subcellular
 substract
 subtypes
@@ -215,7 +215,7 @@ Tian
 Tibshirani
 tk
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 transpor
 transtitions
