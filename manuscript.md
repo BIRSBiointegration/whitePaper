@@ -9,7 +9,7 @@ author-meta:
 bibliography:
 - content/manual-references.json
 date-meta: '2020-08-03'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"citation_title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"og:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"twitter:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"dc.date\" content=\"2020-08-03\" />\n<meta name=\"citation_publication_date\" content=\"2020-08-03\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Kim-Anh L\xEA Cao\" />\n<meta name=\"citation_author_institution\" content=\"Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3923-1116\" />\n<meta name=\"twitter:creator\" content=\"@mixOmicsTeam\" />\n<meta name=\"citation_author\" content=\"Aedin C Culhane\" />\n<meta name=\"citation_author_institution\" content=\"Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA\" />\n<meta name=\"citation_author_institution\" content=\"Biostatsitics, Harvard TH Chan School of Public Health, Boston, MA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1395-9734\" />\n<meta name=\"twitter:creator\" content=\"@AedinCulhane\" />\n<meta name=\"citation_author\" content=\"Elana Fertig\" />\n<meta name=\"citation_author_institution\" content=\"Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biomedical Engineering, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Applied Mathematics and Statistics, Johns Hopkins University Whiting School of Engineering, Baltimore, MD, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3204-342X\" />\n<meta name=\"twitter:creator\" content=\"@FertigLab\" />\n<meta name=\"citation_author\" content=\"Vincent J. Carey\" />\n<meta name=\"citation_author_institution\" content=\"Channing Division of Network Medicine, Brigham and Women&#39;s Hospital, Harvard Medical School\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4046-0063\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@XXX\" />\n<meta name=\"citation_author\" content=\"Ricard Argelaguet\" />\n<meta name=\"citation_author_institution\" content=\"European Bioinformatics Institute (EMBL-EBI)\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3199-3722\" />\n<meta name=\"twitter:creator\" content=\"@RArgelaguet\" />\n<link rel=\"canonical\" href=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"og:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"twitter:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://BIRSBiointegration.github.io/whitePaper/v/d05585d89fd46cada34f55afde396067141fb572/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/d05585d89fd46cada34f55afde396067141fb572/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/d05585d89fd46cada34f55afde396067141fb572/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"citation_title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"og:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"twitter:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"dc.date\" content=\"2020-08-03\" />\n<meta name=\"citation_publication_date\" content=\"2020-08-03\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Kim-Anh L\xEA Cao\" />\n<meta name=\"citation_author_institution\" content=\"Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3923-1116\" />\n<meta name=\"twitter:creator\" content=\"@mixOmicsTeam\" />\n<meta name=\"citation_author\" content=\"Aedin C Culhane\" />\n<meta name=\"citation_author_institution\" content=\"Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA\" />\n<meta name=\"citation_author_institution\" content=\"Biostatsitics, Harvard TH Chan School of Public Health, Boston, MA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1395-9734\" />\n<meta name=\"twitter:creator\" content=\"@AedinCulhane\" />\n<meta name=\"citation_author\" content=\"Elana Fertig\" />\n<meta name=\"citation_author_institution\" content=\"Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biomedical Engineering, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Applied Mathematics and Statistics, Johns Hopkins University Whiting School of Engineering, Baltimore, MD, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3204-342X\" />\n<meta name=\"twitter:creator\" content=\"@FertigLab\" />\n<meta name=\"citation_author\" content=\"Vincent J. Carey\" />\n<meta name=\"citation_author_institution\" content=\"Channing Division of Network Medicine, Brigham and Women&#39;s Hospital, Harvard Medical School\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4046-0063\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@XXX\" />\n<meta name=\"citation_author\" content=\"Ricard Argelaguet\" />\n<meta name=\"citation_author_institution\" content=\"European Bioinformatics Institute (EMBL-EBI)\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3199-3722\" />\n<meta name=\"twitter:creator\" content=\"@RArgelaguet\" />\n<link rel=\"canonical\" href=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"og:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"twitter:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://BIRSBiointegration.github.io/whitePaper/v/b3f27e53ade8f8531c93d080ded9f815280c7386/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/b3f27e53ade8f8531c93d080ded9f815280c7386/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/b3f27e53ade8f8531c93d080ded9f815280c7386/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - markdown
 - publishing
@@ -29,9 +29,9 @@ title: Community-wide hackathons establish foundations for emerging single cell 
 
 <small><em>
 This manuscript
-([permalink](https://BIRSBiointegration.github.io/whitePaper/v/d05585d89fd46cada34f55afde396067141fb572/))
+([permalink](https://BIRSBiointegration.github.io/whitePaper/v/b3f27e53ade8f8531c93d080ded9f815280c7386/))
 was automatically generated
-from [BIRSBiointegration/whitePaper@d05585d](https://github.com/BIRSBiointegration/whitePaper/tree/d05585d89fd46cada34f55afde396067141fb572)
+from [BIRSBiointegration/whitePaper@b3f27e5](https://github.com/BIRSBiointegration/whitePaper/tree/b3f27e53ade8f8531c93d080ded9f815280c7386)
 on August 3, 2020.
 </em></small>
 
@@ -1048,18 +1048,33 @@ Cardinal Newman wrote  **The Grammar of Assent.** and cited in  [Bruno de Finett
 
 ### Definition of benchmarking
 
- Visualizations and biological assessment of marker gene lists resulting from multi-omics analyses provide critical interpretation of integrative analysis of high-throughput data. Additional quanitiative metrics are essential to establish to delineate biologically-relevant features from features resulting from either comptuational and techical artifacts. Beyond interpretation, such quantiatitive benchmarks are also essential to enable unbiased comparison between the numerous analysis methods used for analysis. For example, the goal of multi-platform single cell data analysis is often the recovery of known cell types through computational methods. In this case, The adjusted Rand Index (ARI) or other metrics for partitions can directly compare known cell types with the results from processing of raw data, quantification, and clustering. In cases where cell types or biological features are unknown a priori, one may also attempt to benchmark methods for their ability to
-   discover known relationships between data modalities, e.g. gene
-   regulatory relationships observed between chromatin accessibility
-   and gene expression. However, this is made difficult by the fact
-   that these relationships are not fully known at the single cell
-   level which provides the very motivation for the data generation and analysis.
-   
+Visualizations and biological assessment of marker gene lists
+resulting from multi-omics analyses provide critical interpretation of
+integrative analysis of high-throughput data. Additional quantitative
+metrics are essential to establish to delineate biologically-relevant
+features from features resulting from either comptuational and
+techical artifacts. Beyond interpretation, such quantitative
+benchmarks are also essential to enable unbiased comparison between
+the numerous analysis methods used for analysis. For example, the goal
+of multi-platform single cell data analysis is often the recovery of
+known cell types through computational methods. In this case, The
+adjusted Rand Index (ARI) or other metrics for partitions can directly
+compare known cell types with the results from processing of raw data,
+quantification, and clustering. In cases where cell types or
+biological features are unknown a priori, one may also attempt to
+benchmark methods for their ability to discover known relationships
+between data modalities, e.g. gene regulatory relationships observed
+between chromatin accessibility and gene expression. However, this is
+made difficult by the fact that these relationships are not fully
+known at the single cell level which provides the very motivation for
+the data generation and analysis. Cross-validation within
+a study and cross-study validation can be used to assess whether
+solutions found by multi-modal methods generalize to held-out
+observations or held-out studies. 
    
 ![**A** Silver standard: Svensson et al. (2017) Nat Methods; Wang et al. (2019) bioRxiv; Cole et al. (2019) Cell Systems; Zhang et al. (2017) bioRxiv;
 Soneson et al. (2018) Nat Methods; Saelens et al. (2019) Nat Biotechnol; Gold standard control data: Tian et al. (2019) Nat Meth; Freytag et al. (2018) F1000Res;  Gold standard simulated data with the splatter R package appia et al. (2017) Genome Biol [credit: Matt Ritchie] (**Refs to be added proper**).
-**B** scNMT-seq study: correlations with linear projections (MOFA+) evaluated with cross-validation [credit: Mike Love].](images/Benchmark_mockup.png){#fig:benchmark}
-
+**B** scNMT-seq study: correlations with linear projections (MOFA+) evaluated with cross-validation [credit: Wancen Mu and Michael Love].](images/Benchmark_mockup.png){#fig:benchmark}
 
 ### Strategies for benchmarking
 
@@ -1069,35 +1084,41 @@ Benchmarking multi-modal methods on typical multi-modal datasets is inherently d
   data modalities (Figure {@fig:benchmark}A). Moreover, these simulations can inadvertently embed the same underlying assumptions as the computational methods employed for analysis, introducing further biases into benchmark studies. Therefore, high-throughput datasets with a known ground truth are also critical for multi-omics studies and robust testgrounds for future hackathon studies that were widely discussed throughout the workshop.
   
 #### Cross-validation within study
+
+One strategy for quantitative assessment of multi-model methods is
+cross-validation (CV). While CV cannot determine the accuracy of a
+method, it can be used to assess a method's self-consistency.
 For example the [cross-validation analysis of the scNMT-seq dataset](https://github.com/Wancen/CV-MOFA)
-  was performed using MOFA+ (Figure {@fig:benchmark}B). Such an evaluation of methods using permutation or cross-validation
-  has been performed previously, typically to optimize a tuning
-  parameter or other aspects of model selection. Permutation has been
-  used to create null datasets, either as demonstration that a method
-  is not overfitting, or for tuning parameter selection, where the
-  optimal parameter setting should produce an objective that is far
-  from the null distribution
-  [@doi:10.1186/1471-2105-4-59; @doi:10.2202/1544-6115.1470; @doi:10.1074/mcp.TIR118.001251].
-  Cross-validation using folds or leave-one-out has likewise been used in many multi-modal method development papers
-  [@doi:10.2202/1544-6115.1390; @doi:10.1016/j.jmva.2007.06.007; @doi:10.2202/1544-6115.1329; @doi:10.18637/jss.v023.i12; @doi:10.1142/S0218339009002831; @doi:10.1093/biostatistics/kxp008; @doi:10.2202/1544-6115.1406; @doi:10.1186/1471-2105-11-191; @doi:10.1186/1471-2164-13-160; @doi:10.1093/bioinformatics/bts476; @doi:10.1371/journal.pcbi.1005752; @doi:10.1093/bioinformatics/bty1054].
+was performed using MOFA+ (Figure {@fig:benchmark}B). Such an
+evaluation of methods using permutation or cross-validation 
+has been performed previously, typically to optimize a tuning
+parameter or other aspects of model selection. Permutation has been
+used to create null datasets, either as demonstration that a method
+is not overfitting, or for tuning parameter selection, where the
+optimal parameter setting should produce an objective that is far
+from the null distribution
+[@doi:10.1186/1471-2105-4-59; @doi:10.2202/1544-6115.1470; @doi:10.1074/mcp.TIR118.001251].
+Cross-validation using folds or leave-one-out has likewise been used
+in many multi-modal method development papers 
+[@doi:10.2202/1544-6115.1390; @doi:10.1016/j.jmva.2007.06.007; @doi:10.2202/1544-6115.1329; @doi:10.18637/jss.v023.i12; @doi:10.1142/S0218339009002831; @doi:10.1093/biostatistics/kxp008; @doi:10.2202/1544-6115.1406; @doi:10.1186/1471-2105-11-191; @doi:10.1186/1471-2164-13-160; @doi:10.1093/bioinformatics/bts476; @doi:10.1371/journal.pcbi.1005752; @doi:10.1093/bioinformatics/bty1054].
 
-  A challenge with within study cross-validation is how to
-  match dimensions of latent space across folds. Previous evaluations
-  of multi-modal methods using cross-validation have focused on the
-  top factor, swapping the sign of the project as needed to align
-  the top latent factor across folds [@doi:10.1093/bib/bbz070].
+A challenge with within study cross-validation is how to
+match dimensions of latent space across folds. Previous evaluations
+of multi-modal methods using cross-validation have focused on the
+top factor, swapping the sign of the project as needed to align
+the top latent factor across folds [@doi:10.1093/bib/bbz070].
 
-  Finally, we note that for assessing clustering, a number of papers
-  have suggested to resampling or data-splitting strategies to
-  determine prediction strength
-  [@doi:10.1073/pnas.161273698; @doi:10.1186/gb-2002-3-7-research0036; @doi:10.1198/106186005X59243; @doi:10.1093/jnci/djr545].
-  For clustering of cells into putative cell types or cell states,
-  such previously developed techniques could be applied in a
-  multi-modal setting.
+Finally, we note that for assessing clustering, a number of papers
+have suggested to resampling or data-splitting strategies to
+determine prediction strength
+[@doi:10.1073/pnas.161273698; @doi:10.1186/gb-2002-3-7-research0036; @doi:10.1198/106186005X59243; @doi:10.1093/jnci/djr545].
+For clustering of cells into putative cell types or cell states,
+such previously developed techniques could be applied in a
+multi-modal setting.
 
 Cross-study validation would assess if relationships discovered in
-  one dataset present in other datasets, potentially looking across
-  single cell and bulk.
+one dataset present in other datasets, potentially looking across
+single cell and bulk.
 
 ### Using hackathon studies as community benchmarking
 
@@ -1139,13 +1160,6 @@ Benchmark datasets for single cell studies have largely centered around
   combination of modality, and benchmark datasets may be established
   for commonly used combinations of modalities or technologies,
   towards specific data integration tasks.
-
-
-
-
-
-
-
 
 
 ## Software strategies to enable analyses of multimodal single cell experiments
