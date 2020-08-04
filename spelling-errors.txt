@@ -1,6 +1,6 @@
 Abadi
 activatory
-aedin
+Aedin
 AedinCulhane
 Amongst
 Amrit
@@ -19,7 +19,7 @@ availabe
 bbiologicaly
 benchmarked
 Bioconductor’s
-Bioinformatics
+bioinformatics
 biomarkers
 Biomart
 bioRxiv
@@ -28,7 +28,7 @@ Biotechnol
 bisulfite
 Blei
 Blish
-boxplot
+Boxplot
 Cao
 CellProfiler
 centric
@@ -50,7 +50,7 @@ CpG
 Craniofacial
 CTCF
 Culhane
-CyToF
+CyTOF
 Cytokit
 decompositions
 deconvolute
@@ -79,7 +79,7 @@ Farber
 Fertig
 Finetti
 Freytag
-Gastrulation
+gastrulation
 gcj
 gcxh
 generalisation
@@ -168,7 +168,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 Reasonning
 reinclude
 remodelling
@@ -196,7 +196,7 @@ Sodicoff
 Soneson
 spatialExpt
 ssEnet
-Statis
+STATIS
 subcellular
 substract
 subtypes
