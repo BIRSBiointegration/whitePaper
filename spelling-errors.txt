@@ -1,6 +1,6 @@
 Abadi
 activatory
-Aedin
+aedin
 AedinCulhane
 Amongst
 Amrit
@@ -19,7 +19,7 @@ availabe
 bbiologicaly
 benchmarked
 Bioconductor’s
-bioinformatics
+Bioinformatics
 biomarkers
 Biomart
 bioRxiv
@@ -50,7 +50,7 @@ CpG
 Craniofacial
 CTCF
 Culhane
-CyTOF
+CyToF
 Cytokit
 decompositions
 deconvolute
@@ -73,14 +73,13 @@ ENet
 entropic
 examplary
 excitatory
-ExperimentHub
 Facetto
 factorisation
 Farber
 Fertig
 Finetti
 Freytag
-gastrulation
+Gastrulation
 gcj
 gcxh
 generalisation
@@ -134,7 +133,6 @@ mixOmicsTeam
 modelling
 moslty
 mRNA
-MultiAssaiExperiment
 multiplatform
 multipliable
 multistream
@@ -160,7 +158,7 @@ PLS
 practitionners
 Pratheepa
 Pratheepan
-Pre
+pre
 preprocessing
 prespecified
 priori
@@ -170,11 +168,12 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
 reinclude
 remodelling
 Reproducibility
+requierments
 resampling
 RFE
 Ricard
@@ -197,7 +196,7 @@ Sodicoff
 Soneson
 spatialExpt
 ssEnet
-STATIS
+Statis
 subcellular
 substract
 subtypes
