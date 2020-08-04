@@ -1,4 +1,5 @@
 Abadi
+acc
 activatory
 Aedin
 AedinCulhane
@@ -13,6 +14,7 @@ Argelaguet
 arguemnt
 Arora
 arround
+Arshi
 autocorrelation
 autoencoder
 availabe
@@ -56,7 +58,6 @@ decompositions
 deconvolute
 Delaunay
 demethylation
-DIABLO
 differentially
 dimensionality
 dinucleotides
@@ -69,6 +70,7 @@ eigenvector
 ejfertig
 Elana
 EMBL
+embyonic
 ENet
 entropic
 examplary
@@ -79,7 +81,7 @@ Farber
 Fertig
 Finetti
 Freytag
-gastrulation
+Gastrulation
 gcj
 gcxh
 generalisation
@@ -144,7 +146,7 @@ NMF
 NMT
 NN
 nnbm
-normalisation
+Normalisation
 novo
 Ontologies
 overfitting
@@ -172,7 +174,7 @@ rargelaguet
 Reasonning
 reinclude
 remodelling
-Reproducibility
+reproducibility
 requierments
 resampling
 RFE
@@ -196,7 +198,7 @@ Sodicoff
 Soneson
 spatialExpt
 ssEnet
-STATIS
+Statis
 subcellular
 substract
 subtypes
@@ -212,7 +214,7 @@ Tian
 Tibshirani
 tk
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 transpor
 transtitions
