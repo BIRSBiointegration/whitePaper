@@ -75,3 +75,13 @@ authors:
       - European Bioinformatics Institute (EMBL-EBI)
     funders:
        - EMBL PhD programme
+  - github: spholmes
+    name: Susan Holmes
+    initials: SPH
+    orcid: 0000-0002-2208-8168
+    twitter:  SherlockpHolmes
+    email: susan@stat.stanford.edu
+    affiliations:
+      - Department of Statistics, Stanford University, USA
+    funders:
+       - National Institute of Health, NIAID
