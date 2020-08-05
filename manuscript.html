@@ -10,7 +10,8 @@
   <meta name="author" content="Vincent J. Carey" />
   <meta name="author" content="Jane Roe" />
   <meta name="author" content="Ricard Argelaguet" />
-  <meta name="dcterms.date" content="2020-08-04" />
+  <meta name="author" content="Susan Holmes" />
+  <meta name="dcterms.date" content="2020-08-05" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Community-wide hackathons establish foundations for emerging single cell data integration</title>
   <style>
@@ -33,8 +34,8 @@
   <meta name="citation_title" content="Community-wide hackathons establish foundations for emerging single cell data integration" />
   <meta property="og:title" content="Community-wide hackathons establish foundations for emerging single cell data integration" />
   <meta property="twitter:title" content="Community-wide hackathons establish foundations for emerging single cell data integration" />
-  <meta name="dc.date" content="2020-08-04" />
-  <meta name="citation_publication_date" content="2020-08-04" />
+  <meta name="dc.date" content="2020-08-05" />
+  <meta name="citation_publication_date" content="2020-08-05" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -68,15 +69,19 @@
   <meta name="citation_author_institution" content="European Bioinformatics Institute (EMBL-EBI)" />
   <meta name="citation_author_orcid" content="0000-0003-3199-3722" />
   <meta name="twitter:creator" content="@RArgelaguet" />
+  <meta name="citation_author" content="Susan Holmes" />
+  <meta name="citation_author_institution" content="Department of Statistics, Stanford University, USA" />
+  <meta name="citation_author_orcid" content="0000-0002-2208-8168" />
+  <meta name="twitter:creator" content="@SherlockpHolmes" />
   <link rel="canonical" href="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta property="og:url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta property="twitter:url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/9205e2b5f62a212796443e08c58d57dc8f1a54de/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/9205e2b5f62a212796443e08c58d57dc8f1a54de/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/9205e2b5f62a212796443e08c58d57dc8f1a54de/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/6aa680bf69140b1e66a405789bbe254ab0b4321f/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/6aa680bf69140b1e66a405789bbe254ab0b4321f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/6aa680bf69140b1e66a405789bbe254ab0b4321f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -90,10 +95,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/9205e2b5f62a212796443e08c58d57dc8f1a54de/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/6aa680bf69140b1e66a405789bbe254ab0b4321f/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/9205e2b5f62a212796443e08c58d57dc8f1a54de">BIRSBiointegration/whitePaper@9205e2b</a>
-on August 4, 2020.
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/6aa680bf69140b1e66a405789bbe254ab0b4321f">BIRSBiointegration/whitePaper@6aa680b</a>
+on August 5, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -160,6 +165,17 @@ Department of Something, University of Whatever; Department of Whatever, Univers
 <small>
 European Bioinformatics Institute (EMBL-EBI)
 · Funded by EMBL PhD programme
+</small></p></li>
+<li><p><strong>Susan Holmes</strong><br>
+<img src="images/orcid.svg" class="inline_icon" alt="ORCID icon" />
+<a href="https://orcid.org/0000-0002-2208-8168">0000-0002-2208-8168</a>
+· <img src="images/github.svg" class="inline_icon" alt="GitHub icon" />
+<a href="https://github.com/spholmes">spholmes</a>
+· <img src="images/twitter.svg" class="inline_icon" alt="Twitter icon" />
+<a href="https://twitter.com/SherlockpHolmes">SherlockpHolmes</a><br>
+<small>
+Department of Statistics, Stanford University, USA
+· Funded by National Institute of Health, NIAID
 </small></p></li>
 </ul>
 <h1 id="draft-outline">Draft outline</h1>
@@ -463,7 +479,7 @@ The glmnet approach used a iterative model building approach, which combines bot
 This type of self training approach might in fact be more generalizable to other datasets.</p>
 <p>Finally, a data integration approach based on integrative non-negative matrix factorization (NMF) was used by applying the previously published LIGER approach.
 By integrating both datasets in a similar subspace based on shared factors, cell type labels can be transferred using a nearest neighbor approach.</p>
-<h4 id="challenge-2-determine-signatures-of-cellular-co-localization-or-spatial-coordinates-in-non-spatial-scrna-seq">Challenge 2: determine signatures of cellular co-localization or spatial coordinates in non-spatial scRNA-seq</h4>
+<h4 id="challenge-2-identifying-spatial-expression-patterns-at-the-tissue-level-through-integration-of-gene-expression-and-spatial-cellular-coordinates">Challenge 2: Identifying spatial expression patterns at the tissue level through integration of gene expression and spatial cellular coordinates</h4>
 <p><strong>[suggestion 1]</strong><br />
 How could one identify spatial patterns in the seqFISH data? This broad question can be divided into a number of specific tasks, such as detecting genes whose expression is spatially coherent, cell types whose spatial distribution is confined to distinct regions, recurrent multi-cell-type interaction clusters, etc, and the spatial scale may vary from subcellular all the way to tissue-wide organizations.
 While there have been abundant studies in the geo-spatial analysis domain, computational tools targeting specific spatial transcriptomic questions are still lacking.
@@ -475,10 +491,8 @@ To incorporate spatial information the cells from the seqFISH dataset were first
 This smoothened and aggregated data matrix was subsequently used to create a 2 dimensional UMAP from which clusters were identified through a density based clustering approach.
 The obtained cluster labels can then be mapped back to the original spatial locations for further visual inspection and analysis.</p>
 <p><strong>[suggestion 2 detailed]</strong><br />
-Most analyses that were originally developed for scRNAseq data can be immediately applied to spatial transcriptomic datasets, however methods to extract sources of variation that originate from spatial factors are still sparse.
-In order to take into account both gene expression data and spatial information, the cells from the seqFISH dataset were first connected through a spatial network based on Voronoi tessellation.
-Then, for each node, its RNA count data was aggregated with its first order neighbors’ count data.
-The mean and standard deviation were computed for each gene in the gathered data in order to capture the global tendency as well as the variability in the area arround each node.
+Most analyses that were originally developed for scRNAseq data can be adapted for spatial transcriptomic datasets, however methods to extract sources of variation that originate from spatial factors are still sparse. The latter requires the development of novel methods which can integrate the information obtained from gene expression with that of the spatial coordinates from each individual cell or transcript (for sub-cellular resolution) within a tissue of interest.
+For this hackaton we aimed to incorporate the spatial information by connecting the cells from the seqFISH dataset through a spatial network based on Voronoi tessellation. Then, for each node, its RNA count data was aggregated with its first order neighbors’ count data. The mean and standard deviation were computed for each gene in the gathered data in order to capture the global tendency as well as the variability in the area arround each node.
 Thus, each node has <code>nb_genes x nb_statistics (here 2)</code> variables.
 These “aggregation statistics” can be visualized on a 2D UMAP projection.
 These data were clustered in UMAP reduced spaces of dimensionality between 2 and 9, higher dimensions allowing to define more fine-grained clusters.
