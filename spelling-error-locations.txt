@@ -412,7 +412,7 @@ content/50.benchmarking.md:57:biostatistics
 content/50.benchmarking.md:66:resampling
 content/50.benchmarking.md:79:learnings
 content/50.benchmarking.md:85:scRNAseq
-content/60.software.md:3:comptuational
+content/60.software.md:3:reproducibly
 content/60.software.md:28:Bioconductor's
 content/60.software.md:29:tunable
 content/60.software.md:32:multiplatform

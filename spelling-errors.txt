@@ -1,7 +1,7 @@
 Abadi
 acc
 activatory
-aedin
+Aedin
 AedinCulhane
 Amongst
 Amrit
@@ -21,7 +21,7 @@ availabe
 bbiologicaly
 benchmarked
 Bioconductor’s
-bioinformatics
+Bioinformatics
 biomarkers
 Biomart
 bioRxiv
@@ -53,7 +53,7 @@ CpG
 Craniofacial
 CTCF
 Culhane
-CyTOF
+CyToF
 Cytokit
 decompositions
 deconvolute
@@ -82,7 +82,7 @@ Farber
 Fertig
 Finetti
 Freytag
-Gastrulation
+gastrulation
 gcj
 gcxh
 generalisation
@@ -149,7 +149,7 @@ NMF
 NMT
 NN
 nnbm
-Normalisation
+normalisation
 novo
 Ontologies
 overfitting
@@ -178,6 +178,7 @@ Reasonning
 reinclude
 remodelling
 Reproducibility
+reproducibly
 requierments
 resampling
 RFE
@@ -219,7 +220,7 @@ Tian
 Tibshirani
 tk
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 transpor
 transtitions
