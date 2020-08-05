@@ -4,13 +4,14 @@ author-meta:
 - Aedin C Culhane
 - Elana Fertig
 - Vincent J. Carey
-- Jane Roe
 - Ricard Argelaguet
 - Susan Holmes
+- Michael I. Love
+- Jane Roe
 bibliography:
 - content/manual-references.json
 date-meta: '2020-08-05'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"citation_title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"og:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"twitter:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"dc.date\" content=\"2020-08-05\" />\n<meta name=\"citation_publication_date\" content=\"2020-08-05\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Kim-Anh L\xEA Cao\" />\n<meta name=\"citation_author_institution\" content=\"Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3923-1116\" />\n<meta name=\"twitter:creator\" content=\"@mixOmicsTeam\" />\n<meta name=\"citation_author\" content=\"Aedin C Culhane\" />\n<meta name=\"citation_author_institution\" content=\"Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA\" />\n<meta name=\"citation_author_institution\" content=\"Biostatsitics, Harvard TH Chan School of Public Health, Boston, MA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1395-9734\" />\n<meta name=\"twitter:creator\" content=\"@AedinCulhane\" />\n<meta name=\"citation_author\" content=\"Elana Fertig\" />\n<meta name=\"citation_author_institution\" content=\"Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biomedical Engineering, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Applied Mathematics and Statistics, Johns Hopkins University Whiting School of Engineering, Baltimore, MD, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3204-342X\" />\n<meta name=\"twitter:creator\" content=\"@FertigLab\" />\n<meta name=\"citation_author\" content=\"Vincent J. Carey\" />\n<meta name=\"citation_author_institution\" content=\"Channing Division of Network Medicine, Brigham and Women&#39;s Hospital, Harvard Medical School\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4046-0063\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@XXX\" />\n<meta name=\"citation_author\" content=\"Ricard Argelaguet\" />\n<meta name=\"citation_author_institution\" content=\"European Bioinformatics Institute (EMBL-EBI)\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3199-3722\" />\n<meta name=\"twitter:creator\" content=\"@RArgelaguet\" />\n<meta name=\"citation_author\" content=\"Susan Holmes\" />\n<meta name=\"citation_author_institution\" content=\"Department of Statistics, Stanford University, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2208-8168\" />\n<meta name=\"twitter:creator\" content=\"@SherlockpHolmes\" />\n<link rel=\"canonical\" href=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"og:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"twitter:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://BIRSBiointegration.github.io/whitePaper/v/6aa680bf69140b1e66a405789bbe254ab0b4321f/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/6aa680bf69140b1e66a405789bbe254ab0b4321f/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/6aa680bf69140b1e66a405789bbe254ab0b4321f/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"citation_title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"og:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"twitter:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"dc.date\" content=\"2020-08-05\" />\n<meta name=\"citation_publication_date\" content=\"2020-08-05\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Kim-Anh L\xEA Cao\" />\n<meta name=\"citation_author_institution\" content=\"Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3923-1116\" />\n<meta name=\"twitter:creator\" content=\"@mixOmicsTeam\" />\n<meta name=\"citation_author\" content=\"Aedin C Culhane\" />\n<meta name=\"citation_author_institution\" content=\"Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA\" />\n<meta name=\"citation_author_institution\" content=\"Biostatsitics, Harvard TH Chan School of Public Health, Boston, MA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1395-9734\" />\n<meta name=\"twitter:creator\" content=\"@AedinCulhane\" />\n<meta name=\"citation_author\" content=\"Elana Fertig\" />\n<meta name=\"citation_author_institution\" content=\"Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biomedical Engineering, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Applied Mathematics and Statistics, Johns Hopkins University Whiting School of Engineering, Baltimore, MD, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3204-342X\" />\n<meta name=\"twitter:creator\" content=\"@FertigLab\" />\n<meta name=\"citation_author\" content=\"Vincent J. Carey\" />\n<meta name=\"citation_author_institution\" content=\"Channing Division of Network Medicine, Brigham and Women&#39;s Hospital, Harvard Medical School\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4046-0063\" />\n<meta name=\"citation_author\" content=\"Ricard Argelaguet\" />\n<meta name=\"citation_author_institution\" content=\"European Bioinformatics Institute (EMBL-EBI)\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3199-3722\" />\n<meta name=\"twitter:creator\" content=\"@RArgelaguet\" />\n<meta name=\"citation_author\" content=\"Susan Holmes\" />\n<meta name=\"citation_author_institution\" content=\"Department of Statistics, Stanford University, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2208-8168\" />\n<meta name=\"twitter:creator\" content=\"@SherlockpHolmes\" />\n<meta name=\"citation_author\" content=\"Michael I. Love\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, UNC-Chapel Hill\" />\n<meta name=\"citation_author_institution\" content=\"Department of Genetics, UNC-Chapel Hill\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8401-0545\" />\n<meta name=\"twitter:creator\" content=\"@mikelove\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@XXX\" />\n<link rel=\"canonical\" href=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"og:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"twitter:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://BIRSBiointegration.github.io/whitePaper/v/223b9ef3e93f7cb42f0a15ff19d10859edddb75e/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/223b9ef3e93f7cb42f0a15ff19d10859edddb75e/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/223b9ef3e93f7cb42f0a15ff19d10859edddb75e/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - markdown
 - publishing
@@ -30,9 +31,9 @@ title: Community-wide hackathons establish foundations for emerging single cell 
 
 <small><em>
 This manuscript
-([permalink](https://BIRSBiointegration.github.io/whitePaper/v/6aa680bf69140b1e66a405789bbe254ab0b4321f/))
+([permalink](https://BIRSBiointegration.github.io/whitePaper/v/223b9ef3e93f7cb42f0a15ff19d10859edddb75e/))
 was automatically generated
-from [BIRSBiointegration/whitePaper@6aa680b](https://github.com/BIRSBiointegration/whitePaper/tree/6aa680bf69140b1e66a405789bbe254ab0b4321f)
+from [BIRSBiointegration/whitePaper@223b9ef](https://github.com/BIRSBiointegration/whitePaper/tree/223b9ef3e93f7cb42f0a15ff19d10859edddb75e)
 on August 5, 2020.
 </em></small>
 
@@ -86,18 +87,6 @@ on August 5, 2020.
      · Funded by National Institutes of Health, National Human Genome Research Institute; National Institutes of Health, National Cancer Institute; Chan-Zuckerberg Initiative
   </small>
 
-+ **Jane Roe**<br>
-    ![ORCID icon](images/orcid.svg){.inline_icon}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){.inline_icon}
-    [janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)](https://github.com/janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE))
-    · ![Twitter icon](images/twitter.svg){.inline_icon}
-    [XXX](https://twitter.com/XXX)<br>
-  <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
-     · Funded by XX
-  </small>
-
 + **Ricard Argelaguet**<br>
     ![ORCID icon](images/orcid.svg){.inline_icon}
     [0000-0003-3199-3722](https://orcid.org/0000-0003-3199-3722)
@@ -120,6 +109,30 @@ on August 5, 2020.
   <small>
      Department of Statistics, Stanford University, USA
      · Funded by National Institute of Health, NIAID
+  </small>
+
++ **Michael I. Love**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [0000-0001-8401-0545](https://orcid.org/0000-0001-8401-0545)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [mikelove](https://github.com/mikelove)
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [mikelove](https://twitter.com/mikelove)<br>
+  <small>
+     Department of Biostatistics, UNC-Chapel Hill; Department of Genetics, UNC-Chapel Hill
+     · Funded by National Institutes of Health, National Human Genome Research Institute; National Institutes of Health, National Institute of Mental Health
+  </small>
+
++ **Jane Roe**<br>
+    ![ORCID icon](images/orcid.svg){.inline_icon}
+    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    · ![GitHub icon](images/github.svg){.inline_icon}
+    [janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)](https://github.com/janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE))
+    · ![Twitter icon](images/twitter.svg){.inline_icon}
+    [XXX](https://twitter.com/XXX)<br>
+  <small>
+     Department of Something, University of Whatever; Department of Whatever, University of Something
+     · Funded by XX
   </small>
 
 

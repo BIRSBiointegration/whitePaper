@@ -1,7 +1,7 @@
 Abadi
 acc
 activatory
-Aedin
+aedin
 AedinCulhane
 Amongst
 Amrit
@@ -21,10 +21,11 @@ availabe
 bbiologicaly
 benchmarked
 Bioconductor’s
-Bioinformatics
+bioinformatics
 biomarkers
 Biomart
 bioRxiv
+Biostatistics
 Biostatsitics
 Biotechnol
 bisulfite
@@ -129,6 +130,7 @@ Meng
 methyltransferase
 Meuleman
 microenvironment
+mikelove
 minium
 mixOmics
 mixOmicsTeam
@@ -201,7 +203,7 @@ Soneson
 spatialExpt
 spholmes
 ssEnet
-Statis
+STATIS
 subcellular
 substract
 subtypes
@@ -217,7 +219,7 @@ Tian
 Tibshirani
 tk
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 transpor
 transtitions
@@ -227,6 +229,7 @@ tunable
 UMI
 unbiasedly
 unblinding
+UNC
 utilising
 variates
 variational

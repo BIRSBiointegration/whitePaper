@@ -192,6 +192,7 @@ content/30.scNMT-seq.md:14:CTCF
 content/30.scNMT-seq.md:14:gastrulation
 content/30.scNMT-seq.md:14:hackaton
 content/30.scNMT-seq.md:16:dimensionality
+content/30.scNMT-seq.md:22:biostatistics
 content/30.scNMT-seq.md:22:covariation
 content/30.scNMT-seq.md:22:generalisation
 content/30.scNMT-seq.md:22:maximises
@@ -266,6 +267,7 @@ content/40.common-challenges.md:33:Elana
 content/40.common-challenges.md:35:Abadi
 content/40.common-challenges.md:35:Abadi
 content/40.common-challenges.md:35:Arora
+content/40.common-challenges.md:35:biostatistics
 content/40.common-challenges.md:35:Jenagan
 content/40.common-challenges.md:35:PLS
 content/40.common-challenges.md:35:sGCCA
@@ -291,6 +293,7 @@ content/40.common-challenges.md:77:Jenagan
 content/40.common-challenges.md:90:LIGER
 content/40.common-challenges.md:90:Welch
 content/40.common-challenges.md:91:Abadi
+content/40.common-challenges.md:91:biostatistics
 content/40.common-challenges.md:91:sGCCA
 content/40.common-challenges.md:100:Sankaran
 content/40.common-challenges.md:102:Jenathan
@@ -305,6 +308,7 @@ content/40.common-challenges.md:130:modelling
 content/40.common-challenges.md:136:RLQ
 content/40.common-challenges.md:145:LIGER
 content/40.common-challenges.md:145:Sodicoff
+content/40.common-challenges.md:147:biostatistics
 content/40.common-challenges.md:147:sGCCA
 content/40.common-challenges.md:148:Sodicoff
 content/40.common-challenges.md:148:tSNE
@@ -315,6 +319,7 @@ content/40.common-challenges.md:153:Jenagan
 content/40.common-challenges.md:155:LIGER
 content/40.common-challenges.md:155:Welch
 content/40.common-challenges.md:156:Abadi
+content/40.common-challenges.md:156:biostatistics
 content/40.common-challenges.md:156:sGCCA
 content/40.common-challenges.md:157:Arora
 content/40.common-challenges.md:166:Coullomb
@@ -403,6 +408,7 @@ content/50.benchmarking.md:45:Wancen
 content/50.benchmarking.md:51:overfitting
 content/50.benchmarking.md:57:bioinformatics
 content/50.benchmarking.md:57:bioinformatics
+content/50.benchmarking.md:57:biostatistics
 content/50.benchmarking.md:66:resampling
 content/50.benchmarking.md:79:learnings
 content/50.benchmarking.md:85:scRNAseq
