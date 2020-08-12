@@ -1,7 +1,7 @@
 Abadi
 acc
 activatory
-Aedin
+aedin
 AedinCulhane
 Amongst
 Amrit
@@ -38,6 +38,7 @@ centric
 centroid
 centroids
 Channing
+Cheng
 Chessel
 cmIF
 cn
@@ -83,8 +84,10 @@ Fertig
 Finetti
 Freytag
 gastrulation
+gc
 gcj
 gcxh
+gcyuan
 generalisation
 generalizable
 geospatial
@@ -94,6 +97,7 @@ GIS
 glmnet
 GNT
 GpC
+Guo
 hackaton
 HDBSCAN
 HiC
@@ -149,7 +153,7 @@ NMF
 NMT
 NN
 nnbm
-normalisation
+Normalisation
 novo
 Ontologies
 overfitting
@@ -173,7 +177,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 Reasonning
 reinclude
 remodelling
@@ -204,7 +208,7 @@ Soneson
 spatialExpt
 spholmes
 ssEnet
-STATIS
+Statis
 subcellular
 substract
 subtypes
@@ -220,7 +224,7 @@ Tian
 Tibshirani
 tk
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 transpor
 transtitions
