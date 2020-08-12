@@ -98,6 +98,17 @@ authors:
     funders:
       - National Institutes of Health, National Cancer Institute
       - National Institutes of Health, National Institute on Aging
+  - github: RubD
+    name: Ruben Dries
+    initials: RD
+    orcid: 0000-0001-7650-7754
+    twitter:  RnDries
+    email: rdries@dbu.edu
+    affiliations:
+      - Department of Hematology and Oncology, Boston University School of Medicine, Boston, MA, USA 
+      - Department of Computational Biomedicine, Boston University School of Medicine, Boston, MA, USA 
+    funders:
+      - XX   
   - github: janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)
     name: Jane Roe
     initials: JR
