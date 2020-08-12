@@ -86,6 +86,18 @@ authors:
     funders:
       - National Institutes of Health, National Human Genome Research Institute
       - National Institutes of Health, National Institute of Mental Health
+  - github: gcyuan
+    name: Guo-Cheng Yuan
+    initials: GY
+    orcid: XXXX-XXXX-XXXX-XXXX
+    twitter:  gc_yuan
+    email: gcyuan@ds.dfci.harvard.edu
+    affiliations:
+      - Department of Pediatric Oncology, Dana-Farber Cancer Institute
+      - Department of Pediatrics, Harvard Medical School
+    funders:
+      - National Institutes of Health, National Cancer Institute
+      - National Institutes of Health, National Institute on Aging
   - github: janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)
     name: Jane Roe
     initials: JR
