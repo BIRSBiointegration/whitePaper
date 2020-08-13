@@ -1,8 +1,10 @@
 Abadi
 acc
 activatory
-aedin
+Aedin
 AedinCulhane
+ajabadi
+aljabadi
 Amongst
 Amrit
 Amrith
@@ -83,7 +85,7 @@ Farber
 Fertig
 Finetti
 Freytag
-gastrulation
+Gastrulation
 gc
 gcj
 gcxh
@@ -114,6 +116,7 @@ interpretabiliy
 interpretaion
 intra
 introns
+JalalAbadi
 janeroe
 Jeganathan
 Jenagan
@@ -153,7 +156,7 @@ NMF
 NMT
 NN
 nnbm
-Normalisation
+normalisation
 novo
 Ontologies
 overfitting
@@ -177,7 +180,7 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
 reinclude
 remodelling
@@ -208,7 +211,7 @@ Soneson
 spatialExpt
 spholmes
 ssEnet
-Statis
+STATIS
 subcellular
 substract
 subtypes
