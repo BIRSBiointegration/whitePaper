@@ -98,6 +98,17 @@ authors:
     funders:
       - National Institutes of Health, National Cancer Institute
       - National Institutes of Health, National Institute on Aging
+  - github: ajabadi
+    name: Al JalalAbadi
+    initials: AJ
+    orcid: 0000-0002-4146-2848
+    twitter: aljabadi
+    email: ajalalabadi@unimelb.edu.au
+    affiliations:
+      - Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Australia
+    funders:
+      - Chan Zuckerberg initiative (HCA2-A-1708-02277)
+      - Australian Research Council (DP200102903)
   - github: janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)
     name: Jane Roe
     initials: JR
