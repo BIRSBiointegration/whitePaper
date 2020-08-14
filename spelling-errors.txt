@@ -1,7 +1,7 @@
 Abadi
 acc
 activatory
-Aedin
+aedin
 AedinCulhane
 ajabadi
 aljabadi
@@ -20,10 +20,12 @@ Arshi
 autocorrelation
 autoencoder
 availabe
+Ayshwarya
+ayshwaryas
 bbiologicaly
 benchmarked
 Bioconductor’s
-Bioinformatics
+bioinformatics
 biomarkers
 Biomart
 bioRxiv
@@ -85,7 +87,7 @@ Farber
 Fertig
 Finetti
 Freytag
-Gastrulation
+gastrulation
 gc
 gcj
 gcxh
@@ -123,6 +125,7 @@ Jenagan
 Jenathan
 Keren
 Kimmel
+Klarman
 Lê
 learnings
 LIGER
@@ -180,7 +183,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 Reasonning
 reinclude
 remodelling
@@ -213,6 +216,7 @@ spholmes
 ssEnet
 STATIS
 subcellular
+Subramanian
 substract
 subtypes
 succesful
@@ -227,7 +231,7 @@ Tian
 Tibshirani
 tk
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 transpor
 transtitions
