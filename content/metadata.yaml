@@ -1,9 +1,9 @@
 ---
 title: "Community-wide hackathons establish foundations for emerging single cell data integration"
 keywords:
-  - markdown
-  - publishing
-  - manubot
+  - single cell
+  - data integration
+  - hackathons
 lang: en-US
 authors:
   - github: mixOmicsTeam
@@ -109,6 +109,17 @@ authors:
     funders:
       - Chan Zuckerberg initiative (HCA2-A-1708-02277)
       - Australian Research Council (DP200102903)
+  - github: cgreene
+    name: Casey S. Greene
+    initials: CSG
+    orcid: 0000-0001-8713-9213
+    twitter: greenescientist
+    email: greenescientist@gmail.com
+    affiliations:
+      - Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA
+    funders:
+      - National Institutes of Health, National Cancer Institute (R01 CA237170)
+      - National Institutes of Health, National Human Genome Research Institute (R01 HG010067)
   - github: janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)
     name: Jane Roe
     initials: JR
