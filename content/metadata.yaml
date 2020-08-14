@@ -109,6 +109,15 @@ authors:
     funders:
       - Chan Zuckerberg initiative (HCA2-A-1708-02277)
       - Australian Research Council (DP200102903)
+  - github: ayshwaryas
+    name: Ayshwarya Subramanian
+    initials: AS
+    orcid: 0000-0002-4134-7612
+    twitter:  ayshwaryas
+    email: subraman@broadinstitute.org
+    affiliations:
+      - Klarman Cell Observatory, Broad Institute
+      - Kidney Disease Initiative, Broad Institute
   - github: janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)
     name: Jane Roe
     initials: JR
