@@ -120,6 +120,15 @@ authors:
     funders:
       - National Institutes of Health, National Cancer Institute (R01 CA237170)
       - National Institutes of Health, National Human Genome Research Institute (R01 HG010067)
+  - github: ayshwaryas
+    name: Ayshwarya Subramanian
+    initials: AS
+    orcid: 0000-0002-4134-7612
+    twitter:  ayshwaryas
+    email: subraman@broadinstitute.org
+    affiliations:
+      - Klarman Cell Observatory, Broad Institute
+      - Kidney Disease Initiative, Broad Institute
   - github: janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)
     name: Jane Roe
     initials: JR
