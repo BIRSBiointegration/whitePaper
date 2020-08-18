@@ -133,7 +133,6 @@ Keren
 Kimmel
 Klarman
 Lê
-learnings
 LIGER
 localisation
 Lubeck
@@ -180,7 +179,7 @@ PLS
 practitionners
 Pratheepa
 Pratheepan
-pre
+Pre
 preprocessing
 prespecified
 priori
@@ -190,10 +189,10 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
 remodelling
-reproducibility
+Reproducibility
 reproducibly
 requierments
 resampling
@@ -239,7 +238,7 @@ Tian
 Tibshirani
 tk
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 Translational
 transpor
