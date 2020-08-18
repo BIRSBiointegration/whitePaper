@@ -164,7 +164,7 @@ NMF
 NMT
 NN
 nnbm
-Normalisation
+normalisation
 novo
 Ontologies
 overfitting
@@ -178,7 +178,7 @@ PLS
 practitionners
 Pratheepa
 Pratheepan
-Pre
+pre
 preprocessing
 prespecified
 priori
@@ -188,9 +188,8 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
-reinclude
 remodelling
 reproducibility
 reproducibly
@@ -221,7 +220,7 @@ specifc
 spholmes
 SPWSS
 ssEnet
-STATIS
+Statis
 subcellular
 Subramanian
 substract
