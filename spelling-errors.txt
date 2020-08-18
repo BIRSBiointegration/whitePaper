@@ -1,10 +1,10 @@
 Abadi
-acc
 activatory
 aedin
 AedinCulhane
 ajabadi
 aljabadi
+AMI
 Amongst
 Amrit
 Amrith
@@ -16,7 +16,6 @@ Argelaguet
 arguemnt
 Arora
 arround
-Arshi
 autocorrelation
 autoencoder
 availabe
@@ -25,7 +24,7 @@ ayshwaryas
 bbiologicaly
 benchmarked
 Bioconductor’s
-bioinformatics
+Bioinformatics
 biomarkers
 Biomart
 bioRxiv
@@ -48,17 +47,19 @@ cmIF
 cn
 complemenatary
 comptuational
+concordnat
 consortiums
 cortext
 Coullomb
 covariate
 covariates
 covariation
+covarying
 CpG
 Craniofacial
 CTCF
 Culhane
-CyToF
+CyTOF
 Cytokit
 decompositions
 deconvolute
@@ -76,9 +77,10 @@ eigenvector
 ejfertig
 Elana
 EMBL
-embyonic
+emryonic
 ENet
 entropic
+epigentic
 examplary
 excitatory
 Facetto
@@ -87,11 +89,12 @@ Farber
 Fertig
 Finetti
 Freytag
-gastrulation
+Gastrulation
 gc
 gcj
 gcxh
 gcyuan
+genebody
 generalisation
 generalizable
 geospatial
@@ -110,6 +113,7 @@ Hsu
 hyperparameters
 identifiability
 IHC
+IHEC
 ImJoy
 Initative
 integrations
@@ -137,6 +141,7 @@ maximises
 mechansisms
 megabases
 Meng
+methylome
 methyltransferase
 Meuleman
 microenvironment
@@ -159,7 +164,7 @@ NMF
 NMT
 NN
 nnbm
-normalisation
+Normalisation
 novo
 Ontologies
 overfitting
@@ -173,7 +178,7 @@ PLS
 practitionners
 Pratheepa
 Pratheepan
-pre
+Pre
 preprocessing
 prespecified
 priori
@@ -187,7 +192,7 @@ rargelaguet
 Reasonning
 reinclude
 remodelling
-Reproducibility
+reproducibility
 reproducibly
 requierments
 resampling
@@ -212,7 +217,9 @@ smoothened
 Sodicoff
 Soneson
 spatialExpt
+specifc
 spholmes
+SPWSS
 ssEnet
 STATIS
 subcellular
@@ -231,7 +238,7 @@ Tian
 Tibshirani
 tk
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 transpor
 transtitions
