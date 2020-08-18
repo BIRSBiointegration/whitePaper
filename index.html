@@ -107,9 +107,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/7ec1849479402baf06e5d199978a7ad960f8394b/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/7ec1849479402baf06e5d199978a7ad960f8394b/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/7ec1849479402baf06e5d199978a7ad960f8394b/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/eac893cd69c75054d5a64df31fb95afcfea6ff3a/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/eac893cd69c75054d5a64df31fb95afcfea6ff3a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/eac893cd69c75054d5a64df31fb95afcfea6ff3a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -123,9 +123,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/7ec1849479402baf06e5d199978a7ad960f8394b/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/eac893cd69c75054d5a64df31fb95afcfea6ff3a/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/7ec1849479402baf06e5d199978a7ad960f8394b">BIRSBiointegration/whitePaper@7ec1849</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/eac893cd69c75054d5a64df31fb95afcfea6ff3a">BIRSBiointegration/whitePaper@eac893c</a>
 on August 18, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -1182,10 +1182,14 @@ data modalities (Figure <a href="#fig:benchmark">5</a>A). Moreover, these simula
 <p>One strategy for quantitative assessment of multi-model methods is
 cross-validation (CV). While CV cannot determine the accuracy of a
 method, it can be used to assess a method’s self-consistency.
-For example the
+For example a
 <a href="https://mikelove.github.io/BIRSBIO2020.Benchmarking.CVmofa/">cross-validation analysis of the scNMT-seq dataset</a>
-was performed using MOFA+ (Figure <a href="#fig:benchmark">5</a>B). Such an
-evaluation of methods using permutation or cross-validation
+was performed as part of the hackathon for this meeting using MOFA+ (Figure <a href="#fig:benchmark">5</a>B).
+Such community-based benchmarking efforts in the area of multi-modal
+data analysis could follow the paradigm of the <a href="http://dreamchallenges.org/">DREAM Challenges</a>,
+with multi-modal training data provided and test samples held out in order
+to evaluate the method submissions from participating groups.</p>
+<p>Evaluation of methods using permutation or cross-validation
 has been performed previously, typically to optimize a tuning
 parameter or other aspects of model selection. Permutation has been
 used to create null datasets, either as demonstration that a method
@@ -1211,11 +1215,9 @@ multi-modal setting.</p>
 <p>Cross-study validation would assess if relationships discovered in
 one dataset present in other datasets, potentially looking across
 single cell and bulk.</p>
-<h3 id="using-hackathon-studies-as-community-benchmarking">Using hackathon studies as community benchmarking</h3>
-<p><strong>to fill here, could mention the dream challenge and link back to our own experience / learnings</strong></p>
 <h4 id="creating-benchmarking-datasets">Creating benchmarking datasets</h4>
-<p>(<strong>add examples from Google Doc</strong>)
-Benchmark datasets for single cell studies have largely centered around
+<p>(<strong>add examples from Google Doc</strong>)</p>
+<p>Benchmark datasets for single cell studies have largely centered around
 measuring sequencing depth and diversity of cell types derived from
 a single assay of interest (e.g. scRNAseq). A benchmark dataset
 serves a few purposes:</p>
