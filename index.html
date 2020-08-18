@@ -15,7 +15,7 @@
   <meta name="author" content="Al JalalAbadi" />
   <meta name="author" content="Ayshwarya Subramanian" />
   <meta name="author" content="Jane Roe" />
-  <meta name="dcterms.date" content="2020-08-14" />
+  <meta name="dcterms.date" content="2020-08-18" />
   <meta name="keywords" content="markdown, publishing, manubot" />
   <title>Community-wide hackathons establish foundations for emerging single cell data integration</title>
   <style>
@@ -38,8 +38,8 @@
   <meta name="citation_title" content="Community-wide hackathons establish foundations for emerging single cell data integration" />
   <meta property="og:title" content="Community-wide hackathons establish foundations for emerging single cell data integration" />
   <meta property="twitter:title" content="Community-wide hackathons establish foundations for emerging single cell data integration" />
-  <meta name="dc.date" content="2020-08-14" />
-  <meta name="citation_publication_date" content="2020-08-14" />
+  <meta name="dc.date" content="2020-08-18" />
+  <meta name="citation_publication_date" content="2020-08-18" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -102,9 +102,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/0360a075294907aaba326a9c97e0caace4cbe08d/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/0360a075294907aaba326a9c97e0caace4cbe08d/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/0360a075294907aaba326a9c97e0caace4cbe08d/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/a142c8f25b611af087796c448622511a0f67af74/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/a142c8f25b611af087796c448622511a0f67af74/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/a142c8f25b611af087796c448622511a0f67af74/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -118,10 +118,10 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/0360a075294907aaba326a9c97e0caace4cbe08d/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/a142c8f25b611af087796c448622511a0f67af74/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/0360a075294907aaba326a9c97e0caace4cbe08d">BIRSBiointegration/whitePaper@0360a07</a>
-on August 14, 2020.
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/a142c8f25b611af087796c448622511a0f67af74">BIRSBiointegration/whitePaper@a142c8f</a>
+on August 18, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
 <ul>
@@ -686,11 +686,11 @@ Similar spatial and scales issues have been addressed in environmental ecology, 
 <img src="images/scNMTseq.png" alt="" />
 </figure>
 <p>Overview of hackathon analyses.
-<strong>A</strong> Challenges 1 and 2: Defining genomic contexts, varying dimensions and different amount of missing values across modalities (<strong>missing values to be added - CTCF will most likely be dropped</strong>).
-<strong>B</strong> Supervised analysis using integrative distance measure (MOSAIC). Methylation data are more predictive than chromatin accessibility during gastrulation <strong>Arshi: the acc data should be excluded</strong>.
-<strong>C</strong> (LIGER) Unsupervised analysis using NMF to extract common and view-specific variation (LIGER) <strong>Josh: legend needs to be fixed</strong>.
-<strong>D</strong> (PLS) Unsupervised integration characterizes common variation with respect to RNA. The concordant axes of variation separate different embyonic stages. Various modalities differ in amount of covariation with transcriptome <strong>Al: CTCF should be dropped - measure of concordance can be added to subtitles</strong>.
-<strong>Ricard and Al: consider a separate table for performance measures (concordance/alignment/MI)</strong>.</p>
+<strong>a</strong> A summary of a subset of data types used. Challenges 1 and 2: defining genomic contexts, varying dimensions and different amount of missing values across various modalities.
+<strong>b</strong> Uniform Manifold Approximation and Projection of RNA measurements using 671 highly variable genes resolves the various embryonic stages shown by different colors.
+<strong>c</strong> Supervised analysis using view-specific and integrative distance measures (MOSAIC). The integration finds 5 clusters of cell populations based on Adjusted Mutual Information (AMI) and Standardized Pooled Within Sum of Squares (SPWSS) and outperforms individual analyses.
+<strong>d</strong> Shared axes of variation are driven by emryonic stages. Unsupervised integration using Projection to Latent Structures characterizes common variation between RNA and methylation data while selecting for most relevant features. Each point represents a cell on covarying components. The method either omits the missing values while integration or incorporates the inferred values in the integration (shown). Balanced accuracy measures for a k-means clustering analysis using the extracted components from the two scenarios (bottom right).
+<strong>e</strong> Joint clustering of cells finds common and view-specifc patterns of variation. LIGER uses non-negative matrix factorization to integrate transcriptome and genebody methylome and align cells in the common subspace. The poor alignment suggests decoupling of the gene expression and genebody methylation during gastrulation and highlights the importance of linking relevant epigenetic features to transcriptome (challenge 3).</p>
 <h3 id="computational-challenges-2">Computational challenges</h3>
 <h4 id="challenge-1-defining-genomic-features">Challenge 1: defining genomic features</h4>
 <p>The first challenge concerns the definition of the input data. The output of single-cell bisulfite sequencing are binary DNA methylation measurements for individual CpG sites. Integrative analysis at the CpG level is extremely challenging due to (1) the sparsity levels, (2) the binary nature of the readouts, and (3) the challenging interpretability of individual dinucleotides.
@@ -703,8 +703,7 @@ To address these problems, DNA methylation measurements are typically aggregated
 <h4 id="challenge-2-missing-values-in-dna-methylation">Challenge 2: Missing values in DNA methylation</h4>
 <p>Because of the low amounts of starting material, single-cell bisulfite sequencing protocols are limited by incomplete CpG coverage. Nonetheless, in contrast to scRNA-seq, missing data can be discriminated from dropouts.</p>
 <p>Two strategies were put forward in the workshop to handle missing values. The first is to define an inference framework that omits missing values, as done in PLS and MOSAIC. The second approach, for methods that do not handle missing information, including LIGER, is to perform <em>a priori</em> imputation of DNA methylation values.</p>
-<p>Here we compared the integration performance for PLS and MOSAIC with and without imputation. Notably we observe (…)</p>
-<p>[DESCRIBE RESULTS]</p>
+<p>Here we compared the integration performance for PLS ~and MOSAIC~ with and without imputation. We observe that after inferring the missing values in methylation data using a nearest neighbors approach, the axes of concordnat variation with gene expression better resolve the population structure in some epigentic regions. To quantify any improvement in biological relevance of the extracted components of shared variation, we used a supervised analysis which used the number of embryonic stages as the number of clusters. Notably, the balanced accuracy of prediction based on genebody methylation components improved from 70% for the original data to 86% after inferring the missing values.</p>
 <h4 id="challenge-3-linking-epigenetic-features-to-gene-expression">Challenge 3: Linking epigenetic features to gene expression</h4>
 <p>One of the main advantages of single-cell multi-modal assays is the ability to unbiasedly link epigenetic variation with gene expression.
 Transcriptional activation is associated with specific chromatin states near the gene of interest. This includes deposition of activatory histone marks such as H3K27ac (in promoters and enhancers), H3K4me3 (in promoters) and H3K36me3 (in gene bodies), binding of transcription factors, promoter and/or enhancer demethylation and chromatin remodelling. All these events are closely interconnected and leave a footprint across multiple molecular layers that can be (partialy) recovered by performing an association analysis between a specific chromatin readout and mRNA expression. However, given the large amount of genes and regulatory regions, this task can become prohibitively large and it is mandatory to restrict the feature space to avoid a complex multiple testing problem.</p>
@@ -1427,6 +1426,9 @@ Perhaps one tool to address broader accessibility could be
 </tbody>
 </table>
 <h2 id="discussion">Discussion</h2>
+<p>The rapid pace of technological development can be seen as only six years after single-cell sequencing was name method of the year, single-cell multimodal omics claimed the title <span class="citation" data-cites="14mVWQABt">[<a href="#ref-14mVWQABt" role="doc-biblioref">77</a>]</span>. Beyond the title, multimodal omics has inherited not just the explosion in datasets and the formation of Atlas based initiatives, but also the wave of statistical and computational techniques they launched. Thus, a central question is what can be carried forward from both current initiatives and current methods.
+In the case of consortia, the ability to impose uniform processing and community standards such as those for ENCODE and IHEC will remain important. The Human Cell Atlas <span class="citation" data-cites="12eUYhFS5">[<a href="#ref-12eUYhFS5" role="doc-biblioref">78</a>]</span> showed how community driven initiatives have the ability to influence and inspire across larger proportions of the scientific community. Hackathons are also excellent resources for bringing the community together and providing formal benchmarks. Together with large consortia studies, hackathons have the potential both to inform and require multi-omics data analysis methods.
+In regard to what is needed computationally for the future of multi-omics much will be driven by the data itself. While on the one hand the inherently coupling of measurements simplifies certain challenges, on the other hand the layering of an entirely new set of molecular measurement intrinsically increases complexity. Thus, considerations must be made for cross-modal integration and modeling with both matched and unmatched multimodal measurements. In both cases methods for dealing with data quality, data loss by summarization, timing variances both between and within omics layers, and batch effects will be necessary challenges to overcome. Conversely, the ability to infer regulatory relationships between different omics and expand to dynamic models across time and space presence new opportunities.</p>
 <h3 id="emerging-analytical-methods-and-technologies">Emerging analytical methods and technologies</h3>
 <h3 id="community-needs-for-data-structures-analysis-methods-etc">Community needs for data structures, analysis methods, etc</h3>
 <h2 id="glossary">Glossary</h2>
@@ -1476,25 +1478,25 @@ Perhaps one tool to address broader accessibility could be
 <td>contributions</td>
 <td>variable weights, loadings, eigenvector, axis, direction, dimension, coefficients, slopes</td>
 <td>Contributions of the original variables in constructing the components.</td>
-<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">16</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">77</a></span></td>
+<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">16</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">79</a></span></td>
 </tr>
 <tr class="even">
 <td>latent factors</td>
 <td>variates, scores, projections, components, latent/hidden/unobserved variables/factors</td>
 <td>Weighted linear combinations of the original variables.</td>
-<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">16</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">77</a></span></td>
+<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">16</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">79</a></span></td>
 </tr>
 <tr class="odd">
 <td>multimodal</td>
 <td>Multiview, multiway arrays, multimodal, multidomain, multiblock, multitable, multi-omics, multi-source data analysis methods, N-integration</td>
 <td>Methods pertaining to the analysis of multiple data matrices for the same set of observations.</td>
-<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">16</a></span>, <span class="citation" data-cites="nhuT45y5"><a href="#ref-nhuT45y5" role="doc-biblioref">26</a></span>, <span class="citation" data-cites="2SDWXiwB"><a href="#ref-2SDWXiwB" role="doc-biblioref">78</a></span></td>
+<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">16</a></span>, <span class="citation" data-cites="nhuT45y5"><a href="#ref-nhuT45y5" role="doc-biblioref">26</a></span>, <span class="citation" data-cites="2SDWXiwB"><a href="#ref-2SDWXiwB" role="doc-biblioref">80</a></span></td>
 </tr>
 <tr class="even">
 <td>conjoint analysis</td>
 <td>conjoint analysis, P-integration, meta-analysis, multigroup data analysis</td>
 <td>Methods pertaining to the analysis of multiple data matrices for the same set of variables.</td>
-<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">16</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">77</a></span>, <span class="citation" data-cites="UqaGRGDg"><a href="#ref-UqaGRGDg" role="doc-biblioref">79</a></span></td>
+<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">16</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">79</a></span>, <span class="citation" data-cites="UqaGRGDg"><a href="#ref-UqaGRGDg" role="doc-biblioref">81</a></span></td>
 </tr>
 <tr class="odd">
 <td>variable</td>
@@ -1506,13 +1508,13 @@ Perhaps one tool to address broader accessibility could be
 <td>biomarker</td>
 <td>marker, biomarker</td>
 <td>A variable that is associated with normal or disease processes, or responses to exposures, or interventions. Any change in this variable is also associated with a change in the associated clinical outcome. These variables may be used for diagnostic, monitoring, Pharmacodynamic responses. Examples include LDL cholesterol, CD4 counts, hemoglobin A1C.</td>
-<td><span class="citation" data-cites="AtapBaNb"><a href="#ref-AtapBaNb" role="doc-biblioref">80</a></span></td>
+<td><span class="citation" data-cites="AtapBaNb"><a href="#ref-AtapBaNb" role="doc-biblioref">82</a></span></td>
 </tr>
 <tr class="odd">
 <td>panel</td>
 <td>biomarker panel, biomarker signature</td>
 <td>A subset of the originally measured variables that are determined to be associated with the outcome or response variable. This may be determined using statistical inference, feature selection methods, or machine/statistical learning.</td>
-<td><span class="citation" data-cites="17aD4MFPS"><a href="#ref-17aD4MFPS" role="doc-biblioref">81</a></span>, <span class="citation" data-cites="XWx8RAwW"><a href="#ref-XWx8RAwW" role="doc-biblioref">82</a></span></td>
+<td><span class="citation" data-cites="17aD4MFPS"><a href="#ref-17aD4MFPS" role="doc-biblioref">83</a></span>, <span class="citation" data-cites="XWx8RAwW"><a href="#ref-XWx8RAwW" role="doc-biblioref">84</a></span></td>
 </tr>
 <tr class="even">
 <td>observation</td>
@@ -1957,40 +1959,52 @@ DOI: <a href="https://doi.org/10.1038/nmeth0810-573">10.1038/nmeth0810-573</a> �
 <div id="ref-19usrpNlS">
 <p>76. <strong>dtm2451/dittoSeq</strong> <br />
 Daniel Bunis<br />
-(2020-08-13) <a href="https://github.com/dtm2451/dittoSeq">https://github.com/dtm2451/dittoSeq</a></p>
+(2020-08-16) <a href="https://github.com/dtm2451/dittoSeq">https://github.com/dtm2451/dittoSeq</a></p>
+</div>
+<div id="ref-14mVWQABt">
+<p>77. <strong>Method of the Year 2019: Single-cell multimodal omics</strong> <br />
+Nature Methods<br />
+(2020-01) <a href="https://www.nature.com/articles/s41592-019-0703-5">https://www.nature.com/articles/s41592-019-0703-5</a> <br />
+DOI: <a href="https://doi.org/10.1038/s41592-019-0703-5">10.1038/s41592-019-0703-5</a></p>
+</div>
+<div id="ref-12eUYhFS5">
+<p>78. <strong>The Human Cell Atlas</strong> <br />
+Aviv Regev, Sarah A. Teichmann, Eric S. Lander, Ido Amit, Christophe Benoist, Ewan Birney, Bernd Bodenmiller, Peter Campbell, Piero Carninci, Menna Clatworthy, … the Human Cell Atlas Meeting Participants<br />
+<em>bioRxiv</em> (2017-05-08) <a href="https://www.biorxiv.org/content/10.1101/121202v1">https://www.biorxiv.org/content/10.1101/121202v1</a> <br />
+DOI: <a href="https://doi.org/10.1101/121202">10.1101/121202</a></p>
 </div>
 <div id="ref-18fTyQGoG">
-<p>77. <strong>Multivariate analysis of multiblock and multigroup data</strong> <br />
+<p>79. <strong>Multivariate analysis of multiblock and multigroup data</strong> <br />
 A. Eslami, E. M. Qannari, A. Kohler, S. Bougeard<br />
 <em>Chemometrics and Intelligent Laboratory Systems</em> (2014-04) <a href="https://doi.org/f52wrr">https://doi.org/f52wrr</a> <br />
 DOI: <a href="https://doi.org/10.1016/j.chemolab.2014.01.016">10.1016/j.chemolab.2014.01.016</a></p>
 </div>
 <div id="ref-2SDWXiwB">
-<p>78. <strong>Dimension reduction techniques for the integrative analysis of multi-omics data</strong> <br />
+<p>80. <strong>Dimension reduction techniques for the integrative analysis of multi-omics data</strong> <br />
 Chen Meng, Oana A. Zeleznik, Gerhard G. Thallinger, Bernhard Kuster, Amin M. Gholami, Aedín C. Culhane<br />
 <em>Briefings in Bioinformatics</em> (2016-07) <a href="https://doi.org/f83qvd">https://doi.org/f83qvd</a> <br />
 DOI: <a href="https://doi.org/10.1093/bib/bbv108">10.1093/bib/bbv108</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26969681">26969681</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4945831">PMC4945831</a></p>
 </div>
 <div id="ref-UqaGRGDg">
-<p>79. <strong>Robust meta-analysis of gene expression using the elastic net</strong> <br />
+<p>81. <strong>Robust meta-analysis of gene expression using the elastic net</strong> <br />
 Jacob J. Hughey, Atul J. Butte<br />
 <em>Nucleic Acids Research</em> (2015-07-13) <a href="https://doi.org/f7nnbm">https://doi.org/f7nnbm</a> <br />
 DOI: <a href="https://doi.org/10.1093/nar/gkv229">10.1093/nar/gkv229</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25829177">25829177</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4499117">PMC4499117</a></p>
 </div>
 <div id="ref-AtapBaNb">
-<p>80. <strong>Biomarker definitions and their applications</strong> <br />
+<p>82. <strong>Biomarker definitions and their applications</strong> <br />
 Robert M Califf<br />
 <em>Experimental Biology and Medicine</em> (2018-02-06) <a href="https://doi.org/gcxh8n">https://doi.org/gcxh8n</a> <br />
 DOI: <a href="https://doi.org/10.1177/1535370217750088">10.1177/1535370217750088</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29405771">29405771</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5813875">PMC5813875</a></p>
 </div>
 <div id="ref-17aD4MFPS">
-<p>81. <strong>Biomarker signatures of aging</strong> <br />
+<p>83. <strong>Biomarker signatures of aging</strong> <br />
 Paola Sebastiani, Bharat Thyagarajan, Fangui Sun, Nicole Schupf, Anne B. Newman, Monty Montano, Thomas T. Perls<br />
 <em>Aging Cell</em> (2017-04) <a href="https://doi.org/d2cm">https://doi.org/d2cm</a> <br />
 DOI: <a href="https://doi.org/10.1111/acel.12557">10.1111/acel.12557</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28058805">28058805</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5334528">PMC5334528</a></p>
 </div>
 <div id="ref-XWx8RAwW">
-<p>82. <strong>Biomarker Panels in Critical Care</strong> <br />
+<p>84. <strong>Biomarker Panels in Critical Care</strong> <br />
 Susan R. Conway, Hector R. Wong<br />
 <em>Critical Care Clinics</em> (2020-01) <a href="https://doi.org/d2cn">https://doi.org/d2cn</a> <br />
 DOI: <a href="https://doi.org/10.1016/j.ccc.2019.08.007">10.1016/j.ccc.2019.08.007</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31733684">31733684</a></p>
