@@ -1,6 +1,6 @@
 Abadi
 activatory
-aedin
+Aedin
 AedinCulhane
 ajabadi
 aljabadi
@@ -59,7 +59,7 @@ CpG
 Craniofacial
 CTCF
 Culhane
-CyTOF
+CyToF
 Cytokit
 decompositions
 deconvolute
@@ -89,7 +89,7 @@ Farber
 Fertig
 Finetti
 Freytag
-Gastrulation
+gastrulation
 gc
 gcj
 gcxh
@@ -188,10 +188,10 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 Reasonning
 remodelling
-reproducibility
+Reproducibility
 reproducibly
 requierments
 resampling
@@ -220,7 +220,7 @@ specifc
 spholmes
 SPWSS
 ssEnet
-Statis
+STATIS
 subcellular
 Subramanian
 substract
@@ -237,7 +237,7 @@ Tian
 Tibshirani
 tk
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 transpor
 transtitions
