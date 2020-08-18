@@ -40,6 +40,7 @@ CellProfiler
 centric
 centroid
 centroids
+cgreene
 Channing
 Cheng
 Chessel
@@ -59,7 +60,7 @@ CpG
 Craniofacial
 CTCF
 Culhane
-CyToF
+CyTOF
 Cytokit
 decompositions
 deconvolute
@@ -89,7 +90,7 @@ Farber
 Fertig
 Finetti
 Freytag
-gastrulation
+Gastrulation
 gc
 gcj
 gcxh
@@ -104,6 +105,7 @@ GIS
 glmnet
 GNT
 GpC
+greenescientist
 Guo
 hackaton
 HDBSCAN
@@ -164,7 +166,7 @@ NMF
 NMT
 NN
 nnbm
-normalisation
+Normalisation
 novo
 Ontologies
 overfitting
@@ -220,7 +222,7 @@ specifc
 spholmes
 SPWSS
 ssEnet
-STATIS
+Statis
 subcellular
 Subramanian
 substract
@@ -239,6 +241,7 @@ tk
 totalVI
 transcriptional
 transcriptomic
+Translational
 transpor
 transtitions
 tSNE
