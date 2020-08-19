@@ -1,6 +1,6 @@
 Abadi
 activatory
-Aedin
+aedin
 AedinCulhane
 ajabadi
 aljabadi
@@ -60,7 +60,7 @@ CpG
 Craniofacial
 CTCF
 Culhane
-CyTOF
+CyToF
 Cytokit
 decompositions
 deconvolute
@@ -90,7 +90,7 @@ Farber
 Fertig
 Finetti
 Freytag
-Gastrulation
+gastrulation
 gc
 gcj
 gcxh
@@ -151,7 +151,6 @@ minium
 mixOmics
 mixOmicsTeam
 modelling
-moslty
 mRNA
 multiplatform
 multipliable
@@ -178,8 +177,7 @@ phenotypical
 PLS
 practitionners
 Pratheepa
-Pratheepan
-Pre
+pre
 preprocessing
 prespecified
 priori
@@ -241,7 +239,6 @@ totalVI
 Transcriptional
 transcriptomic
 Translational
-transpor
 transtitions
 tSNE
 tumour
