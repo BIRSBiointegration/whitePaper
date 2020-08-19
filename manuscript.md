@@ -15,7 +15,7 @@ author-meta:
 bibliography:
 - content/manual-references.json
 date-meta: '2020-08-19'
-header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"citation_title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"og:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"twitter:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"dc.date\" content=\"2020-08-19\" />\n<meta name=\"citation_publication_date\" content=\"2020-08-19\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Kim-Anh L\xEA Cao\" />\n<meta name=\"citation_author_institution\" content=\"Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3923-1116\" />\n<meta name=\"twitter:creator\" content=\"@mixOmicsTeam\" />\n<meta name=\"citation_author\" content=\"Aedin C Culhane\" />\n<meta name=\"citation_author_institution\" content=\"Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA\" />\n<meta name=\"citation_author_institution\" content=\"Biostatsitics, Harvard TH Chan School of Public Health, Boston, MA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1395-9734\" />\n<meta name=\"twitter:creator\" content=\"@AedinCulhane\" />\n<meta name=\"citation_author\" content=\"Elana Fertig\" />\n<meta name=\"citation_author_institution\" content=\"Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biomedical Engineering, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Applied Mathematics and Statistics, Johns Hopkins University Whiting School of Engineering, Baltimore, MD, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3204-342X\" />\n<meta name=\"twitter:creator\" content=\"@FertigLab\" />\n<meta name=\"citation_author\" content=\"Vincent J. Carey\" />\n<meta name=\"citation_author_institution\" content=\"Channing Division of Network Medicine, Brigham and Women&#39;s Hospital, Harvard Medical School\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4046-0063\" />\n<meta name=\"citation_author\" content=\"Ricard Argelaguet\" />\n<meta name=\"citation_author_institution\" content=\"European Bioinformatics Institute (EMBL-EBI)\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3199-3722\" />\n<meta name=\"twitter:creator\" content=\"@RArgelaguet\" />\n<meta name=\"citation_author\" content=\"Susan Holmes\" />\n<meta name=\"citation_author_institution\" content=\"Department of Statistics, Stanford University, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2208-8168\" />\n<meta name=\"twitter:creator\" content=\"@SherlockpHolmes\" />\n<meta name=\"citation_author\" content=\"Michael I. Love\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, UNC-Chapel Hill\" />\n<meta name=\"citation_author_institution\" content=\"Department of Genetics, UNC-Chapel Hill\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8401-0545\" />\n<meta name=\"twitter:creator\" content=\"@mikelove\" />\n<meta name=\"citation_author\" content=\"Guo-Cheng Yuan\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pediatric Oncology, Dana-Farber Cancer Institute\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pediatrics, Harvard Medical School\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@gc_yuan\" />\n<meta name=\"citation_author\" content=\"Al JalalAbadi\" />\n<meta name=\"citation_author_institution\" content=\"Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4146-2848\" />\n<meta name=\"twitter:creator\" content=\"@aljabadi\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"twitter:creator\" content=\"@greenescientist\" />\n<meta name=\"citation_author\" content=\"Ayshwarya Subramanian\" />\n<meta name=\"citation_author_institution\" content=\"Klarman Cell Observatory, Broad Institute\" />\n<meta name=\"citation_author_institution\" content=\"Kidney Disease Initiative, Broad Institute\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4134-7612\" />\n<meta name=\"twitter:creator\" content=\"@ayshwaryas\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@XXX\" />\n<link rel=\"canonical\" href=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"og:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"twitter:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://BIRSBiointegration.github.io/whitePaper/v/dc7dd8f508581a5fafb0ba3ae8c7e5d55344d017/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/dc7dd8f508581a5fafb0ba3ae8c7e5d55344d017/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/dc7dd8f508581a5fafb0ba3ae8c7e5d55344d017/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
+header-includes: "<!--\nManubot generated metadata rendered from header-includes-template.html.\nSuggest improvements at https://github.com/manubot/manubot/blob/master/manubot/process/header-includes-template.html\n-->\n<meta name=\"dc.format\" content=\"text/html\" />\n<meta name=\"dc.title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"citation_title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"og:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta property=\"twitter:title\" content=\"Community-wide hackathons establish foundations for emerging single cell data integration\" />\n<meta name=\"dc.date\" content=\"2020-08-19\" />\n<meta name=\"citation_publication_date\" content=\"2020-08-19\" />\n<meta name=\"dc.language\" content=\"en-US\" />\n<meta name=\"citation_language\" content=\"en-US\" />\n<meta name=\"dc.relation.ispartof\" content=\"Manubot\" />\n<meta name=\"dc.publisher\" content=\"Manubot\" />\n<meta name=\"citation_journal_title\" content=\"Manubot\" />\n<meta name=\"citation_technical_report_institution\" content=\"Manubot\" />\n<meta name=\"citation_author\" content=\"Kim-Anh L\xEA Cao\" />\n<meta name=\"citation_author_institution\" content=\"Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3923-1116\" />\n<meta name=\"twitter:creator\" content=\"@mixOmicsTeam\" />\n<meta name=\"citation_author\" content=\"Aedin C Culhane\" />\n<meta name=\"citation_author_institution\" content=\"Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA\" />\n<meta name=\"citation_author_institution\" content=\"Biostatsitics, Harvard TH Chan School of Public Health, Boston, MA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-1395-9734\" />\n<meta name=\"twitter:creator\" content=\"@AedinCulhane\" />\n<meta name=\"citation_author\" content=\"Elana Fertig\" />\n<meta name=\"citation_author_institution\" content=\"Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biomedical Engineering, Johns Hopkins University School of Medicine, Baltimore, MD, USA\" />\n<meta name=\"citation_author_institution\" content=\"Department of Applied Mathematics and Statistics, Johns Hopkins University Whiting School of Engineering, Baltimore, MD, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3204-342X\" />\n<meta name=\"twitter:creator\" content=\"@FertigLab\" />\n<meta name=\"citation_author\" content=\"Vincent J. Carey\" />\n<meta name=\"citation_author_institution\" content=\"Channing Division of Network Medicine, Brigham and Women&#39;s Hospital, Harvard Medical School\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-4046-0063\" />\n<meta name=\"citation_author\" content=\"Ricard Argelaguet\" />\n<meta name=\"citation_author_institution\" content=\"European Bioinformatics Institute (EMBL-EBI)\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0003-3199-3722\" />\n<meta name=\"twitter:creator\" content=\"@RArgelaguet\" />\n<meta name=\"citation_author\" content=\"Susan Holmes\" />\n<meta name=\"citation_author_institution\" content=\"Department of Statistics, Stanford University, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-2208-8168\" />\n<meta name=\"twitter:creator\" content=\"@SherlockpHolmes\" />\n<meta name=\"citation_author\" content=\"Michael I. Love\" />\n<meta name=\"citation_author_institution\" content=\"Department of Biostatistics, UNC-Chapel Hill\" />\n<meta name=\"citation_author_institution\" content=\"Department of Genetics, UNC-Chapel Hill\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8401-0545\" />\n<meta name=\"twitter:creator\" content=\"@mikelove\" />\n<meta name=\"citation_author\" content=\"Guo-Cheng Yuan\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pediatric Oncology, Dana-Farber Cancer Institute\" />\n<meta name=\"citation_author_institution\" content=\"Department of Pediatrics, Harvard Medical School\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@gc_yuan\" />\n<meta name=\"citation_author\" content=\"Al JalalAbadi\" />\n<meta name=\"citation_author_institution\" content=\"Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Australia\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4146-2848\" />\n<meta name=\"twitter:creator\" content=\"@aljabadi\" />\n<meta name=\"citation_author\" content=\"Casey S. Greene\" />\n<meta name=\"citation_author_institution\" content=\"Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0001-8713-9213\" />\n<meta name=\"twitter:creator\" content=\"@greenescientist\" />\n<meta name=\"citation_author\" content=\"Ayshwarya Subramanian\" />\n<meta name=\"citation_author_institution\" content=\"Klarman Cell Observatory, Broad Institute\" />\n<meta name=\"citation_author_institution\" content=\"Kidney Disease Initiative, Broad Institute\" />\n<meta name=\"citation_author_orcid\" content=\"0000-0002-4134-7612\" />\n<meta name=\"twitter:creator\" content=\"@ayshwaryas\" />\n<meta name=\"citation_author\" content=\"Jane Roe\" />\n<meta name=\"citation_author_institution\" content=\"Department of Something, University of Whatever\" />\n<meta name=\"citation_author_institution\" content=\"Department of Whatever, University of Something\" />\n<meta name=\"citation_author_orcid\" content=\"XXXX-XXXX-XXXX-XXXX\" />\n<meta name=\"twitter:creator\" content=\"@XXX\" />\n<link rel=\"canonical\" href=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"og:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta property=\"twitter:url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_fulltext_html_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/\" />\n<meta name=\"citation_pdf_url\" content=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"application/pdf\" href=\"https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf\" />\n<link rel=\"alternate\" type=\"text/html\" href=\"https://BIRSBiointegration.github.io/whitePaper/v/98d1a8cbe8af1e3e60de85eb02e4937eee1010f6/\" />\n<meta name=\"manubot_html_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/98d1a8cbe8af1e3e60de85eb02e4937eee1010f6/\" />\n<meta name=\"manubot_pdf_url_versioned\" content=\"https://BIRSBiointegration.github.io/whitePaper/v/98d1a8cbe8af1e3e60de85eb02e4937eee1010f6/manuscript.pdf\" />\n<meta property=\"og:type\" content=\"article\" />\n<meta property=\"twitter:card\" content=\"summary_large_image\" />\n<link rel=\"icon\" type=\"image/png\" sizes=\"192x192\" href=\"https://manubot.org/favicon-192x192.png\" />\n<link rel=\"mask-icon\" href=\"https://manubot.org/safari-pinned-tab.svg\" color=\"#ad1457\" />\n<meta name=\"theme-color\" content=\"#ad1457\" />\n<!-- end Manubot generated metadata -->"
 keywords:
 - single cell
 - data integration
@@ -35,9 +35,9 @@ title: Community-wide hackathons establish foundations for emerging single cell 
 
 <small><em>
 This manuscript
-([permalink](https://BIRSBiointegration.github.io/whitePaper/v/dc7dd8f508581a5fafb0ba3ae8c7e5d55344d017/))
+([permalink](https://BIRSBiointegration.github.io/whitePaper/v/98d1a8cbe8af1e3e60de85eb02e4937eee1010f6/))
 was automatically generated
-from [BIRSBiointegration/whitePaper@dc7dd8f](https://github.com/BIRSBiointegration/whitePaper/tree/dc7dd8f508581a5fafb0ba3ae8c7e5d55344d017)
+from [BIRSBiointegration/whitePaper@98d1a8c](https://github.com/BIRSBiointegration/whitePaper/tree/98d1a8cbe8af1e3e60de85eb02e4937eee1010f6)
 on August 19, 2020.
 </em></small>
 
@@ -740,9 +740,9 @@ Although this is a promising strategy to reduce the complexity of the associatio
 
 ## Commonalities between analytical multi-omics approaches for hackathons {#sec:common}
 
-Each hackathon study highlighted disparate challenges to multi-omics from different measurement technologies. However, these studies were unified by the underlying problem of data integration. We summarize the common main challenges faced across all hackathons and the common approaches participants adopted to highlight the critical computational challenges faced in multi-omics single cell data analysis. 
+Each hackathon study highlighted disparate challenges to multi-omics from different measurement technologies. However, these studies were unified by the underlying problem of data integration. We summarize the common main challenges faced across all hackathons and the common approaches participants adopted to highlight the critical computational challenges faced in multi-omics single cell data analysis.
 
-The choice of methods mostly relied on the challenge or biological question to address: data integration was conducted using projection approaches across all studies, whilst cell prediction required machine or statistical learning methods (SVM, Enet) and spatial analysis Hidden Markov random field or Moran's Index. As the computational methodologies span technologies, so do the central challenges highlighted in each hackathon. For example the accuracy of the analysis depends critically on data pre-processing, (normalization, upstream feature selection), differences in scale across data sets and overlap (or lack thereof) features and cells (Figure {@fig:common}). 
+The choice of methods mostly relied on the challenge or biological question to address: data integration was conducted using projection approaches across all studies, whilst cell prediction required machine or statistical learning methods (SVM, Enet) and spatial analysis Hidden Markov random field or Moran's Index. As the computational methodologies span technologies, so do the central challenges highlighted in each hackathon. For example the accuracy of the analysis depends critically on data pre-processing, (normalization, upstream feature selection), differences in scale across data sets and overlap (or lack thereof) features and cells (Figure {@fig:common}).
 
 Table {@tbl:common} summarizes the main methods that were applied across all hackathons.  A large number of computational analysis methods that were applied derive from bulk RNA-seq literature, with the exception of projection methods such as tSNE, UMAP and LIGER (the latter two are based on the common techniques NMF and PCA that were further developed for single cell data). In this section, we briefly highlight three common challenges faced across all hackathons.
 
@@ -758,14 +758,14 @@ Different types of techniques were used to address the differences in scale or r
 Degree of feature or cell overlap between datasets varied dramatically within each study. Intuitively, one requires at least one type of overlap (whether on the features, or on cells, Figure {@fig:common}) in order to integrate information across modalities. The field has made progress in developing methods to integrate data sets across the same (bulk) samples of single cells, mostly based on dimension reduction techniques. Amongst them, NMF (LIGER), Projection to Latent Structures (sGCCA [@doi:10.1093/biostatistics/kxu001]) were used for the scNMT-seq study. When there was no cell overlap (spatial studies), imputation methods were used to predict gene, protein or spatial expression values based on nearest neighbors, latent variables or optimal transport, or to predict cell types (Hsu). The most challenging study was the spatial proteomics, which raised the issue of no overlap between cells or features - the so called fourth corner that relies on phenotypes ( @ref{sec:proteomics}). We anticipate that this scenario will be avoided once technological progress and increase in data sets availability is achieved [@doi: 10.1186/s13059-020-1926-6].
 
 
-### Summary 
+### Summary
 The three hackathon analyses emphasized that regardless of the common challenges faced by our participants, there is no one method fits all. Methods derived from RNA-seq are generally not sufficient for single cell data, and further developments are needed to fully suit these emerging data. It is important that the challenges highlighted in this section are fully solved to enable subsequent interpretation of multi-scale biological systems from multi-omics data. Results interpretation of these analyses, however, raise further challenges.
 
 
 ![
 **A.** Overlap of features (genes) but not cells (e.g. spatial transcriptomics where cell type prediction for seqFISH data was performed based on scRNAseq where cell types are known.
 **B.** Partial overlap of features (proteins) but no overlap of cells (e.g. spatial proteomics that required data imputation or cell type prediction).
-**C.** Overlap of cells across assays, but no overlap of features (e.g. scNMT-seq where data integration was performed). 
+**C.** Overlap of cells across assays, but no overlap of features (e.g. scNMT-seq where data integration was performed).
 **D.** Lack of overlap between cells and features (the so-called fourth corner problem @ref{sec:proteomics}).
 ](images/summary_fig_person.png){#fig:common width="50%"}
 
@@ -797,8 +797,7 @@ Table: Different methods were used in the hackathon. * indicates the method was 
     padding: 10px 5px;
     word-break: normal;
     text-align: left;
-    vertical-align: top
-    font-weight: bold;
+    vertical-align: top font-weight: bold;
   }
   .tg .tg-bold {
     font-weight: bold;
@@ -818,93 +817,55 @@ Table: Different methods were used in the hackathon. * indicates the method was 
     <tr>
       <td class="tg-bold">Pre-processing</td>
       <td class="tg-bold">Normalization & data transformation</td>
-      <td>Data distribution checks (Coullomb, Singh)<br>
-        High Variable Genes selection (Xu)
-      </td>
-      <td>Variance Stabilization Normalisation [@doi:10.1093/bioinformatics/18.suppl_1.s96] (Meng)<br>
-        Arcsinh transformation (Jeganathan).<br>
-        Inverse transformation (Jenagan)<br>
-        Selection of patients (Jenagan)
-      </td>
+      <td>Data distribution checks (Coullomb, Singh)<br> High Variable Genes selection (Xu) </td>
+      <td>Variance Stabilization Normalisation [@doi:10.1093/bioinformatics/18.suppl_1.s96] (Meng)<br> Arcsinh transformation (Jeganathan).<br> Inverse transformation (Jenagan)<br> Selection of patients (Jenagan) </td>
       <td>Summaries of DNA measurements (input data provided in hackathon)</td>
     </tr>
-       <tr>
-      <td class="tg-bold">
-        Managing differences in scale<br>
+    <tr>
+      <td class="tg-bold"> Managing differences in scale<br>
       </td>
-      <td class="tg-bold">
-        Data integration
-      </td>
-      <td>
-        LIGER [@doi:10.1101/459891] (Sodicoff) (sc)<br>
-        ComBat (Singh)<br>
-        Projection methods MFA, sGCCA [@doi:10.1093/biostatistics/kxu001] (Singh*) (bulk)<br>
-        UMAP/tSNE (Sodicoff) (sc)
-      </td>
-      <td>
-        Multi-block PCA [@doi:10.18129/B9.bioc.mogsa]<br>
-        Weighting matrices based on their similarities: STATIS, MFA (Chen*)(bulk)<br>
-        Scale MIBI-TOF to the range of CyTOF values (Jenagan)
-      </td>
-      <td>
-        LIGER [@doi:10.1101/459891] (Welch) (sc)<br>
-        Projection method sGCCA [@doi:10.1093/biostatistics/kxu001] (Abadi) (bulk)<br>
-        Multi Omics Supervised Integrative Clustering with weights (Arora) (bulk)
-      </td>
+      <td class="tg-bold"> Data integration </td>
+      <td> LIGER [@doi:10.1101/459891] (Sodicoff) (sc)<br> ComBat (Singh)<br> Projection methods MFA, sGCCA [@doi:10.1093/biostatistics/kxu001] (Singh*) (bulk)<br> UMAP/tSNE (Sodicoff) (sc) </td>
+      <td> Multi-block PCA [@doi:10.18129/B9.bioc.mogsa]<br> Weighting matrices based on their similarities: STATIS, MFA (Chen*)(bulk)<br> Scale MIBI-TOF to the range of CyTOF values (Jenagan) </td>
+      <td> LIGER [@doi:10.1101/459891] (Welch) (sc)<br> Projection method sGCCA [@doi:10.1093/biostatistics/kxu001] (Abadi) (bulk)<br> Multi Omics Supervised Integrative Clustering with weights (Arora) (bulk) </td>
     </tr>
     <tr>
       <td class="tg-bold" rowspan="6">Overlap</td>
-      <td><b>Cell overlap</b><br>
-        (features not matching)
-      </td>
+      <td><b>Cell overlap</b><br> (features not matching) </td>
       <td></td>
       <td></td>
       <td>
-        <b>Dimension reduction and projection methods:</b><br>
-        LIGER [@doi:10.1101/459891] (Welch) (sc)<br>
-        sGCCA [@doi:10.1093/biostatistics/kxu001] (Abadi) (bulk)<br>
+        <b>Dimension reduction and projection methods:</b><br> LIGER [@doi:10.1101/459891] (Welch) (sc)<br> sGCCA [@doi:10.1093/biostatistics/kxu001] (Abadi) (bulk)<br>
       </td>
     </tr>
     <tr>
       <td>
-        <b>Partial feature overlap</b><br>
-        (cells not matching)
+        <b>Partial feature overlap</b><br> (cells not matching)
       </td>
       <td></td>
       <td>
-        <b>Imputation:</b><br>
-        Direct inversion with latent variables (Sankaran)<br>
-        Optimal transport to predict protein expression (Lin)<br>
-        K Nearest Neighbor averaging (Jenathan*)</span><br>
+        <b>Imputation:</b><br> Direct inversion with latent variables (Sankaran)<br> Optimal transport to predict protein expression (Lin)<br> K Nearest Neighbor averaging (Jenathan*)</span><br>
         <br>
-        <b>No imputation:</b><br>
-        Biological Network Interaction (Foster*)
+        <b>No imputation:</b><br> Biological Network Interaction (Foster*)
       </td>
       <td></td>
     </tr>
     <tr>
-      <td><b>Partial cell overlap</b><br>
-        (features not matching)
-      </td>
+      <td><b>Partial cell overlap</b><br> (features not matching) </td>
       <td></td>
       <td>Multi block PCA [@doi:10.18129/B9.bioc.mogsa] (Meng*)</td>
       <td></td>
     </tr>
     <tr>
-      <td><b>No cell overlap</b><br>
-        (complete feature overlap)
-      </td>
+      <td><b>No cell overlap</b><br> (complete feature overlap) </td>
       <td>Averaging nearest neighbors in latent space to impute unmeasured expression values (Coullomb?)</td>
       <td>Transfer cell type label with Random Forest (Hsu)</td>
       <td>LIGER [@doi:10.1101/459891] (Welch)</td>
     </tr>
     <tr>
-      <td><b>No cell overlap</b><br>
-        (partial feature overlap)
-      </td>
+      <td><b>No cell overlap</b><br> (partial feature overlap) </td>
       <td></td>
-      <td>
-        Topic modeling to predict cell spatial co-location or spatial expression (Jenathan, partial feature overlap)<br>
+      <td> Topic modeling to predict cell spatial co-location or spatial expression (Jenathan, partial feature overlap)<br>
       </td>
       <td></td>
     </tr>
@@ -915,63 +876,39 @@ Table: Different methods were used in the hackathon. * indicates the method was 
       <td></td>
     </tr>
     <tr>
-      <td class="tg-bold" rowspan="2">
-        Generic approaches
-      </td>
-      <td class="tg-bold">
-        Classification &amp; feature selection
-      </td>
-      <td>
-        Backward selection with SVM (Coullomb)<br>
-        self training ENet (Singh)<br>
-        Balanced error rate (Coullomb, Singh)<br>
-        Recursive Feature Elimination (Xu)<br>
-        <br>
-        (all bulk)</span>
+      <td class="tg-bold" rowspan="4"> Generic approaches </td>
+      <td class="tg-bold"> Classification &amp; feature selection </td>
+      <td> Backward selection with SVM (Coullomb)<br> self training ENet (Singh)<br> Balanced error rate (Coullomb, Singh)<br> Recursive Feature Elimination (Xu)<br>
+        <br> (all bulk)
       </td>
       <td></td>
-      <td>
-        Multi Omics Supervised Integrative Clustering (Arora) (bulk)<br>
-        Lasso penalization in regression-type models (bulk)
-      </td>
+      <td> Multi Omics Supervised Integrative Clustering (Arora) (bulk)<br> Lasso penalization in regression-type models (bulk) </td>
     </tr>
     <tr>
       <td class="tg-bold">Cell type prediction</td>
-      <td>Projection with LIGER [@doi:10.1101/459891] (Sodicoff)<br>
-        SVM (Coullomb, Xu)<br>
-        ssEnet (Singh)<br>
-        (all bulk)
-      </td>
+      <td>Projection with LIGER [@doi:10.1101/459891] (Sodicoff)<br> SVM (Coullomb, Xu)<br> ssEnet (Singh)<br> (all bulk) </td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td></td>
       <td class="tg-bold">Spatial analysis</td>
-      <td>Hidden Markov random field<br>
-        Voronoi tesselation (Coullomb) (bulk)
-      </td>
+      <td>Hidden Markov random field<br> Voronoi tesselation (Coullomb) (bulk) </td>
       <td>Spatial autocorrelation with Moran's Index (Hsu, Lin)<br>
-        <br>
-        Selection of spatial discriminative features:<br>
-        Moran's Index, NN correlation, Cell type, interaction composition, L function (Lin)<br>
-        <br>
-        (all bulk?)</span>
+        <br> Selection of spatial discriminative features:<br> Moran's Index, NN correlation, Cell type, interaction composition, L function (Lin)<br>
+        <br> (all bulk?)
       </td>
       <td></td>
     </tr>
     <tr>
       <td></td>
-      <td class="tg-bold">Inclusion of additional information</td>      
+      <td class="tg-bold">Inclusion of additional information</td>
       <td></td>
-      <td>Survival prediction: Cox regression based on spatial features (Lin)</span></td>
-      <td>Include annotated hypersensitive sites index to anchor new/unseen data from DNase-seq, (sc)ATAC-seq, scNMT-seq, for <em>de novo</em> peak calling (Meuleman*) (bulk)
-      </td>
+      <td>Survival prediction: Cox regression based on spatial features (Lin)</td>
+      <td>Include annotated hypersensitive sites index to anchor new/unseen data from DNase-seq, (sc)ATAC-seq, scNMT-seq, for <em>de novo</em> peak calling (Meuleman*) (bulk) </td>
     </tr>
   </tbody>
 </table>
-
-
 
 
 ## Challenges for interpretation

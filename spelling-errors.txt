@@ -60,7 +60,7 @@ CpG
 Craniofacial
 CTCF
 Culhane
-CyToF
+CyTOF
 Cytokit
 decompositions
 deconvolute
@@ -79,7 +79,7 @@ ejfertig
 Elana
 EMBL
 emryonic
-ENet
+Enet
 entropic
 epigentic
 examplary
@@ -90,7 +90,7 @@ Farber
 Fertig
 Finetti
 Freytag
-gastrulation
+Gastrulation
 gc
 gcj
 gcxh
@@ -187,7 +187,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 Reasonning
 remodelling
 Reproducibility
@@ -219,7 +219,7 @@ specifc
 spholmes
 SPWSS
 ssEnet
-STATIS
+Statis
 subcellular
 Subramanian
 substract
