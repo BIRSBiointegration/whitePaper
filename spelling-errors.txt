@@ -24,7 +24,7 @@ ayshwaryas
 bbiologicaly
 benchmarked
 Bioconductor’s
-Bioinformatics
+bioinformatics
 biomarkers
 Biomart
 bioRxiv
@@ -60,7 +60,7 @@ CpG
 Craniofacial
 CTCF
 Culhane
-CyTOF
+CyToF
 Cytokit
 decompositions
 deconvolute
@@ -79,7 +79,7 @@ ejfertig
 Elana
 EMBL
 emryonic
-Enet
+ENet
 entropic
 epigentic
 examplary
@@ -90,7 +90,7 @@ Farber
 Fertig
 Finetti
 Freytag
-Gastrulation
+gastrulation
 gc
 gcj
 gcxh
@@ -190,7 +190,7 @@ qvd
 rargelaguet
 Reasonning
 remodelling
-Reproducibility
+reproducibility
 reproducibly
 requierments
 resampling
@@ -219,7 +219,7 @@ specifc
 spholmes
 SPWSS
 ssEnet
-Statis
+STATIS
 subcellular
 Subramanian
 substract
@@ -236,7 +236,7 @@ Tian
 Tibshirani
 tk
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 Translational
 transtitions
