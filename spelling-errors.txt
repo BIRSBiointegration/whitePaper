@@ -1,6 +1,6 @@
 Abadi
 activatory
-aedin
+Aedin
 AedinCulhane
 ajabadi
 aljabadi
@@ -24,7 +24,7 @@ ayshwaryas
 bbiologicaly
 benchmarked
 Bioconductor’s
-bioinformatics
+Bioinformatics
 biomarkers
 Biomart
 bioRxiv
@@ -219,7 +219,7 @@ specifc
 spholmes
 SPWSS
 ssEnet
-STATIS
+Statis
 subcellular
 Subramanian
 substract
@@ -236,7 +236,7 @@ Tian
 Tibshirani
 tk
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 Translational
 transtitions
