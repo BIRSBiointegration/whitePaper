@@ -129,6 +129,18 @@ authors:
     affiliations:
       - Klarman Cell Observatory, Broad Institute
       - Kidney Disease Initiative, Broad Institute
+  - github: singha53
+    name: Amrit Singh
+    initials: AS
+    orcid: 0000-0002-7475-1646
+    twitter:  asingh_22g
+    email: amrit.singh@hli.ubc.ca
+    affiliations:
+      - Department of Pathology and Laboratory Medicine, University of British Columbia
+      - PROOF Centre of Excellence
+    funders:
+        - Michael Smith Foudation for Health Research
+        - Mitacs
   - github: janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)
     name: Jane Roe
     initials: JR
