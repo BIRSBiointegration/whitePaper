@@ -1,13 +1,11 @@
 Abadi
 activatory
-aedin
+Aedin
 AedinCulhane
 ajabadi
 aljabadi
 AMI
 Amongst
-Amrit
-Amrith
 Anh
 ANOVA
 appia
@@ -57,9 +55,10 @@ covariates
 covariation
 covarying
 CpG
+cpm
 Craniofacial
 Culhane
-CyTOF
+CyToF
 Cytokit
 decompositions
 deconvolute
@@ -73,6 +72,7 @@ DNase
 dqn
 EBI
 eg
+eigen
 eigenvector
 ejfertig
 Elana
@@ -100,8 +100,8 @@ geospatial
 gf
 gghpmf
 GIS
-glmnet
 GNT
+gower
 GpC
 greenescientist
 Guo
@@ -148,8 +148,10 @@ mikelove
 minium
 mixOmics
 mixOmicsTeam
+mockup
 modelling
 mRNA
+multinomial
 multiplatform
 multipliable
 multistream
@@ -163,6 +165,7 @@ NMT
 NN
 nnbm
 Normalisation
+normalizations
 novo
 Ontologies
 overfitting
@@ -172,7 +175,8 @@ Patheepa
 PCA
 PCAs
 phenotypical
-PLS
+pls
+png
 practitionners
 Pratheepa
 pre
@@ -187,7 +191,7 @@ qvd
 RArgelaguet
 Reasonning
 remodelling
-Reproducibility
+reproducibility
 reproducibly
 requierments
 resampling
@@ -217,7 +221,7 @@ specifc
 spholmes
 sPLS
 SPWSS
-ssEnet
+ssenet
 Statis
 subcellular
 subpopulations
@@ -235,7 +239,7 @@ Tian
 Tibshirani
 tk
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 Translational
 transtitions
