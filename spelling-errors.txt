@@ -1,7 +1,7 @@
 Abadi
 accessiblity
 activatory
-aedin
+Aedin
 AedinCulhane
 ajabadi
 aljabadi
@@ -22,8 +22,7 @@ availabe
 Ayshwarya
 ayshwaryas
 benchmarked
-Bioconductor’s
-bioinformatics
+Bioinformatics
 biologicaly
 bioloigcal
 biomarkers
@@ -94,7 +93,7 @@ Fertig
 Finetti
 Foudation
 Freytag
-gastrulation
+Gastrulation
 gc
 gcj
 gcxh
@@ -112,7 +111,6 @@ GpC
 greenescientist
 Guo
 hackaton
-hackthons
 HDBSCAN
 HiC
 histone
@@ -160,9 +158,7 @@ mockup
 modelling
 mRNA
 multinomial
-multiplatform
 multipliable
-multistream
 napari
 neighbour
 neighbourhood
@@ -196,7 +192,7 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
 remodelling
 Reproducibility
@@ -230,7 +226,7 @@ specifc
 spholmes
 sPLS
 SPWSS
-ssenet
+ssEnet
 STATIS
 subcellular
 subpopulations
@@ -248,13 +244,12 @@ Tian
 Tibshirani
 tk
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 Translational
 transtitions
 tSNE
 tumour
-tunable
 UMI
 unbiasedly
 unblinding
