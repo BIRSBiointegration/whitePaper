@@ -1,7 +1,7 @@
 Abadi
 accessiblity
 activatory
-Aedin
+aedin
 AedinCulhane
 ajabadi
 aljabadi
@@ -63,7 +63,7 @@ cpm
 Craniofacial
 crticial
 Culhane
-CyTOF
+CyToF
 Cytokit
 decompositions
 deconvolute
@@ -94,7 +94,7 @@ Fertig
 Finetti
 Foudation
 Freytag
-Gastrulation
+gastrulation
 gc
 gcj
 gcxh
@@ -196,7 +196,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 Reasonning
 remodelling
 Reproducibility
@@ -231,7 +231,7 @@ spholmes
 sPLS
 SPWSS
 ssenet
-Statis
+STATIS
 subcellular
 subpopulations
 Subramanian
@@ -248,7 +248,7 @@ Tian
 Tibshirani
 tk
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 Translational
 transtitions
