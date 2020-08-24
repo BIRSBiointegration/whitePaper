@@ -1,6 +1,6 @@
 Abadi
 activatory
-Aedin
+aedin
 AedinCulhane
 ajabadi
 aljabadi
@@ -24,7 +24,7 @@ ayshwaryas
 bbiologicaly
 benchmarked
 Bioconductor’s
-bioinformatics
+Bioinformatics
 biomarkers
 Biomart
 bioRxiv
@@ -82,7 +82,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-enet
+Enet
 entropic
 epigentic
 examplary
@@ -93,7 +93,7 @@ Fertig
 Finetti
 Foudation
 Freytag
-gastrulation
+Gastrulation
 gc
 gcj
 gcxh
@@ -195,7 +195,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 Reasonning
 remodelling
 Reproducibility
@@ -229,8 +229,9 @@ specifc
 spholmes
 sPLS
 SPWSS
-ssenet
-Statis
+ssEnet
+STATIS
+statsistics
 subcellular
 subpopulations
 Subramanian
