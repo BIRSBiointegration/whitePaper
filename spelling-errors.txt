@@ -62,7 +62,7 @@ cpm
 Craniofacial
 crticial
 Culhane
-CyToF
+CyTOF
 Cytokit
 decompositions
 deconvolute
@@ -195,7 +195,7 @@ qvd
 RArgelaguet
 Reasonning
 remodelling
-Reproducibility
+reproducibility
 reproducibly
 requierments
 resampling
@@ -226,7 +226,7 @@ specifc
 spholmes
 sPLS
 SPWSS
-ssEnet
+ssenet
 STATIS
 subcellular
 subpopulations
@@ -244,7 +244,7 @@ Tian
 Tibshirani
 tk
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 Translational
 transtitions
