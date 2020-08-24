@@ -1,6 +1,7 @@
 Abadi
+accessiblity
 activatory
-aedin
+Aedin
 AedinCulhane
 ajabadi
 aljabadi
@@ -93,7 +94,7 @@ Fertig
 Finetti
 Foudation
 Freytag
-gastrulation
+Gastrulation
 gc
 gcj
 gcxh
@@ -111,6 +112,7 @@ GpC
 greenescientist
 Guo
 hackaton
+hackthons
 HDBSCAN
 HiC
 histone
@@ -194,7 +196,7 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
 remodelling
 Reproducibility
@@ -229,7 +231,7 @@ spholmes
 sPLS
 SPWSS
 ssenet
-STATIS
+Statis
 subcellular
 subpopulations
 Subramanian
@@ -246,7 +248,7 @@ Tian
 Tibshirani
 tk
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 Translational
 transtitions
@@ -264,6 +266,7 @@ vjcitn
 Voronoi
 Wancen
 Welch
+widescale
 wrr
 Xu
 XXXX
