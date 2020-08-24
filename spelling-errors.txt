@@ -24,6 +24,7 @@ benchmarked
 Bioconductor’s
 bioinformatics
 biologicaly
+bioloigcal
 biomarkers
 Biomart
 bioRxiv
@@ -170,6 +171,7 @@ NN
 nnbm
 Normalisation
 normalizations
+notabe
 novo
 Ontologies
 overfitting
@@ -192,7 +194,7 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
 remodelling
 Reproducibility
@@ -226,8 +228,8 @@ specifc
 spholmes
 sPLS
 SPWSS
-ssenet
-STATIS
+ssEnet
+Statis
 subcellular
 subpopulations
 Subramanian
@@ -244,7 +246,7 @@ Tian
 Tibshirani
 tk
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 Translational
 transtitions

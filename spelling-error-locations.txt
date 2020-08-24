@@ -350,7 +350,9 @@ content/40.common-challenges.md:163:DNase
 content/40.common-challenges.md:163:Meuleman
 content/40.common-challenges.md:163:novo
 content/45.interp-challenges.md:3:biologicaly
+content/45.interp-challenges.md:3:bioloigcal
 content/45.interp-challenges.md:3:dimensionality
+content/45.interp-challenges.md:3:notabe
 content/45.interp-challenges.md:4:benchmarked
 content/45.interp-challenges.md:11:covariates
 content/45.interp-challenges.md:21:transtitions
