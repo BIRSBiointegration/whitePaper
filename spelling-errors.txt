@@ -1,7 +1,7 @@
 Abadi
 accessiblity
 activatory
-Aedin
+aedin
 AedinCulhane
 ajabadi
 aljabadi
@@ -179,11 +179,11 @@ Patheepa
 PCA
 PCAs
 phenotypical
-PLS
+pls
 png
 practitionners
 Pratheepa
-pre
+Pre
 preprocessing
 priori
 programme
@@ -192,10 +192,10 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 Reasonning
 remodelling
-reproducibility
+Reproducibility
 reproducibly
 requierments
 resampling
@@ -226,8 +226,8 @@ specifc
 spholmes
 sPLS
 SPWSS
-ssenet
-STATIS
+ssEnet
+Statis
 subcellular
 subpopulations
 Subramanian
