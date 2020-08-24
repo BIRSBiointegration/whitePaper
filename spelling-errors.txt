@@ -1,6 +1,6 @@
 Abadi
 activatory
-Aedin
+aedin
 AedinCulhane
 ajabadi
 aljabadi
@@ -62,7 +62,7 @@ cpm
 Craniofacial
 crticial
 Culhane
-CyToF
+CyTOF
 Cytokit
 decompositions
 deconvolute
@@ -93,7 +93,7 @@ Fertig
 Finetti
 Foudation
 Freytag
-Gastrulation
+gastrulation
 gc
 gcj
 gcxh
@@ -181,7 +181,7 @@ Patheepa
 PCA
 PCAs
 phenotypical
-pls
+PLS
 png
 practitionners
 Pratheepa
@@ -194,7 +194,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 Reasonning
 remodelling
 Reproducibility
@@ -229,7 +229,7 @@ spholmes
 sPLS
 SPWSS
 ssenet
-Statis
+STATIS
 subcellular
 subpopulations
 Subramanian
