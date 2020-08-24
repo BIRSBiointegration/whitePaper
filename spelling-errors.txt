@@ -1,6 +1,6 @@
 Abadi
 activatory
-aedin
+Aedin
 AedinCulhane
 ajabadi
 aljabadi
@@ -62,7 +62,7 @@ cpm
 Craniofacial
 crticial
 Culhane
-CyTOF
+CyToF
 Cytokit
 decompositions
 deconvolute
@@ -82,7 +82,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-enet
+ENet
 entropic
 epigentic
 examplary
@@ -198,7 +198,7 @@ qvd
 rargelaguet
 Reasonning
 remodelling
-Reproducibility
+reproducibility
 reproducibly
 requierments
 resampling
@@ -231,7 +231,6 @@ sPLS
 SPWSS
 ssenet
 STATIS
-statsistics
 subcellular
 subpopulations
 Subramanian
