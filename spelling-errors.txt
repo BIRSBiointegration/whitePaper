@@ -6,6 +6,7 @@ ajabadi
 aljabadi
 AMI
 Amongst
+Amrit
 Anh
 ANOVA
 appia
@@ -14,6 +15,7 @@ Argelaguet
 arguemnt
 Arora
 arround
+asingh
 autocorrelation
 autoencoder
 availabe
@@ -35,6 +37,7 @@ Blish
 Boxplot
 Cao
 CellProfiler
+Centre
 centric
 centroid
 centroids
@@ -58,7 +61,7 @@ CpG
 cpm
 Craniofacial
 Culhane
-CyToF
+CyTOF
 Cytokit
 decompositions
 deconvolute
@@ -78,7 +81,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-Enet
+enet
 entropic
 epigentic
 examplary
@@ -87,8 +90,9 @@ Facetto
 Farber
 Fertig
 Finetti
+Foudation
 Freytag
-gastrulation
+Gastrulation
 gc
 gcj
 gcxh
@@ -146,6 +150,7 @@ Meuleman
 microenvironment
 mikelove
 minium
+Mitacs
 mixOmics
 mixOmicsTeam
 mockup
@@ -191,7 +196,7 @@ qvd
 RArgelaguet
 Reasonning
 remodelling
-reproducibility
+Reproducibility
 reproducibly
 requierments
 resampling
@@ -211,6 +216,7 @@ scTargeted
 sGCCA
 SherlockpHolmes
 silico
+singha
 SingleCellExperiment
 situ
 smoothened
@@ -222,7 +228,7 @@ spholmes
 sPLS
 SPWSS
 ssenet
-Statis
+STATIS
 subcellular
 subpopulations
 Subramanian
@@ -239,7 +245,7 @@ Tian
 Tibshirani
 tk
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 Translational
 transtitions
