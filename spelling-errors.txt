@@ -12,7 +12,6 @@ ANOVA
 appia
 Arcsinh
 Argelaguet
-arguemnt
 Arora
 arround
 asingh
@@ -21,10 +20,10 @@ autoencoder
 availabe
 Ayshwarya
 ayshwaryas
-bbiologicaly
 benchmarked
 Bioconductor’s
 bioinformatics
+biologicaly
 biomarkers
 Biomart
 bioRxiv
@@ -62,7 +61,7 @@ cpm
 Craniofacial
 crticial
 Culhane
-CyToF
+CyTOF
 Cytokit
 decompositions
 deconvolute
@@ -82,7 +81,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-ENet
+enet
 entropic
 epigentic
 examplary
@@ -93,7 +92,7 @@ Fertig
 Finetti
 Foudation
 Freytag
-Gastrulation
+gastrulation
 gc
 gcj
 gcxh
@@ -121,7 +120,6 @@ IHC
 IHEC
 ImJoy
 Initative
-integrations
 intergation
 interpretability
 interpretabiliy
@@ -162,7 +160,6 @@ multinomial
 multiplatform
 multipliable
 multistream
-namings
 napari
 neighbour
 neighbourhood
@@ -182,7 +179,7 @@ Patheepa
 PCA
 PCAs
 phenotypical
-pls
+PLS
 png
 practitionners
 Pratheepa
@@ -198,7 +195,7 @@ qvd
 rargelaguet
 Reasonning
 remodelling
-reproducibility
+Reproducibility
 reproducibly
 requierments
 resampling
@@ -247,7 +244,7 @@ Tian
 Tibshirani
 tk
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 Translational
 transtitions
