@@ -24,7 +24,7 @@ ayshwaryas
 bbiologicaly
 benchmarked
 Bioconductor’s
-Bioinformatics
+bioinformatics
 biomarkers
 Biomart
 bioRxiv
@@ -82,7 +82,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-Enet
+enet
 entropic
 epigentic
 examplary
@@ -182,11 +182,11 @@ Patheepa
 PCA
 PCAs
 phenotypical
-PLS
+pls
 png
 practitionners
 Pratheepa
-Pre
+pre
 preprocessing
 priori
 programme
@@ -229,7 +229,7 @@ specifc
 spholmes
 sPLS
 SPWSS
-ssEnet
+ssenet
 STATIS
 statsistics
 subcellular
@@ -248,7 +248,7 @@ Tian
 Tibshirani
 tk
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 Translational
 transtitions
