@@ -113,9 +113,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/90e4b15c583b67fe2102e45ad42a56ce6ef982e7/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/90e4b15c583b67fe2102e45ad42a56ce6ef982e7/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/90e4b15c583b67fe2102e45ad42a56ce6ef982e7/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/a7ffc2189c9987eb13a668077abcab0c6b70312c/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/a7ffc2189c9987eb13a668077abcab0c6b70312c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/a7ffc2189c9987eb13a668077abcab0c6b70312c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -129,9 +129,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/90e4b15c583b67fe2102e45ad42a56ce6ef982e7/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/a7ffc2189c9987eb13a668077abcab0c6b70312c/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/90e4b15c583b67fe2102e45ad42a56ce6ef982e7">BIRSBiointegration/whitePaper@90e4b15</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/a7ffc2189c9987eb13a668077abcab0c6b70312c">BIRSBiointegration/whitePaper@a7ffc21</a>
 on August 25, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -1197,33 +1197,26 @@ be feasible, respecting needs for stability, reliability, and continuity of acce
 <li>How can we implement robust visualization methods for multimodal single cell analysis and ensure their accessiblity to researchers with visual impairments?</li>
 </ul>
 <h3 id="data-management-strategies">Data management strategies</h3>
-<p><strong>A ready-to-use integrative data class with <code>multiAssayExperiment</code>.</strong>
-The Bioconductor S4 class implementing an abstract data type called <code>multiAssayExperiment</code> is highly relevant
-for multimodal single-cell experiments as each mode is characterized by a different collection of features on possibly non-overlapping collections
-of samples <span class="citation" data-cites="gdnUpsQo">[<a href="#ref-gdnUpsQo" role="doc-biblioref">60</a>]</span>.</p>
-<p>The Metadata on features is bound directly into the class instance. For example,
-genes and transcripts can be enumerated using Ensembl <span class="citation" data-cites="oDiClyTE">[<a href="#ref-oDiClyTE" role="doc-biblioref">61</a>]</span> catalog identifiers, represented as
-<code>GRanges</code> instances <span class="citation" data-cites="14d6Jzwus">[<a href="#ref-14d6Jzwus" role="doc-biblioref">62</a>]</span>; regions of accessibility
-from, e.g., ATAC-seq experiments, may be defined using genomic coordinates in a clearly specified reference build. Metadata on
-samples includes all relevant information on experimental conditions such as treatment,
-protocol, and date of technical processing. Figure <a href="#fig:spatialExpt">7</a> shows how this
-class was used to amalgamate and annotate results of a multimodal dataset consisting of seqFISH and scRNA-seq experimental data.
+<p>As we have discussed, a multimodal single-cell experiments as each mode is characterized by a different collection of features on possibly non-overlapping collections of samples from similar biological conditions. Common data structures to store and operate on these data collections can support data dissemination with robust metadata and implementation of the common analysis frameworks for multi-omics data interpretation that can be employed across diverse measurement technologies. As an example, Bioconductor has built a ready-to-use integrative data class <code>multiAssayExperiment</code> on the S4 object oriented structure in R <span class="citation" data-cites="gdnUpsQo">[<a href="#ref-gdnUpsQo" role="doc-biblioref">60</a>]</span>. The <code>multiAssayExperiment</code> class includes the following features to support multi-platform genomics data analysis
+1) Storage for variables or features from multiple data modalities (e.g. gene expression units from scRNA-seq and protein units in sc-proteomics), either from the same cells or distinct cells from the same or distinct starting samples or biological specimen of origin. In some cases, the feature may be multidimensional (e.g. spatial coordinates, locations of eQTLs).<br />
+2) Metadata for sample of origin for the individual cells, e.g. study, center, phenotype, perturbation, in all the variables or features stored.
+3) A map between the datasets from the different assays to enable analysis.</p>
+<p>The <code>multiAssayExperiment</code> class is designed so that the variables or features stored for each assay in <code>multiAssayExperiment</code> each independently use Bioconductor data structures for the stored data modality and bind metadata annotating the molecular features for each assay into this class instance. For example,
+genes and transcripts can be enumerated using gene labels from Ensembl <span class="citation" data-cites="oDiClyTE">[<a href="#ref-oDiClyTE" role="doc-biblioref">61</a>]</span> as catalog identifiers, represented as
+genomic regions through <code>GRanges</code> instances <span class="citation" data-cites="14d6Jzwus">[<a href="#ref-14d6Jzwus" role="doc-biblioref">62</a>]</span>, etc. Figure <a href="#fig:spatialExpt">7</a> shows how this
+class was used to amalgamate and annotate the multimodal dataset consisting of seqFISH and scRNA-seq experimental data employed for this first hackathon.
 To combine these two different experiments, the seqFISH data were stored into the SpatialExperiment S4 class object, while the scRNA-seq data were stored into a SingleCellExperiment Bioconductor class object <span class="citation" data-cites="R7sfk7Aq">[<a href="#ref-R7sfk7Aq" role="doc-biblioref">63</a>]</span>.
-Then, these objects were easily stored into a MultiAssayExperiment class object and released with the SingleCellMultiModal Bioconductor package <span class="citation" data-cites="doi:10.18129/B9.bioc.SingleCellMultiModal">[<span class="citeproc-not-found" data-reference-id="doi:10.18129/B9.bioc.SingleCellMultiModal"><strong>???</strong></span>]</span>.</p>
+Then, these objects were easily stored into a MultiAssayExperiment class object and released with the SingleCellMultiModal Bioconductor package <span class="citation" data-cites="doi:10.18129/B9.bioc.SingleCellMultiModal">[<span class="citeproc-not-found" data-reference-id="doi:10.18129/B9.bioc.SingleCellMultiModal"><strong>???</strong></span>]</span>. &lt;!–Is this an unique storage feature of Bioconductor or is there something comparable in python or other bioinformatics ecosystems that we should discuss as well to be comprehensive?–!&gt;</p>
 <div id="fig:spatialExpt" class="fignos">
 <figure>
 <img src="images/MSA_SpE.png" style="width:50.0%" alt="" /><figcaption><span>Figure 7:</span> Panel A: Combination of seqFISH-based SpatialExperiment
 and SingleCellExperiment instances into a MultiAssayExperiment. Panel B: details of the SpatialExperiment class design.</figcaption>
 </figure>
 </div>
-<p>The <code>multiAssayExperiment</code> class includes
-1) Assay slots containing variables or features from multiple modalities (e.g. gene expression units from scRNA-seq and protein units in sc-proteomics), either from the same cells or distinct cells from the same or distinct starting samples or biological specimen of origin. In some cases, the feature may be multidimensional (e.g. spatial coordinates, locations of eQTLs).
-2) Metadata for sample of origin for the individual cells, e.g. study, center, phenotype, perturbation.
-3) A map between the different assays to enable analysis.</p>
-<p>Some of our contributors (Al Abadi, Patheepa Jeganathan) used the <code>multiAssayExperiment</code> class to integrate the multi-modal single cell data (scNMT-seq, sc Proteomics, <strong>pointers to vignettes</strong>), allowing for easier preprocessing, transformation, extraction of spatial information from raster objects, addition of cell information and visualization <strong>Al, details please if needed</strong>.</p>
+<p>Some of the hackathon contributors (Al Abadi, Patheepa Jeganathan) used the <code>multiAssayExperiment</code> class to integrate the multi-modal single cell data (scNMT-seq, sc Proteomics, <strong>pointers to vignettes</strong>), allowing for easier preprocessing, transformation, extraction of spatial information from raster objects, addition of cell information and visualization <strong>Al, details please if needed</strong>.</p>
 <!--In our hackathon context, we considered multi-assay measurements from the same cell (e.g. scNMT-seq) or integration of multi-assay measurements from  (seqFish, scProteomics).
 -->
-<p>While RNA-seq has well-defined units and IDs (e.g., transcript names), other assays may be summarized at different genomic scales, e.g., gene promoters, exons, introns, or gene bodies. The <code>GenomicRanges</code> package <span class="citation" data-cites="1FbF6M2UI">[<a href="#ref-1FbF6M2UI" role="doc-biblioref">64</a>]</span> may be used to compute summaries at different scales and overlap between signal (e.g., ATAC-seq peaks) and genomic annotation. Further, the observations of different modalities may not be directly comparable: for instance, gene expression may be measured from individual cells in single-cell RNA-seq but spatial transcriptomics may have a finer (sub-cellular) or coarser (multi-cellular) resolution. Methods such as SPOTlight <span class="citation" data-cites="wrQUNea">[<a href="#ref-wrQUNea" role="doc-biblioref">65</a>]</span> may be used to deconvolute multi-cellular spots signal. Finally, in the absence of universal standards, the metadata available may vary from analysis to analysis. A potential solution is to define the minimum set of metadata variables necessary for each assay, and for pairs of assays to be comparable for common analyses.</p>
+<p>These hackathons highlighted the further challenges of summarizing assay-specific genomic features for multi-platform data integration. While RNA-seq has well-defined units and IDs (e.g., transcript names), other assays may be summarized at different genomic scales, e.g., gene promoters, exons, introns, or gene bodies. The <code>GenomicRanges</code> package <span class="citation" data-cites="1FbF6M2UI">[<a href="#ref-1FbF6M2UI" role="doc-biblioref">64</a>]</span> may be used to compute summaries at different scales and overlap between signal (e.g., ATAC-seq peaks) and genomic annotation. Further, the observations of different modalities may not be directly comparable: for instance, gene expression may be measured from individual cells in single-cell RNA-seq but spatial transcriptomics may have a finer (sub-cellular) or coarser (multi-cellular) resolution. Methods such as SPOTlight <span class="citation" data-cites="wrQUNea">[<a href="#ref-wrQUNea" role="doc-biblioref">65</a>]</span> may be used to deconvolute multi-cellular spots signal. Finally, in the absence of universal standards, the metadata available may vary from analysis to analysis. A potential solution is to define the minimum set of metadata variables necessary for each assay, and for pairs of assays to be comparable for common analyses. &lt;!–Is this problem solved through the multiAssayExperiment and/or broader Bioconductor ecosystem? If so how and if not what are areas of future work needed as a field.–!&gt;</p>
 <h3 id="scalability-strategies">Scalability strategies</h3>
 <p>In addition to standardize data infrastructures that allows for scalability of <em>storing</em> and <em>access</em> of large datasets <span class="citation" data-cites="KhbsUBNe mOp2pMsC">[<a href="#ref-KhbsUBNe" role="doc-biblioref">66</a>,<a href="#ref-mOp2pMsC" role="doc-biblioref">67</a>]</span>, new strategies are emerging that allow for scalable <em>algorithms</em> that allow for data to be stored in memory or on disk such as unsupervised clustering of cell types in either R <span class="citation" data-cites="g9O7LIML 19jAJjD6o">[<a href="#ref-g9O7LIML" role="doc-biblioref">68</a>,<a href="#ref-19jAJjD6o" role="doc-biblioref">69</a>]</span> or Python <span class="citation" data-cites="qIZTS1II">[<a href="#ref-qIZTS1II" role="doc-biblioref">70</a>]</span>. While these strategies were originally developed in application of single-cell RNA-sequencing analyses, these scalable algorithms are applicable to multimodal single-cell experiments.</p>
 <h3 id="data-access-for-the-hackathons-and-long-term-software-strategy-for-multimodal-single-cell-experiments">Data access for the hackathons and long term software strategy for multimodal single-cell experiments</h3>
