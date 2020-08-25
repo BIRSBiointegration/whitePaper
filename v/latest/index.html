@@ -113,9 +113,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/c6da877b3214814af4a68e379f2ca7627f51f73c/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/c6da877b3214814af4a68e379f2ca7627f51f73c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/c6da877b3214814af4a68e379f2ca7627f51f73c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/a5b7c6ed529292494612035fa74bbc633f43e5b9/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/a5b7c6ed529292494612035fa74bbc633f43e5b9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/a5b7c6ed529292494612035fa74bbc633f43e5b9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -129,9 +129,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/c6da877b3214814af4a68e379f2ca7627f51f73c/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/a5b7c6ed529292494612035fa74bbc633f43e5b9/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/c6da877b3214814af4a68e379f2ca7627f51f73c">BIRSBiointegration/whitePaper@c6da877</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/a5b7c6ed529292494612035fa74bbc633f43e5b9">BIRSBiointegration/whitePaper@a5b7c6e</a>
 on August 25, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -1381,7 +1381,8 @@ Perhaps one tool to address broader accessibility could be
 </tbody>
 </table>
 <h2 id="discussion">Discussion</h2>
-<p>The analyses and reference datasets from the Mathematical Frameworks for Integrative Analysis of Emerging Biological Data Workshop demonstrated the power of hackathons to have the potential both to inform and develop new analysis methods to capture the complex, multi-scale nature of biological datasets from high-throughput data modalities. Notably, the hackathon studies of the workshop were designed specifically to span state-of-the-art multi-omics challenges to map the epigenetic, molecular, and cellular interaction across both time and sample populations. While on the one hand coupling single cell measurements can inherently simplfy the challenge of linking disparate biological scales, layering new sets of molecular measurements intrinsically increases complexity of the corresponding analyses to interpret these data. The computational needs hinge on the underlying biological question being asked as well as the data themselves. For example, different considerations must be made for cross-modal integration higlighted in the seqFISH and scNMT-seq challenges than modeling with unmatched measurements in the scProteomics challenge. Regardless, through these hackathons we identified several common analysis themes spanning algorithmic advances, interpretation, benchmarking, and software infrastructure necessary for biological interpretation. Notably, all cases require methods for dealing with data quality, data loss by summarization, timing variances both between and within omics layers, and batch effects will be necessary challenges to overcome. Conversely, the ability to infer regulatory relationships between different omics and expand to dynamic models across time and space present new analysis opportunities.</p>
+<p>The analyses and reference datasets from the Mathematical Frameworks for Integrative Analysis of Emerging Biological Data Workshop demonstrated the power of hackathons to have the potential both to inform and develop new analysis methods to capture the complex, multi-scale nature of biological datasets from high-throughput data modalities. Notably, the hackathon studies of the workshop were designed specifically to span state-of-the-art multi-omics challenges to map the epigenetic, molecular, and cellular interaction across both time and sample populations. While on the one hand coupling single cell measurements can inherently simplfy the challenge of linking disparate biological scales, layering new sets of molecular measurements intrinsically increases complexity of the corresponding analyses to interpret these data. The computational needs hinge on the underlying biological question being asked as well as the data themselves. For example, different considerations must be made for cross-modal integration higlighted in the seqFISH and scNMT-seq challenges than modeling with unmatched measurements in the scProteomics challenge. Regardless, through these hackathons we identified several common analysis themes spanning algorithmic advances, interpretation, benchmarking, and software infrastructure necessary for biological interpretation. Notably, all cases require methods for dealing with data quality, data loss by summarization, timing variances both between and within omics layers, and batch effects will be necessary challenges to overcome. Conversely, the ability to infer regulatory relationships between different omics and interpret these relationship with data visualization strategies present new research opportunities.</p>
+<p>Technologies to profile biological systems at a single cell resolution and across molecular scales are advancing at an unprecidented pace. Analytically, these advances require the computational analysis commuity to pursue research that can first enable robust, data set specific analyses that are tailored to a specific biology or measurement technology and secondly scale and adapt to these rapid advances. For example, the hackathons highlighted current technologies for spatial molecular profiling, which currently require profiling samples with multiple technologies to balance high resolution spatial and molecular profiling across data modalities. While the data are not spatially resolve, the scNMT-seq challenge highlights the potential of further inference of gene regulation through concurrent profiling of RNA, methylation, and chromatin state. While posed as disparate analysis challenges, integration of matched datasets between these spatial and epigenetic profiling techniques could further resolve the dependence of cell-type and cellular-interactions on regulatory networks. Likewise, the workshop keynote by Bernd Bodenmiller higlighted new extensions to these technologies that further enable three dimensional spatial molecular profiling <span class="citation" data-cites="11JyGlUPl">[<a href="#ref-11JyGlUPl" role="doc-biblioref">78</a>]</span> and still other technologies are exanding to allow for temporally resolved profiling <span class="citation" data-cites="12q1TKAaX">[<a href="#ref-12q1TKAaX" role="doc-biblioref">79</a>]</span>. Integration strategies that are aware of these future directions and the mathematical analysis challenges that span technologies will be most adept to advance biological interpretation from these emerging datasets. Implementing these analysis tools requires further robust software ecosystems, including as examples Bioconductor <span class="citation" data-cites="z8JnDHpr">[<a href="#ref-z8JnDHpr" role="doc-biblioref">80</a>]</span>, Biopython, Scanpy <span class="citation" data-cites="qIZTS1II">[<a href="#ref-qIZTS1II" role="doc-biblioref">73</a>]</span>, Seurat <span class="citation" data-cites="lNBJZodk">[<a href="#ref-lNBJZodk" role="doc-biblioref">81</a>]</span>, and Giotto <span class="citation" data-cites="1HWhMi97j">[<a href="#ref-1HWhMi97j" role="doc-biblioref">82</a>]</span>, in which users create these analysis approaches and anticipate stable yet adaptive data structures that are robust for these emerging technologies.</p>
 <h3 id="emerging-analytical-methods-and-technologies">Emerging analytical methods and technologies</h3>
 <h3 id="community-needs-for-data-structures-analysis-methods-etc">Community needs for data structures, analysis methods, etc</h3>
 <h2 id="glossary">Glossary</h2>
@@ -1431,25 +1432,25 @@ Perhaps one tool to address broader accessibility could be
 <td>contributions</td>
 <td>variable weights, loadings, eigenvector, axis, direction, dimension, coefficients, slopes</td>
 <td>Contributions of the original variables in constructing the components.</td>
-<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">17</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">78</a></span></td>
+<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">17</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">83</a></span></td>
 </tr>
 <tr class="even">
 <td>latent factors</td>
 <td>variates, scores, projections, components, latent/hidden/unobserved variables/factors</td>
 <td>Weighted linear combinations of the original variables.</td>
-<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">17</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">78</a></span></td>
+<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">17</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">83</a></span></td>
 </tr>
 <tr class="odd">
 <td>multimodal</td>
 <td>Multiview, multiway arrays, multimodal, multidomain, multiblock, multitable, multi-omics, multi-source data analysis methods, N-integration</td>
 <td>Methods pertaining to the analysis of multiple data matrices for the same set of observations.</td>
-<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">17</a></span>, <span class="citation" data-cites="nhuT45y5"><a href="#ref-nhuT45y5" role="doc-biblioref">30</a></span>, <span class="citation" data-cites="2SDWXiwB"><a href="#ref-2SDWXiwB" role="doc-biblioref">79</a></span></td>
+<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">17</a></span>, <span class="citation" data-cites="nhuT45y5"><a href="#ref-nhuT45y5" role="doc-biblioref">30</a></span>, <span class="citation" data-cites="2SDWXiwB"><a href="#ref-2SDWXiwB" role="doc-biblioref">84</a></span></td>
 </tr>
 <tr class="even">
 <td>conjoint analysis</td>
 <td>conjoint analysis, P-integration, meta-analysis, multigroup data analysis</td>
 <td>Methods pertaining to the analysis of multiple data matrices for the same set of variables.</td>
-<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">17</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">78</a></span>, <span class="citation" data-cites="UqaGRGDg"><a href="#ref-UqaGRGDg" role="doc-biblioref">80</a></span></td>
+<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">17</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">83</a></span>, <span class="citation" data-cites="UqaGRGDg"><a href="#ref-UqaGRGDg" role="doc-biblioref">85</a></span></td>
 </tr>
 <tr class="odd">
 <td>variable</td>
@@ -1461,13 +1462,13 @@ Perhaps one tool to address broader accessibility could be
 <td>biomarker</td>
 <td>marker, biomarker</td>
 <td>A variable that is associated with normal or disease processes, or responses to exposures, or interventions. Any change in this variable is also associated with a change in the associated clinical outcome. These variables may be used for diagnostic, monitoring, Pharmacodynamic responses. Examples include LDL cholesterol, CD4 counts, hemoglobin A1C.</td>
-<td><span class="citation" data-cites="AtapBaNb"><a href="#ref-AtapBaNb" role="doc-biblioref">81</a></span></td>
+<td><span class="citation" data-cites="AtapBaNb"><a href="#ref-AtapBaNb" role="doc-biblioref">86</a></span></td>
 </tr>
 <tr class="odd">
 <td>panel</td>
 <td>biomarker panel, biomarker signature</td>
 <td>A subset of the originally measured variables that are determined to be associated with the outcome or response variable. This may be determined using statistical inference, feature selection methods, or machine/statistical learning.</td>
-<td><span class="citation" data-cites="17aD4MFPS"><a href="#ref-17aD4MFPS" role="doc-biblioref">82</a></span>, <span class="citation" data-cites="XWx8RAwW"><a href="#ref-XWx8RAwW" role="doc-biblioref">83</a></span></td>
+<td><span class="citation" data-cites="17aD4MFPS"><a href="#ref-17aD4MFPS" role="doc-biblioref">87</a></span>, <span class="citation" data-cites="XWx8RAwW"><a href="#ref-XWx8RAwW" role="doc-biblioref">88</a></span></td>
 </tr>
 <tr class="even">
 <td>observation</td>
@@ -1924,38 +1925,68 @@ DOI: <a href="https://doi.org/10.1038/nmeth0810-573">10.1038/nmeth0810-573</a> �
 Daniel Bunis<br />
 (2020-08-23) <a href="https://github.com/dtm2451/dittoSeq">https://github.com/dtm2451/dittoSeq</a></p>
 </div>
+<div id="ref-11JyGlUPl">
+<p>78. <strong>Highly multiplexed molecular and cellular mapping of breast cancer tissue in three dimensions using mass tomography</strong> <br />
+Raúl Catena, Alaz Özcan, Laura Kütt, Alex Plüss, Peter Schraml, Holger Moch, Bernd Bodenmiller, IMAXT Consortium<br />
+<em>Cold Spring Harbor Laboratory</em> (2020-05-25) <a href="https://doi.org/gg87jf">https://doi.org/gg87jf</a> <br />
+DOI: <a href="https://doi.org/10.1101/2020.05.24.113571">10.1101/2020.05.24.113571</a></p>
+</div>
+<div id="ref-12q1TKAaX">
+<p>79. <strong>ZipSeq: barcoding for real-time mapping of single cell transcriptomes</strong> <br />
+Kenneth H. Hu, John P. Eichorst, Chris S. McGinnis, David M. Patterson, Eric D. Chow, Kelly Kersten, Stephen C. Jameson, Zev J. Gartner, Arjun A. Rao, Matthew F. Krummel<br />
+<em>Nature Methods</em> (2020-07-06) <a href="https://doi.org/gg87jd">https://doi.org/gg87jd</a> <br />
+DOI: <a href="https://doi.org/10.1038/s41592-020-0880-2">10.1038/s41592-020-0880-2</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/32632238">32632238</a></p>
+</div>
+<div id="ref-z8JnDHpr">
+<p>80. <strong>Orchestrating single-cell analysis with Bioconductor</strong> <br />
+Robert A. Amezquita, Aaron T. L. Lun, Etienne Becht, Vince J. Carey, Lindsay N. Carpp, Ludwig Geistlinger, Federico Marini, Kevin Rue-Albrecht, Davide Risso, Charlotte Soneson, … Stephanie C. Hicks<br />
+<em>Nature Methods</em> (2019-12-02) <a href="https://doi.org/ggdxgx">https://doi.org/ggdxgx</a> <br />
+DOI: <a href="https://doi.org/10.1038/s41592-019-0654-x">10.1038/s41592-019-0654-x</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31792435">31792435</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7358058">PMC7358058</a></p>
+</div>
+<div id="ref-lNBJZodk">
+<p>81. <strong>Integrating single-cell transcriptomic data across different conditions, technologies, and species</strong> <br />
+Andrew Butler, Paul Hoffman, Peter Smibert, Efthymia Papalexi, Rahul Satija<br />
+<em>Nature Biotechnology</em> (2018-04-02) <a href="https://doi.org/gc87v6">https://doi.org/gc87v6</a> <br />
+DOI: <a href="https://doi.org/10.1038/nbt.4096">10.1038/nbt.4096</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29608179">29608179</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6700744">PMC6700744</a></p>
+</div>
+<div id="ref-1HWhMi97j">
+<p>82. <strong>Giotto, a toolbox for integrative analysis and visualization of spatial expression data</strong> <br />
+Ruben Dries, Qian Zhu, Rui Dong, Chee-Huat Linus Eng, Huipeng Li, Kan Liu, Yuntian Fu, Tianxiao Zhao, Arpan Sarkar, Feng Bao, … Guo-Cheng Yuan<br />
+<em>bioRxiv</em> (2020-05-30) <a href="https://doi.org/gg84qf">https://doi.org/gg84qf</a> <br />
+DOI: <a href="https://doi.org/10.1101/701680">10.1101/701680</a></p>
+</div>
 <div id="ref-18fTyQGoG">
-<p>78. <strong>Multivariate analysis of multiblock and multigroup data</strong> <br />
+<p>83. <strong>Multivariate analysis of multiblock and multigroup data</strong> <br />
 A. Eslami, E. M. Qannari, A. Kohler, S. Bougeard<br />
 <em>Chemometrics and Intelligent Laboratory Systems</em> (2014-04) <a href="https://doi.org/f52wrr">https://doi.org/f52wrr</a> <br />
 DOI: <a href="https://doi.org/10.1016/j.chemolab.2014.01.016">10.1016/j.chemolab.2014.01.016</a></p>
 </div>
 <div id="ref-2SDWXiwB">
-<p>79. <strong>Dimension reduction techniques for the integrative analysis of multi-omics data</strong> <br />
+<p>84. <strong>Dimension reduction techniques for the integrative analysis of multi-omics data</strong> <br />
 Chen Meng, Oana A. Zeleznik, Gerhard G. Thallinger, Bernhard Kuster, Amin M. Gholami, Aedín C. Culhane<br />
 <em>Briefings in Bioinformatics</em> (2016-07) <a href="https://doi.org/f83qvd">https://doi.org/f83qvd</a> <br />
 DOI: <a href="https://doi.org/10.1093/bib/bbv108">10.1093/bib/bbv108</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26969681">26969681</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4945831">PMC4945831</a></p>
 </div>
 <div id="ref-UqaGRGDg">
-<p>80. <strong>Robust meta-analysis of gene expression using the elastic net</strong> <br />
+<p>85. <strong>Robust meta-analysis of gene expression using the elastic net</strong> <br />
 Jacob J. Hughey, Atul J. Butte<br />
 <em>Nucleic Acids Research</em> (2015-07-13) <a href="https://doi.org/f7nnbm">https://doi.org/f7nnbm</a> <br />
 DOI: <a href="https://doi.org/10.1093/nar/gkv229">10.1093/nar/gkv229</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25829177">25829177</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4499117">PMC4499117</a></p>
 </div>
 <div id="ref-AtapBaNb">
-<p>81. <strong>Biomarker definitions and their applications</strong> <br />
+<p>86. <strong>Biomarker definitions and their applications</strong> <br />
 Robert M Califf<br />
 <em>Experimental Biology and Medicine</em> (2018-02-06) <a href="https://doi.org/gcxh8n">https://doi.org/gcxh8n</a> <br />
 DOI: <a href="https://doi.org/10.1177/1535370217750088">10.1177/1535370217750088</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29405771">29405771</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5813875">PMC5813875</a></p>
 </div>
 <div id="ref-17aD4MFPS">
-<p>82. <strong>Biomarker signatures of aging</strong> <br />
+<p>87. <strong>Biomarker signatures of aging</strong> <br />
 Paola Sebastiani, Bharat Thyagarajan, Fangui Sun, Nicole Schupf, Anne B. Newman, Monty Montano, Thomas T. Perls<br />
 <em>Aging Cell</em> (2017-04) <a href="https://doi.org/d2cm">https://doi.org/d2cm</a> <br />
 DOI: <a href="https://doi.org/10.1111/acel.12557">10.1111/acel.12557</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28058805">28058805</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5334528">PMC5334528</a></p>
 </div>
 <div id="ref-XWx8RAwW">
-<p>83. <strong>Biomarker Panels in Critical Care</strong> <br />
+<p>88. <strong>Biomarker Panels in Critical Care</strong> <br />
 Susan R. Conway, Hector R. Wong<br />
 <em>Critical Care Clinics</em> (2020-01) <a href="https://doi.org/d2cn">https://doi.org/d2cn</a> <br />
 DOI: <a href="https://doi.org/10.1016/j.ccc.2019.08.007">10.1016/j.ccc.2019.08.007</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31733684">31733684</a></p>
