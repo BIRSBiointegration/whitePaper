@@ -1,7 +1,7 @@
 Abadi
 accessiblity
 activatory
-Aedin
+aedin
 AedinCulhane
 ajabadi
 Akoya
@@ -24,7 +24,7 @@ ayshwaryas
 benchmarked
 Bernd
 Biocarta
-Bioinformatics
+bioinformatics
 biologicaly
 bioloigcal
 biomarkers
@@ -245,7 +245,7 @@ Tian
 Tibshirani
 tk
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 Translational
 transtitions
