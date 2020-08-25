@@ -22,11 +22,13 @@ availabe
 Ayshwarya
 ayshwaryas
 benchmarked
+Bernd
 Bioinformatics
 biologicaly
 bioloigcal
 biomarkers
 Biomart
+Biopython
 bioRxiv
 Biostatistics
 Biostatsitics
@@ -34,6 +36,7 @@ Biotechnol
 bisulfite
 Blei
 Blish
+Bodenmiller
 Boxplot
 Cao
 CellProfiler
@@ -48,6 +51,7 @@ Chessel
 chracteristics
 cmIF
 cn
+commuity
 complemenatary
 comptuational
 concordnat
@@ -87,6 +91,7 @@ enet
 entropic
 epigentic
 examplary
+exanding
 excitatory
 Facetto
 facilate
@@ -181,7 +186,7 @@ Patheepa
 PCA
 PCAs
 phenotypical
-pls
+PLS
 practitionners
 Pratheepa
 pre
@@ -193,7 +198,7 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
 remodelling
 reproducibility
@@ -245,7 +250,7 @@ Tian
 Tibshirani
 tk
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 Translational
 transtitions
@@ -255,6 +260,7 @@ UMI
 unbiasedly
 unblinding
 UNC
+unprecidented
 useability
 utilising
 variates
