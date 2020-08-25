@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/BIRSBiointegration/whitePaper/tree/gh-pages) branch hosts the contents of this directory at <https://BIRSBiointegration.github.io/whitePaper/>.
-The permalink for this webpage version is <https://BIRSBiointegration.github.io/whitePaper/v/a5b7c6ed529292494612035fa74bbc633f43e5b9/>.
+The permalink for this webpage version is <https://BIRSBiointegration.github.io/whitePaper/v/3e0521c5d39037cdd5bf8a64315fa4c3ac531741/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://BIRSBiointegration.github.io/whitePaper/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`a5b7c6ed529292494612035fa74bbc633f43e5b9`](https://github.com/BIRSBiointegration/whitePaper/commit/a5b7c6ed529292494612035fa74bbc633f43e5b9).
+[`3e0521c5d39037cdd5bf8a64315fa4c3ac531741`](https://github.com/BIRSBiointegration/whitePaper/commit/3e0521c5d39037cdd5bf8a64315fa4c3ac531741).
