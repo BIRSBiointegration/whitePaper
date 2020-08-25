@@ -95,7 +95,7 @@ Fertig
 Finetti
 Foudation
 Freytag
-Gastrulation
+gastrulation
 gc
 gcj
 gcxh
@@ -114,12 +114,12 @@ Guo
 hackaton
 HDBSCAN
 HiC
+higlighted
 histone
 Hsu
 hyperparameters
 identifiability
 IHC
-IHEC
 ImJoy
 Initative
 intergation
@@ -193,7 +193,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 Reasonning
 remodelling
 reproducibility
@@ -214,6 +214,7 @@ scTargeted
 sGCCA
 SherlockpHolmes
 silico
+simplfy
 singha
 SingleCellExperiment
 situ

@@ -452,8 +452,9 @@ content/60.software.md:81:facetto
 content/60.software.md:81:Facetto
 content/60.software.md:82:cellprofiler
 content/60.software.md:82:CellProfiler
-content/70.Future.md:5:IHEC
-content/70.Future.md:6:summarization
+content/70.Future.md:3:higlighted
+content/70.Future.md:3:simplfy
+content/70.Future.md:3:summarization
 content/80.glossary.md:8:gghpmf
 content/80.glossary.md:9:eigenvector
 content/80.glossary.md:10:variates
