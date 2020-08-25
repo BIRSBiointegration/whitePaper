@@ -113,9 +113,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/baff9e7e33d7a8567321173b3031e002bd46745a/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/baff9e7e33d7a8567321173b3031e002bd46745a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/baff9e7e33d7a8567321173b3031e002bd46745a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/91a79a635fe583e1263a1460568384d3c239ee56/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/91a79a635fe583e1263a1460568384d3c239ee56/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/91a79a635fe583e1263a1460568384d3c239ee56/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -129,9 +129,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/baff9e7e33d7a8567321173b3031e002bd46745a/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/91a79a635fe583e1263a1460568384d3c239ee56/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/baff9e7e33d7a8567321173b3031e002bd46745a">BIRSBiointegration/whitePaper@baff9e7</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/91a79a635fe583e1263a1460568384d3c239ee56">BIRSBiointegration/whitePaper@91a79a6</a>
 on August 25, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -525,7 +525,7 @@ Contrary to the latter challenges, the third challenge presented data at differe
 <p>New computational approaches are needed to effectively integrate scRNAseq and seqFISH data analyses. This first hackathon provided seqFISH and scRNAseq data corresponding to the mouse visual cortex (<span class="citation" data-cites="13v18bjoF">[<a href="#ref-13v18bjoF" role="doc-biblioref">3</a>]</span>, <span class="citation" data-cites="14LoEihpl">[<a href="#ref-14LoEihpl" role="doc-biblioref">2</a>]</span>) and our participants were challenged to accurately identify cell types. The scRNA-seq data included transcriptional profiles at a high molecular resolution whereas the seqFISH data provided spatial characterization at a lower molecular resolution. Two key computational challenges were identified to enable high-resolution spatial molecular resolution. Firstly, we explored a number of strategies to identify the most likely cell types in the seqFISH dataset based on information obtained from the scRNAseq dataset. Secondly, we sought the opposite direction to transfer spatial information obtained from the seqFISH dataset to that of the scRNAseq dataset. Cell type labels were derived from scRNA-seq analysis <span class="citation" data-cites="14LoEihpl">[<a href="#ref-14LoEihpl" role="doc-biblioref">2</a>]</span> and previous seqFISH/scRNA-seq integration <span class="citation" data-cites="13v18bjoF">[<a href="#ref-13v18bjoF" role="doc-biblioref">3</a>]</span> were also provided as reference. <strong>Could we have a more detailed description of the data chracteristics here please (number of cells, genes per data set, any filtering applied in the hackathon, is applicable</strong></p>
 <div id="fig:spatial" class="fignos">
 <figure>
-<img src="images/seqFish_mockup.png%20width%20=%2060%" alt="" /><figcaption><span>Figure 2:</span> <strong>Overview of seqFISH and scRNA-seq integration analysis</strong>.
+<img src="images/seqFish_mockup.png" alt="" /><figcaption><span>Figure 2:</span> <strong>Overview of seqFISH and scRNA-seq integration analysis</strong>.
 <strong>A</strong> Assessment of cell type prediction using different data normalizations and classifiers. Normalization strategies included none (raw), counts per million (cpm), ComBat batch correction applied to cpm (cpm_combat), scRNAseq and seqFISH scaled using the first eigenvalue (cpm_eigen), latent variables retained for both datasets after applying Partial Least Squares regression to cpm_eigen normalized data (cpm_pls). Classifiers approaches included a supervised multinomial classifier with elastic net penalty (enet), a semi-supervised multinomial classifier with elastic net penalty (ssenet) and Support Vector Machine (SVM, supervised). Each classifier was trained using the scRNAseq data and the known (provided) cell type labels, then predicted the cell type labels in the seqFISH data; for the SVM we used the predictions from the original study (Challenge 1). The Gower distance between each method-normalization pair was computed and depicted on a multidimensional scaling plot. The first dimension (x-axis) separates methods that normalize the scRNAseq and seqFISH data together (dashed) and separately (solid), showing that normalization had a stronger impact on cell type predictions than the classification method used.
 <strong>B</strong> SVM classification models with different C parameters were trained with different number of genes in scRNAseq data using Recursive Feature Elimination (RFE) to evaluate the minimal number of genes required for data integration. The results show that a smaller gene list than what the original study proposed was sufficeint to identify cell types in both data types (Challenge 1).
 <strong>C</strong> LIGER was applied to combine spatial and single cell transcriptomic datasets. From the separate and integrative analyses, plots of identified and known clusters were generated and metrics of integration performance were compared, showing some loss of information as a result of the integration (Challenge 1) <strong>Josh I need an update of that figure, could you change tasic to scRNA-seq in the caption?</strong>.
