@@ -1,7 +1,7 @@
 Abadi
 accessiblity
 activatory
-Aedin
+aedin
 AedinCulhane
 ajabadi
 aljabadi
@@ -83,7 +83,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-Enet
+enet
 entropic
 epigentic
 examplary
@@ -180,7 +180,7 @@ Patheepa
 PCA
 PCAs
 phenotypical
-PLS
+pls
 practitionners
 Pratheepa
 pre
@@ -192,7 +192,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 Reasonning
 remodelling
 Reproducibility
@@ -225,7 +225,7 @@ spholmes
 sPLS
 SPWSS
 ssenet
-STATIS
+Statis
 subcellular
 subpopulations
 Subramanian
@@ -243,7 +243,7 @@ Tian
 Tibshirani
 tk
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 Translational
 transtitions
