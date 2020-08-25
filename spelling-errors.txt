@@ -25,7 +25,7 @@ ayshwaryas
 benchmarked
 Bernd
 Biocarta
-Bioinformatics
+bioinformatics
 biologicaly
 bioloigcal
 biomarkers
@@ -52,12 +52,13 @@ Channing
 Cheng
 Chessel
 chracteristics
+clasified
 cmIF
 cn
+coloured
 commuity
 complemenatary
 comptuational
-concordnat
 consortiums
 cortext
 Coullomb
@@ -70,7 +71,7 @@ cpm
 Craniofacial
 crticial
 Culhane
-CyTOF
+CyToF
 Cytokit
 decompositions
 deconvolute
@@ -93,7 +94,6 @@ embyonic
 ENet
 entropic
 epigenetics
-epigentic
 examplary
 exanding
 excitatory
@@ -110,7 +110,6 @@ gcj
 gcxh
 gcyuan
 genebody
-genic
 geospatial
 gf
 gghpmf
@@ -134,7 +133,6 @@ increasinbly
 Initative
 intergation
 interpretability
-interpretabiliy
 interpretaion
 intra
 introns
@@ -147,16 +145,13 @@ Jenathan
 Keren
 Kimmel
 Klarman
-kmeans
 Lê
 LIGER
 localisation
 Lustgarten
 Matlab
-mechansisms
 megabases
 Meng
-methylome
 methyltransferase
 Meuleman
 microenvironment
@@ -193,7 +188,8 @@ Patheepa
 PCA
 PCAs
 phenotypical
-PLS
+pls
+pluripotency
 practitionners
 Pratheepa
 pre
@@ -205,7 +201,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 Reasonning
 remodelling
 reproducibility
@@ -220,7 +216,7 @@ RMSEs
 rootograms
 Saelens
 Sankaran
-scnmteq
+scnmtseq
 scRNAseq
 scTargeted
 sGCCA
@@ -234,12 +230,11 @@ smoothened
 Sodicoff
 Soneson
 spatialExpt
-specifc
 spholmes
 sPLS
 SPWSS
 ssenet
-STATIS
+Statis
 subcellular
 subpopulations
 Subramanian
@@ -257,7 +252,7 @@ Tian
 Tibshirani
 tk
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 Translational
 transtitions
