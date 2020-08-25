@@ -94,7 +94,7 @@ Fertig
 Finetti
 Foudation
 Freytag
-Gastrulation
+gastrulation
 gc
 gcj
 gcxh
@@ -192,7 +192,7 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
 remodelling
 Reproducibility
