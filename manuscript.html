@@ -113,9 +113,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/847054f3c0949f3b3c41b229e956ef42ce8712b3/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/847054f3c0949f3b3c41b229e956ef42ce8712b3/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/847054f3c0949f3b3c41b229e956ef42ce8712b3/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/65cdaac01a0915a651802481b1d9c6dd706d96f4/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/65cdaac01a0915a651802481b1d9c6dd706d96f4/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/65cdaac01a0915a651802481b1d9c6dd706d96f4/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -129,9 +129,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/847054f3c0949f3b3c41b229e956ef42ce8712b3/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/65cdaac01a0915a651802481b1d9c6dd706d96f4/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/847054f3c0949f3b3c41b229e956ef42ce8712b3">BIRSBiointegration/whitePaper@847054f</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/65cdaac01a0915a651802481b1d9c6dd706d96f4">BIRSBiointegration/whitePaper@65cdaac</a>
 on August 25, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -1217,10 +1217,7 @@ and SingleCellExperiment instances into a MultiAssayExperiment. Panel B: details
 <!--In our hackathon context, we considered multi-assay measurements from the same cell (e.g. scNMT-seq) or integration of multi-assay measurements from  (seqFish, scProteomics).
 -->
 <p>These hackathons highlighted the further challenges of summarizing assay-specific genomic features for multi-platform data integration. While RNA-seq has well-defined units and IDs (e.g., transcript names), other assays may be summarized at different genomic scales, e.g., gene promoters, exons, introns, or gene bodies. The <code>GenomicRanges</code> package <span class="citation" data-cites="1FbF6M2UI">[<a href="#ref-1FbF6M2UI" role="doc-biblioref">66</a>]</span> may be used to compute summaries at different scales and overlap between signal (e.g., ATAC-seq peaks) and genomic annotation. Further, the observations of different modalities may not be directly comparable: for instance, gene expression may be measured from individual cells in single-cell RNA-seq but spatial transcriptomics may have a finer (sub-cellular) or coarser (multi-cellular) resolution. Methods such as SPOTlight <span class="citation" data-cites="wrQUNea">[<a href="#ref-wrQUNea" role="doc-biblioref">67</a>]</span> may be used to deconvolute multi-cellular spots signal. Finally, in the absence of universal standards, the metadata available may vary from analysis to analysis. A potential solution is to define the minimum set of metadata variables necessary for each assay, and for pairs of assays to be comparable for common analyses. &lt;!–Is this problem solved through the multiAssayExperiment and/or broader Bioconductor ecosystem? If so how and if not what are areas of future work needed as a field.–!&gt; In addition to standardizing data processing, the substantial size of single cell data also require new strategies that are emerging to allow for scalability of <em>storing</em> and <em>access</em> of large datasets <span class="citation" data-cites="KhbsUBNe mOp2pMsC">[<a href="#ref-KhbsUBNe" role="doc-biblioref">68</a>,<a href="#ref-mOp2pMsC" role="doc-biblioref">69</a>]</span> and for emerging scalable <em>algorithms</em> that allow for data to be stored in memory or on disk such as unsupervised clustering of cell types in either R <span class="citation" data-cites="g9O7LIML 19jAJjD6o">[<a href="#ref-g9O7LIML" role="doc-biblioref">70</a>,<a href="#ref-19jAJjD6o" role="doc-biblioref">71</a>]</span> or Python <span class="citation" data-cites="qIZTS1II">[<a href="#ref-qIZTS1II" role="doc-biblioref">72</a>]</span>.</p>
-<h3 id="reducing-barriers-to-interpretable-visualizations">Reducing barriers to interpretable visualizations</h3>
-<p>Color is a powerful data visualization tool that helps representing the different dimensions of our increasingly complex and rich scientific data.
-Color vision deficiencies affect a substantial portion of the population<span class="citation" data-cites="x7pNDE94">[<a href="#ref-x7pNDE94" role="doc-biblioref">73</a>]</span> and leads to difficulties in perceiving patterns (the basis for the Ishihara’s color vision tests) in multi-colored figures. In some cases, the perceived patterns such as heat maps and reduced dimension plots can differ between individuals with normal and color deficient vision.</p>
-<p>One strategy to present scientific information accessible information to all readers is to include colorblind friendly visualizations <span class="citation" data-cites="11uDSb0Nf Ecm3XS4">[<a href="#ref-11uDSb0Nf" role="doc-biblioref">74</a>,<a href="#ref-Ecm3XS4" role="doc-biblioref">75</a>]</span> as a default setting, using palettes such as form the R packages viridis <span class="citation" data-cites="lLv68Zzx">[<a href="#ref-lLv68Zzx" role="doc-biblioref">76</a>]</span> and dittoSeq <span class="citation" data-cites="19usrpNlS">[<a href="#ref-19usrpNlS" role="doc-biblioref">77</a>]</span>, whilst limiting to a number of 10 colors. Additional visual cues to differentiate regions (hatched areas) or cells (point shapes) can also reduce the dependence on colors. The inclusion an “accessibility caption” accompanying figures which “guide” the reader’s perception of the images would greatly benefit broader data accessibility.</p>
+<p>In addition to robust comptuational metrics, several hackathons developed novel data visualization strategies as essential components for interpreting multi-modal data. Often these visualization strategies rely on heatmaps or reduced dimension plots, and utilize color to represent the different dimensions. For many, these colors and low dimensional plots facilate pattern detection and interpretation of these increasingly complex and rich high-throughput, multi-platform single cell data in standard. However, relying on color for interpretation leads to difficulties in perceiving patterns (the basis for the Ishihara’s color vision tests) in multi-colored figures for a substantial proportion of the population with color vision deficiencies. Moreover, relying on perceived patterns through color can result in different data interpretations between individuals, particularly reflecting their individual color detection capacities. One strategy to present standardized scientific information accessible information to all readers is to include colorblind friendly visualizations <span class="citation" data-cites="11uDSb0Nf Ecm3XS4">[<a href="#ref-11uDSb0Nf" role="doc-biblioref">73</a>,<a href="#ref-Ecm3XS4" role="doc-biblioref">74</a>]</span> as a default setting, using palettes such as form the R packages viridis <span class="citation" data-cites="lLv68Zzx">[<a href="#ref-lLv68Zzx" role="doc-biblioref">75</a>]</span> and dittoSeq <span class="citation" data-cites="19usrpNlS">[<a href="#ref-19usrpNlS" role="doc-biblioref">76</a>]</span>, while limiting to a number of 10 colors. Additional visual cues to differentiate regions (hatched areas) or cells (point shapes) can also reduce the dependence on colors. The inclusion an “accessibility caption” accompanying figures which “guide” the reader’s perception of the images would greatly benefit broader data accessibility. Thus, implementing community standards for accessible visualizations is essential for bioinformatics software communities to ensure standardized interpretation of multi-platform single cell data.</p>
 <!-- Overall, a broader discussion regarding the accessibility of our figures that is not just limited to color vision deficiencies would be greatly beneficial towards improving data accessibility.
 Perhaps one tool to address broader accessibility could be
 [US Government tools for accessibility](https://accessibility.18f.gov/tools/)
@@ -1384,8 +1381,8 @@ Perhaps one tool to address broader accessibility could be
 </tbody>
 </table>
 <h2 id="discussion">Discussion</h2>
-<p>The rapid pace of technological development can be seen as only six years after single-cell sequencing was name method of the year, single-cell multimodal omics claimed the title <span class="citation" data-cites="14mVWQABt">[<a href="#ref-14mVWQABt" role="doc-biblioref">78</a>]</span>. Beyond the title, multimodal omics has inherited not just the explosion in datasets and the formation of Atlas based initiatives, but also the wave of statistical and computational techniques they launched. Thus, a central question is what can be carried forward from both current initiatives and current methods.
-In the case of consortia, the ability to impose uniform processing and community standards such as those for ENCODE and IHEC will remain important. The Human Cell Atlas <span class="citation" data-cites="12eUYhFS5">[<a href="#ref-12eUYhFS5" role="doc-biblioref">79</a>]</span> showed how community driven initiatives have the ability to influence and inspire across larger proportions of the scientific community. Hackathons are also excellent resources for bringing the community together and providing formal benchmarks. Together with large consortia studies, hackathons have the potential both to inform and require multi-omics data analysis methods.
+<p>The rapid pace of technological development can be seen as only six years after single-cell sequencing was name method of the year, single-cell multimodal omics claimed the title <span class="citation" data-cites="14mVWQABt">[<a href="#ref-14mVWQABt" role="doc-biblioref">77</a>]</span>. Beyond the title, multimodal omics has inherited not just the explosion in datasets and the formation of Atlas based initiatives, but also the wave of statistical and computational techniques they launched. Thus, a central question is what can be carried forward from both current initiatives and current methods.
+In the case of consortia, the ability to impose uniform processing and community standards such as those for ENCODE and IHEC will remain important. The Human Cell Atlas <span class="citation" data-cites="12eUYhFS5">[<a href="#ref-12eUYhFS5" role="doc-biblioref">78</a>]</span> showed how community driven initiatives have the ability to influence and inspire across larger proportions of the scientific community. Hackathons are also excellent resources for bringing the community together and providing formal benchmarks. Together with large consortia studies, hackathons have the potential both to inform and require multi-omics data analysis methods.
 In regard to what is needed computationally for the future of multi-omics much will be driven by the data itself. While on the one hand the inherently coupling of measurements simplifies certain challenges, on the other hand the layering of an entirely new set of molecular measurement intrinsically increases complexity. Thus, considerations must be made for cross-modal integration and modeling with both matched and unmatched multimodal measurements. In both cases methods for dealing with data quality, data loss by summarization, timing variances both between and within omics layers, and batch effects will be necessary challenges to overcome. Conversely, the ability to infer regulatory relationships between different omics and expand to dynamic models across time and space presence new opportunities.</p>
 <h3 id="emerging-analytical-methods-and-technologies">Emerging analytical methods and technologies</h3>
 <h3 id="community-needs-for-data-structures-analysis-methods-etc">Community needs for data structures, analysis methods, etc</h3>
@@ -1436,25 +1433,25 @@ In regard to what is needed computationally for the future of multi-omics much w
 <td>contributions</td>
 <td>variable weights, loadings, eigenvector, axis, direction, dimension, coefficients, slopes</td>
 <td>Contributions of the original variables in constructing the components.</td>
-<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">16</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">80</a></span></td>
+<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">16</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">79</a></span></td>
 </tr>
 <tr class="even">
 <td>latent factors</td>
 <td>variates, scores, projections, components, latent/hidden/unobserved variables/factors</td>
 <td>Weighted linear combinations of the original variables.</td>
-<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">16</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">80</a></span></td>
+<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">16</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">79</a></span></td>
 </tr>
 <tr class="odd">
 <td>multimodal</td>
 <td>Multiview, multiway arrays, multimodal, multidomain, multiblock, multitable, multi-omics, multi-source data analysis methods, N-integration</td>
 <td>Methods pertaining to the analysis of multiple data matrices for the same set of observations.</td>
-<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">16</a></span>, <span class="citation" data-cites="nhuT45y5"><a href="#ref-nhuT45y5" role="doc-biblioref">29</a></span>, <span class="citation" data-cites="2SDWXiwB"><a href="#ref-2SDWXiwB" role="doc-biblioref">81</a></span></td>
+<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">16</a></span>, <span class="citation" data-cites="nhuT45y5"><a href="#ref-nhuT45y5" role="doc-biblioref">29</a></span>, <span class="citation" data-cites="2SDWXiwB"><a href="#ref-2SDWXiwB" role="doc-biblioref">80</a></span></td>
 </tr>
 <tr class="even">
 <td>conjoint analysis</td>
 <td>conjoint analysis, P-integration, meta-analysis, multigroup data analysis</td>
 <td>Methods pertaining to the analysis of multiple data matrices for the same set of variables.</td>
-<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">16</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">80</a></span>, <span class="citation" data-cites="UqaGRGDg"><a href="#ref-UqaGRGDg" role="doc-biblioref">82</a></span></td>
+<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">16</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">79</a></span>, <span class="citation" data-cites="UqaGRGDg"><a href="#ref-UqaGRGDg" role="doc-biblioref">81</a></span></td>
 </tr>
 <tr class="odd">
 <td>variable</td>
@@ -1466,13 +1463,13 @@ In regard to what is needed computationally for the future of multi-omics much w
 <td>biomarker</td>
 <td>marker, biomarker</td>
 <td>A variable that is associated with normal or disease processes, or responses to exposures, or interventions. Any change in this variable is also associated with a change in the associated clinical outcome. These variables may be used for diagnostic, monitoring, Pharmacodynamic responses. Examples include LDL cholesterol, CD4 counts, hemoglobin A1C.</td>
-<td><span class="citation" data-cites="AtapBaNb"><a href="#ref-AtapBaNb" role="doc-biblioref">83</a></span></td>
+<td><span class="citation" data-cites="AtapBaNb"><a href="#ref-AtapBaNb" role="doc-biblioref">82</a></span></td>
 </tr>
 <tr class="odd">
 <td>panel</td>
 <td>biomarker panel, biomarker signature</td>
 <td>A subset of the originally measured variables that are determined to be associated with the outcome or response variable. This may be determined using statistical inference, feature selection methods, or machine/statistical learning.</td>
-<td><span class="citation" data-cites="17aD4MFPS"><a href="#ref-17aD4MFPS" role="doc-biblioref">84</a></span>, <span class="citation" data-cites="XWx8RAwW"><a href="#ref-XWx8RAwW" role="doc-biblioref">85</a></span></td>
+<td><span class="citation" data-cites="17aD4MFPS"><a href="#ref-17aD4MFPS" role="doc-biblioref">83</a></span>, <span class="citation" data-cites="XWx8RAwW"><a href="#ref-XWx8RAwW" role="doc-biblioref">84</a></span></td>
 </tr>
 <tr class="even">
 <td>observation</td>
@@ -1903,73 +1900,69 @@ F. Alexander Wolf, Philipp Angerer, Fabian J. Theis<br />
 <em>Genome Biology</em> (2018-02-06) <a href="https://doi.org/gc22s9">https://doi.org/gc22s9</a> <br />
 DOI: <a href="https://doi.org/10.1186/s13059-017-1382-0">10.1186/s13059-017-1382-0</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29409532">29409532</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5802054">PMC5802054</a></p>
 </div>
-<div id="ref-x7pNDE94">
-<p>73. <a href="https://tinyurl.com/y4emdyvr">https://tinyurl.com/y4emdyvr</a></p>
-</div>
 <div id="ref-11uDSb0Nf">
-<p>74. <strong>Points of view: Color blindness</strong> <br />
+<p>73. <strong>Points of view: Color blindness</strong> <br />
 Bang Wong<br />
 <em>Nature Methods</em> (2011-06-01) <a href="https://www.nature.com/articles/nmeth.1618">https://www.nature.com/articles/nmeth.1618</a> <br />
 DOI: <a href="https://doi.org/10.1038/nmeth.1618">10.1038/nmeth.1618</a></p>
 </div>
 <div id="ref-Ecm3XS4">
-<p>75. <strong>Color coding</strong> <br />
+<p>74. <strong>Color coding</strong> <br />
 Bang Wong<br />
 <em>Nature Methods</em> (2010-08) <a href="https://doi.org/dhm3mz">https://doi.org/dhm3mz</a> <br />
 DOI: <a href="https://doi.org/10.1038/nmeth0810-573">10.1038/nmeth0810-573</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/20704014">20704014</a></p>
 </div>
 <div id="ref-lLv68Zzx">
-<p>76. <strong>The viridis color palettes</strong> <a href="https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html">https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html</a></p>
+<p>75. <strong>The viridis color palettes</strong> <a href="https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html">https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html</a></p>
 </div>
 <div id="ref-19usrpNlS">
-<p>77. <strong>dtm2451/dittoSeq</strong> <br />
+<p>76. <strong>dtm2451/dittoSeq</strong> <br />
 Daniel Bunis<br />
 (2020-08-23) <a href="https://github.com/dtm2451/dittoSeq">https://github.com/dtm2451/dittoSeq</a></p>
 </div>
 <div id="ref-14mVWQABt">
-<p>78. <strong>Method of the Year 2019: Single-cell multimodal omics</strong> <br />
+<p>77. <strong>Method of the Year 2019: Single-cell multimodal omics</strong> <br />
 Nature Methods<br />
 (2020-01) <a href="https://www.nature.com/articles/s41592-019-0703-5">https://www.nature.com/articles/s41592-019-0703-5</a> <br />
 DOI: <a href="https://doi.org/10.1038/s41592-019-0703-5">10.1038/s41592-019-0703-5</a></p>
 </div>
 <div id="ref-12eUYhFS5">
-<p>79. <strong>The Human Cell Atlas</strong> <br />
+<p>78. <strong>The Human Cell Atlas</strong> <br />
 Aviv Regev, Sarah A. Teichmann, Eric S. Lander, Ido Amit, Christophe Benoist, Ewan Birney, Bernd Bodenmiller, Peter Campbell, Piero Carninci, Menna Clatworthy, … the Human Cell Atlas Meeting Participants<br />
-<em>bioRxiv</em> (2017-05-08) <a href="https://www.biorxiv.org/content/10.1101/121202v1">https://www.biorxiv.org/content/10.1101/121202v1</a> <br />
-DOI: <a href="https://doi.org/10.1101/121202">10.1101/121202</a></p>
+<em>Cell Biology</em> (2017-05-08) <a href="http://biorxiv.org/lookup/doi/10.1101/121202">http://biorxiv.org/lookup/doi/10.1101/121202</a></p>
 </div>
 <div id="ref-18fTyQGoG">
-<p>80. <strong>Multivariate analysis of multiblock and multigroup data</strong> <br />
+<p>79. <strong>Multivariate analysis of multiblock and multigroup data</strong> <br />
 A. Eslami, E. M. Qannari, A. Kohler, S. Bougeard<br />
 <em>Chemometrics and Intelligent Laboratory Systems</em> (2014-04) <a href="https://doi.org/f52wrr">https://doi.org/f52wrr</a> <br />
 DOI: <a href="https://doi.org/10.1016/j.chemolab.2014.01.016">10.1016/j.chemolab.2014.01.016</a></p>
 </div>
 <div id="ref-2SDWXiwB">
-<p>81. <strong>Dimension reduction techniques for the integrative analysis of multi-omics data</strong> <br />
+<p>80. <strong>Dimension reduction techniques for the integrative analysis of multi-omics data</strong> <br />
 Chen Meng, Oana A. Zeleznik, Gerhard G. Thallinger, Bernhard Kuster, Amin M. Gholami, Aedín C. Culhane<br />
 <em>Briefings in Bioinformatics</em> (2016-07) <a href="https://doi.org/f83qvd">https://doi.org/f83qvd</a> <br />
 DOI: <a href="https://doi.org/10.1093/bib/bbv108">10.1093/bib/bbv108</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26969681">26969681</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4945831">PMC4945831</a></p>
 </div>
 <div id="ref-UqaGRGDg">
-<p>82. <strong>Robust meta-analysis of gene expression using the elastic net</strong> <br />
+<p>81. <strong>Robust meta-analysis of gene expression using the elastic net</strong> <br />
 Jacob J. Hughey, Atul J. Butte<br />
 <em>Nucleic Acids Research</em> (2015-07-13) <a href="https://doi.org/f7nnbm">https://doi.org/f7nnbm</a> <br />
 DOI: <a href="https://doi.org/10.1093/nar/gkv229">10.1093/nar/gkv229</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25829177">25829177</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4499117">PMC4499117</a></p>
 </div>
 <div id="ref-AtapBaNb">
-<p>83. <strong>Biomarker definitions and their applications</strong> <br />
+<p>82. <strong>Biomarker definitions and their applications</strong> <br />
 Robert M Califf<br />
 <em>Experimental Biology and Medicine</em> (2018-02-06) <a href="https://doi.org/gcxh8n">https://doi.org/gcxh8n</a> <br />
 DOI: <a href="https://doi.org/10.1177/1535370217750088">10.1177/1535370217750088</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29405771">29405771</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5813875">PMC5813875</a></p>
 </div>
 <div id="ref-17aD4MFPS">
-<p>84. <strong>Biomarker signatures of aging</strong> <br />
+<p>83. <strong>Biomarker signatures of aging</strong> <br />
 Paola Sebastiani, Bharat Thyagarajan, Fangui Sun, Nicole Schupf, Anne B. Newman, Monty Montano, Thomas T. Perls<br />
 <em>Aging Cell</em> (2017-04) <a href="https://doi.org/d2cm">https://doi.org/d2cm</a> <br />
 DOI: <a href="https://doi.org/10.1111/acel.12557">10.1111/acel.12557</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28058805">28058805</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5334528">PMC5334528</a></p>
 </div>
 <div id="ref-XWx8RAwW">
-<p>85. <strong>Biomarker Panels in Critical Care</strong> <br />
+<p>84. <strong>Biomarker Panels in Critical Care</strong> <br />
 Susan R. Conway, Hector R. Wong<br />
 <em>Critical Care Clinics</em> (2020-01) <a href="https://doi.org/d2cn">https://doi.org/d2cn</a> <br />
 DOI: <a href="https://doi.org/10.1016/j.ccc.2019.08.007">10.1016/j.ccc.2019.08.007</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31733684">31733684</a></p>

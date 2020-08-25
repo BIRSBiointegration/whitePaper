@@ -1,7 +1,7 @@
 Abadi
 accessiblity
 activatory
-aedin
+Aedin
 AedinCulhane
 ajabadi
 aljabadi
@@ -22,7 +22,7 @@ availabe
 Ayshwarya
 ayshwaryas
 benchmarked
-bioinformatics
+Bioinformatics
 biologicaly
 bioloigcal
 biomarkers
@@ -63,7 +63,7 @@ cpm
 Craniofacial
 crticial
 Culhane
-CyTOF
+CyToF
 Cytokit
 decompositions
 deconvolute
@@ -83,12 +83,13 @@ ejfertig
 Elana
 EMBL
 embyonic
-ENet
+enet
 entropic
 epigentic
 examplary
 excitatory
 Facetto
+facilate
 Farber
 Fertig
 Finetti
@@ -192,7 +193,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 Reasonning
 remodelling
 reproducibility
@@ -224,7 +225,7 @@ specifc
 spholmes
 sPLS
 SPWSS
-ssenet
+ssEnet
 Statis
 subcellular
 subpopulations
@@ -243,7 +244,7 @@ Tian
 Tibshirani
 tk
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 Translational
 transtitions
