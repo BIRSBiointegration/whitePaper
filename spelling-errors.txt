@@ -24,7 +24,7 @@ ayshwaryas
 benchmarked
 Bernd
 Biocarta
-bioinformatics
+Bioinformatics
 biologicaly
 bioloigcal
 biomarkers
@@ -91,7 +91,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-enet
+ENet
 entropic
 epigenetics
 examplary
@@ -124,6 +124,7 @@ higlighted
 histone
 Hsu
 hyperparameters
+identied
 identifiability
 IHC
 ImJoy
@@ -184,7 +185,7 @@ Patheepa
 PCA
 PCAs
 phenotypical
-pls
+PLS
 pluripotency
 practitionners
 Pratheepa
@@ -222,7 +223,6 @@ simplfy
 singha
 SingleCellExperiment
 situ
-smoothened
 Sodicoff
 Soneson
 spatialExpt
@@ -245,7 +245,7 @@ Tian
 Tibshirani
 tk
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 Translational
 transtitions
