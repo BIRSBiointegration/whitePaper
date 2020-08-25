@@ -4,6 +4,7 @@ activatory
 aedin
 AedinCulhane
 ajabadi
+Akoya
 aljabadi
 AMI
 Amongst
@@ -23,13 +24,15 @@ Ayshwarya
 ayshwaryas
 benchmarked
 Bernd
-bioinformatics
+Biocarta
+Bioinformatics
 biologicaly
 bioloigcal
 biomarkers
 Biomart
 Biopython
 bioRxiv
+Biosciences
 Biostatistics
 Biostatsitics
 Biotechnol
@@ -87,8 +90,9 @@ ejfertig
 Elana
 EMBL
 embyonic
-enet
+ENet
 entropic
+epigenetics
 epigentic
 examplary
 exanding
@@ -100,7 +104,7 @@ Fertig
 Finetti
 Foudation
 Freytag
-Gastrulation
+gastrulation
 gc
 gcj
 gcxh
@@ -126,6 +130,7 @@ hyperparameters
 identifiability
 IHC
 ImJoy
+increasinbly
 Initative
 intergation
 interpretability
@@ -162,10 +167,12 @@ mixOmics
 mixOmicsTeam
 modelling
 mRNA
+MSigDB
 multinomial
 multiplatform
 multipliable
 multistream
+Nanostring
 napari
 neighbour
 neighbourhood
@@ -186,7 +193,7 @@ Patheepa
 PCA
 PCAs
 phenotypical
-pls
+PLS
 practitionners
 Pratheepa
 pre
@@ -198,7 +205,7 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
 remodelling
 reproducibility
@@ -250,7 +257,7 @@ Tian
 Tibshirani
 tk
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 Translational
 transtitions
