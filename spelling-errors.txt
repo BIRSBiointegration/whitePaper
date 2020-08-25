@@ -83,7 +83,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-enet
+ENet
 entropic
 epigentic
 examplary
@@ -94,7 +94,7 @@ Fertig
 Finetti
 Foudation
 Freytag
-gastrulation
+Gastrulation
 gc
 gcj
 gcxh
@@ -195,7 +195,7 @@ qvd
 RArgelaguet
 Reasonning
 remodelling
-Reproducibility
+reproducibility
 reproducibly
 requierments
 resampling
@@ -243,7 +243,7 @@ Tian
 Tibshirani
 tk
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 Translational
 transtitions
@@ -253,6 +253,7 @@ UMI
 unbiasedly
 unblinding
 UNC
+useability
 utilising
 variates
 variational
