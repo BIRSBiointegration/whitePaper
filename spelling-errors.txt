@@ -83,7 +83,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-ENet
+Enet
 entropic
 epigentic
 examplary
@@ -94,7 +94,7 @@ Fertig
 Finetti
 Foudation
 Freytag
-gastrulation
+Gastrulation
 gc
 gcj
 gcxh
@@ -183,7 +183,7 @@ phenotypical
 PLS
 practitionners
 Pratheepa
-Pre
+pre
 preprocessing
 priori
 programme
@@ -225,7 +225,7 @@ spholmes
 sPLS
 SPWSS
 ssenet
-Statis
+STATIS
 subcellular
 subpopulations
 Subramanian
