@@ -1,7 +1,7 @@
 Abadi
 accessiblity
 activatory
-aedin
+Aedin
 AedinCulhane
 ajabadi
 aljabadi
@@ -22,7 +22,7 @@ availabe
 Ayshwarya
 ayshwaryas
 benchmarked
-Bioinformatics
+bioinformatics
 biologicaly
 bioloigcal
 biomarkers
@@ -83,7 +83,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-enet
+ENet
 entropic
 epigentic
 examplary
@@ -161,7 +161,6 @@ multiplatform
 multipliable
 multistream
 napari
-nees
 neighbour
 neighbourhood
 NIAID
@@ -181,10 +180,10 @@ Patheepa
 PCA
 PCAs
 phenotypical
-pls
+PLS
 practitionners
 Pratheepa
-pre
+Pre
 preprocessing
 priori
 programme
@@ -225,8 +224,8 @@ specifc
 spholmes
 sPLS
 SPWSS
-ssEnet
-STATIS
+ssenet
+Statis
 subcellular
 subpopulations
 Subramanian
@@ -244,7 +243,7 @@ Tian
 Tibshirani
 tk
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 Translational
 transtitions
