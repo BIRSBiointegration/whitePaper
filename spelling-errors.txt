@@ -22,7 +22,7 @@ availabe
 Ayshwarya
 ayshwaryas
 benchmarked
-bioinformatics
+Bioinformatics
 biologicaly
 bioloigcal
 biomarkers
@@ -181,7 +181,7 @@ Patheepa
 PCA
 PCAs
 phenotypical
-PLS
+pls
 practitionners
 Pratheepa
 pre
