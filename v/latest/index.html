@@ -113,9 +113,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/0053a670de29897cf184e8edf78c086644934637/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/0053a670de29897cf184e8edf78c086644934637/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/0053a670de29897cf184e8edf78c086644934637/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/847054f3c0949f3b3c41b229e956ef42ce8712b3/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/847054f3c0949f3b3c41b229e956ef42ce8712b3/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/847054f3c0949f3b3c41b229e956ef42ce8712b3/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -129,9 +129,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/0053a670de29897cf184e8edf78c086644934637/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/847054f3c0949f3b3c41b229e956ef42ce8712b3/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/0053a670de29897cf184e8edf78c086644934637">BIRSBiointegration/whitePaper@0053a67</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/847054f3c0949f3b3c41b229e956ef42ce8712b3">BIRSBiointegration/whitePaper@847054f</a>
 on August 25, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -1189,38 +1189,34 @@ towards specific data integration tasks.</p></li>
 bioinformatics. This widespread availability combined with standardized licensing
 in Creative Commons, Artistic, or GNU frameworks enables all components need to be accessible for full vetting by the community, thereby facilitating widescale adoption, extension, and collaboration. These open source software efforts also facilitate a community-level <strong>coordinated approach</strong>,
 to support collaboration rather than duplication of effort between groups working on similar problems. Real-time improvements to the tool-set should
-be feasible, respecting needs for stability, reliability, and continuity of access to evolving components. To that end, exploration and engagement with all these tools is richly enabled through code sharing resources like GitHub.</p>
-<p>The open source and community needs for multi-omics go beyond code sharing and ultimately addressed through robust software ecosystems <span class="citation" data-cites="dwXJ9SC4 102RKxFFz 14np73aSU">[<a href="#ref-dwXJ9SC4" role="doc-biblioref">54</a>,<a href="#ref-102RKxFFz" role="doc-biblioref">55</a>,<a href="#ref-14np73aSU" role="doc-biblioref">56</a>]</span>. As an example of an ecosystem of broad scope, we cite bioconductor.org <span class="citation" data-cites="E7tdylV2">[<a href="#ref-E7tdylV2" role="doc-biblioref">57</a>]</span>. Bioconductor supports developers who seek to build broad user bases by providing multiplatform/multistream continuous integration/continuous delivery of contributed packages <span class="citation" data-cites="oRTa5zGU">[<a href="#ref-oRTa5zGU" role="doc-biblioref">58</a>]</span>, and users with different skill sets by articulating standards for documentation, and testing, and by hosting community forums and workshops <span class="citation" data-cites="SkTqlnmn">[<a href="#ref-SkTqlnmn" role="doc-biblioref">59</a>]</span>. In the case of the hackathons, the R/Bioconductor ecosystem for multi-omics enabled data structures and vignettes to support reproducible, open-source, open development analysis. The further community engagement and communication from the workshop were critical to identify additional key software goals needed to advance the methods and interpretation of multi-omics. In this section, we reflect on the software infrastructure that enabled our analytic frameworks for inference and visualization of the multimodal single-cell experiments. Notably, the hackathons highlighted the following central challenges that require further community-level software development.</p>
+be feasible, respecting needs for stability, reliability, and continuity of access to evolving components. To that end, exploration and engagement with all these tools is richly enabled through code sharing resources like GitHub. Our hackathons directly leveraged such code sharing through GitHub, with contributed analyses reports [https://github.com/BIRSBiointegration/Hackathon/blob/master/analysis-vignettes.md] compiled into reproducible workflows [using GitHub Actions] enabling continuous integration of changes to source codes and continuous delivery of vignettes as well as containerized snapshots of the analyses environments. For challenge studies conducted in R, the source code and vignettes were assembled into R packages which took the loaded libraries as dependencies. For those carried out in Python, the requierments were included in the source files for automatic installation and deployment[using https://github.com/fastai/fastpages].</p>
+<p>While GitHub enables code distribution and accessibility, it does not address issues of useability or adoption. The open source and community needs for multi-omics go beyond code sharing and ultimately addressed through robust software ecosystems <span class="citation" data-cites="dwXJ9SC4 102RKxFFz 14np73aSU">[<a href="#ref-dwXJ9SC4" role="doc-biblioref">54</a>,<a href="#ref-102RKxFFz" role="doc-biblioref">55</a>,<a href="#ref-14np73aSU" role="doc-biblioref">56</a>]</span>. As an example of an ecosystem of broad scope, we cite bioconductor.org <span class="citation" data-cites="E7tdylV2">[<a href="#ref-E7tdylV2" role="doc-biblioref">57</a>]</span>. Bioconductor supports developers who seek to build broad user bases by providing multiplatform/multistream continuous integration/continuous delivery of contributed packages <span class="citation" data-cites="oRTa5zGU">[<a href="#ref-oRTa5zGU" role="doc-biblioref">58</a>]</span>, and users with different skill sets by articulating standards for documentation, and testing, and by hosting community forums and workshops <span class="citation" data-cites="SkTqlnmn">[<a href="#ref-SkTqlnmn" role="doc-biblioref">59</a>]</span>. In the case of the hackathons, the R/Bioconductor ecosystem for multi-omics enabled data structures and vignettes to support reproducible, open-source, open development analysis. The further community engagement and communication from the workshop were critical to identify additional key software goals needed to advance the methods and interpretation of multi-omics. In this section, we reflect on the software infrastructure that enabled our analytic frameworks for inference and visualization of the multimodal single-cell experiments. Notably, the hackathons highlighted the following central challenges that require further community-level software development.</p>
 <ul>
 <li>How should multimodal single cell data be managed for interactive and batch analyses?</li>
 <li>What methods will help software developers create scalable solutions for multimodal single cell analysis?</li>
 <li>How can we implement robust visualization methods for multimodal single cell analysis and ensure their accessiblity to researchers with visual impairments?</li>
 </ul>
-<h3 id="data-management-strategies">Data management strategies</h3>
-<p>As we have discussed, a multimodal single-cell experiments as each mode is characterized by a different collection of features on possibly non-overlapping collections of samples from similar biological conditions. Common data structures to store and operate on these data collections can support data dissemination with robust metadata and implementation of the common analysis frameworks for multi-omics data interpretation that can be employed across diverse measurement technologies. As an example, Bioconductor has built a ready-to-use integrative data class <code>multiAssayExperiment</code> on the S4 object oriented structure in R <span class="citation" data-cites="gdnUpsQo">[<a href="#ref-gdnUpsQo" role="doc-biblioref">60</a>]</span>. The <code>multiAssayExperiment</code> class includes the following features to support multi-platform genomics data analysis
+<p>First, reproducibility and transparency are crucial aspect in hackathons, starting with data availability. Providing data to the community is a long standing issue. A particular challenge of data distribution for multimodal single-cell experiments is that each mode of data is characterized by a different collection of features on possibly non-overlapping collections of samples from similar biological conditions. Common data structures to store and operate on these data collections can support data dissemination with robust metadata and implementation of the common analysis frameworks for multi-omics data interpretation that can be employed across diverse measurement technologies. As an example, Bioconductor has built a ready-to-use integrative data class <code>multiAssayExperiment</code> on the S4 object oriented structure in R <span class="citation" data-cites="gdnUpsQo">[<a href="#ref-gdnUpsQo" role="doc-biblioref">60</a>]</span>. The <code>multiAssayExperiment</code> class includes the following features to support multi-platform genomics data analysis
 1) Storage for variables or features from multiple data modalities (e.g. gene expression units from scRNA-seq and protein units in sc-proteomics), either from the same cells or distinct cells from the same or distinct starting samples or biological specimen of origin. In some cases, the feature may be multidimensional (e.g. spatial coordinates, locations of eQTLs).<br />
 2) Metadata for sample of origin for the individual cells, e.g. study, center, phenotype, perturbation, in all the variables or features stored.
 3) A map between the datasets from the different assays to enable analysis.</p>
 <p>The <code>multiAssayExperiment</code> class is designed so that the variables or features stored for each assay in <code>multiAssayExperiment</code> each independently use Bioconductor data structures for the stored data modality and bind metadata annotating the molecular features for each assay into this class instance. For example,
 genes and transcripts can be enumerated using gene labels from Ensembl <span class="citation" data-cites="oDiClyTE">[<a href="#ref-oDiClyTE" role="doc-biblioref">61</a>]</span> as catalog identifiers, represented as
 genomic regions through <code>GRanges</code> instances <span class="citation" data-cites="14d6Jzwus">[<a href="#ref-14d6Jzwus" role="doc-biblioref">62</a>]</span>, etc.</p>
-<p>Figure <a href="#fig:spatialExpt">7</a> shows how this
+<p>In our context, input data across all hackathons were pre-processed with steps documented, and the data were stored in <code>MultiAssayExperiment</code> <span class="citation" data-cites="mlBLKi3Y">[<a href="#ref-mlBLKi3Y" role="doc-biblioref">63</a>]</span> objects which allows collating of standard data formats as well as powerful data access and data processing methods. The datasets were centrally managed and hosted on <code>ExperimentHub</code><span class="citation" data-cites="12geyVA4y">[<a href="#ref-12geyVA4y" role="doc-biblioref">64</a>]</span> and the <code>SingleCellMultiModal</code> package [doi:10.18129/B9.bioc.SingleCellMultiModal] was used to query the relevant datasets for each analysis. Figure <a href="#fig:spatialExpt">7</a> shows how this
 class was used to amalgamate and annotate the multimodal dataset consisting of seqFISH and scRNA-seq experimental data employed for this first hackathon.
-To combine these two different experiments, the seqFISH data were stored into the SpatialExperiment S4 class object, while the scRNA-seq data were stored into a SingleCellExperiment Bioconductor class object <span class="citation" data-cites="R7sfk7Aq">[<a href="#ref-R7sfk7Aq" role="doc-biblioref">63</a>]</span>.
-Then, these objects were easily stored into a MultiAssayExperiment class object and released with the SingleCellMultiModal Bioconductor package <span class="citation" data-cites="doi:10.18129/B9.bioc.SingleCellMultiModal">[<span class="citeproc-not-found" data-reference-id="doi:10.18129/B9.bioc.SingleCellMultiModal"><strong>???</strong></span>]</span>. &lt;!–Is this an unique storage feature of Bioconductor or is there something comparable in python or other bioinformatics ecosystems that we should discuss as well to be comprehensive?–!&gt;</p>
+To combine these two different experiments, the seqFISH data were stored into the SpatialExperiment S4 class object, while the scRNA-seq data were stored into a SingleCellExperiment Bioconductor class object <span class="citation" data-cites="R7sfk7Aq">[<a href="#ref-R7sfk7Aq" role="doc-biblioref">65</a>]</span>.
+Then, these objects were easily stored into a MultiAssayExperiment class object and released with the SingleCellMultiModal Bioconductor package <span class="citation" data-cites="doi:10.18129/B9.bioc.SingleCellMultiModal">[<span class="citeproc-not-found" data-reference-id="doi:10.18129/B9.bioc.SingleCellMultiModal"><strong>???</strong></span>]</span>. &lt;!–Is this an unique storage feature of Bioconductor or is there something comparable in python or other bioinformatics ecosystems that we should discuss as well to be comprehensive?–!&gt; We note that this infrastructure was readily suitable and employed for the scNMT-seq and the seqFISH+scRNA-seq (Fig. <a href="#fig:spatialExpt">7</a>) datasets. However, the lack of overlap between samples in the scProteomics hackathon revealed an important area of future work to develop software infrastructure that can link biologically related datasets without direct feature or sample mappings for multi-omics analysis. <!--Aedin, could you please check me that this is what you meant to say by "At the moment, it includes the hackathons scNMT-seq and the seqFISH+scRNA-seq (Fig. {@fig:spatialExpt}) datasets, easily stored because of the samples overlapping between multiple modalities, while we are working on the integration of the scProteomics dataset which has no overlap between samples."--></p>
 <div id="fig:spatialExpt" class="fignos">
 <figure>
 <img src="images/MSA_SpE.png" style="width:50.0%" alt="" /><figcaption><span>Figure 7:</span> Panel A: Combination of seqFISH-based SpatialExperiment
 and SingleCellExperiment instances into a MultiAssayExperiment. Panel B: details of the SpatialExperiment class design.</figcaption>
 </figure>
 </div>
-<p>Some of the hackathon contributors (Al Abadi, Patheepa Jeganathan) used the <code>multiAssayExperiment</code> class to integrate the multi-modal single cell data (scNMT-seq, sc Proteomics, <strong>pointers to vignettes</strong>), allowing for easier preprocessing, transformation, extraction of spatial information from raster objects, addition of cell information and visualization <strong>Al, details please if needed</strong>.</p>
+<p>In addition to data storage, several hackathon contributors (Al Abadi, Patheepa Jeganathan) used the <code>multiAssayExperiment</code> class to implement software for the analysis methods they employed to integrate the multi-modal single cell data (scNMT-seq, sc Proteomics, <strong>pointers to vignettes</strong>), allowing for easier preprocessing, transformation, extraction of spatial information from raster objects, addition of cell information and visualization <strong>Al, details please if needed</strong>.</p>
 <!--In our hackathon context, we considered multi-assay measurements from the same cell (e.g. scNMT-seq) or integration of multi-assay measurements from  (seqFish, scProteomics).
 -->
-<p>These hackathons highlighted the further challenges of summarizing assay-specific genomic features for multi-platform data integration. While RNA-seq has well-defined units and IDs (e.g., transcript names), other assays may be summarized at different genomic scales, e.g., gene promoters, exons, introns, or gene bodies. The <code>GenomicRanges</code> package <span class="citation" data-cites="1FbF6M2UI">[<a href="#ref-1FbF6M2UI" role="doc-biblioref">64</a>]</span> may be used to compute summaries at different scales and overlap between signal (e.g., ATAC-seq peaks) and genomic annotation. Further, the observations of different modalities may not be directly comparable: for instance, gene expression may be measured from individual cells in single-cell RNA-seq but spatial transcriptomics may have a finer (sub-cellular) or coarser (multi-cellular) resolution. Methods such as SPOTlight <span class="citation" data-cites="wrQUNea">[<a href="#ref-wrQUNea" role="doc-biblioref">65</a>]</span> may be used to deconvolute multi-cellular spots signal. Finally, in the absence of universal standards, the metadata available may vary from analysis to analysis. A potential solution is to define the minimum set of metadata variables necessary for each assay, and for pairs of assays to be comparable for common analyses. &lt;!–Is this problem solved through the multiAssayExperiment and/or broader Bioconductor ecosystem? If so how and if not what are areas of future work needed as a field.–!&gt; In addition to standardizing data processing, the substantial size of single cell data also require new strategies that are emerging to allow for scalability of <em>storing</em> and <em>access</em> of large datasets <span class="citation" data-cites="KhbsUBNe mOp2pMsC">[<a href="#ref-KhbsUBNe" role="doc-biblioref">66</a>,<a href="#ref-mOp2pMsC" role="doc-biblioref">67</a>]</span> and for emerging scalable <em>algorithms</em> that allow for data to be stored in memory or on disk such as unsupervised clustering of cell types in either R <span class="citation" data-cites="g9O7LIML 19jAJjD6o">[<a href="#ref-g9O7LIML" role="doc-biblioref">68</a>,<a href="#ref-19jAJjD6o" role="doc-biblioref">69</a>]</span> or Python <span class="citation" data-cites="qIZTS1II">[<a href="#ref-qIZTS1II" role="doc-biblioref">70</a>]</span>.</p>
-<h3 id="data-access-for-the-hackathons-and-long-term-software-strategy-for-multimodal-single-cell-experiments">Data access for the hackathons and long term software strategy for multimodal single-cell experiments</h3>
-<p>Reproducibility and transparency are crucial aspect in hackathons, starting with data availability. Providing data to the community is a long standing issue (e.g. SAGEBionetwork <strong>complete Elana</strong>). In our context, input data across all hackathons were pre-processed with steps documented, and the data were stored in <code>MultiAssayExperiment</code> <span class="citation" data-cites="mlBLKi3Y">[<a href="#ref-mlBLKi3Y" role="doc-biblioref">71</a>]</span> objects which allows collating of standard data formats as well as powerful data access and data processing methods. The datasets were centrally managed and hosted on <code>ExperimentHub</code><span class="citation" data-cites="12geyVA4y">[<a href="#ref-12geyVA4y" role="doc-biblioref">72</a>]</span> and the <code>SingleCellMultiModal</code> package [doi:10.18129/B9.bioc.SingleCellMultiModal] was used to query the relevant datasets for each analysis. At the moment, it includes the hackathons scNMT-seq and the seqFISH+scRNA-seq (Fig. <a href="#fig:spatialExpt">7</a>) datasets, easily stored because of the samples overlapping between multiple modalities, while we are working on the integration of the scProteomics dataset which has no overlap between samples.</p>
-<p>The contributed analyses reports [https://github.com/BIRSBiointegration/Hackathon/blob/master/analysis-vignettes.md] were compiled into reproducible workflows [using GitHub Actions] enabling continuous integration of changes to source codes and continuous delivery of vignettes as well as containerized snapshots of the analyses environments. For challenge studies conducted in R, the source code and vignettes were assembled into R packages which took the loaded libraries as dependencies. For those carried out in Python, the requierments were included in the source files for automatic installation and deployment[using https://github.com/fastai/fastpages].</p>
+<p>These hackathons highlighted the further challenges of summarizing assay-specific genomic features for multi-platform data integration. While RNA-seq has well-defined units and IDs (e.g., transcript names), other assays may be summarized at different genomic scales, e.g., gene promoters, exons, introns, or gene bodies. The <code>GenomicRanges</code> package <span class="citation" data-cites="1FbF6M2UI">[<a href="#ref-1FbF6M2UI" role="doc-biblioref">66</a>]</span> may be used to compute summaries at different scales and overlap between signal (e.g., ATAC-seq peaks) and genomic annotation. Further, the observations of different modalities may not be directly comparable: for instance, gene expression may be measured from individual cells in single-cell RNA-seq but spatial transcriptomics may have a finer (sub-cellular) or coarser (multi-cellular) resolution. Methods such as SPOTlight <span class="citation" data-cites="wrQUNea">[<a href="#ref-wrQUNea" role="doc-biblioref">67</a>]</span> may be used to deconvolute multi-cellular spots signal. Finally, in the absence of universal standards, the metadata available may vary from analysis to analysis. A potential solution is to define the minimum set of metadata variables necessary for each assay, and for pairs of assays to be comparable for common analyses. &lt;!–Is this problem solved through the multiAssayExperiment and/or broader Bioconductor ecosystem? If so how and if not what are areas of future work needed as a field.–!&gt; In addition to standardizing data processing, the substantial size of single cell data also require new strategies that are emerging to allow for scalability of <em>storing</em> and <em>access</em> of large datasets <span class="citation" data-cites="KhbsUBNe mOp2pMsC">[<a href="#ref-KhbsUBNe" role="doc-biblioref">68</a>,<a href="#ref-mOp2pMsC" role="doc-biblioref">69</a>]</span> and for emerging scalable <em>algorithms</em> that allow for data to be stored in memory or on disk such as unsupervised clustering of cell types in either R <span class="citation" data-cites="g9O7LIML 19jAJjD6o">[<a href="#ref-g9O7LIML" role="doc-biblioref">70</a>,<a href="#ref-19jAJjD6o" role="doc-biblioref">71</a>]</span> or Python <span class="citation" data-cites="qIZTS1II">[<a href="#ref-qIZTS1II" role="doc-biblioref">72</a>]</span>.</p>
 <h3 id="reducing-barriers-to-interpretable-visualizations">Reducing barriers to interpretable visualizations</h3>
 <p>Color is a powerful data visualization tool that helps representing the different dimensions of our increasingly complex and rich scientific data.
 Color vision deficiencies affect a substantial portion of the population<span class="citation" data-cites="x7pNDE94">[<a href="#ref-x7pNDE94" role="doc-biblioref">73</a>]</span> and leads to difficulties in perceiving patterns (the basis for the Ishihara’s color vision tests) in multi-colored figures. In some cases, the perceived patterns such as heat maps and reduced dimension plots can differ between individuals with normal and color deficient vision.</p>
@@ -1847,65 +1843,65 @@ Michael Lawrence, Wolfgang Huber, Hervé Pagès, Patrick Aboyoun, Marc Carlson, 
 <em>PLoS Computational Biology</em> (2013-08-08) <a href="https://doi.org/f5cmfg">https://doi.org/f5cmfg</a> <br />
 DOI: <a href="https://doi.org/10.1371/journal.pcbi.1003118">10.1371/journal.pcbi.1003118</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/23950696">23950696</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3738458">PMC3738458</a></p>
 </div>
-<div id="ref-R7sfk7Aq">
-<p>63. <strong>SingleCellExperiment</strong> <br />
-Aaron Lun [Aut, Cph], Davide Risso [Aut, Cre, Cph]<br />
-<em>Bioconductor</em> (2017) <a href="https://doi.org/gg5wfr">https://doi.org/gg5wfr</a> <br />
-DOI: <a href="https://doi.org/10.18129/b9.bioc.singlecellexperiment">10.18129/b9.bioc.singlecellexperiment</a></p>
-</div>
-<div id="ref-1FbF6M2UI">
-<p>64. <strong>GenomicRanges</strong> <br />
-H. Pagès P. Aboyoun<br />
-<em>Bioconductor</em> (2017) <a href="https://doi.org/gg6rfz">https://doi.org/gg6rfz</a> <br />
-DOI: <a href="https://doi.org/10.18129/b9.bioc.genomicranges">10.18129/b9.bioc.genomicranges</a></p>
-</div>
-<div id="ref-wrQUNea">
-<p>65. <strong>SPOTlight: Seeded NMF regression to Deconvolute Spatial Transcriptomics Spots with Single-Cell Transcriptomes</strong> <br />
-Marc Elosua, Paula Nieto, Elisabetta Mereu, Ivo Gut, Holger Heyn<br />
-<em>bioRxiv</em> (2020-06-04) <a href="https://doi.org/gg6rfx">https://doi.org/gg6rfx</a> <br />
-DOI: <a href="https://doi.org/10.1101/2020.06.03.131334">10.1101/2020.06.03.131334</a></p>
-</div>
-<div id="ref-KhbsUBNe">
-<p>66. <strong>DelayedArray</strong> <br />
-Hervé Pagès<br />
-<em>Bioconductor</em> (2017) <a href="https://doi.org/gg5tw4">https://doi.org/gg5tw4</a> <br />
-DOI: <a href="https://doi.org/10.18129/b9.bioc.delayedarray">10.18129/b9.bioc.delayedarray</a></p>
-</div>
-<div id="ref-mOp2pMsC">
-<p>67. <strong>rhdf5</strong> <br />
-Bernd Fischer [Aut], Gregoire Pau [Aut], Mike Smith [Aut, Cre]<br />
-<em>Bioconductor</em> (2017) <a href="https://doi.org/gg5tw6">https://doi.org/gg5tw6</a> <br />
-DOI: <a href="https://doi.org/10.18129/b9.bioc.rhdf5">10.18129/b9.bioc.rhdf5</a></p>
-</div>
-<div id="ref-g9O7LIML">
-<p>68. <strong>mbkmeans: fast clustering for single cell data using mini-batch <em>k</em> -means</strong> <br />
-Stephanie C. Hicks, Ruoxi Liu, Yuwei Ni, Elizabeth Purdom, Davide Risso<br />
-<em>bioRxiv</em> (2020-05-27) <a href="https://doi.org/gg5tw3">https://doi.org/gg5tw3</a> <br />
-DOI: <a href="https://doi.org/10.1101/2020.05.27.119438">10.1101/2020.05.27.119438</a></p>
-</div>
-<div id="ref-19jAJjD6o">
-<p>69. <strong>mbkmeans</strong> <br />
-Yuwei Ni, Davide Risso, Stephanie Hicks, Elizabeth Purdom<br />
-<em>Bioconductor</em> <a href="https://doi.org/gg5tw5">https://doi.org/gg5tw5</a> <br />
-DOI: <a href="https://doi.org/10.18129/b9.bioc.mbkmeans">10.18129/b9.bioc.mbkmeans</a></p>
-</div>
-<div id="ref-qIZTS1II">
-<p>70. <strong>SCANPY: large-scale single-cell gene expression data analysis</strong> <br />
-F. Alexander Wolf, Philipp Angerer, Fabian J. Theis<br />
-<em>Genome Biology</em> (2018-02-06) <a href="https://doi.org/gc22s9">https://doi.org/gc22s9</a> <br />
-DOI: <a href="https://doi.org/10.1186/s13059-017-1382-0">10.1186/s13059-017-1382-0</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29409532">29409532</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5802054">PMC5802054</a></p>
-</div>
 <div id="ref-mlBLKi3Y">
-<p>71. <strong>MultiAssayExperiment</strong> <br />
+<p>63. <strong>MultiAssayExperiment</strong> <br />
 Marcel Ramos [Aut, Cre], Levi Waldron [Aut], MultiAssay SIG[Ctb]<br />
 <em>Bioconductor</em> (2017) <a href="https://doi.org/gg6p3d">https://doi.org/gg6p3d</a> <br />
 DOI: <a href="https://doi.org/10.18129/b9.bioc.multiassayexperiment">10.18129/b9.bioc.multiassayexperiment</a></p>
 </div>
 <div id="ref-12geyVA4y">
-<p>72. <strong>ExperimentHub</strong> <br />
+<p>64. <strong>ExperimentHub</strong> <br />
 Bioconductor Package Maintainer <maintainer@bioconductor.org><br />
 <em>Bioconductor</em> (2017) <a href="https://doi.org/gg6p3c">https://doi.org/gg6p3c</a> <br />
 DOI: <a href="https://doi.org/10.18129/b9.bioc.experimenthub">10.18129/b9.bioc.experimenthub</a></p>
+</div>
+<div id="ref-R7sfk7Aq">
+<p>65. <strong>SingleCellExperiment</strong> <br />
+Aaron Lun [Aut, Cph], Davide Risso [Aut, Cre, Cph]<br />
+<em>Bioconductor</em> (2017) <a href="https://doi.org/gg5wfr">https://doi.org/gg5wfr</a> <br />
+DOI: <a href="https://doi.org/10.18129/b9.bioc.singlecellexperiment">10.18129/b9.bioc.singlecellexperiment</a></p>
+</div>
+<div id="ref-1FbF6M2UI">
+<p>66. <strong>GenomicRanges</strong> <br />
+H. Pagès P. Aboyoun<br />
+<em>Bioconductor</em> (2017) <a href="https://doi.org/gg6rfz">https://doi.org/gg6rfz</a> <br />
+DOI: <a href="https://doi.org/10.18129/b9.bioc.genomicranges">10.18129/b9.bioc.genomicranges</a></p>
+</div>
+<div id="ref-wrQUNea">
+<p>67. <strong>SPOTlight: Seeded NMF regression to Deconvolute Spatial Transcriptomics Spots with Single-Cell Transcriptomes</strong> <br />
+Marc Elosua, Paula Nieto, Elisabetta Mereu, Ivo Gut, Holger Heyn<br />
+<em>bioRxiv</em> (2020-06-04) <a href="https://doi.org/gg6rfx">https://doi.org/gg6rfx</a> <br />
+DOI: <a href="https://doi.org/10.1101/2020.06.03.131334">10.1101/2020.06.03.131334</a></p>
+</div>
+<div id="ref-KhbsUBNe">
+<p>68. <strong>DelayedArray</strong> <br />
+Hervé Pagès<br />
+<em>Bioconductor</em> (2017) <a href="https://doi.org/gg5tw4">https://doi.org/gg5tw4</a> <br />
+DOI: <a href="https://doi.org/10.18129/b9.bioc.delayedarray">10.18129/b9.bioc.delayedarray</a></p>
+</div>
+<div id="ref-mOp2pMsC">
+<p>69. <strong>rhdf5</strong> <br />
+Bernd Fischer [Aut], Gregoire Pau [Aut], Mike Smith [Aut, Cre]<br />
+<em>Bioconductor</em> (2017) <a href="https://doi.org/gg5tw6">https://doi.org/gg5tw6</a> <br />
+DOI: <a href="https://doi.org/10.18129/b9.bioc.rhdf5">10.18129/b9.bioc.rhdf5</a></p>
+</div>
+<div id="ref-g9O7LIML">
+<p>70. <strong>mbkmeans: fast clustering for single cell data using mini-batch <em>k</em> -means</strong> <br />
+Stephanie C. Hicks, Ruoxi Liu, Yuwei Ni, Elizabeth Purdom, Davide Risso<br />
+<em>bioRxiv</em> (2020-05-27) <a href="https://doi.org/gg5tw3">https://doi.org/gg5tw3</a> <br />
+DOI: <a href="https://doi.org/10.1101/2020.05.27.119438">10.1101/2020.05.27.119438</a></p>
+</div>
+<div id="ref-19jAJjD6o">
+<p>71. <strong>mbkmeans</strong> <br />
+Yuwei Ni, Davide Risso, Stephanie Hicks, Elizabeth Purdom<br />
+<em>Bioconductor</em> <a href="https://doi.org/gg5tw5">https://doi.org/gg5tw5</a> <br />
+DOI: <a href="https://doi.org/10.18129/b9.bioc.mbkmeans">10.18129/b9.bioc.mbkmeans</a></p>
+</div>
+<div id="ref-qIZTS1II">
+<p>72. <strong>SCANPY: large-scale single-cell gene expression data analysis</strong> <br />
+F. Alexander Wolf, Philipp Angerer, Fabian J. Theis<br />
+<em>Genome Biology</em> (2018-02-06) <a href="https://doi.org/gc22s9">https://doi.org/gc22s9</a> <br />
+DOI: <a href="https://doi.org/10.1186/s13059-017-1382-0">10.1186/s13059-017-1382-0</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29409532">29409532</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5802054">PMC5802054</a></p>
 </div>
 <div id="ref-x7pNDE94">
 <p>73. <a href="https://tinyurl.com/y4emdyvr">https://tinyurl.com/y4emdyvr</a></p>
@@ -1939,7 +1935,8 @@ DOI: <a href="https://doi.org/10.1038/s41592-019-0703-5">10.1038/s41592-019-0703
 <div id="ref-12eUYhFS5">
 <p>79. <strong>The Human Cell Atlas</strong> <br />
 Aviv Regev, Sarah A. Teichmann, Eric S. Lander, Ido Amit, Christophe Benoist, Ewan Birney, Bernd Bodenmiller, Peter Campbell, Piero Carninci, Menna Clatworthy, … the Human Cell Atlas Meeting Participants<br />
-<em>Cell Biology</em> (2017-05-08) <a href="http://biorxiv.org/lookup/doi/10.1101/121202">http://biorxiv.org/lookup/doi/10.1101/121202</a></p>
+<em>bioRxiv</em> (2017-05-08) <a href="https://www.biorxiv.org/content/10.1101/121202v1">https://www.biorxiv.org/content/10.1101/121202v1</a> <br />
+DOI: <a href="https://doi.org/10.1101/121202">10.1101/121202</a></p>
 </div>
 <div id="ref-18fTyQGoG">
 <p>80. <strong>Multivariate analysis of multiblock and multigroup data</strong> <br />
