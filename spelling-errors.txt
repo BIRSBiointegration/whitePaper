@@ -63,7 +63,7 @@ cpm
 Craniofacial
 crticial
 Culhane
-CyToF
+CyTOF
 Cytokit
 decompositions
 deconvolute
@@ -95,7 +95,7 @@ Fertig
 Finetti
 Foudation
 Freytag
-Gastrulation
+gastrulation
 gc
 gcj
 gcxh
@@ -184,7 +184,7 @@ phenotypical
 pls
 practitionners
 Pratheepa
-pre
+Pre
 preprocessing
 priori
 programme
@@ -193,7 +193,7 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
 remodelling
 reproducibility
@@ -225,7 +225,7 @@ specifc
 spholmes
 sPLS
 SPWSS
-ssEnet
+ssenet
 Statis
 subcellular
 subpopulations
