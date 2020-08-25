@@ -1,7 +1,7 @@
 Abadi
 accessiblity
 activatory
-Aedin
+aedin
 AedinCulhane
 ajabadi
 aljabadi
@@ -23,7 +23,7 @@ Ayshwarya
 ayshwaryas
 benchmarked
 Bernd
-Bioinformatics
+bioinformatics
 biologicaly
 bioloigcal
 biomarkers
@@ -100,7 +100,7 @@ Fertig
 Finetti
 Foudation
 Freytag
-gastrulation
+Gastrulation
 gc
 gcj
 gcxh
@@ -186,7 +186,7 @@ Patheepa
 PCA
 PCAs
 phenotypical
-PLS
+pls
 practitionners
 Pratheepa
 pre
@@ -198,7 +198,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 Reasonning
 remodelling
 reproducibility
@@ -232,7 +232,7 @@ spholmes
 sPLS
 SPWSS
 ssenet
-Statis
+STATIS
 subcellular
 subpopulations
 Subramanian
