@@ -22,7 +22,7 @@ availabe
 Ayshwarya
 ayshwaryas
 benchmarked
-Bioinformatics
+bioinformatics
 biologicaly
 bioloigcal
 biomarkers
@@ -95,7 +95,7 @@ Fertig
 Finetti
 Foudation
 Freytag
-gastrulation
+Gastrulation
 gc
 gcj
 gcxh
@@ -181,10 +181,10 @@ Patheepa
 PCA
 PCAs
 phenotypical
-pls
+PLS
 practitionners
 Pratheepa
-Pre
+pre
 preprocessing
 priori
 programme
