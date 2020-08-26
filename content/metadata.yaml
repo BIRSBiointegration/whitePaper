@@ -141,6 +141,16 @@ authors:
     funders:
         - Michael Smith Foudation for Health Research
         - Mitacs
+  - github: alexcoul
+    name: Alexis Coullomb
+    initials: AC
+    orcid: 0000-0003-3164-6640
+    twitter:  AlexisCoullomb
+    email: alexis.coullomb@inserm.fr
+    affiliations:
+      - Toulouse Cancer Research Center (CRCT), INSERM
+    funders:
+       - Pierre Fabre
   - github: janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)
     name: Jane Roe
     initials: JR
