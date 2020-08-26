@@ -1,7 +1,7 @@
 Abadi
 accessiblity
 activatory
-aedin
+Aedin
 AedinCulhane
 ajabadi
 Akoya
@@ -55,7 +55,6 @@ cmIF
 cn
 coloured
 combinatorial
-commuity
 complemenatary
 comptuational
 consortiums
@@ -91,11 +90,10 @@ ejfertig
 Elana
 EMBL
 embyonic
-ENet
+Enet
 entropic
 epigenetics
 examplary
-exanding
 excitatory
 Facetto
 facilate
@@ -128,7 +126,6 @@ identied
 identifiability
 IHC
 ImJoy
-increasinbly
 Initative
 intergation
 interpretability
@@ -185,7 +182,7 @@ Patheepa
 PCA
 PCAs
 phenotypical
-PLS
+pls
 pluripotency
 practitionners
 Pratheepa
@@ -198,7 +195,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 Reasonning
 remodelling
 reproducibility
@@ -219,7 +216,6 @@ scTargeted
 sGCCA
 SherlockpHolmes
 silico
-simplfy
 singha
 SingleCellExperiment
 situ
@@ -228,7 +224,7 @@ Soneson
 spatialExpt
 spholmes
 sPLS
-ssenet
+ssEnet
 STATIS
 subpopulations
 Subramanian
@@ -244,8 +240,9 @@ testgrounds
 Tian
 Tibshirani
 tk
+toolkits
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 Translational
 transtitions
@@ -255,7 +252,6 @@ UMI
 unbiasedly
 unblinding
 UNC
-unprecidented
 useability
 utilising
 variates
