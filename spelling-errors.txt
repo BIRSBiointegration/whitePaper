@@ -1,10 +1,12 @@
 Abadi
 accessiblity
 activatory
-Aedin
+aedin
 AedinCulhane
 ajabadi
 Akoya
+alexcoul
+AlexisCoullomb
 aljabadi
 Amongst
 Amrit
@@ -68,6 +70,7 @@ covarying
 CpG
 cpm
 Craniofacial
+CRCT
 crticial
 Culhane
 CyTOF
@@ -90,11 +93,12 @@ ejfertig
 Elana
 EMBL
 embyonic
-Enet
+ENet
 entropic
 epigenetics
 examplary
 excitatory
+Fabre
 Facetto
 facilate
 Farber
@@ -127,6 +131,7 @@ identifiability
 IHC
 ImJoy
 Initative
+INSERM
 intergation
 interpretability
 interpretaion
@@ -224,8 +229,8 @@ Soneson
 spatialExpt
 spholmes
 sPLS
-ssEnet
-STATIS
+ssenet
+Statis
 subpopulations
 Subramanian
 subtypes
@@ -242,7 +247,7 @@ Tibshirani
 tk
 toolkits
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 Translational
 transtitions
