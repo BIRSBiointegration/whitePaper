@@ -26,7 +26,7 @@ ayshwaryas
 benchmarked
 Bernd
 Biocarta
-bioinformatics
+Bioinformatics
 biologicaly
 bioloigcal
 biomarkers
@@ -57,6 +57,7 @@ combinatorial
 complemenatary
 comptuational
 cortext
+coud
 Coullomb
 covariances
 covariate
@@ -69,7 +70,7 @@ Craniofacial
 CRCT
 crticial
 Culhane
-CyTOF
+CyToF
 Cytokit
 decompositions
 deconvolute
@@ -194,7 +195,7 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
 remodelling
 reproducibility
@@ -203,7 +204,6 @@ requierments
 resampling
 RFE
 Ricard
-Ritchie
 RLQ
 rootograms
 Saelens
@@ -223,7 +223,7 @@ spatialExpt
 spholmes
 sPLS
 ssenet
-Statis
+STATIS
 subpopulations
 Subramanian
 sufficeint
@@ -233,7 +233,6 @@ SVM
 tasic
 techical
 tesselation
-testgrounds
 thenb
 Tian
 toolkits
@@ -249,11 +248,11 @@ unbiasedly
 unblinding
 UNC
 useability
+useed
 variates
 variational
 vjcitn
 Voronoi
-Wancen
 Welch
 widescale
 wrr
