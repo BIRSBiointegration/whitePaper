@@ -89,7 +89,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-enet
+Enet
 entropic
 epigenetics
 examplary
@@ -185,7 +185,7 @@ phenotypical
 pls
 pluripotency
 practitionners
-Pre
+pre
 preprocessing
 priori
 programme
@@ -194,7 +194,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 Reasonning
 remodelling
 reproducibility
@@ -222,8 +222,8 @@ Soneson
 spatialExpt
 spholmes
 sPLS
-ssEnet
-STATIS
+ssenet
+Statis
 subpopulations
 Subramanian
 sufficeint
@@ -238,7 +238,7 @@ thenb
 Tian
 toolkits
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 Translational
 transtitions

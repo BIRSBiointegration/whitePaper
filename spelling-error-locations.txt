@@ -97,9 +97,9 @@ content/20.scProteomics.md:5:microenvironment
 content/20.scProteomics.md:5:overlaping
 content/20.scProteomics.md:5:situ
 content/20.scProteomics.md:7:bioinformatics
-content/20.scProteomics.md:15:ANOVA
-content/20.scProteomics.md:15:ANOVA
-content/20.scProteomics.md:15:boxplot
+content/20.scProteomics.md:16:ANOVA
+content/20.scProteomics.md:16:ANOVA
+content/20.scProteomics.md:16:boxplot
 content/20.scProteomics.md:17:ANOVA
 content/20.scProteomics.md:17:ANOVA
 content/20.scProteomics.md:17:Boxplot
