@@ -1,7 +1,7 @@
 Abadi
 accessiblity
 activatory
-Aedin
+aedin
 AedinCulhane
 ajabadi
 Akoya
@@ -26,7 +26,7 @@ ayshwaryas
 benchmarked
 Bernd
 Biocarta
-bioinformatics
+Bioinformatics
 biologicaly
 bioloigcal
 biomarkers
@@ -183,10 +183,10 @@ Patheepa
 PCA
 PCAs
 phenotypical
-PLS
+pls
 pluripotency
 practitionners
-Pre
+pre
 preprocessing
 priori
 programme
@@ -223,7 +223,7 @@ spatialExpt
 spholmes
 sPLS
 ssenet
-STATIS
+Statis
 subpopulations
 Subramanian
 sufficeint
