@@ -118,9 +118,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/fbcd4fedf48d64074724f496eaf0e4078e122a36/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/fbcd4fedf48d64074724f496eaf0e4078e122a36/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/fbcd4fedf48d64074724f496eaf0e4078e122a36/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/09655a745fbd9131841c994d5585ea15865c225f/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/09655a745fbd9131841c994d5585ea15865c225f/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/09655a745fbd9131841c994d5585ea15865c225f/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -134,9 +134,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/fbcd4fedf48d64074724f496eaf0e4078e122a36/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/09655a745fbd9131841c994d5585ea15865c225f/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/fbcd4fedf48d64074724f496eaf0e4078e122a36">BIRSBiointegration/whitePaper@fbcd4fe</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/09655a745fbd9131841c994d5585ea15865c225f">BIRSBiointegration/whitePaper@09655a7</a>
 on August 27, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -541,13 +541,14 @@ Contrary to the latter challenges, the third challenge presented data at differe
 <p>New computational approaches are needed to effectively integrate scRNAseq and seqFISH data analyses. This first hackathon provided seqFISH and scRNAseq data corresponding to the mouse visual cortex (<span class="citation" data-cites="13v18bjoF">[<a href="#ref-13v18bjoF" role="doc-biblioref">3</a>]</span>, <span class="citation" data-cites="14LoEihpl">[<a href="#ref-14LoEihpl" role="doc-biblioref">2</a>]</span>) and our participants were challenged to accurately identify cell types. The scRNA-seq data included transcriptional profiles at a high molecular resolution whereas the seqFISH data provided spatial characterization at a lower molecular resolution. Two key computational challenges were identified to enable high-resolution spatial molecular resolution. Firstly, we explored a number of strategies to identify the most likely cell types in the seqFISH dataset based on information obtained from the scRNAseq dataset. Secondly, we sought the opposite direction to transfer spatial information obtained from the seqFISH dataset to that of the scRNAseq dataset. Cell type labels were derived from scRNA-seq analysis <span class="citation" data-cites="14LoEihpl">[<a href="#ref-14LoEihpl" role="doc-biblioref">2</a>]</span> and previous seqFISH/scRNA-seq integration <span class="citation" data-cites="13v18bjoF">[<a href="#ref-13v18bjoF" role="doc-biblioref">3</a>]</span> were also provided as reference. <strong>Could we have a more detailed description of the data chracteristics here please (number of cells, genes per data set, any filtering applied in the hackathon, is applicable</strong></p>
 <div id="fig:spatial" class="fignos">
 <figure>
-<img src="images/seqFish_mockup.png" alt="" /><figcaption><span>Figure 2:</span> <strong>Overview of seqFISH and scRNA-seq integration analysis</strong>.
+<img src="images/seqFish_mockup.png" alt="" /><figcaption><span>Figure 2:</span> </figcaption>
+</figure>
+</div>
+<p>Caption Figure: <strong>Overview of seqFISH and scRNA-seq integration analysis</strong>.
 <strong>A</strong> Assessment of cell type prediction using different data normalizations and classifiers. Normalization strategies included none (raw), counts per million (cpm), ComBat batch correction applied to cpm (cpm_combat), scRNAseq and seqFISH scaled using the first eigenvalue (cpm_eigen), latent variables retained for both datasets after applying Partial Least Squares regression to cpm_eigen normalized data (cpm_pls). Classifiers approaches included a supervised multinomial classifier with elastic net penalty (enet), a semi-supervised multinomial classifier with elastic net penalty (ssenet) and Support Vector Machine (SVM, supervised). Each classifier was trained using the scRNAseq data and the known (provided) cell type labels, then predicted the cell type labels in the seqFISH data; for the SVM we used the predictions from the original study (Challenge 1). The Gower distance between each method-normalization pair was computed and depicted on a multidimensional scaling plot. The first dimension (x-axis) separates methods that normalize the scRNAseq and seqFISH data together (dashed) and separately (solid), showing that normalization had a stronger impact on cell type predictions than the classification method used.
 <strong>B</strong> SVM classification models with different C parameters were trained with different number of genes in scRNAseq data using Recursive Feature Elimination (RFE) to evaluate the minimal number of genes required for data integration. The results show that a smaller gene list than what the original study proposed was sufficeint to identify cell types in both data types (Challenge 1).
 <strong>C</strong> LIGER was applied to combine spatial and single cell transcriptomic datasets. From the separate and integrative analyses, plots of identified and known clusters were generated and metrics of integration performance were compared, showing some loss of information as a result of the integration (Challenge 1) <strong>Josh I need an update of that figure, could you change tasic to scRNA-seq in the caption?</strong>.
-<strong>D</strong> Construction of a spatial network from cells’ positions using Voronoi tessellation, where cell types were inferred from SVM trained on scRNA-seq data. Left: A neighbors aggregation method computes aggregation statistics on the seqFISH gene expression data for each node and its first order neighbors to address Challenge 2. Right: Identification of spatially coherent areas that can contain one or several cell types and can be used to detect genes whose expression is modulated by spatial factors rather than cell type.</figcaption>
-</figure>
-</div>
+<strong>D</strong> Construction of a spatial network from cells’ positions using Voronoi tessellation, where cell types were inferred from SVM trained on scRNA-seq data. Left: A neighbors aggregation method computes aggregation statistics on the seqFISH gene expression data for each node and its first order neighbors to address Challenge 2. Right: Identification of spatially coherent areas that can contain one or several cell types and can be used to detect genes whose expression is modulated by spatial factors rather than cell type.</p>
 <h3 id="computational-challenges">Computational challenges</h3>
 <h4 id="challenge-1-overlay-of-scrna-seq-onto-seqfish-for-resolution-enhancement">Challenge 1: overlay of scRNA-seq onto seqFISH for resolution enhancement</h4>
 <!--
@@ -1961,7 +1962,7 @@ DOI: <a href="https://doi.org/10.1016/j.cell.2020.03.053">10.1016/j.cell.2020.03
 <p>85. <strong>The Human Cell Atlas</strong> <br />
 Aviv Regev, Sarah A Teichmann, Eric S Lander, Ido Amit, Christophe Benoist, Ewan Birney, Bernd Bodenmiller, Peter Campbell, Piero Carninci, Menna Clatworthy, … Human Cell Atlas Meeting Participants<br />
 <em>eLife</em> (2017-12-05) <a href="https://doi.org/gcnzcv">https://doi.org/gcnzcv</a> <br />
-DOI: <a href="https://doi.org/10.7554/elife.27041">10.7554/elife.27041</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29206104">29206104</a></p>
+DOI: <a href="https://doi.org/10.7554/elife.27041">10.7554/elife.27041</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29206104">29206104</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5762154">PMC5762154</a></p>
 </div>
 <div id="ref-1DYAsd4eB">
 <p>86. <strong>The Human Cell Atlas: from vision to reality</strong> <br />

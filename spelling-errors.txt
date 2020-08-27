@@ -1,7 +1,7 @@
 Abadi
 accessiblity
 activatory
-Aedin
+aedin
 AedinCulhane
 ajabadi
 Akoya
@@ -182,10 +182,10 @@ Patheepa
 PCA
 PCAs
 phenotypical
-PLS
+pls
 pluripotency
 practitionners
-pre
+Pre
 preprocessing
 priori
 programme
@@ -194,7 +194,7 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
 remodelling
 reproducibility
@@ -222,7 +222,7 @@ Soneson
 spatialExpt
 spholmes
 sPLS
-ssenet
+ssEnet
 STATIS
 subpopulations
 Subramanian
