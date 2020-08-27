@@ -118,9 +118,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/ee6d64b5f0441b856a2fd7b2bfa9141e304f55c4/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/ee6d64b5f0441b856a2fd7b2bfa9141e304f55c4/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/ee6d64b5f0441b856a2fd7b2bfa9141e304f55c4/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/2deb109902c6c84ade02da676bbd56bd08f10e96/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/2deb109902c6c84ade02da676bbd56bd08f10e96/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/2deb109902c6c84ade02da676bbd56bd08f10e96/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -134,9 +134,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/ee6d64b5f0441b856a2fd7b2bfa9141e304f55c4/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/2deb109902c6c84ade02da676bbd56bd08f10e96/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/ee6d64b5f0441b856a2fd7b2bfa9141e304f55c4">BIRSBiointegration/whitePaper@ee6d64b</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/2deb109902c6c84ade02da676bbd56bd08f10e96">BIRSBiointegration/whitePaper@2deb109</a>
 on August 27, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -1081,25 +1081,22 @@ the data generation and analysis. Cross-validation within
 a study and cross-study validation can be used to assess whether
 solutions found by multi-modal methods generalize to held-out
 observations or held-out studies.</p>
-<div id="fig:benchmark" class="fignos">
-<figure>
-<img src="images/Benchmark_mockup.png" alt="" /><figcaption><span>Figure 3:</span> <strong>A</strong> Silver standard: Svensson et al. (2017) Nat Methods; Wang et al. (2019) bioRxiv; Cole et al. (2019) Cell Systems; Zhang et al. (2017) bioRxiv;
+<p><img src="images/Benchmark_mockup.png" id="fig:benchmark" />
+Caption figure: <strong>A</strong> Silver standard: Svensson et al. (2017) Nat Methods; Wang et al. (2019) bioRxiv; Cole et al. (2019) Cell Systems; Zhang et al. (2017) bioRxiv;
 Soneson et al. (2018) Nat Methods; Saelens et al. (2019) Nat Biotechnol; Gold standard control data: Tian et al. (2019) Nat Meth; Freytag et al. (2018) F1000Res; Gold standard simulated data with the splatter R package appia et al. (2017) Genome Biol [credit: Matt Ritchie] (<strong>Refs to be added proper</strong>).
-<strong>B</strong> scNMT-seq study: correlations with linear projections (MOFA+) evaluated with cross-validation [credit: Wancen Mu and Michael Love].</figcaption>
-</figure>
-</div>
+<strong>B</strong> scNMT-seq study: correlations with linear projections (MOFA+) evaluated with cross-validation [credit: Wancen Mu and Michael Love].</p>
 <h3 id="strategies-for-benchmarking">Strategies for benchmarking</h3>
 <p>Benchmarking multi-modal methods on typical multi-modal datasets is inherently difficult, as we rarely
 know the ground truth <span class="citation" data-cites="chgaiKOU">[<a href="#ref-chgaiKOU" role="doc-biblioref">38</a>]</span>. Simulation methods that generate high-throughput data in silico are useful for having known truth, but it is difficult to
 simulate realistic covariance structure across features and across
-data modalities (Figure <a href="#fig:benchmark">3</a>A). Moreover, these simulations can inadvertently embed the same underlying assumptions as the computational methods employed for analysis, introducing further biases into benchmark studies. Therefore, high-throughput datasets with a known ground truth are also critical for multi-omics studies and robust testgrounds for future hackathon studies that were widely discussed throughout the workshop.</p>
+data modalities (Figure ??A). Moreover, these simulations can inadvertently embed the same underlying assumptions as the computational methods employed for analysis, introducing further biases into benchmark studies. Therefore, high-throughput datasets with a known ground truth are also critical for multi-omics studies and robust testgrounds for future hackathon studies that were widely discussed throughout the workshop.</p>
 <h4 id="cross-validation-within-study">Cross-validation within study</h4>
 <p>One strategy for quantitative assessment of multi-model methods is
 cross-validation (CV). While CV cannot determine the accuracy of a
 method, it can be used to assess a method’s self-consistency.
 For example a
 <a href="https://mikelove.github.io/BIRSBIO2020.Benchmarking.CVmofa/">cross-validation analysis of the scNMT-seq dataset</a>
-was performed as part of the hackathon for this meeting using MOFA+ (Figure <a href="#fig:benchmark">3</a>B).
+was performed as part of the hackathon for this meeting using MOFA+ (Figure ??B).
 Such community-based benchmarking efforts in the area of multi-modal
 data analysis could follow the paradigm of the <a href="http://dreamchallenges.org/">DREAM Challenges</a>,
 with multi-modal training data provided and test samples held out in order
@@ -1185,16 +1182,12 @@ be feasible, respecting needs for stability, reliability, and continuity of acce
 <p>The <code>multiAssayExperiment</code> class is designed so that the variables or features stored for each assay in <code>multiAssayExperiment</code> each independently use Bioconductor data structures for the stored data modality and bind metadata annotating the molecular features for each assay into this class instance. For example,
 genes and transcripts can be enumerated using gene labels from Ensembl <span class="citation" data-cites="oDiClyTE">[<a href="#ref-oDiClyTE" role="doc-biblioref">64</a>]</span> as catalog identifiers, represented as
 genomic regions through <code>GRanges</code> instances <span class="citation" data-cites="14d6Jzwus">[<a href="#ref-14d6Jzwus" role="doc-biblioref">65</a>]</span>, etc.</p>
-<p>In our context, input data across all hackathons were pre-processed with steps documented, and the data were stored in <code>MultiAssayExperiment</code> <span class="citation" data-cites="mlBLKi3Y">[<a href="#ref-mlBLKi3Y" role="doc-biblioref">66</a>]</span> objects which allows collating of standard data formats as well as powerful data access and data processing methods. The datasets were centrally managed and hosted on <code>ExperimentHub</code><span class="citation" data-cites="12geyVA4y">[<a href="#ref-12geyVA4y" role="doc-biblioref">67</a>]</span> and the <code>SingleCellMultiModal</code> package [doi:10.18129/B9.bioc.SingleCellMultiModal] was used to query the relevant datasets for each analysis. Figure <a href="#fig:spatialExpt">4</a> shows how this
+<p>In our context, input data across all hackathons were pre-processed with steps documented, and the data were stored in <code>MultiAssayExperiment</code> <span class="citation" data-cites="mlBLKi3Y">[<a href="#ref-mlBLKi3Y" role="doc-biblioref">66</a>]</span> objects which allows collating of standard data formats as well as powerful data access and data processing methods. The datasets were centrally managed and hosted on <code>ExperimentHub</code><span class="citation" data-cites="12geyVA4y">[<a href="#ref-12geyVA4y" role="doc-biblioref">67</a>]</span> and the <code>SingleCellMultiModal</code> package [doi:10.18129/B9.bioc.SingleCellMultiModal] was used to query the relevant datasets for each analysis. Figure ?? shows how this
 class was used to amalgamate and annotate the multimodal dataset consisting of seqFISH and scRNA-seq experimental data employed for this first hackathon.
 To combine these two different experiments, the seqFISH data were stored into the SpatialExperiment S4 class object, while the scRNA-seq data were stored into a SingleCellExperiment Bioconductor class object <span class="citation" data-cites="R7sfk7Aq">[<a href="#ref-R7sfk7Aq" role="doc-biblioref">68</a>]</span>.
-Then, these objects were easily stored into a MultiAssayExperiment class object and released with the SingleCellMultiModal Bioconductor package <span class="citation" data-cites="doi:10.18129/B9.bioc.SingleCellMultiModal">[<span class="citeproc-not-found" data-reference-id="doi:10.18129/B9.bioc.SingleCellMultiModal"><strong>???</strong></span>]</span>. &lt;!–Is this an unique storage feature of Bioconductor or is there something comparable in python or other bioinformatics ecosystems that we should discuss as well to be comprehensive?–!&gt; We note that this infrastructure was readily suitable and employed for the scNMT-seq and the seqFISH+scRNA-seq (Fig. <a href="#fig:spatialExpt">4</a>) datasets. However, the lack of overlap between samples in the scProteomics hackathon revealed an important area of future work to develop software infrastructure that can link biologically related datasets without direct feature or sample mappings for multi-omics analysis. <!--Aedin, could you please check me that this is what you meant to say by "At the moment, it includes the hackathons scNMT-seq and the seqFISH+scRNA-seq (Fig. {@fig:spatialExpt}) datasets, easily stored because of the samples overlapping between multiple modalities, while we are working on the integration of the scProteomics dataset which has no overlap between samples."--></p>
-<div id="fig:spatialExpt" class="fignos">
-<figure>
-<img src="images/MSA_SpE.png" style="width:50.0%" alt="" /><figcaption><span>Figure 4:</span> Panel A: Combination of seqFISH-based SpatialExperiment
-and SingleCellExperiment instances into a MultiAssayExperiment. Panel B: details of the SpatialExperiment class design.</figcaption>
-</figure>
-</div>
+Then, these objects were easily stored into a MultiAssayExperiment class object and released with the SingleCellMultiModal Bioconductor package <span class="citation" data-cites="doi:10.18129/B9.bioc.SingleCellMultiModal">[<span class="citeproc-not-found" data-reference-id="doi:10.18129/B9.bioc.SingleCellMultiModal"><strong>???</strong></span>]</span>. &lt;!–Is this an unique storage feature of Bioconductor or is there something comparable in python or other bioinformatics ecosystems that we should discuss as well to be comprehensive?–!&gt; We note that this infrastructure was readily suitable and employed for the scNMT-seq and the seqFISH+scRNA-seq (Fig. ??) datasets. However, the lack of overlap between samples in the scProteomics hackathon revealed an important area of future work to develop software infrastructure that can link biologically related datasets without direct feature or sample mappings for multi-omics analysis. <!--Aedin, could you please check me that this is what you meant to say by "At the moment, it includes the hackathons scNMT-seq and the seqFISH+scRNA-seq (Fig. {@fig:spatialExpt}) datasets, easily stored because of the samples overlapping between multiple modalities, while we are working on the integration of the scProteomics dataset which has no overlap between samples."--></p>
+<p><img src="images/MSA_SpE.png" id="fig:spatialExpt" style="width:50.0%" />
+Caption figure: <strong>A</strong> Combination of seqFISH-based SpatialExperiment and SingleCellExperiment instances into a MultiAssayExperiment. <strong>B</strong> Details of the SpatialExperiment class design.</p>
 <p>In addition to data storage, several hackathon contributors (Al Abadi, Patheepa Jeganathan) used the <code>multiAssayExperiment</code> class to implement software for the analysis methods they employed to integrate the multi-modal single cell data (scNMT-seq, sc Proteomics, <strong>pointers to vignettes</strong>), allowing for easier preprocessing, transformation, extraction of spatial information from raster objects, addition of cell information and visualization <strong>Al, details please if needed</strong>.</p>
 <!--In our hackathon context, we considered multi-assay measurements from the same cell (e.g. scNMT-seq) or integration of multi-assay measurements from  (seqFish, scProteomics).
 -->
