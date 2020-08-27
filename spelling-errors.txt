@@ -1,7 +1,7 @@
 Abadi
 accessiblity
 activatory
-aedin
+Aedin
 AedinCulhane
 ajabadi
 Akoya
@@ -38,20 +38,17 @@ Biostatistics
 Biostatsitics
 Biotechnol
 bisulfite
-Blei
 Blish
 Bodenmiller
-Boxplot
+boxplot
 Cao
 CellProfiler
 Centre
 centric
 centroid
-centroids
 cgreene
 Channing
 Cheng
-Chessel
 chracteristics
 cmIF
 cn
@@ -59,7 +56,6 @@ coloured
 combinatorial
 complemenatary
 comptuational
-consortiums
 cortext
 Coullomb
 covariances
@@ -73,7 +69,7 @@ Craniofacial
 CRCT
 crticial
 Culhane
-CyTOF
+CyToF
 Cytokit
 decompositions
 deconvolute
@@ -84,16 +80,16 @@ dimensionality
 dinucleotides
 discriminative
 DNase
+dont
 dqn
 EBI
-eg
 eigen
 eigenvector
 ejfertig
 Elana
 EMBL
 embyonic
-ENet
+Enet
 entropic
 epigenetics
 examplary
@@ -128,7 +124,6 @@ Hsu
 hyperparameters
 identied
 identifiability
-IHC
 ImJoy
 Initative
 INSERM
@@ -143,7 +138,6 @@ janeroe
 Jeganathan
 Jenagan
 Jenathan
-Keren
 Kimmel
 Klarman
 Lê
@@ -182,6 +176,7 @@ notabe
 novo
 Ontologies
 overfitting
+overlaping
 overparametrized
 Patheepa
 PCA
@@ -190,7 +185,6 @@ phenotypical
 pls
 pluripotency
 practitionners
-Pratheepa
 pre
 preprocessing
 priori
@@ -200,7 +194,7 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
 remodelling
 reproducibility
@@ -211,7 +205,6 @@ RFE
 Ricard
 Ritchie
 RLQ
-RMSEs
 rootograms
 Saelens
 Sankaran
@@ -230,10 +223,9 @@ spatialExpt
 spholmes
 sPLS
 ssenet
-Statis
+STATIS
 subpopulations
 Subramanian
-subtypes
 sufficeint
 summarization
 Svensson
@@ -242,9 +234,8 @@ tasic
 techical
 tesselation
 testgrounds
+thenb
 Tian
-Tibshirani
-tk
 toolkits
 totalVI
 Transcriptional
@@ -258,7 +249,6 @@ unbiasedly
 unblinding
 UNC
 useability
-utilising
 variates
 variational
 vjcitn
@@ -270,6 +260,5 @@ wrr
 Xu
 XXXX
 XY
-Yingxin
 Zhang
 Zuckerberg
