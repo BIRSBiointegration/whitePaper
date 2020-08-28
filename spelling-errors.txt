@@ -1,7 +1,7 @@
 Abadi
 accessiblity
 activatory
-aedin
+Aedin
 AedinCulhane
 ajabadi
 Akoya
@@ -26,7 +26,7 @@ ayshwaryas
 benchmarked
 Bernd
 Biocarta
-bioinformatics
+Bioinformatics
 biologicaly
 bioloigcal
 biomarkers
@@ -50,6 +50,7 @@ cgreene
 Channing
 Cheng
 chracteristics
+cis
 cmIF
 cn
 coloured
@@ -57,7 +58,6 @@ combinatorial
 complemenatary
 comptuational
 cortext
-coud
 Coullomb
 covariances
 covariate
@@ -90,7 +90,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-Enet
+enet
 entropic
 epigenetics
 examplary
@@ -195,7 +195,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 Reasonning
 remodelling
 reproducibility
@@ -222,8 +222,8 @@ Soneson
 spatialExpt
 spholmes
 sPLS
-ssEnet
-STATIS
+ssenet
+Statis
 subpopulations
 Subramanian
 sufficeint
@@ -231,7 +231,6 @@ summarization
 Svensson
 SVM
 tasic
-techical
 tesselation
 thenb
 Tian
@@ -248,7 +247,6 @@ unbiasedly
 unblinding
 UNC
 useability
-useed
 variates
 variational
 vjcitn
