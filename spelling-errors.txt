@@ -26,7 +26,7 @@ ayshwaryas
 benchmarked
 Bernd
 Biocarta
-Bioinformatics
+bioinformatics
 biologicaly
 bioloigcal
 biomarkers
@@ -90,7 +90,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-enet
+Enet
 entropic
 epigenetics
 examplary
@@ -183,7 +183,7 @@ Patheepa
 PCA
 PCAs
 phenotypical
-pls
+PLS
 pluripotency
 practitionners
 pre
@@ -222,8 +222,8 @@ Soneson
 spatialExpt
 spholmes
 sPLS
-ssenet
-Statis
+ssEnet
+STATIS
 subpopulations
 Subramanian
 sufficeint
@@ -237,7 +237,7 @@ thenb
 Tian
 toolkits
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 Translational
 transtitions
