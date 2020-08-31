@@ -1,6 +1,6 @@
 Abadi
 activatory
-aedin
+Aedin
 AedinCulhane
 ajabadi
 Akoya
@@ -25,7 +25,7 @@ ayshwaryas
 benchmarked
 Bernd
 Biocarta
-bioinformatics
+Bioinformatics
 biologicaly
 bioloigcal
 biomarkers
@@ -68,7 +68,7 @@ Craniofacial
 CRCT
 crticial
 Culhane
-CyTOF
+CyToF
 Cytokit
 decompositions
 deconvolute
@@ -121,7 +121,6 @@ higlighted
 histone
 Hsu
 hyperparameters
-identied
 identifiability
 ImJoy
 Initative
@@ -191,7 +190,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 Reasonning
 remodelling
 reproducibility
@@ -230,7 +229,7 @@ thenb
 Tian
 toolkits
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 Translational
 transtitions

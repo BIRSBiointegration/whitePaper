@@ -80,7 +80,6 @@ content/10.scSpatial.md:50:SVM
 content/10.scSpatial.md:50:SVM
 content/10.scSpatial.md:52:RFE
 content/10.scSpatial.md:58:transcriptomic
-content/10.scSpatial.md:60:identied
 content/10.scSpatial.md:60:Voronoi
 content/10.scSpatial.md:62:combinatorial
 content/10.scSpatial.md:69:transcriptomic

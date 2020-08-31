@@ -118,9 +118,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/ae87401a4432ba1b700ca7ea2a05ce33cfe2e401/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/ae87401a4432ba1b700ca7ea2a05ce33cfe2e401/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/ae87401a4432ba1b700ca7ea2a05ce33cfe2e401/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/97c2e0cba3ac4b3d3263bb2552b9b8609b9b9162/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/97c2e0cba3ac4b3d3263bb2552b9b8609b9b9162/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/97c2e0cba3ac4b3d3263bb2552b9b8609b9b9162/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -134,9 +134,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/ae87401a4432ba1b700ca7ea2a05ce33cfe2e401/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/97c2e0cba3ac4b3d3263bb2552b9b8609b9b9162/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/ae87401a4432ba1b700ca7ea2a05ce33cfe2e401">BIRSBiointegration/whitePaper@ae87401</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/97c2e0cba3ac4b3d3263bb2552b9b8609b9b9162">BIRSBiointegration/whitePaper@97c2e0c</a>
 on August 31, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -576,7 +576,7 @@ In contrast, the scRNAseq dataset is transcriptome wide, and includes the 125 af
 <p><strong>could we have some elements of conclusion here?</strong></p>
 <h4 id="challenge-2-identifying-spatial-expression-patterns-at-the-tissue-level-through-integration-of-gene-expression-and-spatial-cellular-coordinates">Challenge 2: Identifying spatial expression patterns at the tissue level through integration of gene expression and spatial cellular coordinates</h4>
 <p>Most tools that were originally developed for scRNA-seq data can be adapted for spatial transcriptomic datasets (Section <span class="citation" data-cites="ref">[<span class="citeproc-not-found" data-reference-id="ref"><strong>???</strong></span>]</span>{sec:common}), however, methods to extract sources of variation that originate from spatial factors are still lacking. Novel methods which can integrate the information obtained from gene expression with that of the spatial coordinates from each individual cell or transcript (for sub-cellular resolution) within a tissue of interest are needed.</p>
-<p>To identify spatial expression patterns in the seqFISH dataset the participants first retained spatial information at the cellular level through the formation of a spatial network based on Voronoi tessellation (<span class="citation" data-cites="1HWhMi97j">[<a href="#ref-1HWhMi97j" role="doc-biblioref">10</a>]</span>). Within this spatial network the expression of each individual cell was spatially smoothed by calculating the average gene expression levels over all its neighboring cells. UMAP on the now smooth and aggregated data matrix was applied and identied cell clusters with a density based clustering approach (Figure <a href="#fig:spatial">2</a>D). Interestingly, these results showed that the obtained clusters themselves are spatially separated and do not necessarily overlap with specific cell types, suggesting that the spatial dimension cannot be simply captured from the expression data only.</p>
+<p>To identify spatial expression patterns in the seqFISH dataset the participants first retained spatial information at the cellular level through the formation of a spatial network based on Voronoi tessellation (<span class="citation" data-cites="1HWhMi97j">[<a href="#ref-1HWhMi97j" role="doc-biblioref">10</a>]</span>). Within this spatial network the expression of each individual cell was spatially smoothed by calculating the average gene expression levels over all its neighboring cells. UMAP on the now smooth and aggregated data matrix was applied to identify cell clusters with a density based clustering approach (Figure <a href="#fig:spatial">2</a>D). Interestingly, these results showed that the obtained clusters themselves are spatially separated and do not necessarily overlap with specific cell types, suggesting that the spatial dimension cannot be simply captured from the expression data only.</p>
 <p>An unanswered question is whether the identified combinatorial spatial patterns can be extracted directly from a matching scRNA-seq dataset, similar to what was previously shown for individual gene expression profiles that can be mapped to their known spatial locations (<span class="citation" data-cites="124247ZE6">[<a href="#ref-124247ZE6" role="doc-biblioref">11</a>]</span>, <span class="citation" data-cites="doi.org/10.1016/j.cell.2019.05.006">[<span class="citeproc-not-found" data-reference-id="doi.org/10.1016/j.cell.2019.05.006"><strong>???</strong></span>]</span>). However, this still constitutes both a technological and analytical challenge that will require careful benchmarking in the near future (Section <span class="citation" data-cites="ref">[<span class="citeproc-not-found" data-reference-id="ref"><strong>???</strong></span>]</span>{sec:benchmarking}).</p>
 <!-- integrating different datasets and extrapolating observed trends is challenging and will require more work and careful benchmarking in the future. -->
 <!--
