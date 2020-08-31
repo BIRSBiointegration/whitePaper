@@ -1,6 +1,6 @@
 Abadi
 activatory
-aedin
+Aedin
 AedinCulhane
 ajabadi
 Akoya
@@ -46,6 +46,7 @@ Centre
 centric
 centroid
 cgreene
+challeng
 Channing
 Cheng
 chracteristics
@@ -88,14 +89,13 @@ ejfertig
 Elana
 EMBL
 embyonic
-ENet
+enet
 entropic
 epigenetics
 examplary
 excitatory
 Fabre
 Facetto
-facilate
 Farber
 Fertig
 Finetti
@@ -194,7 +194,7 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
 remodelling
 reproducibility
@@ -217,9 +217,9 @@ spatialExpt
 specifc
 spholmes
 sPLS
-ssenet
+ssEnet
 standardised
-Statis
+STATIS
 subpopulations
 Subramanian
 sufficeint
