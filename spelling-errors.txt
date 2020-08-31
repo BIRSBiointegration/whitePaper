@@ -1,6 +1,6 @@
 Abadi
 activatory
-Aedin
+aedin
 AedinCulhane
 ajabadi
 Akoya
@@ -88,7 +88,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-Enet
+enet
 entropic
 epigenetics
 examplary
@@ -157,6 +157,7 @@ modelling
 mRNA
 MSigDB
 multinomial
+multiplatform
 multipliable
 Nanostring
 napari
@@ -171,7 +172,6 @@ Normalisation
 normalizations
 notabe
 novo
-OIn
 Ontologies
 overfitting
 overlaping
@@ -179,7 +179,7 @@ overparametrized
 PCA
 PCAs
 phenotypical
-PLS
+pls
 pluripotency
 practitionners
 pre
@@ -215,7 +215,8 @@ Soneson
 spatialExpt
 spholmes
 sPLS
-ssEnet
+ssenet
+standardised
 Statis
 subpopulations
 Subramanian
@@ -239,6 +240,7 @@ UMI
 unbiasedly
 unblinding
 UNC
+Useability
 variates
 variational
 vizualization
