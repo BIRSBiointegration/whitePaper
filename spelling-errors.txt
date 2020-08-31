@@ -89,7 +89,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-enet
+ENet
 entropic
 epigenetics
 examplary
@@ -182,7 +182,7 @@ overparametrized
 PCA
 PCAs
 phenotypical
-pls
+PLS
 pluripotency
 practitionners
 pre
@@ -217,7 +217,7 @@ spatialExpt
 specifc
 spholmes
 sPLS
-ssEnet
+ssenet
 standardised
 STATIS
 subpopulations
