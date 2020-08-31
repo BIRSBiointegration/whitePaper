@@ -24,7 +24,7 @@ ayshwaryas
 benchmarked
 Bernd
 Biocarta
-Bioinformatics
+bioinformatics
 biologicaly
 bioloigcal
 biomarkers
@@ -65,7 +65,7 @@ Craniofacial
 CRCT
 crticial
 Culhane
-CyToF
+CyTOF
 Cytokit
 decompositions
 deconvolute
@@ -132,8 +132,10 @@ janeroe
 Jeganathan
 Jenagan
 Jenathan
+jw
 Kimmel
 Klarman
+LabWelch
 Lê
 LIGER
 localisation
@@ -186,7 +188,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 Reasonning
 remodelling
 reproducibility
