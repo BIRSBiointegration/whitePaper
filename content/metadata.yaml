@@ -151,6 +151,19 @@ authors:
       - Toulouse Cancer Research Center (CRCT), INSERM
     funders:
        - Pierre Fabre
+  - github: jw156605 
+    name: Joshua D. Welch
+    initials: JDW
+    orcid: 0000-0002-5869-2391
+    twitter:  LabWelch
+    email: welchjd@umich.edu
+    affiliations:
+      - Department of Computational Medicine and Bioinformatics, University of Michigan
+      - Department of Computer Science and Engineering, University of Michigan
+    funders:
+       - National Human Genome Research Institute, NIH
+       - National Institute of Allergy and Infectious Diseases, NIH
+       - National Institute of Mental Health, NIH
   - github: janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)
     name: Jane Roe
     initials: JR
