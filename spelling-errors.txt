@@ -65,7 +65,7 @@ Craniofacial
 CRCT
 crticial
 Culhane
-CyToF
+CyTOF
 Cytokit
 decompositions
 deconvolute
@@ -85,7 +85,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-ENet
+enet
 entropic
 epigenetics
 examplary
@@ -178,7 +178,7 @@ phenotypical
 PLS
 pluripotency
 practitionners
-pre
+Pre
 preprocessing
 priori
 programme
