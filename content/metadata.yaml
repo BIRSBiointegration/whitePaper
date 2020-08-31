@@ -99,8 +99,8 @@ authors:
       - National Institutes of Health, National Cancer Institute
       - National Institutes of Health, National Institute on Aging
   - github: ajabadi
-    name: Al JalalAbadi
-    initials: AJ
+    name: Al J Abadi
+    initials: AJA
     orcid: 0000-0002-4146-2848
     twitter: aljabadi
     email: ajalalabadi@unimelb.edu.au
@@ -151,7 +151,7 @@ authors:
       - Toulouse Cancer Research Center (CRCT), INSERM
     funders:
        - Pierre Fabre
-       
+     
   - github: jsodicoff 
     name: Joshua S. Sodicoff
     initials: JSS
@@ -160,11 +160,21 @@ authors:
     affiliations:
       - Department of Computational Medicine and Bioinformatics, University of Michigan
       - Department of Biomedical Engineering, University of Michigan
+
+  - github: jw156605 
+    name: Joshua D. Welch
+    initials: JDW
+    orcid: 0000-0002-5869-2391
+    twitter:  LabWelch
+    email: welchjd@umich.edu
+    affiliations:
+      - Department of Computational Medicine and Bioinformatics, University of Michigan
+      - Department of Computer Science and Engineering, University of Michigan
     funders:
        - National Human Genome Research Institute, NIH
        - National Institute of Allergy and Infectious Diseases, NIH
        - National Institute of Mental Health, NIH
-       
+
   - github: janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)
     name: Jane Roe
     initials: JR
