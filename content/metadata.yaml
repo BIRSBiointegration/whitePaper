@@ -151,6 +151,14 @@ authors:
       - Toulouse Cancer Research Center (CRCT), INSERM
     funders:
        - Pierre Fabre
+  - github: arorarshi
+    name: Arshi Arora
+    initials: AA
+    orcid: 0000-0002-4040-1787
+    twitter:  arorarshi
+    email: aroraa@mskcc.org
+    affiliations:
+      - Department of Epidemiology and Biostatistics, Memorial Sloan Ketterign Cancer Center
   - github: janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)
     name: Jane Roe
     initials: JR
