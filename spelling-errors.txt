@@ -24,7 +24,7 @@ ayshwaryas
 benchmarked
 Bernd
 Biocarta
-bioinformatics
+Bioinformatics
 biologicaly
 bioloigcal
 biomarkers
@@ -85,7 +85,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-ENet
+enet
 entropic
 epigenetics
 examplary
@@ -128,7 +128,6 @@ interpretaion
 intra
 introns
 iteratively
-JalalAbadi
 janeroe
 Jeganathan
 Jenagan
@@ -187,7 +186,7 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
 remodelling
 reproducibility
@@ -222,7 +221,7 @@ tesselation
 thenb
 toolkits
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 Translational
 transtitions
