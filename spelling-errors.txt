@@ -1,5 +1,4 @@
 Abadi
-accessiblity
 activatory
 Aedin
 AedinCulhane
@@ -26,7 +25,7 @@ ayshwaryas
 benchmarked
 Bernd
 Biocarta
-Bioinformatics
+bioinformatics
 biologicaly
 bioloigcal
 biomarkers
@@ -56,7 +55,6 @@ cn
 coloured
 combinatorial
 complemenatary
-comptuational
 cortext
 Coullomb
 covariances
@@ -90,7 +88,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-enet
+Enet
 entropic
 epigenetics
 examplary
@@ -159,9 +157,7 @@ modelling
 mRNA
 MSigDB
 multinomial
-multiplatform
 multipliable
-multistream
 Nanostring
 napari
 neighbour
@@ -175,11 +171,11 @@ Normalisation
 normalizations
 notabe
 novo
+OIn
 Ontologies
 overfitting
 overlaping
 overparametrized
-Patheepa
 PCA
 PCAs
 phenotypical
@@ -195,12 +191,10 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
 remodelling
 reproducibility
-reproducibly
-requierments
 resampling
 RFE
 Ricard
@@ -215,14 +209,13 @@ sGCCA
 SherlockpHolmes
 silico
 singha
-SingleCellExperiment
 situ
 Sodicoff
 Soneson
 spatialExpt
 spholmes
 sPLS
-ssenet
+ssEnet
 Statis
 subpopulations
 Subramanian
@@ -236,7 +229,7 @@ thenb
 Tian
 toolkits
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 Translational
 transtitions
@@ -246,9 +239,9 @@ UMI
 unbiasedly
 unblinding
 UNC
-useability
 variates
 variational
+vizualization
 vjcitn
 Voronoi
 Welch
