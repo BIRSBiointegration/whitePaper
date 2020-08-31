@@ -151,6 +151,20 @@ authors:
       - Toulouse Cancer Research Center (CRCT), INSERM
     funders:
        - Pierre Fabre
+       
+  - github: jsodicoff 
+    name: Joshua S. Sodicoff
+    initials: JSS
+    orcid: 0000-0001-5182-960X
+    email: sodicoff@umich.edu
+    affiliations:
+      - Department of Computational Medicine and Bioinformatics, University of Michigan
+      - Department of Biomedical Engineering, University of Michigan
+    funders:
+       - National Human Genome Research Institute, NIH
+       - National Institute of Allergy and Infectious Diseases, NIH
+       - National Institute of Mental Health, NIH
+       
   - github: janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)
     name: Jane Roe
     initials: JR
