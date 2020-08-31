@@ -1,6 +1,6 @@
 Abadi
 activatory
-Aedin
+aedin
 AedinCulhane
 ajabadi
 Akoya
@@ -27,7 +27,7 @@ ayshwaryas
 benchmarked
 Bernd
 Biocarta
-Bioinformatics
+bioinformatics
 biologicaly
 bioloigcal
 biomarkers
@@ -69,7 +69,7 @@ Craniofacial
 CRCT
 crticial
 Culhane
-CyTOF
+CyToF
 Cytokit
 decompositions
 deconvolute
@@ -182,7 +182,7 @@ overparametrized
 PCA
 PCAs
 phenotypical
-PLS
+pls
 pluripotency
 practitionners
 pre
@@ -194,7 +194,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 Reasonning
 remodelling
 reproducibility
