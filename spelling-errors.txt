@@ -7,6 +7,7 @@ Akoya
 alexcoul
 AlexisCoullomb
 aljabadi
+AMI
 Amongst
 Amrit
 analysed
@@ -15,6 +16,8 @@ ANOVA
 Arcsinh
 Argelaguet
 Arora
+arorarshi
+Arshi
 asingh
 autocorrelation
 autoencoder
@@ -24,7 +27,7 @@ ayshwaryas
 benchmarked
 Bernd
 Biocarta
-bioinformatics
+Bioinformatics
 biologicaly
 bioloigcal
 biomarkers
@@ -85,7 +88,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-enet
+ENet
 entropic
 epigenetics
 examplary
@@ -132,7 +135,9 @@ janeroe
 Jeganathan
 Jenagan
 Jenathan
+jsodicoff
 jw
+Ketterign
 Kimmel
 Klarman
 LabWelch
@@ -141,6 +146,7 @@ LIGER
 localisation
 Lustgarten
 Matlab
+MDS
 megabases
 Meng
 methyltransferase
@@ -208,6 +214,7 @@ singha
 situ
 Sodicoff
 spatialExpt
+specifc
 spholmes
 sPLS
 ssenet
@@ -239,7 +246,6 @@ variational
 vizualization
 vjcitn
 Voronoi
-weightin
 Welch
 widescale
 wrr

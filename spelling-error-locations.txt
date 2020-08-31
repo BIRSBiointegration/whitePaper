@@ -186,11 +186,12 @@ content/30.scNMT-seq.md:13:biostatistics
 content/30.scNMT-seq.md:13:centric
 content/30.scNMT-seq.md:13:covariances
 content/30.scNMT-seq.md:13:LIGER
+content/30.scNMT-seq.md:13:MDS
 content/30.scNMT-seq.md:13:scnmtseq
 content/30.scNMT-seq.md:13:scnmtseq
 content/30.scNMT-seq.md:13:scnmtseq
+content/30.scNMT-seq.md:13:specifc
 content/30.scNMT-seq.md:13:sPLS
-content/30.scNMT-seq.md:13:weightin
 content/30.scNMT-seq.md:15:scnmtseq
 content/30.scNMT-seq.md:15:scNMTseq
 content/30.scNMT-seq.md:17:analysed
@@ -207,8 +208,10 @@ content/30.scNMT-seq.md:26:interpretability
 content/30.scNMT-seq.md:26:pre
 content/30.scNMT-seq.md:26:preprocessing
 content/30.scNMT-seq.md:28:genebody
+content/30.scNMT-seq.md:30:AMI
+content/30.scNMT-seq.md:30:AMI
+content/30.scNMT-seq.md:30:AMI
 content/30.scNMT-seq.md:30:covarying
-content/30.scNMT-seq.md:30:CpG
 content/30.scNMT-seq.md:30:gastrulation
 content/30.scNMT-seq.md:30:genebody
 content/30.scNMT-seq.md:30:LIGER
