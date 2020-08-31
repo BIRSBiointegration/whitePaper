@@ -89,7 +89,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-ENet
+enet
 entropic
 epigenetics
 examplary
@@ -182,7 +182,7 @@ overparametrized
 PCA
 PCAs
 phenotypical
-pls
+PLS
 pluripotency
 practitionners
 pre
@@ -194,7 +194,7 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 Reasonning
 remodelling
 reproducibility
@@ -219,7 +219,7 @@ spholmes
 sPLS
 ssenet
 standardised
-STATIS
+Statis
 subpopulations
 Subramanian
 sufficeint
@@ -230,7 +230,7 @@ tesselation
 thenb
 toolkits
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 Translational
 transtitions
