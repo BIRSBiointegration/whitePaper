@@ -438,6 +438,7 @@ content/60.software.md:143:CellProfiler
 content/70.Future.md:3:higlighted
 content/70.Future.md:3:modelling
 content/70.Future.md:3:summarization
+content/70.Future.md:5:Visium
 content/70.Future.md:6:Akoya
 content/70.Future.md:6:Bernd
 content/70.Future.md:6:Biosciences

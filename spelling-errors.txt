@@ -28,7 +28,7 @@ ayshwaryas
 benchmarked
 Bernd
 Biocarta
-bioinformatics
+Bioinformatics
 biologicaly
 bioloigcal
 biomarkers
@@ -69,7 +69,7 @@ cpm
 Craniofacial
 CRCT
 Culhane
-CyTOF
+CyToF
 Cytokit
 decompositions
 deconvolute
@@ -90,7 +90,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-ENet
+Enet
 entropic
 epigenetics
 examplary
@@ -219,7 +219,7 @@ spholmes
 sPLS
 ssenet
 standardised
-STATIS
+Statis
 statisticial
 subpopulations
 Subramanian
@@ -230,7 +230,7 @@ tesselation
 thenb
 toolkits
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 Translational
 transtitions
@@ -243,6 +243,7 @@ UNC
 Useability
 variates
 variational
+Visium
 vizualization
 vjcitn
 Voronoi
