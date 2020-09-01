@@ -58,7 +58,7 @@ cna
 coloured
 combinatorial
 cortext
-COullomb
+Coullomb
 covariances
 covariate
 covariates
@@ -183,10 +183,10 @@ overparametrized
 PCA
 PCAs
 phenotypical
-pls
+PLS
 pluripotency
 practitionners
-pre
+Pre
 preprocessing
 priori
 programme
@@ -217,7 +217,7 @@ spatialExpt
 specifc
 spholmes
 sPLS
-ssenet
+ssEnet
 standardised
 STATIS
 statisticial
