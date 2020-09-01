@@ -57,9 +57,8 @@ cn
 cna
 coloured
 combinatorial
-complemenatary
 cortext
-Coullomb
+COullomb
 covariances
 covariate
 covariates
@@ -218,7 +217,7 @@ spatialExpt
 specifc
 spholmes
 sPLS
-ssEnet
+ssenet
 standardised
 STATIS
 statisticial
@@ -227,12 +226,11 @@ Subramanian
 sufficeint
 summarization
 SVM
-tasic
 tesselation
 thenb
 toolkits
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 Translational
 transtitions

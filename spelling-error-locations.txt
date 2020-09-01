@@ -22,7 +22,6 @@ content/03.introduction.md:39:gastrulation
 content/03.introduction.md:39:intra
 content/03.introduction.md:39:transcriptional
 content/03.introduction.md:41:ato
-content/10.scSpatial.md:5:complemenatary
 content/10.scSpatial.md:5:cortext
 content/10.scSpatial.md:5:situ
 content/10.scSpatial.md:5:transcriptomic
@@ -54,17 +53,14 @@ content/10.scSpatial.md:16:scRNAseq
 content/10.scSpatial.md:16:sufficeint
 content/10.scSpatial.md:16:SVM
 content/10.scSpatial.md:17:LIGER
-content/10.scSpatial.md:17:tasic
 content/10.scSpatial.md:17:transcriptomic
 content/10.scSpatial.md:18:SVM
 content/10.scSpatial.md:18:Voronoi
 content/10.scSpatial.md:27:transcriptomic
 content/10.scSpatial.md:31:scRNAseq
 content/10.scSpatial.md:32:scRNAseq
-content/10.scSpatial.md:32:Tasic
 content/10.scSpatial.md:33:scRNAseq
 content/10.scSpatial.md:33:scRNAseq
-content/10.scSpatial.md:33:Tasic
 content/10.scSpatial.md:36:Coullomb
 content/10.scSpatial.md:36:Sodicoff
 content/10.scSpatial.md:36:Xu
