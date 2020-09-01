@@ -183,6 +183,17 @@ authors:
        - National Human Genome Research Institute, NIH
        - National Institute of Allergy and Infectious Diseases, NIH
        - National Institute of Mental Health, NIH
+       
+    - github: edavis71
+    name: Emily F. Davis-Marcisak
+    initials: EFM
+    orcid: 0000-0001-8624-1013
+    twitter:  efaithd
+    email: edavis71@jhu.edu
+    affiliations:
+      - McKusick-Nathans Institute of the Department of Genetic Medicine, Johns Hopkins School of Medicine, Baltimore, MD, USA
+    funders:
+       - National Institute of Health, National Cancer Institute
 
   - github: janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)
     name: Jane Roe
