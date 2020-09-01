@@ -1,7 +1,8 @@
 Abadi
 activatory
-aedin
+Aedin
 AedinCulhane
+Aggregtion
 ajabadi
 Akoya
 alexcoul
@@ -19,7 +20,6 @@ Arora
 arorarshi
 Arshi
 asingh
-ato
 autocorrelation
 autoencoder
 availabe
@@ -54,7 +54,6 @@ chracteristics
 cis
 cmIF
 cn
-cna
 coloured
 combinatorial
 Coullomb
@@ -68,7 +67,7 @@ cpm
 Craniofacial
 CRCT
 Culhane
-CyToF
+CyTOF
 Cytokit
 decompositions
 deconvolute
@@ -89,7 +88,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-enet
+Enet
 entropic
 epigenetics
 examplary
@@ -111,6 +110,7 @@ geospatial
 gf
 gghpmf
 GIS
+glmnet
 GNT
 Gower
 GpC
@@ -127,9 +127,9 @@ Initative
 INSERM
 interpretability
 interpretaion
-intra
 introns
 iteratively
+JalalAbadi
 janeroe
 Jeganathan
 Jenagan
@@ -165,6 +165,7 @@ Nanostring
 napari
 neighbour
 neighbourhood
+Neighbours
 NIAID
 NMF
 NMT
@@ -174,7 +175,6 @@ Normalisation
 normalizations
 notabe
 novo
-oand
 Ontologies
 overfitting
 overlaping
@@ -182,10 +182,11 @@ overparametrized
 PCA
 PCAs
 phenotypical
-PLS
+pls
 pluripotency
 practitionners
-pre
+Pratheepa
+Pre
 preprocessing
 priori
 programme
@@ -204,7 +205,7 @@ Ricard
 RLQ
 rootograms
 Sankaran
-scnmtseq
+scNMTseq
 scRNAseq
 sGCCA
 SherlockpHolmes
@@ -219,7 +220,6 @@ sPLS
 ssenet
 standardised
 STATIS
-statisticial
 subpopulations
 Subramanian
 sufficeint
@@ -229,7 +229,7 @@ tesselation
 thenb
 toolkits
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 Translational
 transtitions
@@ -246,10 +246,12 @@ Visium
 vizualization
 vjcitn
 Voronoi
+Wancen
 Welch
 widescale
 wrr
 Xu
 XXXX
 XY
+Yingxin
 Zuckerberg
