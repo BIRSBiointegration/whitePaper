@@ -185,7 +185,7 @@ phenotypical
 PLS
 pluripotency
 practitionners
-pre
+Pre
 preprocessing
 priori
 programme
@@ -194,7 +194,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 Reasonning
 remodelling
 reproducibility
@@ -206,7 +206,6 @@ rootograms
 Sankaran
 scnmtseq
 scRNAseq
-scTargeted
 sGCCA
 SherlockpHolmes
 silico
@@ -219,7 +218,7 @@ spholmes
 sPLS
 ssenet
 standardised
-Statis
+STATIS
 subpopulations
 Subramanian
 sufficeint
@@ -230,7 +229,7 @@ tesselation
 thenb
 toolkits
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 Translational
 transtitions
