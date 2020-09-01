@@ -448,6 +448,7 @@ content/70.Future.md:8:Biopython
 content/70.Future.md:8:toolkits
 content/70.Future.md:11:Biocarta
 content/70.Future.md:11:MSigDB
+content/70.Future.md:12:transcriptional
 content/80.glossary.md:8:gghpmf
 content/80.glossary.md:9:eigenvector
 content/80.glossary.md:10:variates
