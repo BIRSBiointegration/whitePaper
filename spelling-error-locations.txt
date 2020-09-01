@@ -239,9 +239,7 @@ content/30.scNMT-seq.md:46:neighbourhood
 content/30.scNMT-seq.md:46:neighbourhood
 content/30.scNMT-seq.md:48:HiC
 content/30.scNMT-seq.md:48:megabases
-content/40.common-challenges.md:5:crticial
 content/40.common-challenges.md:5:Enet
-content/40.common-challenges.md:5:intergation
 content/40.common-challenges.md:5:pre
 content/40.common-challenges.md:5:preprocessing
 content/40.common-challenges.md:5:SVM
@@ -250,7 +248,8 @@ content/40.common-challenges.md:7:NMF
 content/40.common-challenges.md:7:PCA
 content/40.common-challenges.md:7:tSNE
 content/40.common-challenges.md:9:pre
-content/40.common-challenges.md:11:Coullomb
+content/40.common-challenges.md:11:COullomb
+content/40.common-challenges.md:11:dicuss
 content/40.common-challenges.md:11:Pre
 content/40.common-challenges.md:11:reproducibility
 content/40.common-challenges.md:11:summarization
