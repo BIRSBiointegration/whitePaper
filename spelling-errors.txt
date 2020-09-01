@@ -28,7 +28,7 @@ ayshwaryas
 benchmarked
 Bernd
 Biocarta
-bioinformatics
+Bioinformatics
 biologicaly
 bioloigcal
 biomarkers
@@ -57,7 +57,6 @@ cn
 cna
 coloured
 combinatorial
-cortext
 Coullomb
 covariances
 covariate
@@ -69,7 +68,7 @@ cpm
 Craniofacial
 CRCT
 Culhane
-CyTOF
+CyToF
 Cytokit
 decompositions
 deconvolute
@@ -186,7 +185,7 @@ phenotypical
 PLS
 pluripotency
 practitionners
-Pre
+pre
 preprocessing
 priori
 programme
@@ -230,7 +229,7 @@ tesselation
 thenb
 toolkits
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 Translational
 transtitions
