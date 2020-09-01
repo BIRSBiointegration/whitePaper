@@ -19,6 +19,7 @@ Arora
 arorarshi
 Arshi
 asingh
+ato
 autocorrelation
 autoencoder
 availabe
@@ -27,7 +28,7 @@ ayshwaryas
 benchmarked
 Bernd
 Biocarta
-bioinformatics
+Bioinformatics
 biologicaly
 bioloigcal
 biomarkers
@@ -53,6 +54,7 @@ chracteristics
 cis
 cmIF
 cn
+cna
 coloured
 combinatorial
 complemenatary
@@ -89,7 +91,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-ENet
+enet
 entropic
 epigenetics
 examplary
@@ -174,6 +176,7 @@ Normalisation
 normalizations
 notabe
 novo
+oand
 Ontologies
 overfitting
 overlaping
@@ -181,7 +184,7 @@ overparametrized
 PCA
 PCAs
 phenotypical
-PLS
+pls
 pluripotency
 practitionners
 pre
@@ -215,9 +218,10 @@ spatialExpt
 specifc
 spholmes
 sPLS
-ssenet
+ssEnet
 standardised
 STATIS
+statisticial
 subpopulations
 Subramanian
 sufficeint
@@ -228,7 +232,7 @@ tesselation
 thenb
 toolkits
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 Translational
 transtitions
