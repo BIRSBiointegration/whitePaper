@@ -1,6 +1,6 @@
 Abadi
 activatory
-Aedin
+aedin
 AedinCulhane
 Aggregtion
 ajabadi
@@ -63,7 +63,7 @@ cpm
 Craniofacial
 CRCT
 Culhane
-CyToF
+CyTOF
 Cytokit
 decompositions
 deconvolute
@@ -177,7 +177,7 @@ PCA
 PCAs
 phenotypic
 phenotypical
-PLS
+pls
 pluripotency
 practitionners
 Pratheepa
@@ -190,7 +190,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 reproducibility
 resampling
 RFE
@@ -198,7 +198,7 @@ Ricard
 RLQ
 rootograms
 Sankaran
-scnmtseq
+scNMTseq
 scRNASeq
 sGCCA
 SherlockpHolmes

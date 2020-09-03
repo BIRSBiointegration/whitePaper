@@ -139,9 +139,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/16a3229b0bbdb81d382582682a6df4fe05334ff6/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/16a3229b0bbdb81d382582682a6df4fe05334ff6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/16a3229b0bbdb81d382582682a6df4fe05334ff6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/e6db46d46e76b943b836a9d1771f2a0fba8da04c/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/e6db46d46e76b943b836a9d1771f2a0fba8da04c/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/e6db46d46e76b943b836a9d1771f2a0fba8da04c/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -155,9 +155,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/16a3229b0bbdb81d382582682a6df4fe05334ff6/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/e6db46d46e76b943b836a9d1771f2a0fba8da04c/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/16a3229b0bbdb81d382582682a6df4fe05334ff6">BIRSBiointegration/whitePaper@16a3229</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/e6db46d46e76b943b836a9d1771f2a0fba8da04c">BIRSBiointegration/whitePaper@e6db46d</a>
 on September 3, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -1158,7 +1158,7 @@ generative model that may introduce further biases into the benchmarking
 analysis. Another strategy is to use cross-validation within a study,
 or conduct cross-study validation to assess whether solutions found by
 multi-modal methods generalize to held-out observations or held-out
-studies. The latter was attempted in the spatial <a href="./20.scProteomics.md">proteomics</a>
+studies. The latter was attempted in the <a href="#proteomics-section">spatial proteomics</a>
 cross-study hackathon, but where ground truth was unknown.</p>
 <!--. Moreover, these simulations can inadvertently embed the same underlying assumptions as the computational methods employed for analysis, introducing further biases into benchmark studies. Therefore, high-throughput datasets with known ground truth are also critical for multi-omics studies and robust test grounds for future hackathon studies that were widely discussed throughout the workshop.-->
 <h4 id="challenge-1-creating-benchmarking-datasets">Challenge 1: creating benchmarking datasets</h4>
@@ -1246,7 +1246,7 @@ While GitHub enables code distribution and accessibility, it does not address is
 * How can we implement robust visualization methods for multimodal single-cell analysis and ensure their accessibility to researchers with visual impairments?
 -->
 <h3 id="challenge-1-data-accessibility">Challenge 1: data accessibility</h3>
-<p>Providing data to the scientific community is a long-standing issue. A particular challenge in our hackathons was that each data modality was characterized by a different collection of features from possibly non-overlapping collections of samples (see <a href="#common-challenges">common challenges</a> section). Thus, common data structures are needed to store and operate on these data collections, and support data dissemination with robust metadata and implementation of analytical frameworks.</p>
+<p>Providing data to the scientific community is a long-standing issue. A particular challenge in our hackathons was that each data modality was characterized by a different collection of features from possibly non-overlapping collections of samples (see <a href="#common-challenges-section">common challenges</a> section). Thus, common data structures are needed to store and operate on these data collections, and support data dissemination with robust metadata and implementation of analytical frameworks.</p>
 <p>The <code>MultiAssayExperiment</code> integrative data class from Bioconductor was our class of choice to enable the collation of standard data formats, easy data access, and processing. It uses the S4 object-oriented structure in R <span class="citation" data-cites="mlBLKi3Y gdnUpsQo">[<a href="#ref-mlBLKi3Y" role="doc-biblioref">69</a>,<a href="#ref-gdnUpsQo" role="doc-biblioref">70</a>]</span> and includes several features to support multi-platform genomics data analysis, to store features from multiple data modalities (e.g. gene expression units from scRNA-seq and protein units in sc-proteomics) from either the same or distinct cells, biological specimen of origin, or from multiple dimensions (e.g. spatial coordinates, locations of eQTLs). This class also enables to store sample metadata (e.g. study, center, phenotype, perturbation) and provides a map between the datasets from different assays for downstream analysis.</p>
 <!--
 questions still unanswered from Elana / Vince
@@ -1290,7 +1290,7 @@ Then, these objects were easily stored into a MultiAssayExperiment class object 
 <p>Finally, in the absence of universal standards, the metadata available may vary from modalities, or independent studies (e.g. spatial proteomics), thus urging the need from the computational biology community to define the minimum set of metadata variables necessary for each assay, as well as for pairs of assays to be comparable for common analyses.</p>
 <!--Is this problem solved through the multiAssayExperiment and/or broader Bioconductor ecosystem? If so how and if not what are areas of future work needed as a field.-->
 <h3 id="challenge-3-accessible-vizualization">Challenge 3: accessible vizualization</h3>
-<p>Our brainstorm discussions on the Data Interpretation Challenge (see <a href="#challenges-interp-section">challenges for interpretation</a> section) highlighted the importance of novel data visualization strategies to make sens of multi-modal data analyses. Often, these visualization strategies rely on heatmaps or reduced dimension plots, and utilize color to represent the different dimensions. These colors and low dimensional plots facilitate pattern detection and interpretation of increasingly complex and rich data. However, relying on color for interpretation leads to difficulties in perceiving patterns for a substantial proportion of the population with color vision deficiencies and can result in different data interpretations between individuals.</p>
+<p>Our brainstorm discussions on the <a href="#challenges-interp-section">Data Interpretation Challenge</a> highlighted the importance of novel data visualization strategies to make sens of multi-modal data analyses. Often, these visualization strategies rely on heatmaps or reduced dimension plots, and utilize color to represent the different dimensions. These colors and low dimensional plots facilitate pattern detection and interpretation of increasingly complex and rich data. However, relying on color for interpretation leads to difficulties in perceiving patterns for a substantial proportion of the population with color vision deficiencies and can result in different data interpretations between individuals.</p>
 <!--
 (the basis for the Ishihara's color vision tests) in multi-colored figures Moreover, relying on perceived patterns through color can result in different data interpretations between individuals, particularly reflecting their individual color detection capacities. 
 -->
