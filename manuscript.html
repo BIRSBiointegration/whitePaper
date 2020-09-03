@@ -139,9 +139,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/8d14eab7c35c7916f2de0a2ef53be332e7466a5f/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/8d14eab7c35c7916f2de0a2ef53be332e7466a5f/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/8d14eab7c35c7916f2de0a2ef53be332e7466a5f/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/16a3229b0bbdb81d382582682a6df4fe05334ff6/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/16a3229b0bbdb81d382582682a6df4fe05334ff6/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/16a3229b0bbdb81d382582682a6df4fe05334ff6/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -155,9 +155,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/8d14eab7c35c7916f2de0a2ef53be332e7466a5f/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/16a3229b0bbdb81d382582682a6df4fe05334ff6/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/8d14eab7c35c7916f2de0a2ef53be332e7466a5f">BIRSBiointegration/whitePaper@8d14eab</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/16a3229b0bbdb81d382582682a6df4fe05334ff6">BIRSBiointegration/whitePaper@16a3229</a>
 on September 3, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -1008,6 +1008,7 @@ Include annotated hypersensitive sites index to anchor new/unseen data from DNas
 </tr>
 </tbody>
 </table>
+<p><a name="challenges-interp-section"></a></p>
 <h2 id="challenges-for-interpretation">Challenges for interpretation</h2>
 <p>The analyses from each hackathon emphasized that regardless of the common difficulties faced by our participants, there is no one method fits all for multi-omics integration. An equally important complement to the diverse computational methods used to solve multi-omics analysis problems rests in the biological interpretation of their solutions. A notable challenge to interpretation is that the integrated data from these approaches are often higher dimensional than the input datasets. For example, even abstract lower dimensional representations of spatial coordinates are often interpreted in terms of their ability to capture higher level cellular structure or prognostics, requiring even further data than the high-throughput multi-omics data as input. These approaches also suggest that new measures of the tumor or cell ecosystems of interacting cells are needed because these interactions are fundamental to biological systems. Both the high dimensionality and biological complexity introduce further challenges in understanding and communicating the results from these analyses. Thus, efforts to interpret multi-omics data will require standardized vocabulary, benchmarked methods, and abstracted variables that can be compared between studies.</p>
 <h3 id="subsec:super">Supervised versus unsupervised</h3>
@@ -1245,7 +1246,7 @@ While GitHub enables code distribution and accessibility, it does not address is
 * How can we implement robust visualization methods for multimodal single-cell analysis and ensure their accessibility to researchers with visual impairments?
 -->
 <h3 id="challenge-1-data-accessibility">Challenge 1: data accessibility</h3>
-<p>Providing data to the scientific community is a long-standing issue. A particular challenge in our hackathons was that each data modality was characterized by a different collection of features from possibly non-overlapping collections of samples (<a href="./40.common-challenges.md">Section</a>). Thus, common data structures are needed to store and operate on these data collections, and support data dissemination with robust metadata and implementation of analytical frameworks.</p>
+<p>Providing data to the scientific community is a long-standing issue. A particular challenge in our hackathons was that each data modality was characterized by a different collection of features from possibly non-overlapping collections of samples (see <a href="#common-challenges">common challenges</a> section). Thus, common data structures are needed to store and operate on these data collections, and support data dissemination with robust metadata and implementation of analytical frameworks.</p>
 <p>The <code>MultiAssayExperiment</code> integrative data class from Bioconductor was our class of choice to enable the collation of standard data formats, easy data access, and processing. It uses the S4 object-oriented structure in R <span class="citation" data-cites="mlBLKi3Y gdnUpsQo">[<a href="#ref-mlBLKi3Y" role="doc-biblioref">69</a>,<a href="#ref-gdnUpsQo" role="doc-biblioref">70</a>]</span> and includes several features to support multi-platform genomics data analysis, to store features from multiple data modalities (e.g. gene expression units from scRNA-seq and protein units in sc-proteomics) from either the same or distinct cells, biological specimen of origin, or from multiple dimensions (e.g. spatial coordinates, locations of eQTLs). This class also enables to store sample metadata (e.g. study, center, phenotype, perturbation) and provides a map between the datasets from different assays for downstream analysis.</p>
 <!--
 questions still unanswered from Elana / Vince
@@ -1289,7 +1290,7 @@ Then, these objects were easily stored into a MultiAssayExperiment class object 
 <p>Finally, in the absence of universal standards, the metadata available may vary from modalities, or independent studies (e.g. spatial proteomics), thus urging the need from the computational biology community to define the minimum set of metadata variables necessary for each assay, as well as for pairs of assays to be comparable for common analyses.</p>
 <!--Is this problem solved through the multiAssayExperiment and/or broader Bioconductor ecosystem? If so how and if not what are areas of future work needed as a field.-->
 <h3 id="challenge-3-accessible-vizualization">Challenge 3: accessible vizualization</h3>
-<p>Our brainstorm discussions on the Data Interpretation Challenge (<a href="./45.interp-challenges.md">Section</a>) highlighted the importance of novel data visualization strategies to make sens of multi-modal data analyses. Often, these visualization strategies rely on heatmaps or reduced dimension plots, and utilize color to represent the different dimensions. These colors and low dimensional plots facilitate pattern detection and interpretation of increasingly complex and rich data. However, relying on color for interpretation leads to difficulties in perceiving patterns for a substantial proportion of the population with color vision deficiencies and can result in different data interpretations between individuals.</p>
+<p>Our brainstorm discussions on the Data Interpretation Challenge (see <a href="#challenges-interp-section">challenges for interpretation</a> section) highlighted the importance of novel data visualization strategies to make sens of multi-modal data analyses. Often, these visualization strategies rely on heatmaps or reduced dimension plots, and utilize color to represent the different dimensions. These colors and low dimensional plots facilitate pattern detection and interpretation of increasingly complex and rich data. However, relying on color for interpretation leads to difficulties in perceiving patterns for a substantial proportion of the population with color vision deficiencies and can result in different data interpretations between individuals.</p>
 <!--
 (the basis for the Ishihara's color vision tests) in multi-colored figures Moreover, relying on perceived patterns through color can result in different data interpretations between individuals, particularly reflecting their individual color detection capacities. 
 -->

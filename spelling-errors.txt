@@ -1,6 +1,6 @@
 Abadi
 activatory
-aedin
+Aedin
 AedinCulhane
 Aggregtion
 ajabadi
@@ -28,7 +28,7 @@ ayshwaryas
 benchmarked
 Bernd
 Biocarta
-bioinformatics
+Bioinformatics
 biomarkers
 Biomart
 Biopython
@@ -63,7 +63,7 @@ cpm
 Craniofacial
 CRCT
 Culhane
-CyTOF
+CyToF
 Cytokit
 decompositions
 deconvolute
@@ -84,7 +84,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-ENet
+enet
 entropic
 epigenetics
 examplary
@@ -177,11 +177,11 @@ PCA
 PCAs
 phenotypic
 phenotypical
-pls
+PLS
 pluripotency
 practitionners
 Pratheepa
-pre
+Pre
 preprocessing
 priori
 programme
@@ -210,8 +210,8 @@ spatialExpt
 specifc
 spholmes
 sPLS
-ssEnet
-Statis
+ssenet
+STATIS
 subpopulations
 Subramanian
 subtypes
@@ -221,7 +221,7 @@ SVM
 tesselation
 toolkits
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 Translational
 transtitions
