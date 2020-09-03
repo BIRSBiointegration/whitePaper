@@ -1,6 +1,6 @@
 Abadi
 activatory
-aedin
+Aedin
 AedinCulhane
 Aggregtion
 ajabadi
@@ -84,7 +84,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-enet
+Enet
 entropic
 epigenetics
 examplary
@@ -210,7 +210,7 @@ spatialExpt
 specifc
 spholmes
 sPLS
-ssenet
+ssEnet
 STATIS
 subpopulations
 Subramanian
