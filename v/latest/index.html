@@ -139,9 +139,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/b37c7e4bd8d6ff77ac1774a806c3db038a109f30/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/b37c7e4bd8d6ff77ac1774a806c3db038a109f30/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/b37c7e4bd8d6ff77ac1774a806c3db038a109f30/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/7eb6771ef5a3f1cf5d501b85146a999e9e824939/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/7eb6771ef5a3f1cf5d501b85146a999e9e824939/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/7eb6771ef5a3f1cf5d501b85146a999e9e824939/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -155,9 +155,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/b37c7e4bd8d6ff77ac1774a806c3db038a109f30/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/7eb6771ef5a3f1cf5d501b85146a999e9e824939/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/b37c7e4bd8d6ff77ac1774a806c3db038a109f30">BIRSBiointegration/whitePaper@b37c7e4</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/7eb6771ef5a3f1cf5d501b85146a999e9e824939">BIRSBiointegration/whitePaper@7eb6771</a>
 on September 3, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -665,7 +665,8 @@ This "neighbors  aggregation" method has been extended to aggregate RNA counts (
 One interesting extension would be to substract phenotypes contributions to RNA counts for each cell before performing the neighbors aggregation analysis in order to highlight genes that are modulated by spatial factors.
 But if we want to retrieve the mean expression of a cluster for cells belonging to it, we should first check cluster's convexity and be sure that no other cluster lies within it.
 -->
-<h2 id="spatial-proteomics-as-a-case-for-cross-study-and-cross-platform-analysis">Spatial proteomics as a case for cross-study and cross-platform analysis</h2>
+<p><a name="proteomics-section"></a>
+## Spatial proteomics as a case for cross-study and cross-platform analysis</p>
 <h3 id="overview-and-biological-question-1">Overview and biological question</h3>
 <p>Contrary to the first hackathon, which included seqFISH and and scRNA-seq data of samples from the same biological conditions, our second hackathon used single-cell targeted proteomics data of primary breast cancer tissue from different cohorts of patients to study the tumor-immune microenvironment in primary breast cancer. Analyzing tumor samples from different individuals involves considerable challenges, including cross-study and cross-platform integrative analysis with a low number of overlapping features (<a href="./40.common-challenges.md">Section</a>). Single-cell proteomics data were generated on different antibody-based targeted proteomics technological platforms and in different laboratories. Mass cytometry (CyTOF) measured 73 proteins in two panels (immune and tumor) in 194 tissue samples from 143 subjects, of which 6 patients had triple-negative negative breast cancer <span class="citation" data-cites="bJBIpCn7">[<a href="#ref-bJBIpCn7" role="doc-biblioref">4</a>]</span>, while the second dataset applied Multiplexed Ion Beam Imaging (MIBI) to quantify spatial in-situ expression of 36 proteins in 41 triple-negative breast cancer patients <span class="citation" data-cites="18RF7h7kj">[<a href="#ref-18RF7h7kj" role="doc-biblioref">5</a>]</span> (Figure <a href="#fig:proteomics">2</a>AB). <strong>what about the third study, can you describe in 1 sentence here</strong></p>
 <!-- Whilst this is a formidable data integration challenge, it reflects the bioinformatics analysis of clinical teams who wish to compare and investigate data collected on different measurement platforms and cohorts of cancer patients. -->
@@ -1007,8 +1008,8 @@ Include annotated hypersensitive sites index to anchor new/unseen data from DNas
 <h2 id="challenges-for-interpretation">Challenges for interpretation</h2>
 <p>The analyses from each hackathon emphasized that regardless of the common difficulties faced by our participants, there is no one method fits all for multi-omics integration. An equally important complement to the diverse computational methods used to solve multi-omics analysis problems rests in the biological interpretation of their solutions. A notable challenge to interpretation is that the integrated data from these approaches are often higher dimensional than the input datasets. For example, even abstract lower dimensional representations of spatial coordinates are often interpreted in terms of their ability to capture higher level cellular structure or prognostics, requiring even further data than the high-throughput multi-omics data as input. These approaches also suggest that new measures of the tumor or cell ecosystems of interacting cells are needed because these interactions are fundamental to biological systems. Both the high dimensionality and biological complexity introduce further challenges in understanding and communicating the results from these analyses. Thus, efforts to interpret multi-omics data will require standardized vocabulary, benchmarked methods, and abstracted variables that can be compared between studies.</p>
 <h3 id="subsec:super">Supervised versus unsupervised</h3>
-<p>Interpretation hinges on the analysis method selected for a given dataset. One simple delineation between methods used throughout the hackathons and summarized in Table <a href="./40.common-challenges.md#tbl:common">test</a>, is that some
-aim to predict a clearly defined outcome at the start of the project, such as recognizing the environment of tumor cells versus that of healthy cells (<a href="./20.scProteomics.md">proteomics</a>).
+<p>Interpretation hinges on the analysis method selected for a given dataset. One simple delineation between methods used throughout the hackathons and summarized in Table <a href="#commontable">test</a>, is that some
+aim to predict a clearly defined outcome at the start of the project, such as recognizing the environment of tumor cells versus that of healthy cells (see <a href="#proteomics-section">proteomics</a> section).
 The supervised setting often provides easier interpretations, one can easily rank the covariates and contiguous data in terms of their predictive potential.</p>
 <p>On the other hand when data are collected using multiple
 different technologies the data integration needs to provide organizing patterns that enable interpretation.
