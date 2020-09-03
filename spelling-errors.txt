@@ -28,7 +28,7 @@ ayshwaryas
 benchmarked
 Bernd
 Biocarta
-bioinformatics
+Bioinformatics
 biomarkers
 Biomart
 Biopython
@@ -84,7 +84,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-enet
+Enet
 entropic
 epigenetics
 examplary
@@ -177,7 +177,7 @@ PCA
 PCAs
 phenotypic
 phenotypical
-pls
+PLS
 pluripotency
 practitionners
 Pratheepa
