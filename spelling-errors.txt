@@ -84,7 +84,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-enet
+Enet
 entropic
 epigenetics
 examplary
@@ -181,7 +181,7 @@ pls
 pluripotency
 practitionners
 Pratheepa
-Pre
+pre
 preprocessing
 priori
 programme
@@ -211,7 +211,7 @@ specifc
 spholmes
 sPLS
 ssenet
-STATIS
+Statis
 subpopulations
 Subramanian
 subtypes
@@ -221,7 +221,7 @@ SVM
 tesselation
 toolkits
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 Translational
 transtitions
