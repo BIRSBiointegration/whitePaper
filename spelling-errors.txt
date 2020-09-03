@@ -1,6 +1,6 @@
 Abadi
 activatory
-Aedin
+aedin
 AedinCulhane
 Aggregtion
 ajabadi
@@ -190,7 +190,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 reproducibility
 resampling
 RFE
@@ -198,7 +198,7 @@ Ricard
 RLQ
 rootograms
 Sankaran
-scNMTseq
+scnmtseq
 scRNASeq
 sGCCA
 SherlockpHolmes
@@ -211,7 +211,7 @@ specifc
 spholmes
 sPLS
 ssenet
-Statis
+STATIS
 subpopulations
 Subramanian
 subtypes
