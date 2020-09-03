@@ -84,7 +84,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-Enet
+ENet
 entropic
 epigenetics
 examplary
@@ -177,7 +177,7 @@ PCA
 PCAs
 phenotypic
 phenotypical
-pls
+PLS
 pluripotency
 practitionners
 Pratheepa
@@ -190,7 +190,7 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 reproducibility
 resampling
 RFE
@@ -198,7 +198,7 @@ Ricard
 RLQ
 rootograms
 Sankaran
-scnmtseq
+scNMTseq
 scRNASeq
 sGCCA
 SherlockpHolmes
