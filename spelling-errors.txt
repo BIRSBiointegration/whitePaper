@@ -1,6 +1,6 @@
 Abadi
 activatory
-Aedin
+aedin
 AedinCulhane
 Aggregtion
 ajabadi
@@ -63,7 +63,7 @@ cpm
 Craniofacial
 CRCT
 Culhane
-CyToF
+CyTOF
 Cytokit
 decompositions
 deconvolute
@@ -211,7 +211,7 @@ specifc
 spholmes
 sPLS
 ssenet
-STATIS
+Statis
 subpopulations
 Subramanian
 subtypes
@@ -221,7 +221,7 @@ SVM
 tesselation
 toolkits
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 Translational
 transtitions
