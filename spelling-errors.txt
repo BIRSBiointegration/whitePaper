@@ -1,6 +1,6 @@
 Abadi
 activatory
-aedin
+Aedin
 AedinCulhane
 Aggregtion
 ajabadi
@@ -84,7 +84,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-ENet
+enet
 entropic
 epigenetics
 examplary
@@ -177,7 +177,7 @@ PCA
 PCAs
 phenotypic
 phenotypical
-PLS
+pls
 pluripotency
 practitionners
 Pratheepa
@@ -211,7 +211,7 @@ specifc
 spholmes
 sPLS
 ssenet
-STATIS
+Statis
 subpopulations
 Subramanian
 subtypes
