@@ -1,6 +1,6 @@
 Abadi
 activatory
-aedin
+Aedin
 AedinCulhane
 Aggregtion
 ajabadi
@@ -181,7 +181,7 @@ pls
 pluripotency
 practitionners
 Pratheepa
-pre
+Pre
 preprocessing
 priori
 programme
@@ -211,7 +211,7 @@ specifc
 spholmes
 sPLS
 ssenet
-Statis
+STATIS
 subpopulations
 Subramanian
 subtypes
@@ -221,7 +221,7 @@ SVM
 tesselation
 toolkits
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 Translational
 transtitions
