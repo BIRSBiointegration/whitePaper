@@ -52,7 +52,7 @@ cis
 cmIF
 cn
 combinatorial
-COullomb
+Coullomb
 covariances
 covariate
 covariates
@@ -182,7 +182,7 @@ PLS
 pluripotency
 practitionners
 Pratheepa
-pre
+Pre
 preprocessing
 priori
 programme
@@ -191,7 +191,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 reproducibility
 resampling
 RFE
@@ -212,7 +212,7 @@ specifc
 spholmes
 sPLS
 ssenet
-STATIS
+Statis
 subpopulations
 Subramanian
 sufficeint
@@ -221,7 +221,7 @@ SVM
 tesselation
 toolkits
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 Translational
 transtitions
