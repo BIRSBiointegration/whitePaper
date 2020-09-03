@@ -28,7 +28,7 @@ ayshwaryas
 benchmarked
 Bernd
 Biocarta
-Bioinformatics
+bioinformatics
 biomarkers
 Biomart
 Biopython
@@ -52,7 +52,7 @@ cis
 cmIF
 cn
 combinatorial
-COullomb
+Coullomb
 covariances
 covariate
 covariates
@@ -181,7 +181,7 @@ pls
 pluripotency
 practitionners
 Pratheepa
-pre
+Pre
 preprocessing
 priori
 programme
@@ -221,7 +221,7 @@ SVM
 tesselation
 toolkits
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 Translational
 transtitions
