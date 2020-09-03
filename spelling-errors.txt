@@ -28,7 +28,7 @@ ayshwaryas
 benchmarked
 Bernd
 Biocarta
-bioinformatics
+Bioinformatics
 biomarkers
 Biomart
 Biopython
@@ -198,7 +198,7 @@ Ricard
 RLQ
 rootograms
 Sankaran
-scnmtseq
+scNMTseq
 scRNASeq
 sGCCA
 SherlockpHolmes
@@ -210,7 +210,7 @@ spatialExpt
 specifc
 spholmes
 sPLS
-ssenet
+ssEnet
 STATIS
 subpopulations
 Subramanian
@@ -221,7 +221,7 @@ SVM
 tesselation
 toolkits
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 Translational
 transtitions
