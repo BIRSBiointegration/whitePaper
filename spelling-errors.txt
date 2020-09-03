@@ -1,6 +1,6 @@
 Abadi
 activatory
-Aedin
+aedin
 AedinCulhane
 Aggregtion
 ajabadi
@@ -52,7 +52,7 @@ cis
 cmIF
 cn
 combinatorial
-COullomb
+Coullomb
 covariances
 covariate
 covariates
@@ -63,7 +63,7 @@ cpm
 Craniofacial
 CRCT
 Culhane
-CyTOF
+CyToF
 Cytokit
 decompositions
 deconvolute
@@ -177,7 +177,7 @@ PCA
 PCAs
 phenotypic
 phenotypical
-pls
+PLS
 pluripotency
 practitionners
 Pratheepa
@@ -210,7 +210,7 @@ spatialExpt
 specifc
 spholmes
 sPLS
-ssenet
+ssEnet
 STATIS
 subpopulations
 Subramanian
@@ -221,7 +221,7 @@ SVM
 tesselation
 toolkits
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 Translational
 transtitions
