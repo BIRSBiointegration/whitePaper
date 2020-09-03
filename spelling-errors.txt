@@ -69,11 +69,11 @@ decompositions
 deconvolute
 Delaunay
 demethylation
+differentially
 dimensionality
 dinucleotides
 discriminative
 DNase
-dont
 dqn
 EBI
 edavis
@@ -84,7 +84,8 @@ ejfertig
 Elana
 EMBL
 embyonic
-enet
+Enet
+entropic
 epigenetics
 examplary
 excitatory
@@ -211,7 +212,7 @@ specifc
 spholmes
 sPLS
 ssenet
-Statis
+STATIS
 subpopulations
 Subramanian
 sufficeint
@@ -220,11 +221,12 @@ SVM
 tesselation
 toolkits
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 Translational
 transtitions
 tSNE
+tumour
 UMI
 unbiasedly
 unblinding
