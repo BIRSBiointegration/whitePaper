@@ -28,7 +28,7 @@ ayshwaryas
 benchmarked
 Bernd
 Biocarta
-Bioinformatics
+bioinformatics
 biomarkers
 Biomart
 Biopython
@@ -63,7 +63,7 @@ cpm
 Craniofacial
 CRCT
 Culhane
-CyTOF
+CyToF
 Cytokit
 decompositions
 deconvolute
@@ -84,7 +84,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-enet
+Enet
 entropic
 epigenetics
 examplary
@@ -181,7 +181,7 @@ PLS
 pluripotency
 practitionners
 Pratheepa
-Pre
+pre
 preprocessing
 priori
 programme
