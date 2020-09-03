@@ -52,7 +52,7 @@ cis
 cmIF
 cn
 combinatorial
-Coullomb
+COullomb
 covariances
 covariate
 covariates
@@ -63,7 +63,7 @@ cpm
 Craniofacial
 CRCT
 Culhane
-CyTOF
+CyToF
 Cytokit
 decompositions
 deconvolute
@@ -84,7 +84,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-ENet
+Enet
 entropic
 epigenetics
 examplary
@@ -177,11 +177,11 @@ PCA
 PCAs
 phenotypic
 phenotypical
-PLS
+pls
 pluripotency
 practitionners
 Pratheepa
-pre
+Pre
 preprocessing
 priori
 programme
