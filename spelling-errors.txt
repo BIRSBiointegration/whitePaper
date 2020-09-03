@@ -1,6 +1,6 @@
 Abadi
 activatory
-aedin
+Aedin
 AedinCulhane
 Aggregtion
 ajabadi
@@ -28,7 +28,7 @@ ayshwaryas
 benchmarked
 Bernd
 Biocarta
-bioinformatics
+Bioinformatics
 biomarkers
 Biomart
 Biopython
@@ -52,7 +52,7 @@ cis
 cmIF
 cn
 combinatorial
-COullomb
+Coullomb
 covariances
 covariate
 covariates
@@ -84,7 +84,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-ENet
+Enet
 entropic
 epigenetics
 examplary
@@ -181,7 +181,7 @@ pls
 pluripotency
 practitionners
 Pratheepa
-pre
+Pre
 preprocessing
 priori
 programme
@@ -190,7 +190,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 reproducibility
 resampling
 RFE
@@ -198,7 +198,7 @@ Ricard
 RLQ
 rootograms
 Sankaran
-scnmtseq
+scNMTseq
 scRNASeq
 sGCCA
 SherlockpHolmes
