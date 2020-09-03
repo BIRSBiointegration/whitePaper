@@ -139,9 +139,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/7eb6771ef5a3f1cf5d501b85146a999e9e824939/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/7eb6771ef5a3f1cf5d501b85146a999e9e824939/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/7eb6771ef5a3f1cf5d501b85146a999e9e824939/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/2b7c89fb184e28a0115342c38d0331e3d57af076/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/2b7c89fb184e28a0115342c38d0331e3d57af076/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/2b7c89fb184e28a0115342c38d0331e3d57af076/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -155,9 +155,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/7eb6771ef5a3f1cf5d501b85146a999e9e824939/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/2b7c89fb184e28a0115342c38d0331e3d57af076/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/7eb6771ef5a3f1cf5d501b85146a999e9e824939">BIRSBiointegration/whitePaper@7eb6771</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/2b7c89fb184e28a0115342c38d0331e3d57af076">BIRSBiointegration/whitePaper@2b7c89f</a>
 on September 3, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -589,7 +589,8 @@ remain (e.g methylation / gene expression), Direction of regulation not captured
 <!--
 ![Main challenges discussed during our brainstorming sessions from the hackathons.](images/Outline.png){#fig:outline width = 50%}
 -->
-<h2 id="scrna-seq-seqfish-as-a-case-study-for-spatial-transcriptomics">scRNA-seq + seqFISH as a case study for spatial transcriptomics</h2>
+<p><a name="spatial-section"></a>
+## scRNA-seq + seqFISH as a case study for spatial transcriptomics</p>
 <h3 id="overview-and-biological-question">Overview and biological question</h3>
 <p>The first hackathon aimed to leverage the complementary strengths of sequencing and imaging-based single-cell transcriptomic profiling by using computational techniques to integrate scRNA-seq and seqFISH data in the mouse visual cortex. While single cells are considered the smallest units and building blocks of each tissue, they still require proper spatial and structural three-dimensional organization in order to assemble into a functional tissue that can exert its physiological function. In the last decade, single-cell RNA-seq (scRNA-seq) has played a key role in capturing single-cell gene expression profiles, allowing us to map different cell types and states in whole organisms. Despite this remarkable achievement, this technology is based on cellular dissociation and hence does not maintain spatial relationships between single cells. Emerging technologies can now profile the transcriptome of single cells within their original environment, offering the possibility to examine how gene expression is influenced by cell-to-cell interactions and how it is spatially organized. One such approach is sequential single-molecule fluorescence in situ hybridization (seqFISH <span class="citation" data-cites="8Hx7hvP9">[<a href="#ref-8Hx7hvP9" role="doc-biblioref">7</a>]</span>), which can identify single molecules at (sub)cellular resolution with high sensitivity.</p>
 <p>In contrast with scRNA-seq, seqFISH and many other spatial transcriptomic technologies often pose significant technological challenges, resulting in a small number of profiled genes per cell (10-100s). The newer generation of seqFISH technology (called seqFISH+ <span class="citation" data-cites="dx9o8qYU">[<a href="#ref-dx9o8qYU" role="doc-biblioref">9</a>]</span>) has dramatically enhanced its capacity to profile up to 10,000 genes, but this technology is more complex and costly than seqFISH.</p>
@@ -630,9 +631,9 @@ This challenge proposed to use all genes to identify the cell type labels for ea
 <!-- Mention limitation in the biological relevance of the genes seelcted in RFE? , but the lack of goad standard hinders our ability to evaluate the relevance of such genes -->
 <p><strong>could we have some elements of conclusion here?</strong></p>
 <h4 id="challenge-2-identifying-spatial-expression-patterns-at-the-tissue-level-through-the-integration-of-gene-expression-and-spatial-cellular-coordinates">Challenge 2: Identifying spatial expression patterns at the tissue level through the integration of gene expression and spatial cellular coordinates</h4>
-<p>While most tools originally developed for scRNA-seq data can be adapted for spatial transcriptomic datasets (<a href="./40.common-challenges.md">Section</a>), methods to extract sources of variation from spatial factors are still lacking. Novel methods that can integrate the information obtained from gene expression with that of the spatial coordinates from each cell or transcript (for sub-cellular resolution) within a tissue of interest are needed.</p>
+<p>While most tools originally developed for scRNA-seq data can be adapted for spatial transcriptomic datasets (see <a href="#common-challenges-section">common challenges</a> section), methods to extract sources of variation from spatial factors are still lacking. Novel methods that can integrate the information obtained from gene expression with that of the spatial coordinates from each cell or transcript (for sub-cellular resolution) within a tissue of interest are needed.</p>
 <p>To identify spatial expression patterns in the seqFISH dataset, the participants first formed a spatial network based on Voronoi tessellation (<span class="citation" data-cites="1HWhMi97j">[<a href="#ref-1HWhMi97j" role="doc-biblioref">10</a>]</span>). The gene expression of each cell was spatially smoothed by calculating the average gene expression of all neighboring cells. UMAP was applied to the smoothed and aggregated data matrix to identify cell clusters with a density-based clustering approach (Figure <a href="#fig:spatial">1</a>D). Interestingly, these results showed that the obtained clusters themselves are spatially separated and do not necessarily overlap with specific cell types, suggesting that the spatial dimension cannot be captured from the expression data only.</p>
-<p>An unanswered question is whether the identified combinatorial spatial patterns can be extracted directly from scRNA-seq data, as previous studies have shown cellular mapping between gene expression profiles and known spatial locations (<span class="citation" data-cites="124247ZE6">[<a href="#ref-124247ZE6" role="doc-biblioref">11</a>]</span>, <span class="citation" data-cites="doi.org/10.1016/j.cell.2019.05.006">[<span class="citeproc-not-found" data-reference-id="doi.org/10.1016/j.cell.2019.05.006"><strong>???</strong></span>]</span>). However, this still constitutes both a technological and analytical challenge that will require careful benchmarking in the near future (<a href="./50.benchmarking.md">Section</a>).</p>
+<p>An unanswered question is whether the identified combinatorial spatial patterns can be extracted directly from scRNA-seq data, as previous studies have shown cellular mapping between gene expression profiles and known spatial locations (<span class="citation" data-cites="124247ZE6">[<a href="#ref-124247ZE6" role="doc-biblioref">11</a>]</span>, <span class="citation" data-cites="doi.org/10.1016/j.cell.2019.05.006">[<span class="citeproc-not-found" data-reference-id="doi.org/10.1016/j.cell.2019.05.006"><strong>???</strong></span>]</span>). However, this still constitutes both a technological and analytical challenge that will require careful benchmarking in the near future (see <a href="#benchmarking-section">benchmarking</a> section).</p>
 <!-- integrating different datasets and extrapolating observed trends is challenging and will require more work and careful benchmarking in the future. -->
 <!--
 **[suggestion 1]**  
