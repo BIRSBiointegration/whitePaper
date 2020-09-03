@@ -63,7 +63,7 @@ cpm
 Craniofacial
 CRCT
 Culhane
-CyToF
+CyTOF
 Cytokit
 decompositions
 deconvolute
@@ -177,7 +177,7 @@ PCA
 PCAs
 phenotypic
 phenotypical
-pls
+PLS
 pluripotency
 practitionners
 Pratheepa
@@ -211,7 +211,7 @@ specifc
 spholmes
 sPLS
 ssenet
-Statis
+STATIS
 subpopulations
 Subramanian
 subtypes
