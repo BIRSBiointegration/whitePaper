@@ -1,6 +1,6 @@
 Abadi
 activatory
-Aedin
+aedin
 AedinCulhane
 Aggregtion
 ajabadi
@@ -52,7 +52,7 @@ cis
 cmIF
 cn
 combinatorial
-Coullomb
+COullomb
 covariances
 covariate
 covariates
@@ -178,11 +178,11 @@ PCA
 PCAs
 phenotypic
 phenotypical
-PLS
+pls
 pluripotency
 practitionners
 Pratheepa
-Pre
+pre
 preprocessing
 priori
 programme
@@ -199,7 +199,7 @@ Ricard
 RLQ
 rootograms
 Sankaran
-scNMTseq
+scnmtseq
 scRNASeq
 sGCCA
 SherlockpHolmes
@@ -207,6 +207,7 @@ silico
 singha
 situ
 Sodicoff
+sofware
 spatialExpt
 specifc
 spholmes
