@@ -1,6 +1,6 @@
 Abadi
 activatory
-Aedin
+aedin
 AedinCulhane
 Aggregtion
 ajabadi
@@ -28,7 +28,7 @@ ayshwaryas
 benchmarked
 Bernd
 Biocarta
-Bioinformatics
+bioinformatics
 biomarkers
 Biomart
 Biopython
@@ -52,7 +52,7 @@ cis
 cmIF
 cn
 combinatorial
-COullomb
+Coullomb
 covariances
 covariate
 covariates
@@ -143,7 +143,6 @@ Lustgarten
 Marcisak
 Matlab
 McKusick
-MDS
 megabases
 Meng
 methyltransferase
@@ -178,7 +177,7 @@ PCA
 PCAs
 phenotypic
 phenotypical
-pls
+PLS
 pluripotency
 practitionners
 Pratheepa
@@ -191,7 +190,7 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 reproducibility
 resampling
 RFE
@@ -199,7 +198,7 @@ Ricard
 RLQ
 rootograms
 Sankaran
-scNMTseq
+scnmtseq
 scRNASeq
 sGCCA
 SherlockpHolmes
@@ -212,7 +211,7 @@ spatialExpt
 specifc
 spholmes
 sPLS
-ssEnet
+ssenet
 STATIS
 subpopulations
 Subramanian
