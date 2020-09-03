@@ -1,6 +1,6 @@
 Abadi
 activatory
-aedin
+Aedin
 AedinCulhane
 Aggregtion
 ajabadi
@@ -52,7 +52,7 @@ cis
 cmIF
 cn
 combinatorial
-Coullomb
+COullomb
 covariances
 covariate
 covariates
@@ -84,7 +84,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-Enet
+enet
 entropic
 epigenetics
 examplary
@@ -198,7 +198,7 @@ Ricard
 RLQ
 rootograms
 Sankaran
-scNMTseq
+scnmtseq
 scRNASeq
 sGCCA
 SherlockpHolmes
