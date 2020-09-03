@@ -63,7 +63,7 @@ cpm
 Craniofacial
 CRCT
 Culhane
-CyToF
+CyTOF
 Cytokit
 decompositions
 deconvolute
