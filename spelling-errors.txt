@@ -85,7 +85,7 @@ EMBL
 embyonic
 enet
 entropic
-Epigenetics
+epigenetics
 examplary
 excitatory
 Fabre
@@ -177,7 +177,7 @@ PCA
 PCAs
 phenotypic
 phenotypical
-pls
+PLS
 pluripotency
 practitionners
 Pratheepa
