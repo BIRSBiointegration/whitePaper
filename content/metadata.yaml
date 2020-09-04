@@ -196,6 +196,34 @@ authors:
     funders:
        - National Institute of Health, National Cancer Institute
 
+  - github: mritchie
+    name: Matthew E. Ritchie
+    initials: MER
+    orcid: 0000-0002-7383-0609
+    twitter: mritchieau
+    email: mritchie@wehi.edu.au
+    affiliations:
+      - Epigenetics and Development Division, The Walter and Eliza Hall Institute of Medical Research
+      - Department of Medical Biology, The University of Melbourne
+      - School of Mathematics and Statistics, The University of Melbourne
+    funders:
+       - XX
+  
+  - github: YOU-k
+    name: Yue You
+    initials: YY
+    orcid: 0000-0003-3883-445X
+    twitter: YueYou9 
+    email: you.y@wehi.edu.au
+    affiliations:
+      - Epigenetics and Development Division, The Walter and Eliza Hall Institute of Medical Research
+      - Department of Medical Biology, The University of Melbourne
+    funders:
+       - XX
+  
+ 
+    
+
   - github: janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)
     name: Jane Roe
     initials: JR
