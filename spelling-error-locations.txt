@@ -164,6 +164,7 @@ content/40.common-challenges.md:13:summarization
 content/40.common-challenges.md:17:biostatistics
 content/40.common-challenges.md:17:biostatistics
 content/40.common-challenges.md:17:PLS
+content/40.common-challenges.md:17:scnmtseq
 content/40.common-challenges.md:17:sGCCA
 content/40.common-challenges.md:22:Amongst
 content/40.common-challenges.md:22:biostatistics

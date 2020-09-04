@@ -85,7 +85,7 @@ EMBL
 embyonic
 Enet
 entropic
-epigenetics
+Epigenetics
 examplary
 excitatory
 Fabre
@@ -181,7 +181,7 @@ pls
 pluripotency
 practitionners
 Pratheepa
-pre
+Pre
 preprocessing
 priori
 programme
@@ -190,7 +190,7 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 reproducibility
 resampling
 RFE
@@ -199,7 +199,7 @@ Ritchie
 RLQ
 rootograms
 Sankaran
-scNMTseq
+scnmtseq
 scRNASeq
 sGCCA
 SherlockpHolmes
@@ -222,7 +222,7 @@ SVM
 tesselation
 toolkits
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 Translational
 transtitions
