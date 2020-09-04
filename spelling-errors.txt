@@ -28,7 +28,7 @@ ayshwaryas
 benchmarked
 Bernd
 Biocarta
-bioinformatics
+Bioinformatics
 biomarkers
 Biomart
 Biopython
@@ -85,7 +85,7 @@ EMBL
 embyonic
 enet
 entropic
-epigenetics
+Epigenetics
 examplary
 excitatory
 Fabre
@@ -151,6 +151,8 @@ Mitacs
 mixOmics
 mixOmicsTeam
 modelling
+mritchie
+mritchieau
 mRNA
 MSigDB
 multinomial
@@ -193,10 +195,11 @@ reproducibility
 resampling
 RFE
 Ricard
+Ritchie
 RLQ
 rootograms
 Sankaran
-scnmtseq
+scNMTseq
 scRNASeq
 sGCCA
 SherlockpHolmes
@@ -209,7 +212,7 @@ spatialExpt
 specifc
 spholmes
 sPLS
-ssenet
+ssEnet
 STATIS
 subpopulations
 Subramanian
@@ -243,4 +246,6 @@ Xu
 XXXX
 XY
 Yingxin
+Yue
+YueYou
 Zuckerberg
