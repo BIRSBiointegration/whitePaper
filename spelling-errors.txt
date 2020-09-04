@@ -54,7 +54,6 @@ cn
 combinatorial
 Coullomb
 covariances
-covariate
 covariates
 covariation
 covarying
@@ -84,7 +83,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-ENet
+Enet
 entropic
 epigenetics
 examplary
@@ -121,7 +120,6 @@ ImJoy
 Initative
 INSERM
 interpretability
-interpretaion
 introns
 iteratively
 JalalAbadi
@@ -177,7 +175,7 @@ PCA
 PCAs
 phenotypic
 phenotypical
-pls
+PLS
 pluripotency
 practitionners
 Pratheepa
@@ -190,7 +188,7 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 reproducibility
 resampling
 RFE
@@ -198,7 +196,7 @@ Ricard
 RLQ
 rootograms
 Sankaran
-scnmtseq
+scNMTseq
 scRNASeq
 sGCCA
 SherlockpHolmes
@@ -221,7 +219,7 @@ SVM
 tesselation
 toolkits
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 Translational
 transtitions
