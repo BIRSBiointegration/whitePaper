@@ -52,7 +52,7 @@ cis
 cmIF
 cn
 combinatorial
-Coullomb
+COullomb
 covariances
 covariates
 covariation
@@ -83,7 +83,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-Enet
+enet
 entropic
 epigenetics
 examplary
@@ -175,7 +175,7 @@ PCA
 PCAs
 phenotypic
 phenotypical
-PLS
+pls
 pluripotency
 practitionners
 Pratheepa
@@ -196,7 +196,7 @@ Ricard
 RLQ
 rootograms
 Sankaran
-scNMTseq
+scnmtseq
 scRNASeq
 sGCCA
 SherlockpHolmes

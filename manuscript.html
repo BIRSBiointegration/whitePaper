@@ -139,9 +139,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/edbca3a716cc3b43d4781ce936edb006b035ed9a/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/edbca3a716cc3b43d4781ce936edb006b035ed9a/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/edbca3a716cc3b43d4781ce936edb006b035ed9a/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/582204a955c2d124ba3d6e2a7a0b2f3b205f5095/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/582204a955c2d124ba3d6e2a7a0b2f3b205f5095/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/582204a955c2d124ba3d6e2a7a0b2f3b205f5095/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -155,9 +155,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/edbca3a716cc3b43d4781ce936edb006b035ed9a/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/582204a955c2d124ba3d6e2a7a0b2f3b205f5095/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/edbca3a716cc3b43d4781ce936edb006b035ed9a">BIRSBiointegration/whitePaper@edbca3a</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/582204a955c2d124ba3d6e2a7a0b2f3b205f5095">BIRSBiointegration/whitePaper@582204a</a>
 on September 4, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -739,7 +739,12 @@ Include annotated hypersensitive sites index to anchor new/unseen data from DNas
 </tr>
 </tbody>
 </table>
-<p><a name="challenges-interp-section"></a></p>
+<p><a name="challenges-interp-section"></a>
+<!-- Susan, you would refer to this section, or the other sections as (see [Section](#challenges-interp-section))
+Kris has updated the Figure and caption, liase with him if you need to.
+We'll fix up the references, apparently just a url works week, see example in any other section
+Figures in general will be improved + accompanying vignette after the first round.
+--></p>
 <h2 id="challenges-for-interpretation">Challenges for interpretation</h2>
 <p>The analyses from each hackathon emphasized that regardless of the common difficulties faced by our participants, there is no one method fits all for multi-omics integration. An equally important complement to the diverse computational methods used to solve multi-omics analysis problems rests in the biological interpretation of their solutions. A notable challenge to interpretation is that the integrated data from these approaches are often higher dimensional than the input datasets. For example, even abstract lower dimensional representations of spatial coordinates are often interpreted in terms of their ability to capture higher level cellular structure or prognostics, requiring even further data than the high-throughput multi-omics data as input. These approaches also suggest that new measures of the tumor or cell ecosystems of interacting cells are needed because these interactions are fundamental to biological systems. Both the high dimensionality and biological complexity introduce further challenges in understanding and communicating the results from these analyses. Thus, efforts to interpret multi-omics data will require standardized vocabulary, benchmarked methods, and abstracted variables that can be compared between studies.</p>
 <h3 id="subsec:super">Supervised versus unsupervised</h3>
@@ -760,12 +765,13 @@ The commonalities are well understood in the case of classical multivariate fact
 <p>A schematic summary of the different stages in interpretation is provided here:</p>
 <div id="fig:interpretation" class="fignos">
 <figure>
-<img src="images/interpretability_figure.png" style="width:70.0%" alt="" /><figcaption><span>Figure 4:</span> </figcaption>
+<img src="images/Interpretation_mockup.png" style="width:70.0%" alt="" /><figcaption><span>Figure 4:</span> </figcaption>
 </figure>
 </div>
-<p>Caption figure: <strong>A</strong> Schematic diagram of stages of interpretation and integration of data sources.
-<strong>B</strong> Common standards in Geographic Information Systems (GIS) enable facile integration of multiple layers of data.
-<strong>C</strong> Integrative analysis across multiple approaches and modes of data may yield complementary evidence, allowing researchers to draw stronger conclusions (an instance of Cardinal Newman’s principle).</p>
+<p>Caption figure:</p>
+<p><strong>A</strong> Schematic diagram of stages of interpretation and integration of data sources.
+<strong>B</strong> Standards in Geographic Information Systems enable the integration of multiple layers of data.
+<strong>C</strong> Integrative analysis across multiple modes of data results in complementary evidence, allowing stronger conclusions, an instance of Cardinal Newman’s principle.</p>
 <p>Multiple domains of knowledge can be combined easily if there is a common coordinate system, as in geospatial analyses.This is often a goal in multimodal or conjoint analyses, when the first step is to find a common compromise or consensus on which to project each of the individual modalities.
 Conjoint analyses also known as STATIS <span class="citation" data-cites="4fOW94wl">[<a href="#ref-4fOW94wl" role="doc-biblioref">34</a>]</span> was a very early multimodal method designed as PCA of PCAs where the first step in the analyses was to find what the different modalities had in common and define a consensus <span class="citation" data-cites="18b0ymB7t">[<a href="#ref-18b0ymB7t" role="doc-biblioref">35</a>]</span> onto which the individual tables were projected.
 This method can be seen as an extension of the class of matrix decomposition methods to data cubes.
@@ -785,8 +791,8 @@ further by finding a “consensus space” that provides a common coordinate sys
 (size of clusters in tSNE related to sampling baselines rather than density, …)</p>
 <h3 id="disparate-sources-of-evidence-are-more-compelling-than-more-of-the-same.">Disparate sources of evidence are more compelling than more of the same.</h3>
 <p>Following <a href="https://www.encyclopedia.com/people/philosophy-and-religion/roman-catholic-and-orthodox-churches-general-biographies/john-henry-newman">Cardinal Newman’s principle</a><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>
-disparate sources of evidence, or in this case data from different technologies, are more compelling than many replicates of the same technology (illustrated schematically in Figure <a href="#fig:interpretation">4</a>C).
-Thus, if different technologies are in consensus on underlying latent variables, the finding is more credible.</p>
+disparate sources of evidence, or in this case data from different technologies, are more compelling than many replicates of the same technology.
+Thus, if different technologies allow a consensus on underlying latent variables, this information is worth retaining.</p>
 <h3 id="explaining-results-to-biologists-through-generative-models-and-simulations-ex-factor-analysis-hierarchical-models.">Explaining results to biologists through generative models and simulations (ex: Factor Analysis, Hierarchical models).</h3>
 <p>Several difficulties arise when explaining summaries and conclusions, problems encountered include non-identifiability of models
 or non-sufficiency of summaries, simulations can often provide effective communication tools.</p>
@@ -798,13 +804,11 @@ be integrated into the analyses to make them more realistic and reduce if not el
 of this contiguous information.
 Either from the metadata already available in the multiassay containers as for instance in the <a href="https://bioconductor.org/packages/release/bioc/html/MultiAssayExperiment.html">MultiAssayExperiment package</a> or from exterior sources such as Gene Ontologies, Biomart <span class="citation" data-cites="XkAC715J">[<a href="#ref-XkAC715J" role="doc-biblioref">38</a>]</span>, Kegg, Human Cell Atlas (HCA) or other sources often available through links provided within systems like bioconductor ().</p>
 <p>Redundant biological knowledge is often enlightening,
-as many methods suffer from identifiability issues (ie in a gradient, the direction of the direction is unknown).</p>
-<p><strong>This part is no longer relevant given figure updates</strong>
+as many methods suffer from identifiability issues (ie in a gradient, the direction of the direction is unknown).
 By providing information on the extreme points in a map
 or brushing a map with known gene expression features
 one can delineate orientations and clusters.</p>
-<p>For instance coloring by CD56 across time shows the dynamics of immune response <span class="citation" data-cites="1GblcsF7">[<a href="#ref-1GblcsF7" role="doc-biblioref">39</a>]</span> (Figure <a href="#fig:interpretation">4</a>C).
-<strong>[end comment]</strong></p>
+<p>For instance coloring by CD56 across time shows the dynamics of immune response <span class="citation" data-cites="1GblcsF7">[<a href="#ref-1GblcsF7" role="doc-biblioref">39</a>]</span> (Figure <a href="#fig:interpretation">4</a>C).</p>
 <h3 id="visualization-tools-for-interpretation-and-communication-to-biologists">Visualization tools for interpretation and communication to biologists</h3>
 <p>An example of effective visual interpretation tools is interactive brushing of UMAP plot, see Figure <a href="#fig:interpretation">4</a>C by Kris Sankaran.</p>
 <h3 id="interpretation-for-data-scientists-reading-the-methods-sections-requires-a-good-understanding-of-the-building-blocks">Interpretation for data scientists reading the methods sections requires a good understanding of the building blocks</h3>
