@@ -157,7 +157,6 @@ content/40.common-challenges.md:7:SVM
 content/40.common-challenges.md:9:LIGER
 content/40.common-challenges.md:9:tSNE
 content/40.common-challenges.md:11:pre
-content/40.common-challenges.md:13:COullomb
 content/40.common-challenges.md:13:Pre
 content/40.common-challenges.md:13:reproducibility
 content/40.common-challenges.md:13:summarization
@@ -207,7 +206,6 @@ content/40.common-challenges.md:108:Jenathan
 content/40.common-challenges.md:108:Sankaran
 content/40.common-challenges.md:117:Meng
 content/40.common-challenges.md:117:PCA
-content/40.common-challenges.md:122:Coullomb
 content/40.common-challenges.md:123:Hsu
 content/40.common-challenges.md:124:LIGER
 content/40.common-challenges.md:124:Welch

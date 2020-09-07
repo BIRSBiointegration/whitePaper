@@ -1,6 +1,6 @@
 Abadi
 activatory
-aedin
+Aedin
 AedinCulhane
 Aggregtion
 ajabadi
@@ -82,7 +82,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-ENet
+Enet
 entropic
 epigenetics
 examplary
@@ -178,7 +178,7 @@ PCAs
 phenomenona
 phenotypic
 phenotypical
-pls
+PLS
 pluripotency
 practitionners
 Pratheepa
@@ -193,7 +193,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 reproducibility
 resampling
 RFE
@@ -226,7 +226,7 @@ SVM
 tesselation
 toolkits
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 Translational
 transtitions
