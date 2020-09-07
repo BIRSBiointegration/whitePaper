@@ -36,7 +36,6 @@ Biosciences
 Biostatistics
 Biostatsitics
 bisulfite
-Blish
 Bodenmiller
 boxplot
 Cao
@@ -84,7 +83,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-Enet
+enet
 entropic
 epigenetics
 examplary
@@ -180,7 +179,7 @@ PCAs
 phenomenona
 phenotypic
 phenotypical
-PLS
+pls
 pluripotency
 practitionners
 Pratheepa
@@ -194,7 +193,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 reproducibility
 resampling
 RFE
@@ -217,7 +216,7 @@ spatialExpt
 specifc
 spholmes
 sPLS
-ssEnet
+ssenet
 STATIS
 subpopulations
 Subramanian
@@ -227,7 +226,7 @@ SVM
 tesselation
 toolkits
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 Translational
 transtitions
