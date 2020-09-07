@@ -1,6 +1,6 @@
 Abadi
 activatory
-Aedin
+aedin
 AedinCulhane
 Aggregtion
 ajabadi
@@ -46,7 +46,6 @@ centroid
 cgreene
 Channing
 Cheng
-chracteristics
 cis
 clearcut
 cmIF
@@ -83,7 +82,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-enet
+ENet
 entropic
 epigenetics
 examplary
@@ -185,6 +184,7 @@ practitionners
 Pratheepa
 pre
 preprcoessing
+preprocessed
 preprocessing
 priori
 programme
@@ -193,7 +193,7 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 reproducibility
 resampling
 RFE
@@ -226,7 +226,7 @@ SVM
 tesselation
 toolkits
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 Translational
 transtitions
