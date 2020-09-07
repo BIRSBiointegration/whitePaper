@@ -398,6 +398,6 @@ content/75.vignettes.md:20:scRNASeq
 content/75.vignettes.md:20:SSEnet
 content/75.vignettes.md:20:SSEnet
 content/75.vignettes.md:21:Xu
-content/80.glossary.md:8:gghpmf
-content/80.glossary.md:9:eigenvector
-content/80.glossary.md:10:variates
+content/80.glossary.md:10:gghpmf
+content/80.glossary.md:11:eigenvector
+content/80.glossary.md:12:variates
