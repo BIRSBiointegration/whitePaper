@@ -1,6 +1,6 @@
 Abadi
 activatory
-Aedin
+aedin
 AedinCulhane
 Aggregtion
 ajabadi
@@ -22,7 +22,6 @@ Arshi
 asingh
 autocorrelation
 autoencoder
-availibility
 Ayshwarya
 ayshwaryas
 benchmarked
@@ -82,10 +81,9 @@ ejfertig
 Elana
 EMBL
 embyonic
-Enet
+enet
 entropic
 epigenetics
-examplary
 excitatory
 Fabre
 Facetto
@@ -183,17 +181,15 @@ pluripotency
 practitionners
 Pratheepa
 pre
-preprcoessing
 preprocessed
 preprocessing
 priori
 programme
-pseduo
 qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 reproducibility
 resampling
 RFE
@@ -216,7 +212,7 @@ spatialExpt
 specifc
 spholmes
 sPLS
-ssenet
+ssEnet
 STATIS
 subpopulations
 Subramanian
@@ -229,7 +225,6 @@ totalVI
 transcriptional
 transcriptomic
 Translational
-transtitions
 tSNE
 tumour
 UMI
