@@ -23,8 +23,8 @@ authors:
     twitter: AedinCulhane
     email: aedin@ds.dfci.harvard.edu
     affiliations:
-      - Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA
-      - Biostatsitics, Harvard TH Chan School of Public Health, Boston, MA, USA
+      - Data Science, Dana-Farber Cancer Institute, Boston, MA, USA
+      - Biostatistics, Harvard TH Chan School of Public Health, Boston, MA, USA
     funders:
       - Chan Zuckerberg Initative, NIH, DoD (need to get grant IDs)
   - github: ejfertig
@@ -245,6 +245,17 @@ authors:
       - Department of Statistics, University of Wisconsin - Madison
     funders:
        - XX
+
+  - github: laurenhsu1
+    name: Lauren Hsu
+    initials: LH
+    orcid: 0000-0002-6035-7381
+    email: lhsu@g.harvard.edu
+    affiliations:
+      - Department of Biostatistics, Harvard University, Boston, MA, USA
+      - Department of Data Science, Dana-Farber Cancer Institute, Boston, MA, USA
+    funders:
+       - NIH
 
   - github: janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)
     name: Jane Roe
