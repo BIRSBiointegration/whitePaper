@@ -8,7 +8,7 @@ lang: en-US
 authors:
   - github: mixOmicsTeam
     name: Kim-Anh Lê Cao 
-    initials: KA
+    initials: KALC
     orcid: 0000-0003-3923-1116
     twitter: mixOmicsTeam
     email: kimanh.lecao@unimelb.edu.au
@@ -23,8 +23,8 @@ authors:
     twitter: AedinCulhane
     email: aedin@ds.dfci.harvard.edu
     affiliations:
-      - Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA
-      - Biostatsitics, Harvard TH Chan School of Public Health, Boston, MA, USA
+      - Data Science, Dana-Farber Cancer Institute, Boston, MA, USA
+      - Biostatistics, Harvard TH Chan School of Public Health, Boston, MA, USA
     funders:
       - Chan Zuckerberg Initative, NIH, DoD (need to get grant IDs)
   - github: ejfertig
@@ -148,10 +148,24 @@ authors:
     twitter:  AlexisCoullomb
     email: alexis.coullomb@inserm.fr
     affiliations:
-      - Toulouse Cancer Research Center (CRCT), INSERM
+      - Toulouse Cancer Research Center (CRCT), INSERM, Université Paul Sabatier III, Toulouse, France
     funders:
-       - Pierre Fabre
-
+       - INSERM
+       - Fondation Toulouse Cancer Santé
+       - Pierre Fabre Research Institute
+  - github: VeraPancaldi
+    name: Vera Pancaldi
+    initials: VP
+    orcid: 0000-0002-7433-624X
+    twitter:  VeraPancaldi
+    email: vera.pancaldi@inserm.fr
+    affiliations:
+      - Toulouse Cancer Research Center (CRCT), INSERM, Université Paul Sabatier III, Toulouse, France
+      - Barcelona Supercomputing Center, Barcelona, Spain
+    funders:
+       - INSERM
+       - Fondation Toulouse Cancer Santé
+       - Pierre Fabre Research Institute
   - github: arorarshi
     name: Arshi Arora
     initials: AA
@@ -257,7 +271,19 @@ authors:
       - Center for Regenerative Medicine (CReM), Boston University
     funders:
        - XX
-       
+
+  - github: laurenhsu1
+    name: Lauren Hsu
+    initials: LH
+    orcid: 0000-0002-6035-7381
+    email: lhsu@g.harvard.edu
+    affiliations:
+      - Department of Biostatistics, Harvard University, Boston, MA, USA
+      - Department of Data Science, Dana-Farber Cancer Institute, Boston, MA, USA
+    funders:
+       - NIH
+
+
   - github: janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)
     name: Jane Roe
     initials: JR
