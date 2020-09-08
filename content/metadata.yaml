@@ -220,19 +220,21 @@ authors:
       - Department of Medical Biology, The University of Melbourne
     funders:
        - XX
-  
-    - github: RubD
-    name: Ruben Dries
-    initials: RD
-    orcid: 0000-0001-7650-7754
-    twitter:  RnDries
-    email: rdries@bu.edu
+       
+   - github: genesofeve
+    name: Genevieve L. Stein-O'Brien
+    initials: GLSOB
+    orcid: 0000-0001-8681-9110
+    twitter:  genesofeve
+    email: gsteinobrien@jhmi.edu
     affiliations:
-      - Department of Hematology and Oncology
-      - Department of Computational Biomedicine
-      - Center of Regenerative Medicine (CReM)
+      - Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA
+      - Department of Neuroscience, Johns Hopkins University, Baltimore, MD, USA
+      - McKusick-Nathans Institute of the Department of Genetic Medicine, Johns Hopkins School of Medicine, Baltimore, MD, USA
+      - Kavli Neuroscience Discovery Institute, Johns Hopkins University, Baltimore, MD, USA
     funders:
-       - XX
+       - Kavli Neuroscience Discovery Institute 
+       - Johns Hopkins Provost Postdoctoral Fellowship
  
     
 
