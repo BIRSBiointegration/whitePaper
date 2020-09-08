@@ -246,6 +246,18 @@ authors:
     funders:
        - XX
 
+  - github: RubD
+    name: Ruben Dries
+    initials: RD
+    orcid: 0000-0001-7650-7754
+    email: rdries@bu.edu
+    affiliations:
+      - Department of Hematology and Oncology, Boston Medical Center
+      - Department of Computational Biomedicine, Boston University School of Medicine
+      - Center for Regenerative Medicine (CReM), Boston University
+    funders:
+       - XX
+       
   - github: janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)
     name: Jane Roe
     initials: JR
