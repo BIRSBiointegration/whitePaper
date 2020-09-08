@@ -221,6 +221,18 @@ authors:
     funders:
        - XX
   
+    - github: RubD
+    name: Ruben Dries
+    initials: RD
+    orcid: 0000-0001-7650-7754
+    twitter:  RnDries
+    email: rdries@bu.edu
+    affiliations:
+      - Department of Hematology and Oncology
+      - Department of Computational Biomedicine
+      - Center of Regenerative Medicine (CReM)
+    funders:
+       - XX
  
     
 
