@@ -8,7 +8,7 @@ lang: en-US
 authors:
   - github: mixOmicsTeam
     name: Kim-Anh Lê Cao 
-    initials: KA
+    initials: KALC
     orcid: 0000-0003-3923-1116
     twitter: mixOmicsTeam
     email: kimanh.lecao@unimelb.edu.au
@@ -260,6 +260,18 @@ authors:
     funders:
        - XX
 
+  - github: RubD
+    name: Ruben Dries
+    initials: RD
+    orcid: 0000-0001-7650-7754
+    email: rdries@bu.edu
+    affiliations:
+      - Department of Hematology and Oncology, Boston Medical Center
+      - Department of Computational Biomedicine, Boston University School of Medicine
+      - Center for Regenerative Medicine (CReM), Boston University
+    funders:
+       - XX
+
   - github: laurenhsu1
     name: Lauren Hsu
     initials: LH
@@ -270,6 +282,7 @@ authors:
       - Department of Data Science, Dana-Farber Cancer Institute, Boston, MA, USA
     funders:
        - NIH
+
 
   - github: janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)
     name: Jane Roe
