@@ -234,7 +234,15 @@ authors:
     funders:
        - XX
  
-    
+  - github: krisrs1128
+    name: Kris Sankaran
+    initials: KS
+    orcid: 0000-0002-9415-1971
+    email: ksankaran@wisc.edu
+    affiliations:
+      - Department of Statistics, University of Wisconsin - Madison
+    funders:
+       - XX
 
   - github: janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)
     name: Jane Roe
