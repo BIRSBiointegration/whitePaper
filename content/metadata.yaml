@@ -148,10 +148,24 @@ authors:
     twitter:  AlexisCoullomb
     email: alexis.coullomb@inserm.fr
     affiliations:
-      - Toulouse Cancer Research Center (CRCT), INSERM
+      - Toulouse Cancer Research Center (CRCT), INSERM, Université Paul Sabatier III, Toulouse, France
     funders:
-       - Pierre Fabre
-
+       - INSERM
+       - Fondation Toulouse Cancer Santé
+       - Pierre Fabre Research Institute
+  - github: VeraPancaldi
+    name: Vera Pancaldi
+    initials: VP
+    orcid: 0000-0002-7433-624X
+    twitter:  VeraPancaldi
+    email: vera.pancaldi@inserm.fr
+    affiliations:
+      - Toulouse Cancer Research Center (CRCT), INSERM, Université Paul Sabatier III, Toulouse, France
+      - Barcelona Supercomputing Center, Barcelona, Spain
+    funders:
+       - INSERM
+       - Fondation Toulouse Cancer Santé
+       - Pierre Fabre Research Institute
   - github: arorarshi
     name: Arshi Arora
     initials: AA
