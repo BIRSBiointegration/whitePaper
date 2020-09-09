@@ -1,6 +1,6 @@
 Abadi
 activatory
-Aedin
+aedin
 AedinCulhane
 Aggregtion
 ajabadi
@@ -82,7 +82,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-enet
+Enet
 entropic
 epigenetics
 evalute
@@ -184,7 +184,7 @@ PCAs
 phenomenona
 phenotypic
 phenotypical
-PLS
+pls
 pluripotency
 practitionners
 Pratheepa
@@ -209,7 +209,7 @@ RubD
 Sabatier
 Sankaran
 Santé
-scNMTseq
+scnmtseq
 scRNASeq
 sGCCA
 SherlockpHolmes

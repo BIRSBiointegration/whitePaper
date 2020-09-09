@@ -96,7 +96,7 @@ content/30.scNMT-seq.md:9:mRNA
 content/30.scNMT-seq.md:11:CpG
 content/30.scNMT-seq.md:11:dimensionality
 content/30.scNMT-seq.md:11:embyonic
-content/30.scNMT-seq.md:11:gastrulation
+content/30.scNMT-seq.md:11:Gastrulation
 content/30.scNMT-seq.md:11:pluripotency
 content/30.scNMT-seq.md:11:scnmtseq
 content/30.scNMT-seq.md:11:scnmtseq
