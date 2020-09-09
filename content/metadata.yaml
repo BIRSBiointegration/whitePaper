@@ -174,7 +174,6 @@ authors:
     email: aroraa@mskcc.org
     affiliations:
       - Department of Epidemiology and Biostatistics, Memorial Sloan Ketterign Cancer Center
-     
   - github: jsodicoff 
     name: Joshua S. Sodicoff
     initials: JSS
@@ -183,7 +182,6 @@ authors:
     affiliations:
       - Department of Computational Medicine and Bioinformatics, University of Michigan
       - Department of Biomedical Engineering, University of Michigan
-
   - github: jw156605 
     name: Joshua D. Welch
     initials: JDW
@@ -197,8 +195,6 @@ authors:
        - National Human Genome Research Institute, NIH
        - National Institute of Allergy and Infectious Diseases, NIH
        - National Institute of Mental Health, NIH
-    
-  
   - github: edavis71
     name: Emily F. Davis-Marcisak
     initials: EFM
@@ -209,7 +205,6 @@ authors:
       - McKusick-Nathans Institute of the Department of Genetic Medicine, Johns Hopkins School of Medicine, Baltimore, MD, USA
     funders:
        - National Institute of Health, National Cancer Institute
-
   - github: mritchie
     name: Matthew E. Ritchie
     initials: MER
@@ -222,7 +217,6 @@ authors:
       - School of Mathematics and Statistics, The University of Melbourne
     funders:
        - XX
-  
   - github: YOU-k
     name: Yue You
     initials: YY
@@ -234,8 +228,7 @@ authors:
       - Department of Medical Biology, The University of Melbourne
     funders:
        - XX
-       
-   - github: genesofeve
+  - github: genesofeve
     name: Genevieve L. Stein-O'Brien
     initials: GLSOB
     orcid: 0000-0001-8681-9110
@@ -249,7 +242,6 @@ authors:
     funders:
        - Kavli Neuroscience Discovery Institute 
        - Johns Hopkins Provost Postdoctoral Fellowship
- 
   - github: krisrs1128
     name: Kris Sankaran
     initials: KS
@@ -259,7 +251,6 @@ authors:
       - Department of Statistics, University of Wisconsin - Madison
     funders:
        - XX
-
   - github: RubD
     name: Ruben Dries
     initials: RD
@@ -271,7 +262,6 @@ authors:
       - Center for Regenerative Medicine (CReM), Boston University
     funders:
        - XX
-
   - github: laurenhsu1
     name: Lauren Hsu
     initials: LH
@@ -282,8 +272,6 @@ authors:
       - Department of Data Science, Dana-Farber Cancer Institute, Boston, MA, USA
     funders:
        - NIH
-
-
   - github: janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)
     name: Jane Roe
     initials: JR
