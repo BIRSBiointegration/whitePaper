@@ -27,7 +27,7 @@ ayshwaryas
 benchmarked
 Bernd
 Biocarta
-Bioinformatics
+bioinformatics
 biomarkers
 Biomart
 Biomedicine
@@ -82,9 +82,9 @@ ejfertig
 Elana
 EMBL
 embyonic
-ENet
+enet
 entropic
-epigenetics
+Epigenetics
 evalute
 excitatory
 Fabre
@@ -184,11 +184,11 @@ PCAs
 phenomenona
 phenotypic
 phenotypical
-pls
+PLS
 pluripotency
 practitionners
 Pratheepa
-pre
+Pre
 preprocessed
 preprocessing
 priori
@@ -209,7 +209,7 @@ RubD
 Sabatier
 Sankaran
 Santé
-scNMTseq
+scnmtseq
 scRNASeq
 sGCCA
 SherlockpHolmes
@@ -223,7 +223,7 @@ spatialExpt
 specifc
 spholmes
 sPLS
-ssenet
+ssEnet
 STATIS
 subpopulations
 Subramanian
@@ -235,7 +235,7 @@ TensorFlow
 tesselation
 toolkits
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 TRANSFAC
 Translational
@@ -243,7 +243,6 @@ tSNE
 tumour
 UMI
 unbiasedly
-unblinding
 UNC
 Université
 variates
