@@ -82,9 +82,9 @@ ejfertig
 Elana
 EMBL
 embyonic
-Enet
+enet
 entropic
-epigenetics
+Epigenetics
 evalute
 excitatory
 Fabre
@@ -223,7 +223,7 @@ spatialExpt
 specifc
 spholmes
 sPLS
-ssenet
+ssEnet
 STATIS
 subpopulations
 Subramanian
@@ -231,10 +231,11 @@ sufficeint
 summarization
 Supercomputing
 SVM
+TensorFlow
 tesselation
 toolkits
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 TRANSFAC
 Translational
