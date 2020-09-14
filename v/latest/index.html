@@ -181,9 +181,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/09c15b71bc1a9d14c8d87210b011b79f4c485711/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/09c15b71bc1a9d14c8d87210b011b79f4c485711/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/09c15b71bc1a9d14c8d87210b011b79f4c485711/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/030585a29d0c5316f0743f4436ac88e900bac4c7/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/030585a29d0c5316f0743f4436ac88e900bac4c7/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/030585a29d0c5316f0743f4436ac88e900bac4c7/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -197,9 +197,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/09c15b71bc1a9d14c8d87210b011b79f4c485711/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/030585a29d0c5316f0743f4436ac88e900bac4c7/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/09c15b71bc1a9d14c8d87210b011b79f4c485711">BIRSBiointegration/whitePaper@09c15b7</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/030585a29d0c5316f0743f4436ac88e900bac4c7">BIRSBiointegration/whitePaper@030585a</a>
 on September 14, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -515,14 +515,14 @@ Data were preprocessed by the organizers and consisted in 113 matching genes bet
 <!-- note from Alexis: **We are still missing the data transformation applied to these data** --></p>
 <div id="fig:spatial" class="fignos">
 <figure>
-<img src="images/seqFish_mockup.png" alt="" /><figcaption><span>Figure 1:</span> </figcaption>
+<img src="images/seqFish.png" alt="" /><figcaption><span>Figure 1:</span> </figcaption>
 </figure>
 </div>
 <p>Caption Figure: <strong>Overview of seqFISH and scRNA-seq integration analysis</strong>.
-<strong>A</strong> Assessment of cell type prediction using different data normalizations and classifiers. Normalization strategies included none (raw), counts per million (cpm), ComBat batch correction applied to cpm (cpm_combat), scRNA-seq and seqFISH scaled using the first eigenvalue (cpm_eigen), latent variables retained for both datasets after applying Partial Least Squares regression to cpm_eigen normalized data (cpm_pls). Classifiers approaches included a supervised multinomial classifier with elastic net penalty (enet), a semi-supervised multinomial classifier with elastic net penalty (ssenet) and Support Vector Machine (SVM, supervised). Each classifier was trained using the scRNA-seq data and the known (provided) cell type labels, then predicted the cell type labels in the seqFISH data; for the SVM we used the predictions from the original study (Challenge 1). The Gower distance between each method-normalization pair was computed and depicted on a multidimensional scaling plot. The first dimension (x-axis) separates methods that normalize the scRNA-seq and seqFISH data together (dashed) and separately (solid), showing that normalization had a stronger impact on cell type predictions than the classification method used.
-<strong>B</strong> SVM classification models with different C parameters were trained with different number of genes in scRNA-seq data using Recursive Feature Elimination (RFE) to evaluate the minimal number of genes required for data integration. The results show that a smaller gene list than what the original study proposed was sufficeint to identify cell types in both data types (Challenge 1).
-<strong>C</strong> LIGER was applied to combine spatial and single cell transcriptomic datasets. From the separate and integrative analyses, plots of identified and known clusters were generated and metrics of integration performance were compared, showing some loss of information as a result of the integration (Challenge 1).
-<strong>D</strong> Construction of a spatial network from cells’ positions using Voronoi tessellation, where cell types were inferred from SVM trained on scRNA-seq data. Left: A neighbors aggregation method computes aggregation statistics on the seqFISH gene expression data for each node and its first order neighbors to address Challenge 2. Right: Identification of spatially coherent areas that can contain one or several cell types and can be used to detect genes whose expression is modulated by spatial factors rather than cell type.</p>
+<strong>A.</strong> Assessment of cell type prediction using different data normalizations and classifiers. Normalization strategies included none (raw), counts per million (cpm), ComBat batch correction applied to cpm (cpm_combat), scRNA-seq and seqFISH scaled using the first eigenvalue (cpm_eigen), latent variables retained for both datasets after applying Partial Least Squares regression to cpm_eigen normalized data (cpm_pls). Classifiers approaches included a supervised multinomial classifier with elastic net penalty (enet), a semi-supervised multinomial classifier with elastic net penalty (ssenet) and Support Vector Machine (SVM, supervised). Each classifier was trained using the scRNA-seq data and the known (provided) cell type labels, then predicted the cell type labels in the seqFISH data; for the SVM predictions from the original study were used (Challenge 1). Gower distance between each method-normalization pair is depicted on a multidimensional scaling plot. The first dimension (x-axis) separates methods that normalize the scRNA-seq and seqFISH data together (dashed) and separately (solid), showing that normalization had a stronger impact on cell type predictions than the classification method used.
+<strong>B.</strong> SVM classification models with different C parameters were trained with different number of genes in scRNA-seq data using Recursive Feature Elimination (RFE) to evaluate the minimal number of genes required for data integration. The results show that a smaller gene list than what the original study proposed was sufficeint to identify cell types in both data types (Challenge 1).
+<strong>C.</strong> LIGER was applied to combine spatial and single cell transcriptomic datasets. From the separate and integrative analyses, plots of identified and known clusters were generated and metrics of integration performance were compared, showing some loss of information as a result of the integration (Challenge 1).
+<strong>D.</strong> Construction of a spatial network from cells’ positions using Voronoi tessellation, where cell types were inferred from SVM trained on scRNA-seq data. Left: A neighbors aggregation method computes aggregation statistics on the seqFISH gene expression data for each node and its first order neighbors (Challenge 2). Right: Identification of spatially coherent areas that can contain one or several cell types and can be used to detect genes whose expression is modulated by spatial factors rather than cell type.</p>
 <h3 id="computational-challenges">Computational challenges</h3>
 <h4 id="challenge-1-overlay-of-scrna-seq-onto-seqfish-for-resolution-enhancement">Challenge 1: overlay of scRNA-seq onto seqFISH for resolution enhancement</h4>
 <p>The mouse visual cortex consists of multiple complex cell types. However, the seqFISH dataset was limited to 125 profiled genes, which were not prioritized based on their ability to discriminate between cell types. Assigning the correct cell identity presents an important challenge. In contrast, the scRNA-seq dataset is transcriptome-wide and includes the 125 genes profiled by seqFISH. This challenge proposed to use all genes to identify the cell type labels for each cell in the scRNA-seq data with high certainty. Next, we leveraged the cell type information to build a classifier based on a subset of the 125 genes shared between both datasets. The classifier was then applied to the seqFISH dataset to assign cell types.</p>
