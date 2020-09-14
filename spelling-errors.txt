@@ -1,6 +1,6 @@
 Abadi
 activatory
-aedin
+Aedin
 AedinCulhane
 Aggregtion
 ajabadi
@@ -84,7 +84,7 @@ EMBL
 embyonic
 enet
 entropic
-Epigenetics
+epigenetics
 evalute
 excitatory
 Fabre
@@ -197,7 +197,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 reproducibility
 resampling
 RFE
@@ -223,7 +223,7 @@ spatialExpt
 specifc
 spholmes
 sPLS
-ssEnet
+ssenet
 STATIS
 subpopulations
 Subramanian
@@ -235,7 +235,7 @@ TensorFlow
 tesselation
 toolkits
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 TRANSFAC
 Translational
