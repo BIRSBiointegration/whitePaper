@@ -1,6 +1,6 @@
 Abadi
 activatory
-Aedin
+aedin
 AedinCulhane
 Aggregtion
 ajabadi
@@ -93,7 +93,7 @@ Farber
 Fertig
 Fondation
 Foudation
-gastrulation
+Gastrulation
 gc
 gcj
 gcxh
@@ -197,7 +197,7 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 reproducibility
 resampling
 RFE
@@ -209,7 +209,7 @@ RubD
 Sabatier
 Sankaran
 Santé
-scnmtseq
+scNMTseq
 scRNASeq
 sGCCA
 SherlockpHolmes
