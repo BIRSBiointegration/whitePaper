@@ -82,7 +82,7 @@ ejfertig
 Elana
 EMBL
 embyonic
-enet
+ENet
 entropic
 epigenetics
 evalute
@@ -93,7 +93,7 @@ Farber
 Fertig
 Fondation
 Foudation
-Gastrulation
+gastrulation
 gc
 gcj
 gcxh
@@ -197,7 +197,7 @@ qqplots
 quantile
 QuPath
 qvd
-RArgelaguet
+rargelaguet
 reproducibility
 resampling
 RFE
