@@ -1,14 +1,14 @@
 ---
-title: "Mathematical Frameworks for Integrative Analysis of Multi-omics Biological Data"
+title: "Community-wide hackathons establish foundations for emerging single cell data integration"
 keywords:
-  - markdown
-  - publishing
-  - manubot
+  - single cell
+  - data integration
+  - hackathons
 lang: en-US
 authors:
   - github: mixOmicsTeam
     name: Kim-Anh Lê Cao 
-    initials: KA
+    initials: KALC
     orcid: 0000-0003-3923-1116
     twitter: mixOmicsTeam
     email: kimanh.lecao@unimelb.edu.au
@@ -23,8 +23,8 @@ authors:
     twitter: AedinCulhane
     email: aedin@ds.dfci.harvard.edu
     affiliations:
-      - Data Sciences, Dana-Farber Cancer Institute, Boston, MA, USA
-      - Biostatsitics, Harvard TH Chan School of Public Health, Boston, MA, USA
+      - Data Science, Dana-Farber Cancer Institute, Boston, MA, USA
+      - Biostatistics, Harvard TH Chan School of Public Health, Boston, MA, USA
     funders:
       - Chan Zuckerberg Initative, NIH, DoD (need to get grant IDs)
   - github: ejfertig
@@ -43,6 +43,235 @@ authors:
        - Lustgarten Foundation
        - Emerson Foundation
        - Allegheny Health Network
+  - github: vjcitn
+    name: Vincent J. Carey
+    initials: VJC
+    orcid: 0000-0003-4046-0063
+    email: stvjc@channing.harvard.edu
+    affiliations:
+      - Channing Division of Network Medicine, Brigham and Women's Hospital, Harvard Medical School
+    funders:
+       - National Institutes of Health, National Human Genome Research Institute
+       - National Institutes of Health, National Cancer Institute
+       - Chan-Zuckerberg Initiative
+  - github: rargelaguet
+    name: Ricard Argelaguet
+    initials: RA
+    orcid: 0000-0003-3199-3722
+    twitter:  RArgelaguet
+    email: ricard@ebi.ac.uk
+    affiliations:
+      - European Bioinformatics Institute (EMBL-EBI)
+    funders:
+       - EMBL PhD programme
+  - github: spholmes
+    name: Susan Holmes
+    initials: SPH
+    orcid: 0000-0002-2208-8168
+    twitter:  SherlockpHolmes
+    email: susan@stat.stanford.edu
+    affiliations:
+      - Department of Statistics, Stanford University, USA
+    funders:
+       - National Institute of Health, NIAID
+  - github: mikelove
+    name: Michael I. Love
+    initials: MIL
+    orcid: 0000-0001-8401-0545
+    twitter: mikelove
+    email: michaelisaiahlove@gmail.com
+    affiliations:
+      - Department of Biostatistics, UNC-Chapel Hill
+      - Department of Genetics, UNC-Chapel Hill
+    funders:
+      - National Institutes of Health, National Human Genome Research Institute
+      - National Institutes of Health, National Institute of Mental Health
+  - github: gcyuan
+    name: Guo-Cheng Yuan
+    initials: GY
+    orcid: XXXX-XXXX-XXXX-XXXX
+    twitter:  gc_yuan
+    email: gcyuan@ds.dfci.harvard.edu
+    affiliations:
+      - Department of Pediatric Oncology, Dana-Farber Cancer Institute
+      - Department of Pediatrics, Harvard Medical School
+    funders:
+      - National Institutes of Health, National Cancer Institute
+      - National Institutes of Health, National Institute on Aging
+  - github: ajabadi
+    name: Al J Abadi
+    initials: AJA
+    orcid: 0000-0002-4146-2848
+    twitter: aljabadi
+    email: ajalalabadi@unimelb.edu.au
+    affiliations:
+      - Melbourne Integrative Genomics, School of Mathematics and Statistics, University of Melbourne, Australia
+    funders:
+      - Chan Zuckerberg initiative (HCA2-A-1708-02277)
+      - Australian Research Council (DP200102903)
+  - github: cgreene
+    name: Casey S. Greene
+    initials: CSG
+    orcid: 0000-0001-8713-9213
+    twitter: greenescientist
+    email: greenescientist@gmail.com
+    affiliations:
+      - Department of Systems Pharmacology and Translational Therapeutics, Perelman School of Medicine, University of Pennsylvania, Philadelphia, PA, USA
+    funders:
+      - National Institutes of Health, National Cancer Institute (R01 CA237170)
+      - National Institutes of Health, National Human Genome Research Institute (R01 HG010067)
+  - github: ayshwaryas
+    name: Ayshwarya Subramanian
+    initials: AS
+    orcid: 0000-0002-4134-7612
+    twitter:  ayshwaryas
+    email: subraman@broadinstitute.org
+    affiliations:
+      - Klarman Cell Observatory, Broad Institute
+      - Kidney Disease Initiative, Broad Institute
+  - github: singha53
+    name: Amrit Singh
+    initials: AS
+    orcid: 0000-0002-7475-1646
+    twitter:  asingh_22g
+    email: amrit.singh@hli.ubc.ca
+    affiliations:
+      - Department of Pathology and Laboratory Medicine, University of British Columbia
+      - PROOF Centre of Excellence
+    funders:
+        - Michael Smith Foudation for Health Research
+        - Mitacs
+  - github: alexcoul
+    name: Alexis Coullomb
+    initials: AC
+    orcid: 0000-0003-3164-6640
+    twitter:  AlexisCoullomb
+    email: alexis.coullomb@inserm.fr
+    affiliations:
+      - Toulouse Cancer Research Center (CRCT), INSERM, Université Paul Sabatier III, Toulouse, France
+    funders:
+       - INSERM
+       - Fondation Toulouse Cancer Santé
+       - Pierre Fabre Research Institute
+  - github: VeraPancaldi
+    name: Vera Pancaldi
+    initials: VP
+    orcid: 0000-0002-7433-624X
+    twitter:  VeraPancaldi
+    email: vera.pancaldi@inserm.fr
+    affiliations:
+      - Toulouse Cancer Research Center (CRCT), INSERM, Université Paul Sabatier III, Toulouse, France
+      - Barcelona Supercomputing Center, Barcelona, Spain
+    funders:
+       - INSERM
+       - Fondation Toulouse Cancer Santé
+       - Pierre Fabre Research Institute
+  - github: arorarshi
+    name: Arshi Arora
+    initials: AA
+    orcid: 0000-0002-4040-1787
+    twitter:  arorarshi
+    email: aroraa@mskcc.org
+    affiliations:
+      - Department of Epidemiology and Biostatistics, Memorial Sloan Ketterign Cancer Center
+  - github: jsodicoff 
+    name: Joshua S. Sodicoff
+    initials: JSS
+    orcid: 0000-0001-5182-960X
+    email: sodicoff@umich.edu
+    affiliations:
+      - Department of Computational Medicine and Bioinformatics, University of Michigan
+      - Department of Biomedical Engineering, University of Michigan
+  - github: jw156605 
+    name: Joshua D. Welch
+    initials: JDW
+    orcid: 0000-0002-5869-2391
+    twitter:  LabWelch
+    email: welchjd@umich.edu
+    affiliations:
+      - Department of Computational Medicine and Bioinformatics, University of Michigan
+      - Department of Computer Science and Engineering, University of Michigan
+    funders:
+       - National Human Genome Research Institute, NIH
+       - National Institute of Allergy and Infectious Diseases, NIH
+       - National Institute of Mental Health, NIH
+  - github: edavis71
+    name: Emily F. Davis-Marcisak
+    initials: EFM
+    orcid: 0000-0001-8624-1013
+    twitter:  efaithd
+    email: edavis71@jhu.edu
+    affiliations:
+      - McKusick-Nathans Institute of the Department of Genetic Medicine, Johns Hopkins School of Medicine, Baltimore, MD, USA
+    funders:
+       - National Institute of Health, National Cancer Institute
+  - github: mritchie
+    name: Matthew E. Ritchie
+    initials: MER
+    orcid: 0000-0002-7383-0609
+    twitter: mritchieau
+    email: mritchie@wehi.edu.au
+    affiliations:
+      - Epigenetics and Development Division, The Walter and Eliza Hall Institute of Medical Research
+      - Department of Medical Biology, The University of Melbourne
+      - School of Mathematics and Statistics, The University of Melbourne
+    funders:
+       - XX
+  - github: YOU-k
+    name: Yue You
+    initials: YY
+    orcid: 0000-0003-3883-445X
+    twitter: YueYou9 
+    email: you.y@wehi.edu.au
+    affiliations:
+      - Epigenetics and Development Division, The Walter and Eliza Hall Institute of Medical Research
+      - Department of Medical Biology, The University of Melbourne
+    funders:
+       - XX
+  - github: genesofeve
+    name: Genevieve L. Stein-O'Brien
+    initials: GLSOB
+    orcid: 0000-0001-8681-9110
+    twitter:  genesofeve
+    email: gsteinobrien@jhmi.edu
+    affiliations:
+      - Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA
+      - Department of Neuroscience, Johns Hopkins University, Baltimore, MD, USA
+      - McKusick-Nathans Institute of the Department of Genetic Medicine, Johns Hopkins School of Medicine, Baltimore, MD, USA
+      - Kavli Neuroscience Discovery Institute, Johns Hopkins University, Baltimore, MD, USA
+    funders:
+       - Kavli Neuroscience Discovery Institute 
+       - Johns Hopkins Provost Postdoctoral Fellowship
+  - github: krisrs1128
+    name: Kris Sankaran
+    initials: KS
+    orcid: 0000-0002-9415-1971
+    email: ksankaran@wisc.edu
+    affiliations:
+      - Department of Statistics, University of Wisconsin - Madison
+    funders:
+       - XX
+  - github: RubD
+    name: Ruben Dries
+    initials: RD
+    orcid: 0000-0001-7650-7754
+    email: rdries@bu.edu
+    affiliations:
+      - Department of Hematology and Oncology, Boston Medical Center
+      - Department of Computational Biomedicine, Boston University School of Medicine
+      - Center for Regenerative Medicine (CReM), Boston University
+    funders:
+       - XX
+  - github: laurenhsu1
+    name: Lauren Hsu
+    initials: LH
+    orcid: 0000-0002-6035-7381
+    email: lhsu@g.harvard.edu
+    affiliations:
+      - Department of Biostatistics, Harvard University, Boston, MA, USA
+      - Department of Data Science, Dana-Farber Cancer Institute, Boston, MA, USA
+    funders:
+       - NIH
   - github: janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)
     name: Jane Roe
     initials: JR
