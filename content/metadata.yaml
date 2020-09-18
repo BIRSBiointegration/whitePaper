@@ -272,6 +272,17 @@ authors:
       - Department of Data Science, Dana-Farber Cancer Institute, Boston, MA, USA
     funders:
        - NIH
+    github: atuldeshpande
+    name: Atul Deshpande
+    initials: AD
+    orcid: 0000-0001-5144-6924
+    twitter:  atulpdeshpande
+    email: adeshpande@jhu.edu
+    affiliations:
+      - Department of Oncology, Sidney Kimmel Comprehensive Cancer Center, Johns Hopkins University School of Medicine, Baltimore, MD, USA
+    funders:
+       - National Institute of Health
+
   - github: janeroe (PLEASE COPY/PASTE DO NOT EDIT THIS ONE)
     name: Jane Roe
     initials: JR
