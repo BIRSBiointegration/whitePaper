@@ -1,6 +1,6 @@
 Abadi
 activatory
-aedin
+Aedin
 AedinCulhane
 Aggregtion
 ajabadi
@@ -84,7 +84,7 @@ EMBL
 embyonic
 enet
 entropic
-Epigenetics
+epigenetics
 evalute
 excitatory
 Fabre
@@ -93,7 +93,7 @@ Farber
 Fertig
 Fondation
 Foudation
-gastrulation
+Gastrulation
 gc
 gcj
 gcxh
@@ -184,7 +184,7 @@ PCAs
 phenomenona
 phenotypic
 phenotypical
-PLS
+pls
 pluripotency
 practitionners
 Pratheepa
@@ -197,7 +197,7 @@ qqplots
 quantile
 QuPath
 qvd
-rargelaguet
+RArgelaguet
 reproducibility
 resampling
 RFE
@@ -209,7 +209,7 @@ RubD
 Sabatier
 Sankaran
 Santé
-scnmtseq
+scNMTseq
 scRNASeq
 sGCCA
 SherlockpHolmes
@@ -223,7 +223,7 @@ spatialExpt
 specifc
 spholmes
 sPLS
-ssEnet
+ssenet
 STATIS
 subpopulations
 Subramanian
@@ -235,7 +235,7 @@ TensorFlow
 tesselation
 toolkits
 totalVI
-Transcriptional
+transcriptional
 transcriptomic
 TRANSFAC
 Translational
