@@ -72,6 +72,7 @@ content/20.scProteomics.md:39:centroid
 content/20.scProteomics.md:39:XY
 content/20.scProteomics.md:41:CyTOF
 content/20.scProteomics.md:41:CyTOF
+content/20.scProteomics.md:41:CyTOF
 content/20.scProteomics.md:41:Delaunay
 content/20.scProteomics.md:41:localisation
 content/20.scProteomics.md:41:neighbour
@@ -177,8 +178,8 @@ content/40.common-challenges.md:82:Xu
 content/40.common-challenges.md:83:Arcsinh
 content/40.common-challenges.md:83:bioinformatics
 content/40.common-challenges.md:83:Jeganathan
-content/40.common-challenges.md:83:Jenagan
-content/40.common-challenges.md:83:Jenagan
+content/40.common-challenges.md:83:Jeganathan
+content/40.common-challenges.md:83:Jeganathan
 content/40.common-challenges.md:83:Meng
 content/40.common-challenges.md:83:Normalisation
 content/40.common-challenges.md:90:biostatistics
@@ -202,14 +203,14 @@ content/40.common-challenges.md:100:biostatistics
 content/40.common-challenges.md:100:LIGER
 content/40.common-challenges.md:100:sGCCA
 content/40.common-challenges.md:100:Welch
-content/40.common-challenges.md:109:Jenathan
+content/40.common-challenges.md:109:Jeganathan
 content/40.common-challenges.md:109:Sankaran
 content/40.common-challenges.md:118:Meng
 content/40.common-challenges.md:118:PCA
 content/40.common-challenges.md:124:Hsu
 content/40.common-challenges.md:125:LIGER
 content/40.common-challenges.md:125:Welch
-content/40.common-challenges.md:130:Jenathan
+content/40.common-challenges.md:130:Jeganathan
 content/40.common-challenges.md:137:RLQ
 content/40.common-challenges.md:143:Coullomb
 content/40.common-challenges.md:143:Coullomb
@@ -417,6 +418,6 @@ content/75.vignettes.md:20:scRNASeq
 content/75.vignettes.md:20:SSEnet
 content/75.vignettes.md:20:SSEnet
 content/75.vignettes.md:21:Xu
-content/80.glossary.md:10:gghpmf
-content/80.glossary.md:11:eigenvector
-content/80.glossary.md:12:variates
+content/80.glossary.md:11:gghpmf
+content/80.glossary.md:12:eigenvector
+content/80.glossary.md:13:variates
