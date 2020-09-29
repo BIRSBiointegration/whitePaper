@@ -181,9 +181,9 @@
   <meta name="citation_fulltext_html_url" content="https://BIRSBiointegration.github.io/whitePaper/" />
   <meta name="citation_pdf_url" content="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://BIRSBiointegration.github.io/whitePaper/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/8d38aab899bab50e2c459de779c47d5afe6cedd6/" />
-  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/8d38aab899bab50e2c459de779c47d5afe6cedd6/" />
-  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/8d38aab899bab50e2c459de779c47d5afe6cedd6/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://BIRSBiointegration.github.io/whitePaper/v/090c82417d3e261cff6158d1cac90d335c3d9038/" />
+  <meta name="manubot_html_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/090c82417d3e261cff6158d1cac90d335c3d9038/" />
+  <meta name="manubot_pdf_url_versioned" content="https://BIRSBiointegration.github.io/whitePaper/v/090c82417d3e261cff6158d1cac90d335c3d9038/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -197,9 +197,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://BIRSBiointegration.github.io/whitePaper/v/8d38aab899bab50e2c459de779c47d5afe6cedd6/">permalink</a>)
+(<a href="https://BIRSBiointegration.github.io/whitePaper/v/090c82417d3e261cff6158d1cac90d335c3d9038/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/8d38aab899bab50e2c459de779c47d5afe6cedd6">BIRSBiointegration/whitePaper@8d38aab</a>
+from <a href="https://github.com/BIRSBiointegration/whitePaper/tree/090c82417d3e261cff6158d1cac90d335c3d9038">BIRSBiointegration/whitePaper@090c824</a>
 on September 29, 2020.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -576,7 +576,7 @@ Mapping cells from CyTOF to imaging with spatial information was handled by solv
 <h4 id="challenge-2-spatial-analysis-of-protein-expression">Challenge 2: spatial analysis of protein expression</h4>
 <p>CyTOF mass spectrometry data provided protein expression and counts/composition of cells in breast tumor-immune environment, while the MIBI-TOF data provided spatial information that quantified cell attributes (shape, size, spatial coordinates) in addition to expression levels. These two data sets thus provide the opportunity to examine protein expression, cell microenvironment, and predict cell-cell interactions and the cellular community ecosystem.</p>
 <p>Spatial information can be encoded as a set of XY coordinates (cell centroid), a line (e.g. tumor-immune boundary), or a polygon, which is a closed plane defined by a number of lines and can define complex shapes such as a cell or a community of cells. Spatial protein expression can be summarized using spatial descriptive statistics, such as the autocorrelation of the expression of a protein within a neighborhood of polygons, using techniques developed in geographical information science or ecology to assess whether a spatially measured variable has a random, dispersed or clustered pattern <span class="citation" data-cites="yCBL1fje">[<a href="#ref-yCBL1fje" role="doc-biblioref">16</a>]</span>.</p>
-<p>We investigated whether expression data could be used to predict spatial properties of tissue samples using a variety of approaches (see <a href="#vignette-table">Vignettes</a>). A K-nearest neighbor graph was used to build spatial response variables and random forest model trained from expression data to predict spatial features. A topic model was trained on protein expression and cell compositions in the CyTOF data to predict cell co-locations in a fraction of MIBI-TOF considered as test data (10%), or vice versa. Among the five topics identified, the first topic was dominated in most of the immune cells from CyTOF data and the other four dominated in all other cells. Prognostic performance of different higher level spatial metrics was also examined using Moran’s Index with a sphere distance, cell type localisation using nearest neighbour correlation, or cell type interaction composition with Ripley’s L-function. Cox models with fused lasso penalty and random forest survival models were then fitted based on clinical features such as tumor stage, tumor grade, age and tumor size, as well as cell type composition. The spatial metrics were found to be predictive, especially in triple negative breast cancer where clinical features such as grade are often poor prognostics. Further investigation of Moran’s Index using a graph-based neighborhood measure (Gabriel graph, based on Delaunay triangulation; as opposed to sphere distance) found the values of this metric differed significantly between the three prognostic tumor scores described by <span class="citation" data-cites="18RF7h7kj">[<a href="#ref-18RF7h7kj" role="doc-biblioref">5</a>]</span>(Figure <a href="#fig:proteomics">2</a>B). This challenge demonstrated the prognostic potential of spatial single cell proteomics data and underscores the need to develop new spatial measures specifically for these data.</p>
+<p>We investigated whether expression data could be used to predict spatial properties of tissue samples using a variety of approaches (see <a href="#vignette-table">Vignettes</a>). A K-nearest neighbor graph was used to build spatial response variables and random forest model trained from expression data to predict spatial features. A topic model was trained on protein expression of CyTOF and MIBI-TOF data to predict cell co-locations of CyTOF immune cells where 10% of MIBI-TOF considered test data. Among the five topics identified, the first topic was dominated in most of the immune cells from CyTOF data and the other four dominated in all other cells. Prognostic performance of different higher level spatial metrics was also examined using Moran’s Index with a sphere distance, cell type localisation using nearest neighbour correlation, or cell type interaction composition with Ripley’s L-function. Cox models with fused lasso penalty and random forest survival models were then fitted based on clinical features such as tumor stage, tumor grade, age and tumor size, as well as cell type composition. The spatial metrics were found to be predictive, especially in triple negative breast cancer where clinical features such as grade are often poor prognostics. Further investigation of Moran’s Index using a graph-based neighborhood measure (Gabriel graph, based on Delaunay triangulation; as opposed to sphere distance) found the values of this metric differed significantly between the three prognostic tumor scores described by <span class="citation" data-cites="18RF7h7kj">[<a href="#ref-18RF7h7kj" role="doc-biblioref">5</a>]</span>(Figure <a href="#fig:proteomics">2</a>B). This challenge demonstrated the prognostic potential of spatial single cell proteomics data and underscores the need to develop new spatial measures specifically for these data.</p>
 <h4 id="challenge-3-fourth-corner-integration-of-data-at-the-level-of-phenotype">Challenge 3: Fourth corner Integration of data at the level of phenotype</h4>
 <p>Cross-study integration also raises the challenge of non-overlapping biological samples but with similar phenotypes. Here the aim was to identify biomarkers from the different data types to predict phenotype, and, more importantly, to explore concordance among markers selected across multiple studies and datasets. Depending upon how well these markers can be transferred across datasets, as well as the amount of distinctive information encoded by different markers, integrating datasets with only some overlap in markers could potentially provide more biological insight than from individual ‘omics studies. To consider this third challenge, phenotypic data (such as the cell attributes) were the critical factors that should be used to link the two datasets (Figure <a href="#fig:common">4</a>D).</p>
 <p>Integrating patient phenotype measures such as grade, stage and overall survival is one first step that we were able to achieve. However, integrating proteins from data sets that used different approaches to cell type annotation and had limited proteins in common was extremely challenging. Borrowing from ecology and the French school of ordination, this problem can be described as a case of the fourth corner problem (or RLQ, Figure <a href="#fig:common">4</a>D). Briefly, given two ’omics data where both features and samples are non overlapping, and phenotypical data are available for each omics data, multiplying the two phenotypical factors should derive a bridging matrix that links the features of two omics data. This requires the two phenotypical matrices to be multiplicable, i.e. describing the same phenotypical factors. The fourth corner RLQ can be solved using matrix decomposition [<span class="citation" data-cites="KsY7PFJ8"><a href="#ref-KsY7PFJ8" role="doc-biblioref">17</a></span>; doi:10.1111/ecog.02302]. However, this approach was not attempted in this hackathon.</p>
@@ -699,7 +699,7 @@ Normalization &amp; data transformation
 Data distribution checks (Coullomb, Singh)<br> High Variable Genes selection (Xu)
 </td>
 <td>
-Variance Stabilization Normalisation <span class="citation" data-cites="1156sEPws">[<a href="#ref-1156sEPws" role="doc-biblioref">29</a>]</span> (Meng)<br> Arcsinh transformation (Jeganathan).<br> Inverse transformation (Jenagan)<br> Selection of patients (Jenagan)
+Variance Stabilization Normalisation <span class="citation" data-cites="1156sEPws">[<a href="#ref-1156sEPws" role="doc-biblioref">29</a>]</span> (Meng)<br> Arcsinh transformation (Jeganathan).<br> Inverse transformation (Jeganathan)<br> Selection of patients (Jeganathan)
 </td>
 <td>
 Summaries of DNA measurements (input data provided in hackathon)
@@ -744,9 +744,9 @@ Overlap
 <td>
 </td>
 <td>
-<b>Imputation:</b><br> Direct inversion with latent variables (Sankaran)<br> Optimal transport to predict protein expression (Lin)<br> K Nearest Neighbor averaging (Jenathan<em>)</span><br>
+<b>Imputation:</b><br> Direct inversion with latent variables (Sankaran)<br> Optimal transport to predict protein expression (Lin)<br> K Nearest Neighbor averaging (Jeganathan)</span><br>
 <br>
-<b>No imputation:</b><br> Biological Network Interaction (Foster</em>)
+<b>No imputation:</b><br> Biological Network Interaction (Foster*)
 </td>
 <td>
 </td>
@@ -783,7 +783,7 @@ LIGER <span class="citation" data-cites="OekvE5up">[<a href="#ref-OekvE5up" role
 <td>
 </td>
 <td>
-Topic modeling to predict cell spatial co-location or spatial expression (Jenathan, partial feature overlap)<br>
+Topic modeling to predict cell spatial co-location or spatial expression (Jeganathan, partial feature overlap)<br>
 </td>
 <td>
 </td>
@@ -1625,73 +1625,79 @@ validation for a data integration task for which a new computational method may 
 <td>network</td>
 <td>graph, adjacency matrix</td>
 <td>A set of <em>nodes</em>, representing objects of interest, linked by <em>edges</em>, representing specific relationships between nodes.</td>
-<td>?</td>
+<td><span class="citation" data-cites="x08LwViD"><a href="#ref-x08LwViD" role="doc-biblioref">94</a></span></td>
 </tr>
 <tr class="even">
 <td>node</td>
 <td>vertex</td>
 <td>Element of interest in a network and linked to other nodes. For example: people, cells, proteins or genes. Nodes can have several properties called <em>attributes</em> like cell type or position.</td>
-<td>?</td>
+<td><span class="citation" data-cites="x08LwViD"><a href="#ref-x08LwViD" role="doc-biblioref">94</a></span></td>
 </tr>
 <tr class="odd">
 <td>edge</td>
 <td>link</td>
 <td>The relationship between 2 nodes in a network. For example: friendship in social networks, cells in contact in a spatial network, or gene-gene interactions in a gene regulatory network.</td>
-<td>?</td>
+<td><span class="citation" data-cites="x08LwViD"><a href="#ref-x08LwViD" role="doc-biblioref">94</a></span></td>
 </tr>
 <tr class="even">
 <td>concordant</td>
-<td>concordant, coherent, consistent</td>
-<td>?</td>
-<td><span class="citation" data-cites="IZfv7up4"><a href="#ref-IZfv7up4" role="doc-biblioref">59</a></span></td>
+<td>common</td>
+<td>Agreement between multiple modalities with respect to feature/variable selection and correlation of latent factors.</td>
+<td><span class="citation" data-cites="yChOi7Aa"><a href="#ref-yChOi7Aa" role="doc-biblioref">95</a></span>, <span class="citation" data-cites="Lvfpu106"><a href="#ref-Lvfpu106" role="doc-biblioref">96</a></span></td>
 </tr>
 <tr class="odd">
+<td>consistent</td>
+<td>coherent</td>
+<td>Similar performance obtained from applying methods for multimodal data during multiple rounds of data splitting.</td>
+<td><span class="citation" data-cites="IZfv7up4"><a href="#ref-IZfv7up4" role="doc-biblioref">59</a></span></td>
+</tr>
+<tr class="even">
 <td>contributions</td>
 <td>variable weights, loadings, eigenvector, axis, direction, dimension, coefficients, slopes</td>
 <td>Contributions of the original variables in constructing the components.</td>
-<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">24</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">94</a></span></td>
+<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">24</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">97</a></span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>latent factors</td>
 <td>variates, scores, projections, components, latent/hidden/unobserved variables/factors</td>
 <td>Weighted linear combinations of the original variables.</td>
-<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">24</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">94</a></span></td>
+<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">24</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">97</a></span></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>multimodal</td>
 <td>Multiview, multiway arrays, multimodal, multidomain, multiblock, multitable, multi-omics, multi-source data analysis methods, N-integration</td>
 <td>Methods pertaining to the analysis of multiple data matrices for the same set of observations.</td>
-<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">24</a></span>, <span class="citation" data-cites="nhuT45y5"><a href="#ref-nhuT45y5" role="doc-biblioref">37</a></span>, <span class="citation" data-cites="2SDWXiwB"><a href="#ref-2SDWXiwB" role="doc-biblioref">95</a></span></td>
+<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">24</a></span>, <span class="citation" data-cites="nhuT45y5"><a href="#ref-nhuT45y5" role="doc-biblioref">37</a></span>, <span class="citation" data-cites="2SDWXiwB"><a href="#ref-2SDWXiwB" role="doc-biblioref">98</a></span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>conjoint analysis</td>
 <td>conjoint analysis, P-integration, meta-analysis, multigroup data analysis</td>
 <td>Methods pertaining to the analysis of multiple data matrices for the same set of variables.</td>
-<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">24</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">94</a></span>, <span class="citation" data-cites="UqaGRGDg"><a href="#ref-UqaGRGDg" role="doc-biblioref">96</a></span></td>
+<td><span class="citation" data-cites="QSXGprag"><a href="#ref-QSXGprag" role="doc-biblioref">24</a></span>, <span class="citation" data-cites="18fTyQGoG"><a href="#ref-18fTyQGoG" role="doc-biblioref">97</a></span>, <span class="citation" data-cites="UqaGRGDg"><a href="#ref-UqaGRGDg" role="doc-biblioref">99</a></span></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>variable</td>
 <td>feature, variable</td>
 <td>A measurable quantity that describes an observation’s attributes. Variables from different modalities include age, sex, gene or protein abundance, single nucleotide variants, operational taxonomic units, pixel intensity <em>etc.</em></td>
-<td>?</td>
+<td><span class="citation" data-cites="x08LwViD"><a href="#ref-x08LwViD" role="doc-biblioref">94</a></span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>biomarker</td>
 <td>marker, biomarker</td>
 <td>A variable that is associated with normal or disease processes, or responses to exposures, or interventions. Any change in this variable is also associated with a change in the associated clinical outcome. These variables may be used for diagnostic, monitoring, Pharmacodynamic responses. Examples include LDL cholesterol, CD4 counts, hemoglobin A1C.</td>
-<td><span class="citation" data-cites="AtapBaNb"><a href="#ref-AtapBaNb" role="doc-biblioref">97</a></span></td>
+<td><span class="citation" data-cites="AtapBaNb"><a href="#ref-AtapBaNb" role="doc-biblioref">100</a></span></td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td>panel</td>
 <td>biomarker panel, biomarker signature</td>
 <td>A subset of the originally measured variables that are determined to be associated with the outcome or response variable. This may be determined using statistical inference, feature selection methods, or machine/statistical learning.</td>
-<td><span class="citation" data-cites="17aD4MFPS"><a href="#ref-17aD4MFPS" role="doc-biblioref">98</a></span>, <span class="citation" data-cites="XWx8RAwW"><a href="#ref-XWx8RAwW" role="doc-biblioref">99</a></span></td>
+<td><span class="citation" data-cites="17aD4MFPS"><a href="#ref-17aD4MFPS" role="doc-biblioref">101</a></span>, <span class="citation" data-cites="XWx8RAwW"><a href="#ref-XWx8RAwW" role="doc-biblioref">102</a></span></td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td>observation</td>
 <td>sample, observation, array</td>
 <td>A single entity belonging to a larger grouping. Examples include patients, subjects, participants, cells, biological sample, usually the unit of observation on which the variables are measured <em>etc.</em></td>
-<td>?</td>
+<td><span class="citation" data-cites="x08LwViD"><a href="#ref-x08LwViD" role="doc-biblioref">94</a></span></td>
 </tr>
 </tbody>
 </table>
@@ -2239,38 +2245,56 @@ Orit Rozenblatt-Rosen, Michael J. T. Stubbington, Aviv Regev, Sarah A. Teichman
 <em>Nature</em> (2017-10-26) <a href="https://doi.org/gfgkr8">https://doi.org/gfgkr8</a> <br />
 DOI: <a href="https://doi.org/10.1038/550451a">10.1038/550451a</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29072289">29072289</a></p>
 </div>
+<div id="ref-x08LwViD">
+<p>94. <strong>Modern statistics for modern biology</strong> <br />
+Susan Holmes, Wolfgang Huber<br />
+<em>Cambridge University Press</em> (2018) <br />
+ISBN: <a href="https://worldcat.org/isbn/9781108705295">9781108705295</a></p>
+</div>
+<div id="ref-yChOi7Aa">
+<p>95. <strong>Multi-Omics Data Integration and Mapping of Altered Kinases to Pathways Reveal Gonadotropin Hormone Signaling in Glioblastoma</strong> <br />
+Savita Jayaram, Manoj Kumar Gupta, Rajesh Raju, Poonam Gautam, Ravi Sirdeshmukh<br />
+<em>OMICS: A Journal of Integrative Biology</em> (2016-12) <a href="https://doi.org/f9h7sd">https://doi.org/f9h7sd</a> <br />
+DOI: <a href="https://doi.org/10.1089/omi.2016.0142">10.1089/omi.2016.0142</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/27930095">27930095</a></p>
+</div>
+<div id="ref-Lvfpu106">
+<p>96. <strong>A multivariate approach to the integration of multi-omics datasets</strong> <br />
+Chen Meng, Bernhard Kuster, Aedín C Culhane, Amin Gholami<br />
+<em>BMC Bioinformatics</em> (2014) <a href="https://doi.org/f6btpk">https://doi.org/f6btpk</a> <br />
+DOI: <a href="https://doi.org/10.1186/1471-2105-15-162">10.1186/1471-2105-15-162</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/24884486">24884486</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4053266">PMC4053266</a></p>
+</div>
 <div id="ref-18fTyQGoG">
-<p>94. <strong>Multivariate analysis of multiblock and multigroup data</strong> <br />
+<p>97. <strong>Multivariate analysis of multiblock and multigroup data</strong> <br />
 A. Eslami, E. M. Qannari, A. Kohler, S. Bougeard<br />
 <em>Chemometrics and Intelligent Laboratory Systems</em> (2014-04) <a href="https://doi.org/f52wrr">https://doi.org/f52wrr</a> <br />
 DOI: <a href="https://doi.org/10.1016/j.chemolab.2014.01.016">10.1016/j.chemolab.2014.01.016</a></p>
 </div>
 <div id="ref-2SDWXiwB">
-<p>95. <strong>Dimension reduction techniques for the integrative analysis of multi-omics data</strong> <br />
+<p>98. <strong>Dimension reduction techniques for the integrative analysis of multi-omics data</strong> <br />
 Chen Meng, Oana A. Zeleznik, Gerhard G. Thallinger, Bernhard Kuster, Amin M. Gholami, Aedín C. Culhane<br />
 <em>Briefings in Bioinformatics</em> (2016-07) <a href="https://doi.org/f83qvd">https://doi.org/f83qvd</a> <br />
 DOI: <a href="https://doi.org/10.1093/bib/bbv108">10.1093/bib/bbv108</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/26969681">26969681</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4945831">PMC4945831</a></p>
 </div>
 <div id="ref-UqaGRGDg">
-<p>96. <strong>Robust meta-analysis of gene expression using the elastic net</strong> <br />
+<p>99. <strong>Robust meta-analysis of gene expression using the elastic net</strong> <br />
 Jacob J. Hughey, Atul J. Butte<br />
 <em>Nucleic Acids Research</em> (2015-07-13) <a href="https://doi.org/f7nnbm">https://doi.org/f7nnbm</a> <br />
 DOI: <a href="https://doi.org/10.1093/nar/gkv229">10.1093/nar/gkv229</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/25829177">25829177</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4499117">PMC4499117</a></p>
 </div>
 <div id="ref-AtapBaNb">
-<p>97. <strong>Biomarker definitions and their applications</strong> <br />
+<p>100. <strong>Biomarker definitions and their applications</strong> <br />
 Robert M Califf<br />
 <em>Experimental Biology and Medicine</em> (2018-02-06) <a href="https://doi.org/gcxh8n">https://doi.org/gcxh8n</a> <br />
 DOI: <a href="https://doi.org/10.1177/1535370217750088">10.1177/1535370217750088</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/29405771">29405771</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5813875">PMC5813875</a></p>
 </div>
 <div id="ref-17aD4MFPS">
-<p>98. <strong>Biomarker signatures of aging</strong> <br />
+<p>101. <strong>Biomarker signatures of aging</strong> <br />
 Paola Sebastiani, Bharat Thyagarajan, Fangui Sun, Nicole Schupf, Anne B. Newman, Monty Montano, Thomas T. Perls<br />
 <em>Aging Cell</em> (2017-04) <a href="https://doi.org/d2cm">https://doi.org/d2cm</a> <br />
 DOI: <a href="https://doi.org/10.1111/acel.12557">10.1111/acel.12557</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/28058805">28058805</a> · PMCID: <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5334528">PMC5334528</a></p>
 </div>
 <div id="ref-XWx8RAwW">
-<p>99. <strong>Biomarker Panels in Critical Care</strong> <br />
+<p>102. <strong>Biomarker Panels in Critical Care</strong> <br />
 Susan R. Conway, Hector R. Wong<br />
 <em>Critical Care Clinics</em> (2020-01) <a href="https://doi.org/d2cn">https://doi.org/d2cn</a> <br />
 DOI: <a href="https://doi.org/10.1016/j.ccc.2019.08.007">10.1016/j.ccc.2019.08.007</a> · PMID: <a href="https://www.ncbi.nlm.nih.gov/pubmed/31733684">31733684</a></p>
