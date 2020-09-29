@@ -20,6 +20,9 @@ Arora
 arorarshi
 Arshi
 asingh
+Atul
+atuldeshpande
+atulpdeshpande
 autocorrelation
 autoencoder
 Ayshwarya
@@ -27,7 +30,7 @@ ayshwaryas
 benchmarked
 Bernd
 Biocarta
-bioinformatics
+Bioinformatics
 biomarkers
 Biomart
 Biomedicine
@@ -67,6 +70,7 @@ decompositions
 deconvolute
 Delaunay
 demethylation
+Deshpande
 differentially
 dimensionality
 dinucleotides
@@ -136,7 +140,6 @@ Kimmel
 Klarman
 krisrs
 LabWelch
-laurenhsu
 Lê
 LIGER
 localisation
@@ -184,11 +187,11 @@ PCAs
 phenomenona
 phenotypic
 phenotypical
-pls
+PLS
 pluripotency
 practitionners
 Pratheepa
-Pre
+pre
 preprocessed
 preprocessing
 priori
@@ -209,7 +212,7 @@ RubD
 Sabatier
 Sankaran
 Santé
-scNMTseq
+scnmtseq
 scRNASeq
 sGCCA
 SherlockpHolmes
@@ -235,7 +238,7 @@ TensorFlow
 tesselation
 toolkits
 totalVI
-transcriptional
+Transcriptional
 transcriptomic
 TRANSFAC
 Translational
